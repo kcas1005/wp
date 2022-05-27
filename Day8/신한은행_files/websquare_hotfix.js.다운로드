@@ -1,0 +1,325 @@
+//grid excel 포맷제거를 위해 기능 추가 요청건
+WebSquare.uiplugin.gridView.prototype.sendExcelData = function(options, infoArr, finalstr) {
+    
+    if(typeof options.useFooter == "boolean"){
+        options.useFooter = options.useFooter + "";
+    }
+    var fileName = WebSquare.xml.encode( options.fileName ) || "excel";
+    var sheetName = options.sheetName || "sheet";
+    var type = options.type || "0";
+    var removeColumns = options.removeColumns || "";
+    var removeHeaderRows = options.removeHeaderRows || "";
+    var foldColumns = options.foldColumns || "";
+    var stRowIndex = options.startRowIndex || "0";
+    var stColumnIndex = options.startColumnIndex || "0";
+    var headerColor = options.headerColor || "";
+    var headerFontName = options.headerFontName || "";
+    var headerFontSize = options.headerFontSize || "";
+    var headerFontColor = options.headerFontColor || "";
+    var bodyColor = options.bodyColor || "";
+    var bodyFontName = options.bodyFontName || "";
+    var bodyFontSize = options.bodyFontSize || "";
+    var bodyFontColor = options.bodyFontColor || "";
+    var footerColor = options.footerColor || "";
+    var footerFontName = options.footerFontName || "";
+    var footerFontSize = options.footerFontSize || "";
+    var footerFontColor = options.footerFontColor || "";
+    var subTotalColor = options.subTotalColor || "";
+    var subTotalFontName = options.subTotalFontName || "";
+    var subTotalFontSize = options.subTotalFontSize || "";
+    var subTotalFontColor = options.subTotalFontColor || "";
+
+    var rowNumHeaderColor = options.rowNumHeaderColor || "";
+    var rowNumHeaderFontName = options.rowNumHeaderFontName || "";
+    var rowNumHeaderFontSize = options.rowNumHeaderFontSize || "";
+    var rowNumHeaderFontColor = options.rowNumHeaderFontColor || "";
+    var rowNumBodyColor = options.rowNumBodyColor || "";
+    var rowNumBodyFontName = options.rowNumBodyFontName || "";
+    var rowNumBodyFontSize = options.rowNumBodyFontSize || "";
+    var rowNumBodyFontColor = options.rowNumBodyFontColor || "";
+    var rowNumFooterColor = options.rowNumFooterColor || "";
+    var rowNumFooterFontName = options.rowNumFooterFontName || "";
+    var rowNumFooterFontSize = options.rowNumFooterFontSize || "";
+    var rowNumFooterFontColor = options.rowNumFooterFontColor || "";
+    var rowNumSubTotalColor = options.rowNumSubTotalColor || "";
+    var rowNumSubTotalFontName = options.rowNumSubTotalFontName || "";
+    var rowNumSubTotalFontSize = options.rowNumSubTotalFontSize || "";
+    var rowNumSubTotalFontColor = options.rowNumSubTotalFontColor || "";
+
+    var dataProvider = options.dataProvider || "";
+    var splitProvider = options.splitProvider || "";
+    var providerRequestXml = options.providerRequestXml || "";
+    var userDataXml = options.userDataXml || "";
+    var optionParam = options.optionParam || "";
+    var bodyWordwrap = options.bodyWordwrap || "";
+    var useEuroLocale = options.useEuroLocale || "false";
+    var useHeader = options.useHeader || "true";
+    var useSubTotal = options.useSubTotal || "false";
+    var useFooter = options.useFooter || "true";
+    options.printSet = options.printSet || {};
+    var fitToPage = options.printSet.fitToPage || "false";
+    var landScape = options.printSet.landScape || "false";
+    var fitWidth = options.printSet.fitWidth || "1";
+    var fitHeight = options.printSet.fitHeight || "1";
+    var scale = options.printSet.scale || "100";
+    var pageSize = options.printSet.pageSize || "A4";
+    var separator = options.separator || ",";
+    var subTotalScale = options.subTotalScale || -1;
+    var subTotalRoundingMode = options.subTotalRoundingMode || "";
+    var useStyle = ( (options.useStyle + "" ) == "true" ) ? true :  false;
+    var freezePane = options.freezePane || "";
+    var autoSizeColumn = options.autoSizeColumn || "false";
+    var displayGridlines = options.displayGridlines || "";
+    var colMerge = options.colMerge || "false";
+    var useDataFormat = options.useDataFormat || "false";
+    var applyDataFormat = options.applyDataFormat || "false";
+    var useSubTotalData = ( (options.useSubTotalData + "") == "true" ) ? true : false;
+    var useFooterData = ( (options.useFooterData + "") == "true" ) ? true : false;
+    var columnMove = ( (options.columnMove + "") == "true" ) ? true : false;
+    var columnOrder = options.columnOrder || "";
+    var oddRowBgColor = options.oddRowBackgroundColor || "";
+    var evenRowBgColor = options.evenRowBackgroundColor || "";
+    var indent = options.indent || "0";
+    var rowNumHeaderValue = WebSquare.xml.encode( this.options.rowNumHeaderValue ) || "";
+    var rowNumVisible = ( ( options.rowNumVisible + "" ) == "true" ) ? true : false;
+    var startRowNumber = this.options.startRowNumber || "1";
+    var bodyNumberDefaultValue = options.bodyNumberDefaultValue || "";
+    var numberToText = options.numberToText || "false";
+    var rowHeight = options.rowHeight || "-1";
+    var headerRowHeight = options.headerRowHeight || "-1";
+    var pwd = options.pwd || "";
+
+    var columnOrderArr;
+    if( columnMove ) {
+        if( columnOrder == "" ) {
+            columnOrderArr = this.getColumnOrder() || "";   
+        } else {
+            columnOrderArr = columnOrder.split(",");
+        }
+    }
+  
+  // 컬럼이동시 removeColumns 순서 보정
+  var removeMoveColArr = [];
+  if( removeColumns != "" ) {
+    removeColumns = removeColumns + "";
+    var removeColArr = removeColumns.split( "," );
+    if( columnMove ) {
+      for( var i=0; i<removeColArr.length; i++ ) {
+          for( var j=0; j<columnOrderArr.length; j++ ) {
+              if( removeColArr[i] == columnOrderArr[j] ) {
+                  removeMoveColArr.push( j );
+              }
+          }
+      }
+    } else {
+      removeMoveColArr = removeColArr;
+    }
+
+    removeMoveColArr.sort( 
+        function( a, b ) { 
+          return ( (a*1)-(b*1) );
+        }
+    );
+    removeColumns = removeMoveColArr.join( "," );
+  } 
+
+    var styleElem = this.element;
+    var headers = WebSquare.xml.getElementsByTagName( this.element , "w2:header");
+    var headXml = headers[0];
+    var columns = WebSquare.xml.getElementsByTagName( headXml , "w2:column");
+    for( var i = 0 ; i < columns.length ; i++){
+        var col = columns[i];
+        var colId = col.getAttribute("id");
+        col.setAttribute("value" , this.getHeaderValue(colId));
+    }   
+    
+    if(this.options.pluginName == "gridView"){
+        var bodys = WebSquare.xml.getElementsByTagName( this.element , "w2:gBody");
+        var bodyXml = bodys[0];
+        var columns = WebSquare.xml.getElementsByTagName( bodyXml , "w2:column");
+        for( var i = 0 ; i < columns.length ; i++){
+            var col = columns[i];
+            var colId = col.getAttribute("col_id");
+            col.setAttribute("dataType" , this._dataList.getColumnOption(colId, "dataType"));
+        }   
+    }
+
+    // 서버 전송 문자열, 대용량 vector.toString()시 브라우저 메모리문제 발생 함.
+    var sendArray = [];
+    sendArray.push( "<vector result='1'>" );               //순서중요
+    sendArray.push( "<data vectorkey='0'><hashtable>" );   //순서중요
+
+    sendArray.push( "<data hashkey='style'>" + WebSquare.xml.serialize(this.element) + "</data>" );
+    sendArray.push( "<data hashkey='data'>" + finalstr + "</data>" );
+    
+    if( this.startedDisplayNone || this.resizeObj.width == 0 || this.resizeObj.height == 0 ){
+        this.drawFooter();
+    }
+
+    /** groupby 추가 **/
+    sendArray.push( "<data hashkey='groupby' value='" + this.groupbyStatus.grouped + "'/>" );
+    if(options.groupby&&this.groupbyStatus.grouped) { 
+        sendArray.push( "<data hashkey='groupbyStyle'>" + this.getExcelGroupbyStyle() + "</data>" );
+        sendArray.push( "<data hashkey='groupbyHeaderValue'>" + this.getExcelGroupbyHeaderValue() + "</data>" );
+        sendArray.push( "<data hashkey='groupbyFooterValue'>" + this.getExcelGroupbyFooterValue() + "</data>" );
+        sendArray.push( "<data hashkey='groupbyStatusValue'>" + this.getExcelGroupbyStatusValue() + "</data>" );
+        sendArray.push( "<data hashkey='groupbyStyleData'>" + this.getExcelGroupbyStyleData() + "</data>" );
+        sendArray.push( "<data hashkey='rowNumVisible' value='" + this.options.rowNumVisible + "'/>" );
+        sendArray.push( "<data hashkey='rowStatusVisible' value='" + this.options.rowStatusVisible + "'/>" );
+    } else {
+        sendArray.push( "<data hashkey='rowNumVisible' value='" + rowNumVisible + "'/>" );
+    }
+    
+    if(type == 0) {
+        sendArray.push( "<data hashkey='footer_data'>" + this.getExcelAllFooterXML( separator ) + "</data>" );
+    } else if(type == 1) {
+        sendArray.push( "<data hashkey='footer_data'>" + this.getExcelAllFooterXMLDisplay( separator ) + "</data>" );
+    } else {
+        sendArray.push( "<data hashkey='footer_data'>" + this.getExcelAllFooterXMLRaw( separator ) + "</data>" );
+    }
+
+    sendArray.push( "<data hashkey='fileName' value='" + fileName + "'/>" );
+    sendArray.push( "<data hashkey='sheetName' value='" + sheetName + "'/>" );
+    sendArray.push( "<data hashkey='stRowIndex' value='" + stRowIndex + "'/>" );
+    sendArray.push( "<data hashkey='stColIndex' value='" + stColumnIndex + "'/>" );
+    sendArray.push( "<data hashkey='removeColumns' value='" + removeColumns + "'/>" );
+    sendArray.push( "<data hashkey='removeHeaderRows' value='" + removeHeaderRows + "'/>" );
+    sendArray.push( "<data hashkey='foldColumns' value='" + foldColumns + "'/>" );
+    sendArray.push( "<data hashkey='headerColor' value='" + headerColor + "'/>" );
+    sendArray.push( "<data hashkey='headerFontName' value='" + headerFontName + "'/>" );
+    sendArray.push( "<data hashkey='headerFontSize' value='" + headerFontSize + "'/>" );
+    sendArray.push( "<data hashkey='headerFontColor' value='" + headerFontColor + "'/>" );
+    sendArray.push( "<data hashkey='bodyColor' value='" + bodyColor + "'/>" );
+    sendArray.push( "<data hashkey='bodyFontName' value='" + bodyFontName + "'/>" );
+    sendArray.push( "<data hashkey='bodyFontSize' value='" + bodyFontSize + "'/>" );
+    sendArray.push( "<data hashkey='bodyFontColor' value='" + bodyFontColor + "'/>" );
+    sendArray.push( "<data hashkey='footerColor' value='" + footerColor + "'/>" );
+    sendArray.push( "<data hashkey='footerFontName' value='" + footerFontName + "'/>" );
+    sendArray.push( "<data hashkey='footerFontSize' value='" + footerFontSize + "'/>" );
+    sendArray.push( "<data hashkey='footerFontColor' value='" + footerFontColor + "'/>" );
+    sendArray.push( "<data hashkey='subTotalColor' value='" + subTotalColor + "'/>" );
+    sendArray.push( "<data hashkey='subTotalFontName' value='" + subTotalFontName + "'/>" );
+    sendArray.push( "<data hashkey='subTotalFontSize' value='" + subTotalFontSize + "'/>" );
+    sendArray.push( "<data hashkey='subTotalFontColor' value='" + subTotalFontColor + "'/>" );
+
+    if( rowNumVisible ) {
+        sendArray.push( "<data hashkey='rowNumHeaderColor' value='" + rowNumHeaderColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumHeaderFontName' value='" + rowNumHeaderFontName + "'/>" );
+        sendArray.push( "<data hashkey='rowNumHeaderFontSize' value='" + rowNumHeaderFontSize + "'/>" );
+        sendArray.push( "<data hashkey='rowNumHeaderFontColor' value='" + rowNumHeaderFontColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumBodyColor' value='" + rowNumBodyColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumBodyFontName' value='" + rowNumBodyFontName + "'/>" );
+        sendArray.push( "<data hashkey='rowNumBodyFontSize' value='" + rowNumBodyFontSize + "'/>" );
+        sendArray.push( "<data hashkey='rowNumBodyFontColor' value='" + rowNumBodyFontColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumFooterColor' value='" + rowNumFooterColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumFooterFontName' value='" + rowNumFooterFontName + "'/>" );
+        sendArray.push( "<data hashkey='rowNumFooterFontSize' value='" + rowNumFooterFontSize + "'/>" );
+        sendArray.push( "<data hashkey='rowNumFooterFontColor' value='" + rowNumFooterFontColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumSubTotalColor' value='" + rowNumSubTotalColor + "'/>" );
+        sendArray.push( "<data hashkey='rowNumSubTotalFontName' value='" + rowNumSubTotalFontName + "'/>" );
+        sendArray.push( "<data hashkey='rowNumSubTotalFontSize' value='" + rowNumSubTotalFontSize + "'/>" );
+        sendArray.push( "<data hashkey='rowNumSubTotalFontColor' value='" + rowNumSubTotalFontColor + "'/>" );
+    }
+
+    sendArray.push( "<data hashkey='dataProvider' value='" + dataProvider + "'/>" );
+    sendArray.push( "<data hashkey='splitProvider' value='" + splitProvider + "'/>" );
+    sendArray.push( "<data hashkey='providerRequestXml' value=''>" + providerRequestXml + "</data>" );
+    sendArray.push( "<data hashkey='userDataXml' value=''>" + userDataXml + "</data>" );
+    sendArray.push( "<data hashkey='optionParam' value='" + optionParam + "'/>" );
+    sendArray.push( "<data hashkey='bodyWordwrap' value='" + bodyWordwrap + "'/>" );
+    sendArray.push( "<data hashkey='useEuroLocale' value='" + useEuroLocale + "'/>" );
+    sendArray.push( "<data hashkey='useHeader' value='" + useHeader + "'/>" );
+    sendArray.push( "<data hashkey='useSubTotal' value='" + useSubTotal + "'/>" );
+    sendArray.push( "<data hashkey='useFooter' value='" + useFooter + "'/>" );
+    sendArray.push( "<data hashkey='fitToPage' value='" + fitToPage + "'/>" );
+    sendArray.push( "<data hashkey='landScape' value='" + landScape + "'/>" );
+    sendArray.push( "<data hashkey='fitWidth' value='" + fitWidth + "'/>" );
+    sendArray.push( "<data hashkey='fitHeight' value='" + fitHeight + "'/>" );
+    sendArray.push( "<data hashkey='scale' value='" + scale + "'/>" );
+    sendArray.push( "<data hashkey='pageSize' value='" + pageSize + "'/>" );
+    sendArray.push( "<data hashkey='separator' value='" + separator + "'/>" );
+    sendArray.push( "<data hashkey='subTotalScale' value='" + subTotalScale + "'/>" );
+    sendArray.push( "<data hashkey='subTotalRoundingMode' value='" + subTotalRoundingMode + "'/>" );
+    sendArray.push( "<data hashkey='useStyle' value='" + useStyle + "'/>" );
+    sendArray.push( "<data hashkey='freezePane' value='" + freezePane + "'/>" );
+    sendArray.push( "<data hashkey='autoSizeColumn' value='" + autoSizeColumn + "'/>" );
+    sendArray.push( "<data hashkey='displayGridlines' value='" + displayGridlines + "'/>" );
+    sendArray.push( "<data hashkey='colMerge' value='" + colMerge + "'/>" );
+    sendArray.push( "<data hashkey='useDataFormat' value='" + useDataFormat + "'/>" );
+    sendArray.push( "<data hashkey='applyDataFormat' value='" + applyDataFormat + "'/>" );
+    sendArray.push( "<data hashkey='useSubTotalData' value='" + useSubTotalData + "'/>" );
+    sendArray.push( "<data hashkey='useFooterData' value='" + useFooterData + "'/>" );
+    sendArray.push( "<data hashkey='columnMove' value='" + columnMove + "'/>" );
+    sendArray.push( "<data hashkey='columnOrder' value='" + columnOrderArr + "'/>" );
+    sendArray.push( "<data hashkey='oddRowBgColor' value='" + oddRowBgColor + "'/>" );
+    sendArray.push( "<data hashkey='evenRowBgColor' value='" + evenRowBgColor + "'/>" );
+    sendArray.push( "<data hashkey='indent' value='" + indent + "'/>" );
+    sendArray.push( "<data hashkey='rowNumHeaderValue' value='" + rowNumHeaderValue + "'/>" );
+    sendArray.push( "<data hashkey='startRowNumber' value='" + startRowNumber + "'/>" );
+    sendArray.push( "<data hashkey='bodyNumberDefaultValue' value='" + bodyNumberDefaultValue + "'/>" );
+    sendArray.push( "<data hashkey='numberToText' value='" + numberToText + "'/>" );
+    sendArray.push( "<data hashkey='rowHeight' value='" + rowHeight + "'/>" );
+    sendArray.push( "<data hashkey='headerRowHeight' value='" + headerRowHeight + "'/>" );
+    sendArray.push( "<data hashkey='pwd' value='" + pwd + "'/>" );
+
+    if( useStyle ) {
+        sendArray.push( "<data hashkey='styleData'><array><![CDATA[[" + this._getExcelStyle(options) + "]]]></array></data>" );
+    }
+  
+    if( useSubTotalData ) {
+        sendArray.push( "<data hashkey='subtotalData'><array><![CDATA[[" + this._getExcelSubtotalData( separator ) + "]]]></array></data>" );
+    }
+
+    var infoVt = new WebSquare.collection.Vector();
+    if (infoArr == null || typeof infoArr == "undefined"){
+        infoArr = [];
+    }
+
+    sendArray.push( "<data hashkey='information'><vector result='" + infoArr.length + "'>" );
+    for(var i = 0 ; i < infoArr.length; i++){
+        var obj = infoArr[i];
+        sendArray.push( "<data vectorkey='" + i + "'><hashtable>" );
+
+        for(var prop in obj ){
+            if( prop == "text" ) {
+                sendArray.push( "<data hashkey='" + prop + "' value='" + WebSquare.xml.encode( obj[prop] ) + "'/>" );
+            } else {
+                sendArray.push( "<data hashkey='" + prop + "' value='" + obj[prop] + "'/>" );
+            }
+        }
+        sendArray.push( "</hashtable></data>" );
+    }
+    sendArray.push( "</vector></data>" );
+
+    if( options.multiexcel == false ) {
+        sendArray.push( "</hashtable></data>" );
+        sendArray.push( "</vector>" );
+
+    WebSquare.core.excelDownload( this.options.advancedExcelDownloadURL, sendArray.join(""), "post");
+    if(this._dataList.options.depthColumn && options.spanAll == "true") { // spanAll 옵션이 켜져 있는 경우, 다시 원래 상태대로 원복시킨다.
+        this.drilldown.statusArr = this.orgStatusArr;
+        this._dataList.filteredRowIndexArr = this.orgFilteredRowIndexArr;
+        this.showDepth = this.orgShowDepth;
+        
+        this.orgStatusArr = null;
+        this.orgFilteredRowIndexArr = null;
+        this.orgShowDepth = null;
+        this.drawData(this.rowIndex, 0);
+    }
+
+    this.xmlData = null;
+    if(options.showProcess === false) {
+        WebSquare.getBody().hideModal();
+    } else if(options.showConfirm === true){
+        this.hideDownloadLayer();
+    }
+  } else {
+            sendArray.push( "</hashtable></data>" );
+            sendArray.push( "</vector>" );
+      return sendArray;
+  }
+	var unFormatter = WebSquare.core.getConfiguration("/WebSquare/gridView/excel/unFormatter/@value");
+	if( unFormatter != "" ) {
+	    WebSquare.BootLoader.globalEval( unFormatter + "('" + this.id + "')" );
+	}
+};

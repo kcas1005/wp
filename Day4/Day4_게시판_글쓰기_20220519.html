@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header, #content, #footer{
+            display: block;
+            float: left;
+            width:1280px;
+            height:200px;
+            margin-left:6%;
+        }
+        #header{
+            height:100px;
+            margin-top:5%;
+        }
+        #header h1{
+            color: rgb(68,68,68);
+        }
+        #content{
+            height: 500px;
+        }
+        #content table{
+            width:1280px;
+            border-collapse: separate;
+            border-spacing:0;
+            display: block;
+        }
+        #content table tr:first-child *{
+        text-align: center;
+           border-top: 2px solid rgb(187,187,187);
+           border-bottom: 1px solid rgb(187,187,187);
+        }
+        #content table td{
+            width: 400px;
+            height: 40px;
+            border-bottom: 1px solid rgb(187,187,187);
+        }
+        #content table tr:first-child td:first-child{
+            background-color: rgb(238,238,238) ;
+            color: rgb(68,68,68);
+            font-weight: 700;
+            font-size: 200%;
+        }
+        #content table tr td:first-child{
+            text-align: center;
+            color: rgb(68,68,68);
+        }
+        #content table tr:nth-child(2) td input{
+            width: 300px;
+            height: 20px;
+            border: 1px solid rgb(83,182,70);
+        }
+        #content table tr:nth-child(3) td input{
+            width: 715px;
+            height: 20px;
+        }
+        #content table tr:nth-child(5) td input:first-of-type{
+            width: 300px;
+            height: 20px;
+        }
+        #footer table{
+            border-collapse: separate;
+            border-spacing: 10px;
+            float:right;
+            width: 150px;
+            margin-right:11%;
+        }
+        #footer table td:nth-of-type(1) input{
+            color:white;
+            width:60px;
+            height: 30px;
+            background-color:rgb(41,41,41);
+            text-align: center;
+            border-radius: 15%;
+            border-color:rgb(41,41,41);
+            font-size: 105%;
+        }
+        #footer table td:nth-of-type(2) input{
+            color: white;
+            width:60px;
+            height: 30px;
+            background-color:rgb(161,161,161);
+            text-align: center;
+            border-radius: 15%;
+            border-color: rgb(161,161,161);
+            font-size: 105%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>게시판</h1>
+    </div>
+    <div id="content">
+        <table>
+            <tr>
+                <td colspan="3" height="30px">글쓰기</td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>제목</td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td colspan="2"><textarea name="textarea" id="msg" cols="100" rows="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>업로드</td>
+                <td colspan="2">
+                    <input type="text"><input type="file" value="파일선택">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <table>
+            <tr>
+                <td><input type="button" value="완료"></td>
+                <td><input type="button" value="목록"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

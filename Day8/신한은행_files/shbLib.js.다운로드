@@ -1,0 +1,1387 @@
+strLib = {};
+//문자가 비었는지 체크
+strLib.isEmpty = function(str){
+	if( (typeof str) != "undefined" && str != null && String(str).trim() != "") {
+		return false;
+	} else {
+		return true;
+	}
+};
+//이메일 유효성 체크
+strLib.isEmail = function(str) {
+	var re = /^[\._a-zA-Z0-9\-]+@[\._a-zA-Z0-9\-]+\.[a-zA-Z]{2,}$/;
+	if(!re.test(str)){
+		return false;
+	}
+	return true;
+};
+//숫자가 포함되어있는지 Check
+strLib.isDigit = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ch < "0" || ch > "9" ) {
+			 return false;
+		}
+	}
+	return true;
+};
+// 숫자, 쉼표(,), 마침표(.)가 포함되어있는지 Check
+strLib.isForeignMoney = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ( ch < "0" || ch > "9" ) && ch != ',' && ch != '.') {
+			 return false;
+		}
+	}
+	return true;
+};
+// 숫자 및 쉼표(,)가 포함되어있는지 Check
+strLib.isMoney = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ( ch < "0" || ch > "9" ) && ch != ',' ) {
+			 return false;
+		}
+	}
+	return true;
+};
+// 알파벳만 포함되어 있는지 Check
+strLib.isAlphabet = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ( ch < "a" || ch > "z" ) && ( ch < "A" || ch > "Z" ) ) {
+			return false;
+		}
+	}
+	return true;
+};
+// 알파벳과 숫자만 포함되어 있는지 Check
+strLib.isAlphanumeric = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ( ch < "0" || ch > "9" ) && ( ch < "a" || ch > "z" ) && ( ch < "A" || ch > "Z" ) ) {
+			 return false;
+		}
+	}
+	return true;
+};
+// 알파벳과 숫자 조합인지 Check
+strLib.isAlphanumJoin = function(str){
+	len = str.length;
+    var vFlag = false;
+	if(isNaN(str.charAt(0))){
+		for(i =0; i < len; i++){
+			ch = str.charAt(i);
+				if( (ch >= '0' && ch <= '9')){
+					vFlag =	true;
+				}
+		}
+	}else{
+		for(i =0; i < len; i++){
+			ch = str.charAt(i);
+				if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
+					vFlag =	true;
+				}
+		}
+	}
+	return vFlag;
+};
+
+//  전화번호 Check 숫자 , '-', '(', ')', ' '만 가능 포함되어 있는지 Check
+strLib.isTelNumber = function(str){
+	for(var i=0; i < str.length; i++) {
+		var ch= str.charAt(i);
+		if( ( ch < "0" || ch > "9" ) && ( ch !='-') && ( ch != '(') && ( ch != ')' ) && ( ch != ' ' ) ) {
+			 return false;
+		}
+	}
+	return true;
+};
+
+//종성이 존재하면 true 그 이외 (영문, 한글, 초성+중성)은 false
+strLib.isFinalConsonant = function(str) {
+	var code = str.charCodeAt(str.length - 1);
+	if (code < 44032 || code > 55197) {
+		return false;
+	}
+	if ( (code - 16)%28 == 0 ) {
+		return false;
+	}
+	return true;
+};
+//특수문자 여부
+strLib.isSpecialChar = function(str) {
+	for(var i = 0; i < str.length; i++){
+		var ch = str.charCodeAt(i);
+		if(!((32 == ch) || (48 <= ch && ch <= 57) || (65 <= ch && ch <= 92) || (97 <= ch && ch <= 122) || (44032 <= ch && ch <= 55203))){
+			return true;
+		}
+	}
+	return false;
+};
+//사업자번호 유효성 여부
+strLib.isBusiNo = function(strNo){
+	var sum = 0;
+	var getlist =new Array(10);
+	var chkvalue =new Array("1","3","7","1","3","7","1","3","5");
+
+	for (var i=0;i<10;i++){
+		getlist[i] = strNo.substring(i,i+1);
+	}
+
+	for (var i=0;i<9;i++){
+		sum += getlist[i]*chkvalue[i];
+	}
+	sum = sum +parseInt((getlist[8]*5)/10) ;
+	sidliy = sum%10;
+	sidchk = 0;
+
+	if ( sidliy != 0 ) {
+		sidchk = 10 - sidliy;
+	} else {
+		sidchk = 0;
+	}
+	if ( sidchk != getlist[9] ) {
+		return false;
+	}
+	return true;
+}
+//자릿수만큼 문자열 왼쪽 0으로 채우기
+strLib.fillZero = function(str, maxLen){
+	var len = str;
+	var zero = "";
+	if (typeof str == 'number')  len = '' + str;
+	if (len.length < maxLen) {
+		for (var i=len.length; i<maxLen; i++) {
+			zero += "0";
+		}
+	}
+	return  (zero + '' + str);
+};
+//숫자만 추출
+strLib.getNumberOnly = function(num){
+	if (!num) return num;
+	var i;
+	var ret = '';
+	for (i=0; i<num.length; i++) {
+		var c = num.charAt(i);
+		if (c >= '0' && c <= '9')  ret += c;
+	}
+	return  ret;
+};
+//문자열중 특정한문자를 입력받은 문자로 치환
+strLib.replaceAll = function(orgStr, srcStr, repStr){
+	return  orgStr.split(srcStr).join(repStr);
+};
+//문자열 byte 리턴
+strLib.getByteLen = function(str) {
+	return(str.length+(escape(str)+"%u").match(/%u/g).length-1);
+};
+//문자열을 특정 byte만큼 잘라서 리턴 한글짤리지 않게 
+strLib.getByteStr = function(str, len) {
+	var l = 0;
+	for (var i=0; i<str.length; i++) {
+		if (str.charCodeAt(i) > 128) {
+			l = l + 2;
+		} else {
+			l = l + 1;
+		}
+		if (l > len) {
+			return str.substring(0,i);
+		}
+	}
+	return str;
+}
+//문자열 특정자릿수만큼 * 로 치환하여 리턴
+strLib.getMaskStr = function(str, maskCnt, maskDirection) {
+	if( strLib.isEmpty(str) ) return str;
+	var reStr = "";
+	var direction = !maskDirection ? "L" : (maskDirection.toUpperCase() == "R" ? "R" : "L");
+	if( str.length <= maskCnt ) {
+		for (var i=0; i<str.length; i++) {
+			reStr += "*";
+		}
+	} else {
+		for (var i=0; i<maskCnt; i++) {
+			reStr += "*";
+		}
+		if( "L" == direction ) {
+			reStr += str.substring(maskCnt);
+		} else {
+			reStr = str.substring(0,str.length-maskCnt) + reStr;
+		}
+	}
+	return reStr;
+};
+//html 태그제거
+strLib.stripTag = function(str){
+	return str.replace(/(<[a-zA-Z\/]([^>]*)>)/ig,"");
+};
+
+strLib.signRemoveCharacter = function(str, remove) {
+	var result = "";
+    var c = '';
+    var rc = '';
+    var i =0, j=0;
+    var isRemoveChar = false;
+    for (;i<str.length; i++)
+    {
+        isRemoveChar = false;
+        c = str.charAt(i);
+        for (j=0; j< remove.length; j++)
+        {
+            rc = remove.charAt(j);
+            if ( c == rc )
+            {
+                isRemoveChar = true;
+                break;
+            }
+        }
+        if ( !isRemoveChar )
+        {
+            result+=c;
+        }
+    }
+    return result;
+};
+strLib.signGetLength = function(str) {
+	var c = '';
+    var length =0;
+    
+    for( i=0; i < str.length;i++ )
+    {
+        c = str.charAt(i);
+        if ( strLib.signIsOneByte(c) )
+        {
+            length ++;
+        }
+        else
+        {
+            length +=2;
+        }
+    }
+    return length;
+}
+strLib.signIsOneByte = function(c) {
+	if ( c>= '' && c <= '~')
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+};
+strLib.signStrLength = function(sVal) {
+	var sBit = '';    // 문자열의 문자(Char)
+	  var iLen = 0; //문자열 길이
+
+	  for ( i = 0 ; i < sVal.length ; i++ )
+	  {
+	    sBit = sVal.charAt(i);
+	    if ( escape( sBit ).length > 4 )
+	    {
+	      iLen = iLen + 2;
+	    }
+		else
+		{
+	      iLen = iLen + 1;
+	    }
+	  }
+	  return iLen;
+};
+strLib.signCutStr = function(str, cnt) {
+	var str_len=0;
+    var rstStr = "" ;
+	for(i = 0 ; i < str.length; i++){
+        if (str.charAt(i) < unescape("%80"))
+            str_len++   ;
+        else
+            str_len = str_len + 2;
+
+        if(str_len<=cnt){
+            rstStr += str.charAt(i) ;
+        }else{
+            break ;
+        }
+	}
+	return rstStr ;
+};
+strLib.signConvert = function (str, length, type) {
+	var i=0;
+	var result = "";
+	var srcLength = 0;
+	var length2 = length;
+	var c = '';
+	var addLength =0;
+    if ( type == "9" ) // NUMERIC
+    {
+        str = strLib.signRemoveCharacter(str, ",");
+        srcLength = strLib.signGetLength(str);
+
+    }else if ( type == "X" ){ //2바이트변환.
+        srcLength = strLib.signStrLength(str) ;
+        str = strLib.signCutStr( str , srcLength );
+    }
+
+
+    if ( srcLength > length )
+    {
+        for ( i=0; addLength < length; i++ )
+        {
+            c = str.charAt(i);
+            if ( strLib.signIsOneByte(c) )
+            {
+                result += c;
+            }
+            else
+            {
+                addLength++;
+                if ( addLength >= length )
+                {
+                    result += " ";
+                }
+                else 
+                {
+                    result += c;
+                }    
+            }
+            addLength++;
+        }
+    }
+    else
+    {
+        result = str;
+        for ( i=0; i < length-srcLength; i++)
+        {
+            if ( type == "9" )
+            {
+                result =  "0"+result;
+            } else {
+                result += " ";
+            }
+        }
+    }
+    return result;
+};
+strLib.getMessage = function(msgStr, argsArr) {
+	return msgStr.replace(/\{(\d+)\}/g, function() {
+		return argsArr[arguments[1]];
+	});
+};
+dateLib = {};
+/**
+ * @class 날짜더하기
+ * @param {string} pInterval - yyyy 연도가감, m 월가감, d 일가감
+ * @param {string} pAddVal - 가감하고자 하는 값(정수형)
+ * @param {string} pYyyymmdd -가감의 기준이 되는 날짜(yyyymmdd형식)
+ * @param {string} pDelimiter -날짜구분자(없으면 공백)
+ * @description (사용예) <br>
+ * dateLib.addDate('m', 1, unformatCalendarData(getSessionItem("SESS_GMT_DATE"),getSessionItem("SESS_DATE_FORMAT"))) <br>
+ * dateLib.addDate('m', 1, calendarObj.getValue())
+ */
+dateLib.addDate = function(pInterval, pAddVal, pYyyymmdd, pDelimiter_1) {
+	var yyyy;
+	var mm;
+	var dd;
+	var cDate;
+	var oDate;
+	var vYear, cMonth, cDay;
+	var pDelimiter;
+
+	if(arguments.length>3 && pInterval !="" && pDelimiter_1 != ""){
+		pYyyymmdd = pYyyymmdd.replace(eval("/\\"+pDelimiter_1+"/g"), "");
+		pDelimiter = pDelimiter_1;
+	}else{
+		pDelimiter = "";
+	}
+
+	yyyy = pYyyymmdd.substr(0,4);
+	mm = pYyyymmdd.substr(4,2);
+	dd = pYyyymmdd.substr(6,2);
+
+	if(pInterval == "yyyy" || pInterval == "y"){
+		yyyy = (yyyy*1)+(pAddVal*1);
+	}else if(pInterval == "m"){
+		mm = (mm*1)+(pAddVal*1);
+	}else if(pInterval == "d"){
+		dd = (dd*1)+(pAddVal*1);
+	}
+
+	cDate = new Date(yyyy, mm-1, dd);
+	cYear = cDate.getFullYear();
+	cMonth = cDate.getMonth()+1;
+	cDay = cDate.getDate();
+
+	cMonth = cMonth<10 ? "0"+cMonth : cMonth;
+	cDay = cDay<10 ? "0"+cDay : cDay;
+
+	if(pDelimiter !=""){
+		return cYear + pDelimiter + cMonth + pDelimiter + cDay;
+	}else{
+		return cYear + "" + cMonth + "" + cDay;
+	}
+};
+/**
+ * @class 날짜더하기
+ * dateLib.addDate 에 년월 계산시 월말일이면 해당월 말일이 되도록 함 
+ */ 
+dateLib.addDateLastDayMonth = function(pInterval, pAddVal, pYyyymmdd, pDelimiter_1) {
+	var yyyy;
+	var mm;
+	var dd;
+	var cDate;
+	var oDate;
+	var vYear, cMonth, cDay;
+	var pDelimiter;
+
+	if(arguments.length>3 && pInterval !="" && pDelimiter_1 != ""){
+		pYyyymmdd = pYyyymmdd.replace(eval("/\\"+pDelimiter_1+"/g"), "");
+		pDelimiter = pDelimiter_1;
+	}else{
+		pDelimiter = "";
+	}
+
+	yyyy = pYyyymmdd.substr(0,4);
+	mm = pYyyymmdd.substr(4,2);
+	dd = pYyyymmdd.substr(6,2);
+
+	if(pInterval == "yyyy" || pInterval == "y"){
+		yyyy = (yyyy*1)+(pAddVal*1);
+	}else if(pInterval == "m"){
+		mm = (mm*1)+(pAddVal*1);
+	}else if(pInterval == "d"){
+		dd = (dd*1)+(pAddVal*1);
+	}
+
+	cDate = new Date(yyyy, mm-1, dd);
+	if( pInterval != "d" ){
+		var eDate = new Date(yyyy, mm, 0);
+		var eDay = eDate.getDate();
+		if( dd > eDay ){//말일 오버
+			cDate = eDate;
+		}
+	}
+
+	cYear = cDate.getFullYear();
+	cMonth = cDate.getMonth()+1;
+	cDay = cDate.getDate();
+
+	cMonth = cMonth<10 ? "0"+cMonth : cMonth;
+	cDay = cDay<10 ? "0"+cDay : cDay;
+
+	if(pDelimiter !=""){
+		return cYear + pDelimiter + cMonth + pDelimiter + cDay;
+	}else{
+		return cYear + "" + cMonth + "" + cDay;
+	}
+};
+
+/**
+ * @class 일자 포멧 변경
+ *
+ * @description
+ * 포멧문자열 <br>
+ * Letter  Date or Time Component    Examples <br>
+ * y      Year              1996; 96 <br>
+ * M      Month in year          07 <br>
+ * d      Day in month          10 <br>
+ * H      Hour in day (0-23)      0 <br>
+ * m      Minute in hour        30 <br>
+ * s      Second in minute        55 <br>
+ * S      Millisecond          978 <br>
+ *
+ * @param {string} strDate - 현재년월일
+ * @param {string} curFormat - 현재 일자 포멧
+ * @param {string} chgFormat - 변경할 일자 포멧
+ * @return 변경된 포멧의 일자
+ */
+dateLib.changeDateFormat = function(strDate, curFormat, chgFormat) {
+	try {
+		var curdate = WebSquare.date.parseDate(strDate, curFormat);
+		var rtndate = WebSquare.date.getFormattedDate(curdate, chgFormat);
+		return rtndate;
+	} catch(e) {
+		shbComm.log(e);
+	}
+};
+
+/**
+ * 두날짜 사이의 차이일수 리턴
+ * @param fromDate
+ * @param toDate
+ * @return
+ *
+ */
+dateLib.getDiffDay = function(fromDate, toDate) {
+	var from_dt = new Date(fromDate.substring(0, 4), fromDate.substring(4, 6)-1, fromDate.substring(6, 8));
+	var to_dt = new Date(toDate.substring(0, 4), toDate.substring(4, 6)-1, toDate.substring(6, 8));
+	return (to_dt.getTime() - from_dt.getTime()) / 1000 / 60 / 60 / 24;
+};
+//년월의 마지막일자
+dateLib.getLastDayInMonth = function(year,month) {
+	var last_month = new Array(31,29,31,30,31,30,31,31,30,31,30,31);
+	var mon2 = false;
+	
+	if ( ( (year%4 == 0) && (year%100 != 0) ) || (year%400 == 0) ) {
+		mon2 = true;
+	}
+/*
+	// 윤년체크
+	if(year%4==0)
+		mon2 = true;
+
+	if(year%100==0)
+		mon2 = false;
+
+	if(year%400==0)
+		mon2 = true;
+*/
+
+	last_month[1] = (mon2)?29:28;
+
+	return last_month[month-1];
+};
+
+dateLib.mDate_Comp = function(gbn, ilsu, fr_date, to_date) {
+
+	var	ilsu_tbl = new Array();
+	ilsu_tbl[0] = new Array('00');
+	ilsu_tbl[1] = new Array('31');
+	ilsu_tbl[2] = new Array('00');
+	ilsu_tbl[3] = new Array('31');
+	ilsu_tbl[4] = new Array('30');
+	ilsu_tbl[5] = new Array('31');
+	ilsu_tbl[6] = new Array('30');
+	ilsu_tbl[7] = new Array('31');
+	ilsu_tbl[8] = new Array('31');
+	ilsu_tbl[9] = new Array('30');
+	ilsu_tbl[10] = new Array('31');
+	ilsu_tbl[11] = new Array('30');
+	ilsu_tbl[12] = new Array('31');
+	var	year, month, day, wk_ilsu, hyuil_gbn;
+	var	wk_sign, wk_date, temp;
+	var	fr_dt;
+	fr_dt = fr_date.toString();
+
+	if( gbn != '1'  &&  gbn != '2'  &&  gbn != '3'  &&  gbn != '11')
+	{
+		shbComm.alert(shbComm.lang["CO01001"]);
+		return;
+	}
+	if( !ilsu)
+	{
+		shbComm.alert(shbComm.lang["CO01002"]);
+		return;
+	}
+	if( dateLib.mDate_Check(fr_date))
+	{
+		shbComm.alert(shbComm.lang["CO01003"]);
+		return;
+	}
+
+	year  = parseInt((fr_dt.substring(0,4)), 10);
+	month = parseInt((fr_dt.substring(4,6)), 10);
+	day   = parseInt((fr_dt.substring(6,8)), 10);
+
+	if( ilsu < 0){
+
+		wk_ilsu = parseInt(ilsu, 10) * -1;
+
+		wk_sign = '-';
+	}else {
+		wk_ilsu = ilsu;
+		wk_sign = '+';
+	}
+
+	if( dateLib.mYear_Comp(year))
+		ilsu_tbl[2] = 29;
+	else	ilsu_tbl[2] = 28;
+
+	switch(gbn){
+	    case  1:		/*  일수 계산  */
+
+		if( wk_sign == '+'){
+			wk_ilsu += parseInt(day, 10);
+
+			while(1){
+				if( wk_ilsu > ilsu_tbl[month] ){
+					wk_ilsu -= ilsu_tbl[month];
+					month++;
+
+					if(month > 12){
+						year++;
+						month = 1;
+						if( dateLib.mYear_Comp(year))
+							ilsu_tbl[2] = 29;
+						else	ilsu_tbl[2] = 28;
+					}
+				}else {
+
+					day = wk_ilsu;
+
+					break;
+				}
+			}
+
+		}
+		if( wk_sign == '-'){
+			while(1){
+				if( (parseInt(day, 10) - parseInt(wk_ilsu, 10)) <= 0 ){
+					wk_ilsu -= parseInt(day, 10);
+
+					month--;
+					if( month == 0){
+
+						year--;
+						month = 12;
+						if( dateLib.mYear_Comp(year))
+							ilsu_tbl[2] = 29;
+						else	ilsu_tbl[2] = 28;
+					}
+					day = ilsu_tbl[month];
+
+				}else {
+
+
+					day -= wk_ilsu;
+
+					break;
+				}
+			}
+		}
+		break;
+	    case  2:		/*  월수 계산  */
+		if( wk_sign == '+'){
+			year = year + parseInt((parseInt((wk_ilsu + month), 10) / 12),10) ;
+			month = (parseInt(month, 10) + parseInt(wk_ilsu, 10)) % 12;
+			if( month == 0){
+				year--;
+				month = 12;
+			}
+		}
+		if( wk_sign == '-'){
+			if( (parseInt(month, 10) - parseInt(wk_ilsu, 10)) <= 0 ){
+				year = year - parseInt((parseInt((parseInt(wk_ilsu, 10) - parseInt(month, 10)), 10) / 12),10) -1;
+				month = 12 - (parseInt(wk_ilsu, 10) - parseInt(month, 10)) % 12;
+			}else {
+				month -= wk_ilsu;
+			}
+		}
+		if( dateLib.mYear_Comp(year))
+			ilsu_tbl[2] = 29;
+		else	ilsu_tbl[2] = 28;
+		if( day > ilsu_tbl[month])
+			day = ilsu_tbl[month];
+		break;
+	    case  3:		/*  년수 계산  */
+		if( wk_sign == '+')
+			year += wk_ilsu;
+		else	year -= wk_ilsu;
+
+		if( dateLib.mYear_Comp(year))
+			ilsu_tbl[2] = 29;
+		else	ilsu_tbl[2] = 28;
+		if( day > ilsu_tbl[month])
+			day = ilsu_tbl[month];
+		break;
+	}
+	if(month < 10)
+	{
+
+		to_date = year + "" + "0" + month;
+
+		if(day < 10)
+		{
+			to_date = to_date + "0" + day;
+		}else{
+			to_date = to_date + "" + day;
+		}
+	}else{
+		if(day < 10)
+		{
+			day = "0" + day;
+		}
+		to_date = year + "" + month + "" + day;
+	}
+	return	to_date;
+};
+
+dateLib.mDate_Check = function(fr_date) {
+
+    var ilsu_tbl = new Array();
+    ilsu_tbl[0] = new Array('00');
+    ilsu_tbl[1] = new Array('31');
+    ilsu_tbl[2] = new Array('00');
+    ilsu_tbl[3] = new Array('31');
+    ilsu_tbl[4] = new Array('30');
+    ilsu_tbl[5] = new Array('31');
+    ilsu_tbl[6] = new Array('30');
+    ilsu_tbl[7] = new Array('31');
+    ilsu_tbl[8] = new Array('31');
+    ilsu_tbl[9] = new Array('30');
+    ilsu_tbl[10] = new Array('31');
+    ilsu_tbl[11] = new Array('30');
+    ilsu_tbl[12] = new Array('31');
+    var year, month, day;
+    var temp;
+    var fr_dt;
+    fr_dt = fr_date.toString();
+
+    if(fr_dt.length != 8)
+    {
+        shbComm.alert(shbComm.lang["CO01004"]);
+        return -1;
+    }
+    if(fr_date * 0 != 0)
+    {
+        shbComm.alert(shbComm.lang["CO01004"]);
+        return -1;
+    }
+
+    year  = parseInt(fr_dt.substring(0,4), 10);
+    month = parseInt(fr_dt.substring(4,6), 10);
+    day   = parseInt(fr_dt.substring(6,8), 10);
+
+    /*  input 일자 체크  */
+    if( month < 1  ||  month > 12)
+    {
+        shbComm.alert(shbComm.lang["CO01005"]);
+        return -1;
+    }
+    if( dateLib.mYear_Comp(year))
+        ilsu_tbl[2] = 29;
+    else    ilsu_tbl[2] = 28;
+
+    if( day < 1  ||  day > ilsu_tbl[month])
+    {
+        shbComm.alert(shbComm.lang["CO01006"]);
+        return -1;
+    }
+    return 0;
+};
+
+dateLib.mYear_Comp = function(year) {
+	var	temp=0;
+
+	if( !(parseInt(year, 10)%4))		temp = -1;
+	if( !(parseInt(year, 10)%100))		temp =  0;
+	if( !(parseInt(year, 10)%400))		temp = -1;
+	return temp;
+};
+
+
+numLib = {};
+
+numLib.isInt = function(str){
+	if( typeof str == "undefined" || str == null ) { return false; }
+	if( typeof str == "string" ) {
+		if( str.trim() == "" ) { return false; }
+		for(var i=0; i < str.length; i++) {
+			var ch= str.charAt(i);
+			if( ( ch < "0" || ch > "9" ) && ch != "-") {
+				 return false;
+			}
+		}
+	} else {
+		var chStr = ""+str;
+		for(var i=0; i < chStr.length; i++) {
+			var ch= chStr.charAt(i);
+			if( ( ch < "0" || ch > "9" ) && ch != "-") {
+				 return false;
+			}
+		}
+	}
+	return !isNaN(str);
+};
+
+//Floating number check
+numLib.isFloat = function(str){
+	if( typeof str == "undefined" || str == null ) { return false; }
+	if( typeof str == "string" ) {
+		if( str.trim() == "" ) { return false; }
+		for(var i=0; i < str.length; i++) {
+			var ch= str.charAt(i);
+			if( ( ch < "0" || ch > "9" ) && ch != "-" && ch != ".") {
+				 return false;
+			}
+		}
+	} else {
+		var chStr = ""+str;
+		for(var i=0; i < chStr.length; i++) {
+			var ch= chStr.charAt(i);
+			if( ( ch < "0" || ch > "9" ) && ch != "-" && ch != ".") {
+				 return false;
+			}
+		}
+	}
+	return !isNaN(str);
+};
+
+// 숫자 세자리 마다 컴마
+numLib.formatComma = function(num){
+	if( !numLib.isFloat(num) ) { return ""; }
+	if( typeof num == "string" && num.trim() != "" ) {
+		return WebSquare.util.setNumber(num);
+	} else if( typeof num == "number" ) {
+		return WebSquare.util.setNumber(""+num);
+	} else {
+		return "";
+	}
+};
+//숫자에서 컴마제거
+numLib.unformatComma = function(num){
+	if( strLib.isEmpty(num) ) { return ""; }
+	return WebSquare.util.getNumber(num);
+};
+//소수점 특정자릿수까지 포맷팅 리턴
+numLib.formatCommaFixDecimal = function(num, decimalPoint){
+	var sFormat = "#,###";
+	if( decimalPoint > 0 ) {
+		sFormat = "#,###."+strLib.fillZero("",decimalPoint);
+	}
+	return WebSquare.text.formatCurrency(num, sFormat);
+};
+
+//금액 숫자를 한글로.. : numToHan, ribCiphersHan, NUM_HAN
+numLib.numToHan = function(num){
+	if ( num == "1" )       return "일";
+	else if ( num == "2" )  return "이";
+	else if ( num == "3" )  return "삼";
+	else if ( num == "4" )  return "사";
+	else if ( num == "5" )  return "오";
+	else if ( num == "6" )  return "육";
+	else if ( num == "7" )  return "칠";
+	else if ( num == "8" )  return "팔";
+	else if ( num == "9" )  return "구";
+	else if ( num == "십" ) return "십";
+	else if ( num == "백" ) return "백";
+	else if ( num == "천" ) return "천";
+	else if ( num == "만" ) return "만 ";
+	else if ( num == "억" ) return "억 ";
+	else if ( num == "조" ) return "조 ";
+	else if ( num == "0" )  return "";
+};
+//한글 자릿수 붙이기
+numLib.ciphersHan = function(num){
+	var len  = num.length;
+	var temp = "";
+
+	if ( len == 1 ) {
+		temp = num;
+	}
+	else if ( len == 2 ) {
+		temp = num.substring(0,1) + "십" + num.substring(1,2);
+	}
+	else if ( len == 3 ) {
+		temp = num.substring(0,1) + "백" + num.substring(1,2) + "십" + num.substring(2,3);
+	}
+	else if ( len == 4 ) {
+		temp = num.substring(0,1) + "천" + num.substring(1,2) + "백" + num.substring(2,3) + "십" + num.substring(3,4);
+	}
+
+	var reStr = new String(temp);
+	reStr = reStr.replace(/0십/gi,"");
+	reStr = reStr.replace(/0백/gi,"");
+	reStr = reStr.replace(/0천/gi,"");
+
+	return reStr;
+};
+//숫자 한글로 변환
+numLib.moneyToHan = function(num){
+	if( !numLib.isInt(num) ) return;
+	var len  ;
+	var temp1 = "";
+	var temp2 = "";
+	var temp3 = "";
+
+	if ( num == "" || num == "0" ) {
+		return "";
+	}
+
+	num=new String(num);
+	num=num.replace(/,/gi,"");
+
+	len  = num.length;
+
+	if ( len/4 > 3 && len/4 <= 4 ) {
+		if ( len%4 == 0 ) {
+			temp1 = numLib.ciphersHan(num.substring(0,4)) + "조" + numLib.ciphersHan(num.substring(4,8)) + "억" + numLib.ciphersHan(num.substring(8,12)) + "만" + numLib.ciphersHan(num.substring(12,16));
+		}
+		else {
+			temp1 = numLib.ciphersHan(num.substring(0,len%4)) + "조" + numLib.ciphersHan(num.substring(len%4,len%4+4)) + "억" + numLib.ciphersHan(num.substring(len%4+4,len%4+8)) + "만" + numLib.ciphersHan(num.substring(len%4+8,len%4+12));
+		}
+	}
+	else if ( len/4 > 2 && len/4 <= 3 ) {
+		if ( len%4 == 0 ) {
+			temp1 = numLib.ciphersHan(num.substring(0,4)) + "억" + numLib.ciphersHan(num.substring(4,8)) + "만" + numLib.ciphersHan(num.substring(8,12));
+		}
+		else {
+			temp1 = numLib.ciphersHan(num.substring(0,len%4)) + "억" + numLib.ciphersHan(num.substring(len%4,len%4+4)) + "만" + numLib.ciphersHan(num.substring(len%4+4,len%4+8));
+		}
+	}
+	else if ( len/4 > 1 && len/4 <= 2 ) {
+		if ( len%4 == 0 ) {
+			temp1 = numLib.ciphersHan(num.substring(0,4)) + "만" + numLib.ciphersHan(num.substring(4,len));
+		}
+		else {
+			temp1 = numLib.ciphersHan(num.substring(0,len%4)) + "만" + numLib.ciphersHan(num.substring(len%4,len));
+		}
+	}
+	else if ( len/4 <= 1 ) {
+		temp1 = numLib.ciphersHan(num.substring(0,len));
+	}
+
+	for (var i=0; i<temp1.length; i++) {
+		temp2 = temp2 + numLib.numToHan(temp1.substring(i, i+1));
+	}
+
+	temp3=new String(temp2);
+	temp3=temp3.replace(/억 만/gi,"억 ");
+	temp3=temp3.replace(/조 억/gi,"조 ");
+
+	return temp3;
+};
+
+// 2021.11.02 추가
+// 입력된 숫자를 가지고 한글금액으로 변환(ex.1,125,000 -> 112만 5천원)
+numLib.WonToHanUnit = function(strWon)
+{
+	var strHan = "";
+
+	if (strWon == "" || strWon == "0")
+		return "0원";
+
+	var len = strWon.length;
+	if (len == 0)
+		return "0원";
+    
+	if(Number(strWon) == 0){
+		return "0원";
+	}
+
+	var arrBigUnit = new Array("", "만", "억", "조", "경", "해", "자", "양", "구", "간", "정", "재", "극"); // 큰단위
+
+	var nWonLen = strWon.length;
+	var aWonfour = [];
+	var nCnt = 0;
+    
+	if(nWonLen > 4){  	 
+		var iModWonLen = parseInt(nWonLen % 4 ,10);
+		var iModWonLen2 = parseInt(nWonLen / 4 ,10);
+
+		var sRemoveWon = strWon;
+		
+		for(var i=0; i<iModWonLen2; i++)
+		{
+			var nRemoveWonLen = sRemoveWon.length;
+			var sFourWon = sRemoveWon.substring(nRemoveWonLen - 4 ,nRemoveWonLen);
+			
+			sRemoveWon = sRemoveWon.substring(0,nRemoveWonLen - 4);
+			aWonfour[nCnt] = sFourWon;
+			nCnt++;
+		}
+
+		if(iModWonLen > 0){
+			aWonfour[nCnt] = strWon.substring(0,iModWonLen);
+		} 
+	}
+	else{
+		aWonfour[nCnt] = strWon;
+	}
+
+	var sTotalWonAmt = "";
+	if(aWonfour.length > 1)
+	{
+		for(var i=0; i<aWonfour.length; i++)
+		{
+			var sFourModWon = Number(aWonfour[i]).toString();
+			
+			if(sFourModWon.length > 3){
+				sFourModWon = sFourModWon.substring(0,1) +","+ sFourModWon.substring(1,4);
+			} 
+
+			if(i<1){
+				if(Number(aWonfour[i]) > 0){
+					sTotalWonAmt += sFourModWon;
+				}
+			}
+			else{	  
+				if(Number(aWonfour[i]) > 0){
+					if(strLib.isEmpty(sTotalWonAmt)){
+						sTotalWonAmt = sFourModWon + arrBigUnit[i];
+					}
+					else{    				  
+						sTotalWonAmt = sFourModWon + arrBigUnit[i] +" "+ sTotalWonAmt;
+					}
+				}
+			}
+		}
+    }
+	else
+	{
+		var sFourModWon = Number(aWonfour[0]).toString();
+		
+		if(sFourModWon.length > 3){
+			sFourModWon = sFourModWon.substring(0,1) +","+ sFourModWon.substring(1,4);
+		} 
+
+		sTotalWonAmt += sFourModWon;
+	}
+
+	sTotalWonAmt += "원";    
+
+    return sTotalWonAmt;
+};
+
+/**************************************************************************
+ * Desc      : 산출금리내역 dataList 세팅 
+ * Param     : num - 오리지널 숫자
+ *             mvPos - 소수점 이동할 위치  2(오른쪽으로 2자리 이동, *100 효과)
+ *                                        -2(왼쪽으로 2자리 이동, /100 효과)
+ * Return    : Number
+ **************************************************************************/
+numLib.getMvNumber = function(num, mvPos) {
+	
+	var strNum = num.toString();
+	var pos = strNum.indexOf("."); // 소수점 위치 
+    
+    if (pos == -1) {
+        strNum = strNum + ".0";
+        pos = strNum.indexOf("."); // 소수점 위치
+    }
+
+	if (mvPos > 0 ) {
+	    strNum = strNum + "" +  strLib.fillZero("", Math.abs(mvPos)); 
+	} else if (mvPos < 0 ) {
+	    strNum = strLib.fillZero("", Math.abs(mvPos)) + "" +  strNum;
+	    pos = strNum.indexOf("."); // 소수점 위치 변경됨.  
+	}
+	
+	var tmpNum = strNum.replaceAll(".", ""); 
+	
+	return Number( tmpNum.substr(0,pos+mvPos) + "." + tmpNum.substr(pos+mvPos) ) ; 
+};
+
+
+xmlLib = {};
+//xml ojbect인지 체크
+xmlLib.isXML = function(obj) {
+	try {
+		if(obj) {
+			var documentElement = (obj ? obj.ownerDocument || obj : 0).documentElement;
+			var result = documentElement ? documentElement.nodeName != "HTML" : false;
+			return result;
+		} else {
+			return false;
+		}
+	} catch(e) {
+		shbComm.printStackTrace(e);
+	}
+};
+
+jsonLib = {};
+//오브젝트가 비어 있는지 체크
+jsonLib.isNullObj = function(obj) {
+	if( (typeof obj) != "undefined" && obj != null ) {
+		return false;
+	} else {
+		return true;
+	}
+};
+//Array.isArray ie8에서 지원 안함 
+jsonLib.isArray = function(arr){
+	if( jsonLib.isNullObj(arr) ){ return false; }
+	if(WebSquare.util.isIEAllVersion() && "8" == WebSquare.core.browserVersion() ){
+		if( arr.constructor.toString().indexOf("Array") > -1 ) {
+			return true;
+		} else {
+			return false;
+		}
+	} else {
+		return Array.isArray(arr);
+	}
+}
+//JSON Object로 변환해서 반환한다.
+jsonLib.parse = function(str) {
+	if (typeof str !== "string")
+		return null;
+	try {
+		return JSON.parse(str);
+	} catch (e) {
+		return null;
+	}
+};
+
+etcLib = {}; 
+etcLib.getFunction = function(str){
+	var fn, tmpFn;
+	if( strLib.isEmpty(str) ) { return fn; }
+	try {
+		if( str.indexOf(".") >= 0 ) {
+			var arr = str.split(".");
+			if( str.indexOf("shbObj") >= 0 && arr.length == 2 ) {
+				tmpFn = shbObj[arr[1]];
+				if( etcLib.isFunction(tmpFn) ) {
+					fn = tmpFn;
+				}
+			} else {
+				tmpFn = eval(str);
+				if( etcLib.isFunction(tmpFn) ) {
+					fn = tmpFn;
+				}
+			}
+		} else {
+			tmpFn = shbObj[str];
+			if( etcLib.isFunction(tmpFn) ) {
+				fn = tmpFn;
+			} else {
+				tmpFn = eval(str);
+				if( etcLib.isFunction(tmpFn) ) {
+					fn = tmpFn;
+				}
+			}
+		}
+	}catch(e){}
+	return fn;
+};
+
+etcLib.isFunction = function(str) {
+	var bIs = false;
+	if( (typeof str) != "undefined" && str != null ) {
+		if( (typeof str) == "string" && str != "" ) {
+			try {
+				if( (typeof shbObj[str]) == "function" ){
+					bIs = true;
+				} else if( typeof eval(str) == "function" ) {
+					bIs = true;
+				}
+			} catch(e){};
+		} else {
+			if( typeof str == "function" ) {
+				bIs = true;
+			}
+		}
+	}
+	return bIs;
+};
+swLib  = {};
+swLib.r = "/sw/raon/transkey";
+swLib.s = "/sw/raon/TouchEn";
+swLib.m = "/sw/raon/mtranskey";
+swLib.incJS = function(packageIDs, callback) {
+	var initechVersion = "20200401"; 
+	var raonVersion = "20170424";
+	// packageIDs = "RAON;CROSSWEB;";
+	var arr = packageIDs.split(";");
+	
+	if (arr[0] == "") {
+		if (typeof callback != "undefined" && callback != "" && typeof eval(callback) == "function") {
+			eval(callback+"()");
+		}
+		return;
+	}
+	var next = arr.slice(1).join(";");
+	if (arr[0] == "RAON") {
+		//기로드된 경우
+		if(typeof Transkey =="function" || typeof mTranskey =="function"){
+			raonInit();
+			swLib.incJS(next, callback);
+		} else {
+			var raonCss = document.createElement("link");
+			raonCss.type = "text/css";
+			raonCss.rel = "stylesheet";
+			if (WebSquare.util.isMobile()) {
+				raonCss.href = swLib.m+"/transkey.css";
+				document.getElementsByTagName("head")[0].appendChild(raonCss);
+				WebSquare.util.js( swLib.m +"/rsa_oaep_files/rsa_oaep-min.js",
+						swLib.m+"/jsbn/jsbn-min.js",
+						swLib.m+"/TranskeyLibPack_op.js",
+						swLib.m +"/transkey.js",
+					   function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+			} else {
+				raonCss.href = swLib.r+"/transkey.css";
+				document.getElementsByTagName("head")[0].appendChild(raonCss);
+				WebSquare.util.js( swLib.r +"/transkey.js?ver="+raonVersion,
+									swLib.r +"/rsa_oaep_files/rsa_oaep-min.js",
+									swLib.r+"/jsbn/jsbn-min.js",
+									swLib.r+"/TranskeyLibPack_op.js",
+									swLib.s+"/cmn/json2.js",
+									swLib.s+"/cmn/TouchEnNx_config.js?ver="+raonVersion,
+									swLib.s+"/cmn/TouchEnNx_exproto.js?ver="+raonVersion,
+									swLib.s+"/cmn/TouchEnNx_install.js?ver="+raonVersion,
+									swLib.s+"/cmn/TouchEnNx_daemon.js?ver="+raonVersion,
+									swLib.s+"/nxKey/js/TouchEnNxKey_Interface.js?ver="+raonVersion,
+									swLib.s+"/nxKey/js/TouchEnNxKey.js?ver="+raonVersion,
+									swLib.s+"/cmn/TouchEnNx_loader.js?ver="+raonVersion,
+								   function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+			}
+		}
+	}else if (arr[0] == "CROSSWEB") {
+		next = "FINCERT";
+		if (typeof requirejs != "function") {
+			if (WebSquare.util.isMobile()) {
+			    WebSquare.util.js("/sw/initech/extension/crosswebex6.js?ver="+initechVersion,
+			        "/sw/initech/html5/script/adaptor/cw_web6_neo_adt.js?ver="+initechVersion,
+			        "/sw/initech/unikey/keypad/uniwebkey/js/uniwebkey_can_debug_20160812.min.js?ver="+initechVersion,
+			        "/sw/initech/html5/script/main/initechGlobal.js?ver="+initechVersion,
+			        "/sw/initech/html5/script/thirdParty/3rd_interface.js?ver="+initechVersion,
+			  		function() { jsloader("/sw/initech/html5/script/common/requirejs/require.js?ver="+initechVersion,
+			  				function() { eval("swLib.incJS('"+next+"','"+callback+"')"); }, 
+							"utf-8", 
+							[{"key":"data-main", "value": "/sw/initech/html5/script/main/initechMain"}]
+					        );
+			  		});
+			} else {
+				WebSquare.util.js("/sw/initech/extension/crosswebex6.js?ver="+initechVersion,
+						"/sw/initech/extension/cw_web6_adt.js?ver="+initechVersion,
+						"/sw/initech/extension/common/js/exproto.js?ver="+initechVersion,
+						"/sw/initech/extension/common/js/exproto_ext_daemon.js?ver="+initechVersion,
+						"/sw/initech/extension/common/exinstall.js?ver="+initechVersion,
+						"/sw/initech/extension/common/exinterface.js?ver="+initechVersion,
+						"/sw/initech/extension/crosswebexInit.js?ver="+initechVersion,
+						"/sw/initech/html5/script/adaptor/cw_web6_neo_adt.js?ver="+initechVersion,
+						"/sw/initech/unikey/keypad/uniwebkey/js/uniwebkey_can_debug_20160812.min.js?ver="+initechVersion,
+						"/sw/initech/html5/script/main/initechGlobal.js?ver="+initechVersion,
+						"/sw/initech/html5/script/thirdParty/3rd_interface.js?ver="+initechVersion,
+						function() { jsloader("/sw/initech/html5/script/common/requirejs/require.js?ver="+initechVersion,
+							function() { eval("swLib.incJS('"+next+"','"+callback+"')"); }, 
+								"utf-8", 
+								[{"key":"data-main", "value": "/sw/initech/html5/script/main/initechMain"}]
+							);
+						});
+			}
+		} else {
+			WebSquare.util.js("/sw/initech/unikey/keypad/uniwebkey/js/uniwebkey_can_debug_20160812.min.js?ver="+initechVersion,
+				   function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		}
+		
+	}else if (arr[0] == "FINCERT") {
+		// 금융인증서  s
+		var date = new Date(); 
+		WebSquare.util.js("/sw/initech/lib/manifest.js?dt=" + date.getTime(),
+			function() {     
+				// 개발 /운영 설정 변경 
+				var manifestConfPath = "/sw/initech/demo/kftc/manifestConf.json";
+				if( typeof IS_DEV != "undefined" &&  (IS_DEV == "D" || IS_DEV == "T") ){
+					manifestConfPath = "/sw/initech/demo/kftc/manifestConf_D.json";
+				}else if( typeof topWin.IS_DEV != "undefined" &&  (topWin.IS_DEV == "D" || topWin.IS_DEV == "T") ){
+					manifestConfPath = "/sw/initech/demo/kftc/manifestConf_D.json";
+				}
+				Comm.requestinitechScript(manifestConfPath,
+					function(res){
+						if( res.chkErr ){
+							console.log( "js 로드 오류 [" + res.chkErr +"]");
+							swLib.incJS(next,callback);
+						}else {
+							var List = res;
+							Load.createScriptTag(List.script, "swLib.incJS('"+next+"','"+callback+"')");
+//							Load.createScriptTag(List.script, eval("swLib.incJS('"+next+"','"+callback+"')"));   
+						}
+					}
+				);
+			}
+		);
+	} else if (arr[0] == "QR") {
+//		if (typeof KSCertRelayNXInterface == "undefined") {
+//			WebSquare.util.js("/sw/raon/nxCR/js/NXCertRelay.js", "/sw/raon/nxCR/common/exproto.js", "/sw/raon/nxCR/js/NXCertRelay_Install.js", "/sw/raon/nxCR/js/NXCertRelay_Interface.js",
+//					function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		/*
+			WebSquare.util.js("/sw/raon/TouchEn/cmn/TouchEnNx_config.js","/sw/raon/TouchEn/cmn/TouchEnNx_exproto.js","/sw/raon/TouchEn/cmn/TouchEnNx_install.js",
+					          "/sw/raon/TouchEn/cmn/TouchEnNx_daemon.js","/sw/raon/TouchEn/nxCR/js/NXCertRelay_Interface.js","/sw/raon/TouchEn/nxCR/js/NXCertRelay.js",
+					          "/sw/raon/TouchEn/cmn/TouchEnNx_loader.js",
+					          function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		*/
+		var raonCss = document.createElement("link");
+		raonCss.type = "text/css";
+		raonCss.rel = "stylesheet";
+		if (WebSquare.util.isMobile()) {
+			raonCss.href = swLib.m+"/transkey.css";
+			document.getElementsByTagName("head")[0].appendChild(raonCss);
+			WebSquare.util.js( swLib.m +"/rsa_oaep_files/rsa_oaep-min.js",
+					swLib.m+"/jsbn/jsbn-min.js",
+					swLib.m+"/TranskeyLibPack_op.js",
+					swLib.m +"/transkey.js",
+				   function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		} else {
+			raonCss.href = swLib.r+"/transkey.css";
+			document.getElementsByTagName("head")[0].appendChild(raonCss);
+			WebSquare.util.js("/sw/raon/transkey/transkey.js",
+					"/sw/raon/transkey/rsa_oaep_files/rsa_oaep-min.js",
+					"/sw/raon/transkey/jsbn/jsbn-min.js",
+					"/sw/raon/transkey/TranskeyLibPack_op.js",
+					"/sw/raon/TouchEn/cmn/json2.js",
+					"/sw/raon/TouchEn/cmn/TouchEnNx_config.js",
+					"/sw/raon/TouchEn/cmn/TouchEnNx_exproto.js",
+					"/sw/raon/TouchEn/cmn/TouchEnNx_install.js",
+					"/sw/raon/TouchEn/cmn/TouchEnNx_daemon.js",
+					"/sw/raon/TouchEn/nxKey/js/TouchEnNxKey_Interface.js",
+					"/sw/raon/TouchEn/nxKey/js/TouchEnNxKey.js",
+				    "/sw/raon/TouchEn/nxCR/js/NXCertRelay_Interface.js",
+				    "/sw/raon/TouchEn/nxCR/js/NXCertRelay.js",
+				    "/sw/raon/TouchEn/cmn/TouchEnNx_loader.js",
+				    function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		}
+	} else if (arr[0] == "UBIKEY") {
+		WebSquare.util.js("/sw/infovine/infovine.js?ver=20190306",
+				function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+	} else if (arr[0] == "video") {
+		if (navigator.userAgent.indexOf("MSIE 8") > 0) {
+			$w.setTimeout(function() {
+				WebSquare.util.js("/comjs/videojs/videojs-ie8.min.js");
+			}, {
+				key : 'videojsload',
+				delay : 5000,
+				callback : function() {
+					$w.clearTimeout('videojsload');
+				}
+			});
+			WebSquare.util.js("/comjs/videojs/videojs-ie8.min.js","/comjs/videojs/video.min.js",
+					function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		} else {
+			WebSquare.util.js("/comjs/videojs/video.min.js",
+				function() { eval("swLib.incJS('"+next+"','"+callback+"')"); });
+		}
+	}
+};
+swLib.shbPcLog;
+swLib.getAstxPcLog = function(){
+	$ASTX2.init(
+		function onSuccess(){
+			// success
+			shbComm.log( "1. ASTX2 SUCCESS" );
+			$ASTX2.checkServer(
+				function onSuccess() {
+					$_astxu.log('ASTX.checkServer() success');
+					$ASTX2.initE2E();
+				}, 
+				function onFailure() {
+					$_astxu.log('ASTX.checkServer() failure: errno='+$ASTX2.getLastError());
+				}
+			);
+			shbComm.log( "ASTX2 checkServer SUCCESS" );
+			// login버튼 클릭했을때
+			$ASTX2.getPCLOGData(
+				null, // unused
+				function onSuccess(data) {
+					$_astxu.log('ASTX.getPCLOGData() success');
+					swLib.shbPcLog = data.pclog_data;
+					shbComm.log( swLib.shbPcLog );
+				}, 
+				function onFailure() {
+					$_astxu.log('ASTX.getPCLOGData() failure: errno='+$ASTX2.getLastError());
+				}
+			);				
+		},
+		function onFailure(){
+			var errno = $ASTX2.getLastError();
+			
+			if( errno = $ASTX2_CONST.ERROR_NOTINST){
+				//location.href = "/sw/astx/page_inst_check.jsp";
+			}else{
+				// error handling
+			}
+		},
+		750
+	);
+};

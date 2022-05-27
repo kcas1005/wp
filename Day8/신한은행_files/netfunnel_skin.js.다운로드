@@ -1,0 +1,73 @@
+if(typeof NetFunnel == "object"){
+	NetFunnel.SkinUtil.add('shinhan',{
+		prepareCallback:function(){
+			/*
+			var progress_print = document.getElementById("Progress_Print");
+			progress_print.innerHTML="0 % (0/0) - 0 sec";
+			*/
+		},
+		updateCallback:function(percent,nwait,totwait,timeleft){
+			/*
+			var progress_print = document.getElementById("Progress_Print");
+			var prog=totwait - nwait;
+			progress_print.innerHTML=percent+" % ("+prog+"/"+totwait+") - "+timeleft+" sec";
+			*/
+		},
+		htmlStr:'<div id="NetFunnel_Skin_Top" class="serverError">\
+			       <h1><a href="javascript:void(null);" class="ir">신한은행</a></h1>\
+			       <div class="wrapInner">\
+				     <div class="errorMsg">\
+					   <span class="icoError ico03"></span>\
+					   <p>신한은행에 <em class="colorTyBlue">접속대기</em>중 입니다.</p>\
+						<p><em class="colorTyBlue">Awaiting access</em> to Shinhan Bank</p>\
+				     </div>\
+				     <div class="mt15">\
+					   <p><span>고객님 앞에 </span><strong class="ml5"><em class="colorTyBlue" id="NetFunnel_Loading_Popup_Count"></em></strong><span>명의 접속 대기자가 있습니다.</span></p>\
+						<p><span>You have </span><strong class="ml5"><em class="colorTyBlue" id="NetFunnel_Loading_Popup_Count"></em></strong><span> people waiting in front  of you.</span></p>\
+				     </div>\
+			       </div>\
+			       <div class="boxTyGray04">\
+				     <div class="">\
+					   <em>현재 접속 사용자가 많아 대기 중이며, 잠시만 기다리시면 서비스로 자동 접속됩니다.</em><br/>\
+						<em>If you wait for a while, you will be automatically connected to the service.</em>\
+					   <p class="colorTyOrg02">※ 재 접속하시면 대기시간이 더 길어집니다.</p>\
+						<p class="colorTyOrg02">※ Waiting time will be longer If you try to reconnect.</p>\
+				     </div>\
+			       </div>\
+		         </div>'
+	},'normal');
+	
+	NetFunnel.SkinUtil.add('mshinhan',{
+		prepareCallback:function(){
+			/*
+			var progress_print = document.getElementById("Progress_Print");
+			progress_print.innerHTML="0 % (0/0) - 0 sec";
+			*/
+		},
+		updateCallback:function(percent,nwait,totwait,timeleft){
+			/*
+			var progress_print = document.getElementById("Progress_Print");
+			var prog=totwait - nwait;
+			progress_print.innerHTML=percent+" % ("+prog+"/"+totwait+") - "+timeleft+" sec";
+			*/
+		},
+		htmlStr:'<div id="NetFunnel_Skin_Top" class="serverError">\
+			       <h1><a href="javascript:void(null);" class="ir">신한은행</a></h1>\
+			       <div class="wrapInner">\
+				     <div class="errorMsg">\
+					   <p>신한은행에 <em class="colorTyBlue">접속대기</em>중 입니다.</p>\
+				     </div>\
+				     <div class="mt15">\
+					   <p><span>고객님 앞에 </span><strong class="ml5"><em class="colorTyBlue" id="NetFunnel_Loading_Popup_Count"></em></strong><span>명의 접속 대기자가 있습니다.</span></p>\
+				     </div>\
+			       </div>\
+			       <div class="boxTyGray04">\
+				     <div>\
+					   <em>현재 접속 사용자가 많아 대기 중이며, 잠시만 기다리시면 서비스로 자동 접속됩니다.</em><br/>\
+					   <p class="colorTyOrg02">※ 재 접속하시면 대기시간이 더 길어집니다.</p>\
+				     </div>\
+			       </div>\
+		         </div>'
+	},'normal');		
+}
+ 

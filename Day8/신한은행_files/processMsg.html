@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)https://www.shinhan.com/comhtml/processMsg.html?param=processing&postfix=16534384619082131.3452857725147 -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<title>로딩바</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<script type="text/JavaScript">
+			document.domain="shinhan.com";
+		</script>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			/* FONT */
+			@font-face{
+			  font-family:'Spoqa';font-weight:normal;font-style:normal;
+			  src:local(※),
+			       url('https://image.shinhan.com/rib2017/comfont/SpoqaHanSans-Regular.woff') format('woff'),
+			       url('https://image.shinhan.com/rib2017/comfont/SpoqaHanSans-Regular.svg#SpoqaHanSans-Regular') format('svg');
+			}
+			/* 로딩게이지 */
+			.loadingWrap{/*position:absolute;left:0;top:50%;z-index:99999;width:100%;margin-top:-90px;width:270px;height:185px;*/text-align:center;}
+			.loadingWrap > p{position:absolute;left:-5000em;top:-5000em;font-size:1px;line-height:1px;}
+			.loadingWrap .box{display:inline-block;position:relative;width:126px;height:126px;}
+			.loadingWrap .box .spr{position:absolute;left:0;top:0;opacity:0;}
+			.loadingWrap .box .spr.on{opacity:1;}
+			.loadingWrap .slogan{margin-top:25px;}
+			.loadingWrap .slogan p{margin-top:18px;font-size:18px;font-family:'Spoqa',Verdana,'돋움',Dotum,Apple sd gothic neo,Apple Gothic,Sans-serif;letter-spacing:-0.02em;color:#fff;}
+		</style>
+		<script type="text/javascript" src="./jquery-1.10.2.min.js.다운로드"></script>
+		<script type="text/JavaScript">
+		function doInit() {
+			document.domain="shinhan.com";
+			if (typeof parent.shbComm != "undefined") {
+				var obj = document.getElementById("processMsgLayer");
+				
+				if ( parent.shbComm.LANGUAGE != "ko" ) {
+					var securityMsgLayer = document.getElementById("securityMsgLayer");
+					
+					obj.childNodes[0].nodeValue = "We are checking the access environment";
+					securityMsgLayer.childNodes[0].nodeValue = "Preparing for security media authentication.";
+					document.getElementById("processMsgImg").setAttribute("src", "/img/en/loading/common_txt.png");
+					document.getElementById("processMsgImg").setAttribute("alt", "Compassionate finance, Your companion for the future.");
+				}
+				
+				if (typeof parent.shbComm.packageCnt != "undefined" && parent.shbComm.packageCnt > 0) {
+					obj.style.display = "block";
+				}
+			}
+			if (typeof parent.shbObj != "undefined") {
+				var securityMsgLayer = document.getElementById("securityMsgLayer");
+				if (typeof parent.shbObj.processSmartOtp != "undefined" && parent.shbObj.processSmartOtp == true) {
+					securityMsgLayer.style.display = "block";
+				}
+			}
+			reStart();
+		}
+		function doStop() {
+			var obj = document.getElementById("progressbox");
+			obj.className = "box stop";
+		}
+		function reStart() {
+			var obj = document.getElementById("progressbox");
+			if (obj.className == "box") return;
+			obj.className = "box";
+			animateSpr(0);
+		}
+		function animateSpr(_c) {
+			setTimeout(function(){
+				var _elem = $(".spr");
+				if( _elem.parent().hasClass("stop") ) return;
+				var nextIdx = _c+1 >= _elem.length-1  ? 0 : _c+1;
+				_elem.removeClass("on").eq( nextIdx ).addClass("on");
+				animateSpr( nextIdx );
+			},4000/60);
+		};
+		window.onload = doInit;
+	</script>
+</head>
+<body style="">
+	<div class="loadingWrap">
+		<!--<p id="processMsgLayer" class="pro_loading">11111</p>--> 
+		<div id="progressbox" class="box">
+			<img src="./common_icn_loading01.png" alt="" class="spr">
+			<img src="./common_icn_loading02.png" alt="" class="spr">
+			<img src="./common_icn_loading03.png" alt="" class="spr">
+			<img src="./common_icn_loading04.png" alt="" class="spr">
+			<img src="./common_icn_loading05.png" alt="" class="spr on">
+			<img src="./common_icn_loading06.png" alt="" class="spr">
+			<img src="./common_icn_loading07.png" alt="" class="spr">
+			<img src="./common_icn_loading08.png" alt="" class="spr">
+			<img src="./common_icn_loading09.png" alt="" class="spr">
+			<img src="./common_icn_loading10.png" alt="" class="spr">
+			<img src="./common_icn_loading11.png" alt="" class="spr">
+			<img src="./common_icn_loading12.png" alt="" class="spr">
+		</div>
+		<div class="slogan">
+			<img id="processMsgImg" src="./common_txt.png" alt="미래를 함께하는 따뜻한 금융">
+			<p id="processMsgLayer" class="pro_loading" style="display:none;">안전한 금융거래를 위해 준비중입니다.</p>
+			<p id="securityMsgLayer" class="pro_loading" style="display:none;">보안매체 인증 준비중입니다.</p>
+		</div>
+	</div>
+
+</body></html>

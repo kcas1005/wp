@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Selector Basic</title>
+    <style>
+        h1{
+            color: red;
+            /* background-color: orange; */
+        }
+        /* id 속성값으로 header를 가지는 태그의 스타일을 지정합니다 */
+        #header {
+            width:800px; margin: 0 auto;
+            background: red;
+        }
+        /* id 속성값으로 wrap을 가지는 태그의 스타일을 지정합니다 */
+        
+        #wrap{
+            width:800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        /* id 속성값으로 aside을 가지는 태그의 스타일을 지정합니다 */
+        #aside {
+            width:600px; float: left;
+            background: blue;
+        }
+        /* id 속성값으로 content을 가지는 태그의 스타일을 지정합니다 */
+        #content{
+            width: 200px; float: left;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 공부중</h1>
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>Aside</h1>
+        </div>
+        <div id="content">
+            <h1>Content</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

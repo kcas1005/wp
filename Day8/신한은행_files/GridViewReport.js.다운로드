@@ -1,0 +1,360 @@
+WebSquare.uiplugin.gridView.prototype.printCLIPReport = function(options) { 
+	var columnsIDArr = new Array();
+	var columnsSizeArr = new Array();
+	var columnsAlignArr = new Array();
+	var headerIdArr = new Array();
+	var dataXml;
+	var dataJSON;
+	var useHeader = true;
+	var headerColor;
+	var headerFontName = "굴림";
+	var headerFontColor = 0;
+	var headerFontSize = 10;
+	var bodyColor;
+	var bodyFontName = "굴림";
+	var bodyFontColor = 0;
+	var bodyFontSize = 10;
+	var useTitle = false;
+	var userTitle = "";
+	var landScape = "0";
+	var margin = "";
+	var fitWidth = "";
+	var fitHeight = "";
+	var paperType = "1";
+	var columnsSize = "";
+	var userViewColumns;
+	var isChangedViewColumn = false;
+	var language = "ko";
+	if (typeof options.userViewColumns == "undefined") {
+		var colCnt = this.getColumnCount();
+		userViewColumns = new Array();
+		for (var i=0; i < colCnt; i++) {
+			if (this.getColumnVisible(i)) {
+				var isRemoveCol = false;
+				if( typeof options.excludeColumns != "undefined" && options.excludeColumns != null && options.excludeColumns.length > 0 ){
+					for ( var k = 0; k < options.excludeColumns.length; k++) {
+						if( this.getColumnID(i) == options.excludeColumns[k] ){
+							isRemoveCol = true;
+							break;
+						}
+					}
+				}
+				if( isRemoveCol ) { continue; }
+				columnsIDArr.push(this.getColumnID(i));
+				userViewColumns.push(i);
+				var cellInfo = this.getCellInfo(i);
+				if( this.getRowCount() < 1 ){//데이터 없을때 header width를 사용함
+					columnsSizeArr.push(this.getHeaderSize(this.getHeaderID(i),"width"));
+				} else {
+					columnsSizeArr.push(this.getCellSize(0,i,"width"));
+				}
+				if (cellInfo.options.textAlign == "" || cellInfo.options.textAlign == "center") {
+					columnsAlignArr.push(1);
+				} else if (cellInfo.options.textAlign == "left") {
+					columnsAlignArr.push(0);
+				} else {
+					columnsAlignArr.push(2);
+				}
+			}
+		}
+	} else {
+		userViewColumns = options.viewColumns.split(",");
+		if( !strLib.isEmpty(options.headerColumnNms) ){
+			headerIdArr = options.headerColumnNms.split(",");
+			if( userViewColumns.length > headerIdArr.length ) {
+				var iLoop = userViewColumns.length - headerIdArr.length;
+				for(var k = 0 ; k < iLoop ; l++){
+					headerIdArr.push("");
+				}
+			}
+		}		
+		if( typeof userViewColumns[0] == "string" ){
+			var arrTemp = [];
+			for ( var i = 0; i < userViewColumns.length; i++) {
+				arrTemp.push(parseInt(userViewColumns[i],10));
+			}
+			userViewColumns = arrTemp;
+		}
+		for (var i=0; i < userViewColumns.length; i++) {
+			if (this.getColumnVisible(userViewColumns[i])) {
+				var iColIndex = parseInt(userViewColumns[i]);
+				columnsIDArr.push(this.getColumnID(iColIndex));
+				var cellInfo = this.getCellInfo(iColIndex);
+				if( typeof options.columnsSize == "undefined" || options.columnsSize == null ) {
+					if( this.getRowCount() < 1 ){//데이터 없을때 header width를 사용함
+						columnsSizeArr.push(this.getHeaderSize(this.getHeaderID(iColIndex),"width"));
+					} else {
+						columnsSizeArr.push(this.getCellSize(0,iColIndex,"width"));
+					}
+				}
+				//columnsSizeArr.push(cellInfo.options.width);
+				if (cellInfo.options.textAlign == "" || cellInfo.options.textAlign == "center") {
+					columnsAlignArr.push(1);
+				} else if (cellInfo.options.textAlign == "left") {
+					columnsAlignArr.push(0);
+				} else {
+					columnsAlignArr.push(2);
+				}
+			} else {
+				isChangedViewColumn = true;
+				userViewColumns.splice(i, 1);
+				headerIdArr.splice(i,1);
+			}
+		}
+		//if( isChangedViewColumn ) options.viewColumns = userViewColumns.join(",");
+	}
+	if (typeof options.columnsSize != "undefined") {
+		columnsSize = options.columnsSize;
+	} else {
+		columnsSize = columnsSizeArr.join(",");
+	}
+	var gridHeaderList = this.getHeaderValueList();
+	if (options.useHeader == false) useHeader = false;
+
+	if (useHeader) {
+		if( headerIdArr.length == 0 ) {
+			for (i=0; i < userViewColumns.length; i++) {
+				//headerIdArr.push(gridHeaderList[parseInt(userViewColumns[i])].replaceAll('<div class="w2grid_head_sort_div_sub"></div><nobr>', "").replaceAll('</nobr>',""));
+				//headerIdArr.push(strLib.stripTag(gridHeaderList[parseInt(userViewColumns[i])].replace(/(<button).+(<\/button>)/ig,"").replace(/<(br)[/]?>/ig,"\\n")));
+				var hv = this.getHeaderValue(this.getHeaderID(userViewColumns[i]));
+				if( typeof hv == "string" ){//태그제거는 맨아래 데이터 보네기 전에 처리
+					headerIdArr.push(this.getHeaderValue(this.getHeaderID(userViewColumns[i])).replace(/(<button).+(<\/button>)/ig,""));
+				} else {
+					headerIdArr.push(String(hv));
+				}
+			}
+		}
+		if (typeof options.headerColor != "undefined") {
+			headerColor = options.headerColor;
+		} else {
+			headerColor = this.getHeaderBackgroundColor(this.getHeaderID(0));
+		}
+		headerColor = headerColor.replace("#","");
+		if (headerColor.length >= 6) {
+			headerColor = this.Clip_RGB(parseInt(headerColor.substring(0,2),16), parseInt(headerColor.substring(2,4),16), parseInt(headerColor.substring(4,6),16));
+		} else {
+			headerColor = this.Clip_RGB(parseInt('38',16), parseInt('3d',16), parseInt('41',16));
+		}
+		if (typeof options.headerFontName != "undefined") headerFontName = options.headerFontName;
+		if (typeof options.headerFontColor != "undefined") {
+			headerFontColor = options.headerFontColor;
+			headerFontColor.replace("#","");
+			if (headerFontColor.length >= 6) {
+				headerFontColor = this.Clip_RGB(parseInt(headerFontColor.substring(0,2),16), parseInt(headerFontColor.substring(2,4),16), parseInt(headerFontColor.substring(4,6),16));
+			} else {
+				headerFontColor = 0;
+			}
+		}
+		if (typeof options.headerFontSize != "undefined") headerFontSize = options.headerFontSize;
+	}
+
+
+	if (typeof options.report_data != "undefined") {
+		//dataXml = options.report_data;
+		dataJSON = options.report_data;
+	} else {
+		var rowCnt = this.getRowCount();
+		var rowData = new Array();
+		
+		for (var i=0; i < rowCnt; i++) {
+			var rdata = this._dataList.getRowData(i);
+			if(this.options.rowNumVisible){
+				rdata.unshift((i+1)+"");
+			}
+			rowData.push(rdata.join("|*|"));
+		}		
+		dataXml = rowData.join("|#|");
+		dataJSON = WebSquare.util.getComponentById(this.getDataList()).getAllFilteredJSON();
+	}
+
+	if (typeof options.bodyColor != "undefined") {
+		bodyColor = options.bodyColor;
+		bodyColor = bodyColor.replace("#","");
+		if (bodyColor.length >= 6) bodyColor = this.Clip_RGB(parseInt(bodyColor.substring(0,2),16), parseInt(bodyColor.substring(2,4),16), parseInt(bodyColor.substring(4,6),16));
+	} else {
+		bodyColor = this.Clip_RGB(255,255,255);
+	}
+	if (typeof options.bodyFontName != "undefined") bodyFontName = options.bodyFontName;
+	if (typeof options.bodyFontColor != "undefined") {
+		bodyFontColor = options.bodyFontColor;
+		bodyFontColor.replace("#","");
+		if (bodyFontColor.length >= 6) {
+			bodyFontColor = this.Clip_RGB(parseInt(bodyFontColor.substring(0,2),16), parseInt(bodyFontColor.substring(2,4),16), parseInt(bodyFontColor.substring(4,6),16));
+		} else {
+			bodyFontColor = 0;
+		}
+	}
+	if (typeof options.bodyFontSize != "undefined") bodyFontSize = options.bodyFontSize;
+	
+	if (options.useTitle == true) {
+		useTitle = true;
+		if( typeof options.userTitle != "undefined" && options.userTitle != null && String(options.userTitle) != "" ) {
+			userTitle = options.userTitle
+		} else {
+			var summaryMap = WebSquare.util.getComponentById(options.searchMapId);
+			if( typeof summaryMap != "undefined" && summaryMap != null ) {
+				var summaryMapTitle = summaryMap.get("제목"); 
+				if( typeof summaryMapTitle != "undefined" && summaryMapTitle != null && String(summaryMapTitle) != "" ){
+					userTitle = summaryMapTitle;
+				}
+			} 
+			if( userTitle == "" && typeof this.getTitle() != "undefined" && this.getTitle() != null && this.getTitle() != "" ){
+				userTitle = this.getTitle()
+			}
+		}
+	}
+	if (typeof options.landScape != "undefined") landScape = options.landScape;
+	if (options.printSet) {
+		if (typeof options.printSet.marginLeft != "undefined" || typeof options.printSet.marginLeft != "undefined" ||
+			typeof options.printSet.marginLeft != "undefined" || typeof options.printSet.marginLeft != "undefined") {
+			margin = (options.printSet.marginLeft ? options.printSet.marginLeft : 50)+" "+(options.printSet.marginRight ? options.printSet.marginRight : 50)+" "+(options.printSet.marginTop ? options.printSet.marginBottom : 50)+" "+(options.printSet.marginBottom ? options.printSet.marginTop : 50);
+		}
+		fitWidth = options.printSet.fitWidth ? options.printSet.fitWidth : "";
+		fitHeight = options.printSet.fitHeight ? options.printSet.fitHeight : "";
+		paperType = options.printSet.paperType ? options.printSet.paperType : "";
+	}
+	if( topWin && topWin.shbComm && topWin.shbComm.LANGUAGE ) {
+		language = topWin.shbComm.LANGUAGE;
+	}
+
+	var formObj = document.getElementById("__PrintForm__");
+	var inputObj = document.getElementById("__PrintData__");
+	var inputObj2 = document.getElementById("__PrintCol__");
+	var inputObj3 = document.getElementById("__PrintHeaderCol__");
+
+	var htmlStr = new Array();
+	if (formObj == null) {
+		formObj = document.createElement("form"); // 폼엘리먼트 생성
+		formObj.name = "__PrintForm__";
+		formObj.id = "__PrintForm__";
+		formObj.style.visibility = "hidden";
+		document.body.appendChild(formObj);             // body에 form태그 생성
+		htmlStr.push("<input name='columnsSize' id='columnsSize' value='"+columnsSize+"'/>");
+		htmlStr.push("<input name='columnsAlign' id='columnsAlign' value='"+columnsAlignArr.join(",")+"'/>");
+		htmlStr.push("<input name='useHeader' id='useHeader' value='"+useHeader+"'/>");
+		htmlStr.push("<input name='headerColor' id='headerColor' value='"+headerColor+"'/>");
+		htmlStr.push("<input name='headerFontName' id='headerFontName' value='"+headerFontName+"'/>");
+		htmlStr.push("<input name='headerFontColor' id='headerFontColor' value='"+headerFontColor+"'/>");
+		htmlStr.push("<input name='headerFontSize' id='headerFontSize' value='"+headerFontSize+"'/>");
+		htmlStr.push("<input name='bodyColor' id='bodyColor' value='"+bodyColor+"'/>");
+		htmlStr.push("<input name='bodyFontName' id='bodyFontName' value='"+bodyFontName+"'/>");
+		htmlStr.push("<input name='bodyFontColor' id='bodyFontColor' value='"+bodyFontColor+"'/>");
+		htmlStr.push("<input name='bodyFontSize' id='bodyFontSize' value='"+bodyFontSize+"'/>");
+		htmlStr.push("<input name='useTitle' id='useTitle' value='"+useTitle+"'/>");
+		htmlStr.push("<input name='userTitle' id='userTitle' value='"+encodeURI(userTitle)+"'/>");
+		htmlStr.push("<input name='landScape' id='landScape' value='"+landScape+"'/>");
+		htmlStr.push("<input name='fitWidth' id='fitWidth' value='"+fitWidth+"'/>");
+		htmlStr.push("<input name='fitHeight' id='fitHeight' value='"+fitHeight+"'/>");
+		htmlStr.push("<input name='paperType' id='paperType' value='"+paperType+"'/>");
+		htmlStr.push("<input name='margin' id='margin' value='"+margin+"'/>");
+		htmlStr.push("<input name='language' id='language' value='"+language+"'/>");
+		formObj.innerHTML = htmlStr.join("");
+		
+	} else {
+		document.getElementById("columnsSize").value = columnsSize;
+		document.getElementById("columnsAlign").value = columnsAlignArr.join(",");
+		document.getElementById("useHeader").value = useHeader;
+		document.getElementById("headerColor").value = headerColor;
+		document.getElementById("headerFontName").value = headerFontName;
+		document.getElementById("headerFontColor").value = headerFontColor;
+		document.getElementById("headerFontSize").value = headerFontSize;
+		document.getElementById("bodyColor").value = bodyColor;
+		document.getElementById("bodyFontName").value = bodyFontName;
+		document.getElementById("bodyFontColor").value = bodyFontColor;
+		document.getElementById("bodyFontSize").value = bodyFontSize;
+		document.getElementById("useTitle").value = useTitle;
+		document.getElementById("userTitle").value = encodeURI(userTitle);
+		document.getElementById("landScape").value = landScape;
+		document.getElementById("fitWidth").value = fitWidth;
+		document.getElementById("fitHeight").value = fitHeight;
+		document.getElementById("paperType").value = paperType;
+		document.getElementById("margin").value = margin;
+		document.getElementById("language").value = language;
+	}
+
+	if(!inputObj){
+		//inputObj = document.createElement("input"); // 인풋생성
+		//inputObj.name = "__PrintData__"; // 이름(name) 지정
+		//inputObj.id = "__PrintData__"; // 이름(name) 지정
+		//formObj.appendChild(inputObj); // form에 자식노드 추가
+		inputObj2 = document.createElement("input"); // 인풋생성
+		inputObj2.name = "__PrintCol__"; // 이름(name) 지정
+		inputObj2.id = "__PrintCol__"; // 이름(name) 지정
+		formObj.appendChild(inputObj2); // form에 자식노드 추가
+		inputObj3 = document.createElement("input"); // 인풋생성
+		inputObj3.name = "__PrintHeaderCol__"; // 이름(name) 지정
+		inputObj3.id = "__PrintHeaderCol__"; // 이름(name) 지정
+		formObj.appendChild(inputObj3); // form에 자식노드 추가 
+	}
+	//inputObj.value = encodeURI(JSON.stringify(dataJSON));
+	// inputObj.value = JSON.stringify(dataJSON);	
+	inputObj2.value = columnsIDArr.join(";");
+	inputObj3.value = headerIdArr.join(";");
+
+	// 작성된 폼입력값을 json으로 변경하여 param으로 전달
+	var data = document.forms["__PrintForm__"];
+	var obj = {};
+	$.each(data, function(idx, ele){
+		obj[ele.name] = ele.value;
+	});
+	
+	obj["__PrintData__"] = dataJSON;
+
+	if (typeof options.searchMapId != "undefined"){
+		if( shbComm.isEnLanguage() ) {
+			var sTmp = JSON.stringify(WebSquare.util.getComponentById(options.searchMapId).getJSON());
+			var arr1 = options.searchMapViewKeys.split(",");
+			var arr2 = options.searchMapVwEnKeys.split(",");
+			for ( var k = 0; k < arr1.length; k++) {
+				sTmp = strLib.replaceAll(sTmp, arr1[k], arr2[k]);
+			}
+			obj["__PrintMapData__"] = JSON.parse(sTmp);
+			if( typeof options.searchMapVwEnKeys != "undefined" ){
+				obj["__PrintMapKeys__"] = options.searchMapVwEnKeys;
+			}
+		} else {
+			obj["__PrintMapData__"] = WebSquare.util.getComponentById(options.searchMapId).getJSON();
+			if( typeof options.searchMapViewKeys != "undefined" ){
+				obj["__PrintMapKeys__"] = options.searchMapViewKeys;
+			}
+		}
+	}
+	
+	var sParam = strLib.stripTag(JSON.stringify(obj).replace(/<(br)[/]?>/ig,"\\n"));
+	sParam = strLib.replaceAll(strLib.replaceAll(sParam,"&lt;","<"),"&gt;",">");
+	var jParam = {"url":shbComm.DYNAMIC_REPORT_URL,"param":sParam, "language":topWin.shbComm.LANGUAGE};
+	shbComm.printReportPop(jParam, options.popupWidth);
+	/*
+	shbComm.openPopupPost(shbComm.DYNAMIC_REPORT_URL, {"param":jParam}, "width=850,height=700,top=100");
+	shbComm.openPopupPost(shbComm.DYNAMIC_REPORT_URL, {"param":jParam}, "width=1200,height=700,top=100");
+	window.open("/websquare/blank.html","dynamicPrintPop","width=850,height=700,top=100");
+
+	var body = document.getElementsByTagName('body')[0];
+	if (!body) return;
+	var shbForm = document.getElementById('shbForm');
+	if (!shbForm) {
+		shbForm = document.createElement('form');
+		shbForm.id = 'shbForm';
+		shbForm.name = 'shbForm';
+		shbForm.target = 'dynamicPrintPop';
+		shbForm.method = 'post';
+		shbForm.action = shbComm.DYNAMIC_REPORT_URL;
+		shbForm.style.visibility = "hidden";
+		document.body.appendChild(shbForm);
+	}
+	var input = document.getElementById('shbForm_param');
+	if( !input ) {
+		var input = document.createElement('input');
+		input.id = "shbForm_param";
+		input.name = "param";
+		shbForm.appendChild(input);
+	}
+	input.value = jParam;
+
+	shbForm.submit(); // 전송
+	*/
+}
+
+WebSquare.uiplugin.gridView.prototype.Clip_RGB = function (r, g, b) {
+	return (r | (g<<8) | (b<<16));
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #grid{
+            display:grid;
+            grid-gap: 10px;
+            grid-template : 90px 60px 300px 100px 50px / 1fr 1fr 1fr;
+            grid-template-areas:
+            " header header header"
+            " main main main"
+            " section section section"
+            "comment comment comment"
+            "footer footer footer"
+        }
+        #header{ grid-area : header;}
+        #main{ 
+            grid-area : main;
+            display:grid;
+            grid-template : 1fr / 1fr 0fr 1fr;   
+            border-top:3px solid rgb(88, 83, 83);
+            background-color:rgb(182, 178, 178);
+        }
+        #main div:nth-of-type(1){
+            display:flex;
+            align-items:center;
+            margin-left:10px;
+        }
+        #main div:nth-of-type(3){
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-end;
+            align-items:center;
+            order:1;
+        }
+        #main div:nth-of-type(3) p{
+            margin-left:15px;
+        }
+        #section{
+             grid-area : section;
+             display:flex;
+             flex-direction:column;
+             justify-content: center;
+        }
+        #comment{
+             grid-area : comment;
+             display:grid;
+             grid-template:1fr / 1fr 2fr 100px;
+             border-top: 2px solid rgb(88,83,83);
+             background-color: rgb(182, 178, 178)
+        }
+        #comment div:nth-of-type(1){
+             display:flex;
+             justify-content:center;
+             align-items:center;
+        }
+        #comment div:nth-of-type(1) textarea{
+             display:flex;
+             justify-content:center;
+             align-items:center;
+             border:none;
+             border-radius:3%;
+             width:600px;
+        }
+        #comment div:nth-of-type(2){
+             display:flex;
+             justify-content:center;
+             align-items:center;
+        }
+        #comment div:nth-of-type(2) input{
+             grid-area : comment;
+             display:flex;
+             justify-content:center;
+             width:80px;
+             height:80px;
+             border:none;
+             background-color: rgb(78, 78, 78);
+             color:white;
+             border-radius:5%;
+        }
+        #footer{
+             grid-area : footer;
+             display:flex;
+             justify-content:flex-end;
+        }
+        #footer p{
+            display:flex;
+            margin-left:10px;
+            justify-content:center;
+            align-items:center;
+        }
+        #footer p input{
+            border:none;
+            background-color:rgb(78, 78, 78);
+            border-radius:15%;
+            width:80px;
+            height:30px;
+            color:white;
+            align-items:center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">
+        <div id="header"><h1>게시판</h1></div>
+        <div id="main">
+            <div><p>게시글 1 입니다.</p></div>
+            <div></div>
+            <div>
+                <p>김준석</p>
+                <p>l</p>
+                <p>조회 : 15</p>
+                <p>l</p>
+                <p>2022-05-16(09:00)</p>
+            </div>
+        </div>
+        <div id="section">
+            <p>게시판 3가지 만들기 끝났습니다!</p>
+            <p>게시판 3가지 만들기 끝났습니다!</p>
+            <p>게시판 3가지 만들기 끝났습니다!</p>
+            <p>게시판 3가지 만들기 끝났습니다!</p>
+            <p>게시판 3가지 만들기 끝났습니다!</p>
+        </div>
+        <div id="comment">
+            <p></p>
+            <div><textarea cols="60" rows="5"></textarea></div>
+            <div><input type="button" value="덧글쓰기"></div>
+        </div>
+        <div id="footer">
+            <p><input type="button" value="삭제"></p>
+            <p><input type="button" value="목록"></p>
+            <p><input type="button" value="글쓰기"></p>
+        </div>
+    </div>
+</body>
+</html>
