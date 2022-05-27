@@ -6,77 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .section input[id*="slide"]{
-            display:none;
+        .slider{
+            width: 640px;
+            height: 480px;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
         }
-        .section .slidewrap{
-            max-width:1200px;
-            margin:0 auto;
-            overflow:hidden;
+        .slider input[type=radio]{
+            display: none;
         }
-        section .slidelist > li{
-            display:inline-block;
-            vertical-align:middle;
-            width:100%;
-            transition:all .5s;
+        ul.img {
+            padding: 0;
+            margin: 0;
         }
-        section .slidelist > li > a{
-            display:block;
-            position:relative;
-        }
-        .section .slidelist > li > a img {
-            width: 100%;
-        }
-        .section .slidelist label{
+        ul.imgs li{
             position: absolute;
-            z-index:10;
-            top:50%;
-            transform:translateY(-50%);
-            padding:50px;
+            left: 640px;
+            transition-delay: 1s;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .bullets{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom:20px;
+            z-index:2;
+        }
+        .bullets label{
+            display: inline-block;
+            border-radius: 50%;
+            background-color:rgba(0,0,0,0.55);
+            width:20px;
+            height:20px;
             cursor:pointer;
         }
-        .selection .slidelist .left{
-            left:30px;
-            background:url('./img/slide2.jpg') center center / 100% no-repeat;
+        .slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+            background-color:#fff;
         }
-        .section .slidlist .right {
-            right:30px;
-            background:url('./img/slide3.jpg') center center / 100% no-repeat;
+        .slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+            background-color:#fff;
+        }
+        .slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+            background-color:#fff;
+        }
+        .slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+            left:0;
+            transition: 0.5s;
+            z-index:1;
+        }
+        .slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+            left:0;
+            transition: 0.5s;
+            z-index:1;
+        }
+        .slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+            left:0;
+            transition: 0.5s;
+            z-index:1;
         }
     </style>
 </head>
+
 <body>
-    <div class="section">
-        <input type="radio" name="slide" id="slide1" checked>
+    <div class="slider">
+        <input type="radio" name ="slide" id="slide1" checked>
         <input type="radio" name="slide" id="slide2">
-        <div class="slidewrap">
-            <ul class="slidelist">
-                <li>
-                    <a>
-                        <label for="slide3" class="left"></label>
-                        <img src="./img/slide1.jpg">
-                        <label for="slide2" class="right"></label>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <label for="slide1" class="left"></label>
-                        <img src="./img/slide2.jpg">
-                        <label for="slide3" class="right"></label>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        <label for="slide2" class="left"></label>
-                        <img src="./img/slide3.jpg">
-                        <label for="slide1" class="right"></label>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <input type="radio" name="slide" id="slide3">
+        <ul id="imgholder" class="imgs">
+            <li><img src="./img/slide1.jpg"></li>
+            <li><img src="./img/slide2.jpg"></li>
+            <li><img src="./img/slide3.jpg"></li>
+        </ul>
         <div class="bullets">
-            <label for="slide1">&nbsp;</label>
-            <label for="slide2">&nbsp;</label>
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
         </div>
     </div>
 </body>
