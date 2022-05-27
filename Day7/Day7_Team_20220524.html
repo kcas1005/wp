@@ -15,12 +15,12 @@
             color: #777777;
             text-decoration: none;
         }
-        /* 전체값 */
+/* 전체값 */
         #wrap {
             display: grid;
             grid-template: 100px 1fr 200px / 1fr;
         }
-
+/* 헤더 */
         #header {
             display: flex;
             flex-direction: column;
@@ -50,44 +50,45 @@
             flex-direction: column;
             display: none;
             background-color: white;
-            z-index: 100;
             cursor: pointer;
         }
-
+/* 신한멤버스 서브메뉴 호버 */
         #header>div:nth-of-type(1) a:nth-child(7):hover > ul {
             display: flex;
             float:left;
         }
-
+/* 신한멤버스 서브메뉴 호버 */
         #header>div:nth-of-type(1) a:nth-child(7) > ul:hover {
             color: orange;
             display: flex;
         }
-
+/* 맨 위 글 정렬 및 색 변경 */
         #header>div:nth-of-type(1) p {
             display: flex;
             margin-right: 40px;
             font-size: 13px;
             color: #777777;
         }
-
+/* 신한 로고, 신한은행, 로그인 묶음 */
         #header>div:nth-of-type(2) {
             display: grid;
             grid-template: 50px / 50px 109px 66px 1fr;
-            margin: 0 50px;
+            margin: auto 50px;
         }
 
         #header>div:nth-of-type(2) > a {
             height:40px;
             background:url(https://image.shinhan.com/rib2017/images/layout/sp_layout.png) 0px 5px no-repeat;
         }
+/* 신한은행 제목 */
         #header>div:nth-of-type(2) h1 {
-            width: 200px;
-            height: 25px;
+            display:block;
             color: #666;
             font-size: 20px;
+            margin:auto 0;            
+            /* line-height: 50px; */
         }
-
+/* 로그인 버튼 */
         #header>div:nth-of-type(2) input {
             width: 109px;
             height: 25px;
@@ -110,44 +111,60 @@
             border: 1px solid #b2b2b2;
             margin: auto 0;
         }
-
+/* 개인 기업 금융상품 묶음 */
         #header>div:nth-of-type(2) div {
             display: flex;
-            justify-content: flex-end;
+            justify-content:flex-end;
         }
 
-        #header>div:nth-of-type(2) div ul {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        #header>div:nth-of-type(2) div > ul {
+            display:flex;
+            justify-content:flex-end;
+            height:40px;
+            text-align:center;
+            line-height:40px;
+        }
+        #header>div:nth-of-type(2) div > ul li {
+            list-style:none;
         }
 
-        #header>div:nth-of-type(2) div ul li {
-            list-style: none;
-            display: flex;
-            color: #555555;
-            margin-right: 40px;
-            font-size: 25px;
+        #header>div:nth-of-type(2) div > ul > li {
+            position:relative;
+            float:left;
+            width:150px;
+            height:40px;
         }
-        #header>div:nth-of-type(2) div ul li:hover {
-            color: #ea8748;
+        #header>div:nth-of-type(2) div > ul > li a {
+            display:block;
+            font-size:20px;
+            font-weight:600;
+            color:#555555;
+            transition: all 1s;
         }
-        #header>div:nth-of-type(2) div ul li ul {
-            display: none;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            border: 2px solid orange;
-            background-color: white;
-            z-index:100;
+        #header>div:nth-of-type(2) div > ul li:hover > a {
+            color:orange;
         }
-
-        #header>div:nth-of-type(2) div ul li:hover ul {
-            color: #ea8748;
-            display: flex;
-            cursor: pointer;
+        #header>div:nth-of-type(2) div > ul li ul{
+            position: absolute;
+            opacity:0;
+            background:white;
+            border:1px solid #ea8748;
+            transition: all 1s;
         }
-
+        #header>div:nth-of-type(2) div ul li:hover ul{
+            opacity:1;
+        }
+        #header>div:nth-of-type(2) div > ul li ul li{
+            height:0;
+            transition: height .4s ease .1s;
+        }
+        #header>div:nth-of-type(2) div > ul li:hover > ul li{
+            height: 40px;
+        }
+        #header>div:nth-of-type(2) div > ul li:hover ul li a{
+            width:150px;
+        }
+/* 메인 */
         #main {
             display: grid;
             grid-template: 370px 210px 100px 150px 180px 500px / 1fr
@@ -172,7 +189,7 @@
             display: flex;
             flex-direction: row;
         }
-        
+/* 우리와 지구를 지키는 습관 이미지 */
         #main>div:nth-of-type(1)>div>ul.icon1:nth-child(1){
             margin: 10px 60px;
             width: 350px;
@@ -195,6 +212,7 @@
             display:block;
             color:white;
         }
+/* 조회 이체 인증센터 아이콘 */
         #main>div:nth-of-type(1)>div>ul.icon1:nth-child(1) li:nth-of-type(1) > a:nth-of-type(1){
             display:block;
             width:24px;
@@ -233,9 +251,8 @@
             background-color:#0076be;
             color:white;
         }
-       
+       /* 금융상품 글 */
         #main > div:nth-of-type(2) > p{
-            margin-left:50px;
             display:flex;
             font-size:22px;
             color:white;
@@ -243,6 +260,7 @@
             justify-content:flex-start;
             align-items:center;
         }
+        /* 점3개 */
         #main > div:nth-of-type(2) > div:nth-of-type(1){
             display:flex;
             justify-content:flex-start;
@@ -254,14 +272,13 @@
             font-size:22px;
             color:white;
         }
+        /* 이미지 영역 할당 */
         #main > div:nth-of-type(2) > div:nth-of-type(2){
             display:flex;
             justify-content:flex-start;
-            align-items:flex-start;
-            /* width:980px; */
-            width:700px;
-            height:107px
+            align-items:center;
         }
+        /* 예금 펀드 대출 외환 퇴직연금 */
         #main > div:nth-of-type(2) > div:nth-of-type(2) > ol{
             display:flex;
             flex-direction:row;
@@ -269,7 +286,7 @@
         #main > div:nth-of-type(2) > div:nth-of-type(2) > ol > li{
             display:flex;
             flex-direction:column;
-            margin-right:50px;
+            padding-right:5%;
             justify-content:center;
             align-items:center;
         }
@@ -284,12 +301,15 @@
         #main > div:nth-of-type(2) > div:nth-of-type(2) > ol > li > a{
             padding-top:10px;
             color:white;
+            width:88px;
+            text-align:center;
         }
         #main > div:nth-of-type(2) > div:nth-of-type(3){
             display:flex;
             justify-content:center;
             align-items:center;
         }
+        /* 외화예금X삼성증권 이미지 */
         #main > div:nth-of-type(2) > div:nth-of-type(3)>img{
             width: 100%;
             height: 100%;
@@ -339,6 +359,7 @@
             align-items:center;
             font-size:20px;
         }
+        /* 주요 서비스 밑에 화살표 아이콘 */
         #main > div:nth-of-type(4) > a:nth-of-type(1) >span{
             height: 15px;
             width: 15px;
@@ -400,10 +421,11 @@
             align-items: center;
             justify-content: center;
             background-color:#f6fbfd;
+            width:65.3px;
+            height:33px;
         }
         #main > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2){
             border: 1px solid #b2b2b2;
-            border-left:none;
             
         }
         #main > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3){
@@ -431,7 +453,7 @@
             color:#555555
         }
         #main > div:nth-of-type(5) > div:nth-of-type(2){
-            margin-left:30px;
+            margin:20px 20px;
         }
         #main > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2){
             display:grid;
@@ -742,40 +764,40 @@
                 <input type="button" value="로그인">
                 <div>
                     <ul>
-                        <li>개인
+                        <li><a href="#">개인</a>
                             <ul id="hidden1">
-                                <li>조회</a></li>
-                                <li>이체</li>
-                                <li>금융상품</li>
-                                <li>공과금/법원</li>
-                                <li>뱅킹보안관리</li>
-                                <li>기타금융</li>
-                                <li>부가서비스</li>
-                                <li>사용자관리</li>
-                                <li>카드/증권</li>
+                                <li><a href="#">조회</a></li>
+                                <li><a href="#">이체</a></li>
+                                <li><a href="#">금융상품</a></li>
+                                <li><a href="#">공과금/법원</a></li>
+                                <li><a href="#">뱅킹보안관리</a></li>
+                                <li><a href="#">기타금융</a></li>
+                                <li><a href="#">부가서비스</a></li>
+                                <li><a href="#">사용자관리</a></li>
+                                <li><a href="#">카드/증권</a></li>
                             </ul>
                         </li>
-                        <li>기업
+                        <li><a href="#">기업
                             <ul id="hidden2">
-                                <li>기업상품몰</li>
-                                <li>중소기업지원센터</li>
-                                <li>인증센터</li>
-                                <li>기업고객지원</li>
-                                <li>자금관리</li>
-                                <li>보안센터</li>
-                                <li>기업서식함</li>
+                                <li><a href="#">기업상품몰</a></li>
+                                <li><a href="#">중소기업지원센터</a></li>
+                                <li><a href="#">인증센터</a></li>
+                                <li><a href="#">기업고객지원</a></li>
+                                <li><a href="#">자금관리</a></li>
+                                <li><a href="#">보안센터</a></li>
+                                <li><a href="#">기업서식함</a></li>
                             </ul>
                         </li>
-                        <li>금융상품
+                        <li><a href="#">금융상품
                             <ul id="hidden3">
-                                <li>예금/신탁</li>
-                                <li>ISA</li>
-                                <li>대출</li>
-                                <li>펀드</li>
-                                <li>외환</li>
-                                <li>퇴직연금</li>
-                                <li>골드/실버</li>
-                                <li>보험/공제</li>
+                                <li><a href="#">예금/신탁</a></li>
+                                <li><a href="#">ISA</a></li>
+                                <li><a href="#">대출</a></li>
+                                <li><a href="#">펀드</a></li>
+                                <li><a href="#">외환</a></li>
+                                <li><a href="#">퇴직연금</a></li>
+                                <li><a href="#">골드/실버</a></li>
+                                <li><a href="#">보험/공제</a></li>
                             </ul>
                         </li>
                     </ul>
