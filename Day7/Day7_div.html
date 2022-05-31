@@ -18,7 +18,7 @@
         #wrap {
             width: auto;
             height: 1800px;
-            padding: 20px 80px;
+            padding: 20px 60px;
         }
 
         #header {
@@ -478,11 +478,58 @@
             justify-content: center;
             color:#195dae;
         }
-        #tellcenter div:nth-of-type(4) li p {
-        }
+       /*  #tellcenter div:nth-of-type(4) li p {
+        } */
         #tellcenter div:nth-of-type(4) li h1{
             font-size:25px;
         }
+footer {
+            background-color: #6A6A6A;
+            color: #dfdfdf;
+            font-size: 15px;
+            padding: 50px;
+        }
+
+        nav a {
+            color: #dfdfdf;
+            font-size: 14px;
+            margin-left: 25px;
+        }
+
+        input {
+            display: flex;
+            margin-top: 20px;
+            background-color: #fdfdfd46;
+            border: 1px solid rgb(156, 156, 156);
+            color: black;
+            border-radius: 3px;
+            width: 80px;
+            height: 30px;
+        }
+
+        nav input {
+            color: white;
+            background-color: #6A6A6A;
+            border-radius: 3px;
+            width: 80px;
+            margin: 15px 5px 5px 10px
+        }
+
+        section p {
+            margin-left: 20px;
+        }
+
+        footer #input {
+            display: flex;
+            align-items: flex-start;
+            float: right;
+            margin-right: 20px;
+        }
+
+        footer #input img {
+            padding: 15px;
+        }
+    </style>
     </style>
 </head>
 
@@ -620,9 +667,26 @@
                     </div>
                 </div>
         </div>
-        <div class="footer">
-
-        </div>
+        <footer>
+                <nav>
+                    <a href="#"><b>개인정보처리방침</b></a>
+                    <a href="#"><b>신용정보활용체제</b></b></a>
+                    <a href="#"><b>전자민원</b></a>
+                    <a href="#">사고신고</a>
+                    <a href="#">영업점안내</a>
+                    <a href="#">웹접근성이용안내</a>
+                    <a href="#">인증센터</a>
+                    <div id="input">
+                        <input type="button" value=" 글로벌 ">
+                        <input type="button" value=" 패밀리 ">
+                        <img src="up.png" width="30px" height="30px">
+                    </div>
+                </nav>
+                <section>
+                    <p><br><b>고객센터 1599-8000</b> 평일 09:00~18:00(은행휴무일 제외)</p>
+                    <p> © SHINHAN BANK. All rights reserved.</p>
+                </section>
+            </footer>
     </div>
 
 </body>
