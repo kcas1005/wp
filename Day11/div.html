@@ -25,6 +25,10 @@
             width: auto;
             height: 100px;
         }
+        #H_center{
+            display:grid;
+            grid-template-columns:100px 1fr 1fr 1fr;
+        }
 
         .logo a {
             display: block;
@@ -34,8 +38,7 @@
         }
 
         .header1 {
-            display: flex;
-            align-items: center;
+            display:flex;
             flex-direction: row;
             width: 300px;
             height: 25px;
@@ -97,9 +100,9 @@
             grid-gap: 20px;
         }
         .center h1{
-            
             grid-column: 1 / 3;
             border-bottom:1px solid #666;
+            width:100%;
         }
         .security{
             display:flex;
@@ -113,7 +116,7 @@
             align-items:center;
             grid-column: 1 / 3;
             background-color:#f2f2f2 ;
-            width:1223px;
+            width:100%;
             height:200px;
         }
         .security div p:nth-of-type(1){
@@ -125,12 +128,14 @@
             margin:auto auto;
             grid-column:1 / 3;
             border:1px solid #666;
+            width:100%;
             height:150px;
         }
         #safeinstall p{
             color:#666666;
-            display:block;
-            float:left;
+            display:flex;
+            justify-content:flex-start;
+            align-items: center;
             margin:10px 20px;
         }
         #safeinstall p span{
@@ -140,7 +145,10 @@
             color:#d48100;
         }
         #safeinstall input{
-            display:block;
+            position:relative;
+            display:flex;
+            justify-content: center;
+            align-items:center;
             width:151px;
             height:30px;
             float:right;
@@ -148,50 +156,292 @@
             background-color:white;
             color:#666;
             margin:20px 20px;
+            bottom:40px
         }
         #setlogin{
             display:grid;
             grid-column: 1 / 3;
             grid-template-columns: 1fr 1fr;
             border:1px solid #666666;
+
         }
         #safelogin{
             display:flex;
             flex-direction:column;
             justify-content: center;
             align-items: center;
+            border-right:1px solid #768392;
+
         }
         #safelogin div:nth-of-type(1){
             display:flex;
             flex-direction:column;
             justify-content: center;
             align-items: center;
+
         }
         #safelogin div:nth-of-type(1) a:nth-of-type(1){
-            display:block;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:280px;
+            height:60px;
+            font-weight: 800;
             background-color:#3579d4;
+            color:white;
+            border-radius: 5%;
+            margin-bottom:10px;
+
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(1)::before{
+            position:relative;
+            left:-55px;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            content:"";
+            width:25px;
+            height:25px;
+            background: url(https://image.shinhan.com/rib2017/images/main/img_intro_cloud.png);
             color:white;
         }
         #safelogin div:nth-of-type(1) a:nth-of-type(2){
-            display:block;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:280px;
+            height:60px;
+            font-weight: 800;
             background-color:#768392;
             color:white;
+            border-radius: 5%;
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(2)::before{
+            position: relative;
+            left:-10px;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            content:"";
+            width:25px;
+            height:25px;
+            background: url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -343px -10px no-repeat;
+            color:white;
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(2) span{
+            font-size:12px;
+            background-color:#768392;
+            color:white;
+        }
+        #safelogin div:nth-of-type(2) a, #safelogin div:nth-of-type(3) a{
+            color:black;
+        }
+        #safelogin div:nth-of-type(2){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:16px;
+        }
+        #safelogin div:nth-of-type(2) div{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+        }
+        #safelogin div:nth-of-type(2) div input{
+            margin-left:20px;
+        }
+        #safelogin div:nth-of-type(3){
+            margin-top:16px;
+        }
+        #safelogin div:nth-of-type(3) a::after{
+            display:inline-block;
+            content:"l";
+            width:30px;
+            text-align:center;
+        }
+        #safelogin div:nth-of-type(3) a:last-of-type::after{
+            content:" ";
+        }
+        #idlogin{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        #idlogin div:nth-of-type(1){
+            display:grid;
+            grid-template: 1fr 1fr / 1fr 1fr;
+            grid-gap:10px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(1){
+            display:grid;
+            grid-area: 1 / 1 / 2 / 2;
+            width:200px;
+            height:40px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(2){
+            display:grid;
+            grid-area: 2 / 1 / 3 / 2;
+            width:200px;
+            height:40px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(3){
+            display:grid;
+            grid-area: 1 / 2 / 3 / 3;
+            width:90px;
+            height:90px;
+            color:white;
+            border:none;
+            background:#768392;
+            border-radius: 5%;
+        }
+        #idlogin div:nth-of-type(2){
+            position: relative;
+            display:flex;
+            margin-top:60px;
+            right:30px;
+            justify-content: center;
+            align-items: center;
+        }
+        #idlogin div:nth-of-type(2) a{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+        #idlogin div:nth-of-type(2) a::after{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:30px;
+            content:"l";
+            color: black;
+        }
+        #idlogin div:nth-of-type(2) a:last-of-type::after{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:30px;
+            content:"";
+            color: black;
         }
         #safe{
             grid-column: 1 / 3;
             border-bottom:1px solid #666666;
+            font-size:20px;
+        }
+        #safe a{
+            display:inline-block;
+            width:20px;
+            height:20px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -10px -10px no-repeat;
         }
         #safeimg{
+            display:grid;
             grid-column: 1 / 3;
             border-bottom:1px solid #666666;
+            grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+        }
+        #safeimg div{
+            display:flex;
+            width:100%;
+            height:100%;
+        }
+        #safeimg div:nth-of-type(1) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -436px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(2) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -517px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(3) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -598px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(4) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -679px -58px no-repeat;
+        }
+        #safeimg p{
+            justify-content: center;
+            align-items: center;
+            width:250px;
+            height:60px;
+        }
+        #safeimg p em{
+            display:inline;
+            color:rgb(74, 107, 202);
+            font-style: normal;
+        }
+        #qna{
+            display:grid;
+            grid-template: 2fr 8fr / 9fr 1fr;
+        }
+        #qna div:nth-of-type(1){
+            grid-area: 1 / 1 / 2 / 2;
+        }
+        #qna div:nth-of-type(1) span{
+            font-size:20px;
+        }
+        #qna div:nth-of-type(2){
+            grid-area: 1 / 2 / 2 / 3;
+        }
+        #qna div:nth-of-type(2) a{
+            display:block;
+            background: url(https://image.shinhan.com/rib2017/images/btn/sp_btn.png) no-repeat -170px -85px;
+            width:20px;
+            height:20px;
+        }
+        #qna div:nth-of-type(3){
+            grid-area: 2 / 1 / 3 / 3;
+            width:600px;
+        }
+        #qna div:nth-of-type(3) ol{
+            margin:5px 20px;
+        }
+        #qna div:nth-of-type(3) ol li{
+            list-style-type:disc;
+        }
+        #tellcenter{
+            display:grid;
+            grid-template: 3fr 7fr / 7fr 3fr
+        }
+        #tellcenter div:nth-of-type(1){
+            grid-area: 1 / 1 / 2 / 2;
+        }
+        #tellcenter div:nth-of-type(1) h1{
+            font-size:20px;
+        }
+        #tellcenter div:nth-of-type(2){
+            grid-area: 1 / 2 / 2 / 3;
+        }
+        #tellcenter div:nth-of-type(3){
+            grid-area: 2 / 1 / 3 / 2;
+        }
+        #tellcenter div:nth-of-type(4){
+            grid-area: 2 / 2 / 3 / 3;
         }
     </style>
 </head>
 
 <body>
     <div id=wrap>
-        <div id="header" class="header">
-            <div id="H_center" class="header1">
+        <div id="header">
+            <div id="H_center">
                 <div class="logo">
                     <a></a>
                 </div>
@@ -252,8 +502,8 @@
             <div id="setlogin">
                 <div id="safelogin">
                     <div>
-                        <a href="#"><a href="#"></a>금융인증서 로그인</a>
-                        <a href="#"><a href="#"></a>공동인증서 로그인<span>(구 공인인증서)</span></a>
+                        <a href="#">금융인증서 로그인</a>
+                        <a href="#">공동인증서 로그인<span>(구 공인인증서)</span></a>
                     </div>
                     <div>
                         <a href="#">인증서 자동팝업</a>
@@ -271,7 +521,7 @@
                 <div id="idlogin">
                     <div>
                         <input type="text" placeholder="이용자ID">
-                        <input type="password" placeholder="비밀번호">
+                        <input type="password" placeholder="비밀번호"><a href=""></a>
                         <input type="button" value="ID로그인">
                     </div>
                     <div>
@@ -281,10 +531,40 @@
                     </div>
                 </div>
             </div>
-                <div id="safe">안전한 금융거래를 위한 이용자 유의사항</div>
-                <div id="safeimg">그림파일</div>
-                <div id="qna">자주묻는 질문</div>
-                <div id="tellcenter">고객센터</div>
+                <div id="safe"><a href="#"></a> 안전한 금융거래를 위한 <strong>이용자 유의사항</strong></div>
+                <div id="safeimg">
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <p>개인정보 보호를 위해 서비스 이용 중 자리를 비우게 될 경우 반드시 <em>로그아웃</em> 하세요.</p>
+                    <p>약 10분 동안 화면이동이 없는 경우 고객님의 개인정보 보호를 위해 <em>자동 로그아웃</em> 처리됩니다.</p>
+                    <p>비밀번호 및 인증서 암호는 <em>주기적으로 변경관리</em>하시고 타인에게 노출되지 않도록 주의하세요.</p>
+                    <p><em>비밀번호 5회 오류</em> 시 온라인 서비스 <em>이용이 제한</em>되며 <em>비밀번호 재설정</em> 후 이용이 가능합니다.</p>
+                </div>
+                <div id="qna">
+                    <div><span>자주 묻는질문</span></div>
+                    <div><a hef="#"></a></div>
+                    <div>
+                    <ol>
+                        <li>개인뱅킹 신규 가입했습니다. 인증서 발급은 어떻게 하나요?</li>
+                        <li>타행에서 발급된 공동인증서(구 공인인증서)가 있는 경우 어떻게 해...</li>
+                        <li>통합프로그램 설치안내</li>
+                        <li>뱅킹 이용시 유의할 사항이 있나요?</li>
+                    </ol>
+                    </div>
+                </div>
+                <div id="tellcenter">
+                    <div><h1>고객센터</h1></div>
+                    <div><span>평일 09:00 ~ 18:00 (은행휴무일 제외)</span></div>
+                    <div><span>평일 09:00 ~ 18:00 (은행휴무일 제외)</span></div>
+                    <div>
+                        <p><span>국내 <h1>1599-8000,</h1></span>1577-8000, 1544-8000</p>
+                        <p>해외에서 국내로 걸 때 82-2-3449-8000</p>
+                        <p>외국어 1577-8380</p>
+                        <p>(해외에서 국내로 걸 때 82-2-3449-8380)</p>
+                    </div>
+                </div>
         </div>
         <div class="footer">
 
