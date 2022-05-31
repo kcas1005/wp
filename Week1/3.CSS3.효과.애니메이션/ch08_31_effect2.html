@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background:red;
+            position:relative;
+            animation:colorbox 5s infinite;
+            animation-direction: normal;
+        }
+        @keyframes colorbox{
+            from{ background: red; left: 0px; top: 0px;}
+            25%{ background: orange; left: 300px; top: 0px;}
+            50%{ background: yellow; left: 300px; top: 300px;}
+            75%{ background: green; left: 0px; top: 300px;}
+            to{background: red; left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

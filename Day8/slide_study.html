@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            border:1px solid;
+        }
+        .section input{
+            display: none;
+        }
+
+        .section div:nth-of-type(1){
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1){
+            white-space: nowrap;
+            font-size: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li{
+            display:inline-block;
+            vertical-align:middle;
+            width: 100%;
+            transition: all .5s;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li>a{
+            display: block;
+            position: relative;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li>a img{
+            width: 100%;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li>a img{
+            width: 100%;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>div:nth-of-type(1) div label{
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            padding:50px;
+            cursor: pointer;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li>a div{
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            line-height: 1.6;
+            text-align: center;
+        }
+        .section div:nth-of-type(1) ul:nth-of-type(1)>li>a div{
+            font-size: 16px;
+            color: #fff;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all .5s;
+        }
+        .section input:checked~.section div:nth-of-type(1) ul:nth-of-type(1)>li{
+            transform: translate(0%);
+        }
+        .section input:checked~.section div:nth-of-type(1) ul:nth-of-type(1)>li{
+            transform: translate(-100%);
+        }
+        .section input:checked~.section div:nth-of-type(1) ul:nth-of-type(1)>li{
+            transform: translate(-200%);
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- 섹션 -->
+    <div class="section">
+        <!-- 인풋 라디오 -->
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <!-- 슬라이드 전체영역 -->
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li class="slideitem">
+                    <a>
+                        <div class="textbox">
+                            <h3>첫번째 슬라이드</h3>
+                            <p>첫번쨰 슬라이드 입니다.</p>
+                        </div>
+                        <img src="./슬라이드/img/slide01.jpg">
+                    </a>
+                </li>
+                <li class="slideitem">
+                    <a>
+                        <div class="textbox">
+                            <h3>두번째 슬라이드</h3>
+                            <p>두번쨰 슬라이드 입니다.</p>
+                        </div>
+                        <img src="./슬라이드/img/slide02.jpg">
+                    </a>
+                </li>
+                <li class="slideitem">
+                    <a>
+                        <div class="textbox">
+                            <h3>세번째 슬라이드</h3>
+                            <p>세번쨰 슬라이드 입니다.</p>
+                        </div>
+                        <img src="./슬라이드/img/slide03.jpg">
+                    </a>
+                </li>
+                <!-- 좌,우 슬라이드 버튼 -->
+                <div class="slide-control">
+                    <div>
+                        <label for="slide03" class="left"></label>
+                        <label for="slide02" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide01" class="left"></label>
+                        <label for="slide03" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide02" class="left"></label>
+                        <label for="slide03" class="right"></label>
+                    </div>
+                </div>
+            </ul>
+            <!-- 페이징 -->
+            <ul class="slide-pagelist">
+                <li><label for="slide01"></label></li>
+                <li><label for="slide02"></label></li>
+                <li><label for="slide03"></label></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

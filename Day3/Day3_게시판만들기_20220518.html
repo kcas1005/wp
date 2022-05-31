@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            background-color: gray;
+            width: 1260px;
+            height: 300px;
+            margin:0 auto;
+            display: inline-block;
+        }
+        #wrap{
+            /* background-color: brown; */
+            width:1260px;
+            height: 500px;
+            margin:0 auto;
+            display: inline-block;
+        }
+        #wrap2{
+            /* background-color: rgba(0, 255, 255, 0.61); */
+            width:1260px;
+            height:70px;
+            margin:0 auto;
+            display: inline-block;
+            text-align: left;
+        }
+        #wrap3{
+            /* background-color: rgba(255, 0, 0, 0.267); */
+            width:1260px;
+            height:80px;
+            margin:0 auto;
+            border-top: 2px solid rgb(141,139,148);
+            border-bottom:3px solid rgb(141,139,148);
+            display: inline-block;
+            text-align:left;
+            
+        }
+        #wrap3 > p {
+            /* background-color: rgba(255, 0, 85, 0.466); */
+            width:500px;
+            height:30px;
+            margin:30px auto;
+            text-align: left;
+            display: inline-block;
+            text-align: left;
+            
+        }
+        #wrap4{
+            /* background-color: rgba(255, 166, 0, 0.301); */
+            width:550px;
+            height:80px;
+            margin:0 auto;
+            float:right;
+            display: block;
+
+        }
+        #wrap4 > table{
+            /* background-color: rgba(0, 174, 255, 0.63); */
+            width:500px;
+            height:80px;
+            margin:0 auto;
+            float:right;
+            display: inline-table;
+            
+        }
+        #wrap4 #num{
+            /* color: grey; */
+            font-size: 30px;
+            border-radius: 8%;
+        }
+        #wrap4 #select{
+            color: grey;
+            font-size: 30px;
+        }
+        #wrap4 #search{
+            background:rgb(141,139,148);
+            font-size:30px;
+            color:white;
+            border-color:aliceblue
+        }
+        #content{
+            /* background-color:rgba(0, 128, 0, 0.445); */
+            width:auto;
+            height:330px;
+            margin: 5px auto;
+            float:center;
+            display: block;
+        }
+        #content table{
+            /* background-color:rgba(0, 119, 128, 0.445); */
+            width:1260px;
+            height:300px;
+            margin:0 auto;
+             
+        }
+        #content table th{
+            /* background-color:rgba(0, 119, 128, 0.445); */
+            margin:0 auto;
+            background:rgb(238,238,238);
+            border-bottom: 2px solid rgb(141,139,148);
+        }
+        #content table td{
+            /* background-color:rgba(0, 119, 128, 0.445); */
+            margin:0 auto;
+            border-bottom: 2px solid rgb(141,139,148);
+        }
+        #footer{
+            /* background-color: rgb(0, 0, 255); */
+            width:auto;
+            height:70px;
+            margin:0 auto;
+            display: block;
+        }
+        #footer > table:first-child{
+            /* background-color: rgba(0, 225, 255, 0.753); */
+            width:130px;
+            height: 40px;
+            margin:0 auto;
+            display: block;
+        }
+        #footer > table:nth-child(2){
+            /* background-color: rgba(255, 0, 255, 0.74); */
+            width:auto;
+            height:30px;
+            margin:0 auto;
+            float:right;
+            display: block;
+        }
+        #footer > table:nth-child(2) td:nth-child(1){
+           background: rgb(161,161,161);
+           margin:0 auto;
+           font-size:20px;
+           border-radius: 15%;
+           color: white;
+        }
+        #footer > table:nth-child(2) td:nth-child(2){
+           background:rgb(71, 71, 71);
+           margin:0 auto;
+           font-size:20px;
+           border-radius: 15%;
+           color: white;
+        }
+
+        
+    </style>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1652865515276&amp;type=content-script&amp;dmn=doc-0g-8c-docs.googleusercontent.com&amp;pth=%2Fdocs%2Fsecuresc%2Fl7ubm40bvemkfbo4ojoeukngv06gl87d%2F7id39t857ohnv6j45nnlcme5girfqba3%2F1652870100000%2F16993563488538996046%2F16993563488538996046%2F13Dec5pEE091ViX8jjwq9TDp0tkK4iXCy%3Fe%3Ddownload%26ax%3DACxEAsbfYW6i0A4164JBNb5HiTBH_oncrTFBTHm8eSL77q3uSsWhg2P65LdbGezZkV4sYrPgYOLoFAPys5KLWTgDsLzWa_mX9tA-5MjIHApbom7B5DjMDMiOxIFJB4fjPUsMcKR_nGyuO0_HWYTa17czlcrCJy78pTLa0dKwj3PJnUplPtaRtt0OAym3Dz6kp5O6PtemOBnNJb11wiso3bqw-KpHchJYyqRS9N0KUemkCmoNEtWQNUwWh-3bg_pR4LjvkjQW46_WZKC2ZNMeq8cPc9nYdTFwS9g7PbpAExOxuVL7SyZL2BHMTdAOwGmavI7uqA5VSFZ6DpgLB7pXciX7pkics8c5VvDSD3woUmiV355-takUvxl5fSqapNoVRrgfPLgI7Z4GjY4ZF_xvCTL7qmq1j1rk35NDf1OxqM5OwYcvrlGawpoGb6kdIbzJ6iOfLIJlOvmHEl-a5rnmHe6upGMjWY7PzKyVg-RYiDG9yfbtbPCr9VcYdc5HeupMSH02s_f95YW3xbaAekUEq_Fm2vvDfVyQ_jYuub214uYH1ZPVecA5pu-bL8u30zQKtckbY9MmMmIzXtEIUU2Y7mS4l-4uuwbG25GWB-bBKZE5EDo_cEXhZJEQcKI1DLdedcm9m_DfJjsBB7k1r69zpZ1U89bPDSJ7LJjFXIedS1o1zdGupWHti0WVrRVuD2bqCarQCMmYoZVln6qOLw%26authuser%3D0%26nonce%3Dhpp2j5uicqidc%26user%3D16993563488538996046%26hash%3Dbmgrhusi3nbma96c99aggk4ettv3ou6k&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1652865515276&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+    <div id="header">
+
+    </div>
+    <div id="wrap">
+        <div id="wrap2">
+            <h1>게시판</h1>
+        </div>
+        <div id="wrap3">
+            <p>▷ 총 3개의 게시물이 있습니다.</p>
+            <div id="wrap4">
+                <table>
+                    <tr>
+                        <td id="select">SELECT</td>
+                        <td><select name="select" id="num">
+                            <option value="title">제목</option>
+                            <option value="content">내용</option>
+                        </select></td>
+                        <td><input type="text"id="num"></td>
+                        <td><input type="button" value="검색" id="search"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="content">
+            <table>
+                <tr>
+                    <th>번호</th>
+                    <th width="1000">제목</th>
+                    <th>글쓴이</th>
+                    <th>일시</th>
+                    <th>조회수</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>게시글 1입니다.</td>
+                    <td>김준석</td>
+                    <td>2022-05-16</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>게시글 2입니다.</td>
+                    <td>김준석</td>
+                    <td>2022-05-16</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>게시글 3입니다.</td>
+                    <td>김준석</td>
+                    <td>2022-05-16</td>
+                    <td>15</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+        <table>
+            <tr>
+                <td>◀</td>
+                <td>이전</td>
+                <td>l</td>
+                <td>다음</td>
+                <td>▶</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>목록</td>
+                <td>글쓰기</td>
+            </tr>
+        </table>
+    </div>
+    <!-- 내가 부족한 부분 레이아웃, 블록 / 텍스트 수직 수평 정렬(부모블록, 자식 블록 간에), 패딩(블록간의 간격),
+    직사각형 둥글게 표현하기, 셀 길이 설정하기(colspan 제외), 셀 간격 -->
+</body>
+</html>

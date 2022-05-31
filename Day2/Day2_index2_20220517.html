@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Selector Basic</title>
+    <style>
+    /* id 속성값으로 header를 가지는 태그의 후손 위치에 있는 h1 태그의 color 속성에 red 키워드를 적용합니다.
+    #header h1 {color: red;}
+    id 속성값으로 section를 가지는 태그의 후손 위치에 있는 h1 태그의 color 속성에 orange 키워드를 적용합니다.
+    #section h1{color:orange;} */
+
+    /* id 속성값으로 header를 가지는 태그의 자손 위치에 있는 h1 태그의 color 속성에 red 키워드를 적용합니다. */
+    #header > h1 {color: red;}
+    /* id 속성값으로 section를 가지는 태그의 자손 위치에 있는 h1 태그의 color 속성에 orange 키워드를 적용합니다. */
+    #section > h1 {color: orange;}
+    </style>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1652865515276&amp;type=content-script&amp;dmn=doc-04-8c-docs.googleusercontent.com&amp;pth=%2Fdocs%2Fsecuresc%2Fl7ubm40bvemkfbo4ojoeukngv06gl87d%2F8plectvs2jcr42htfvk3qth2dksiq9n2%2F1652870775000%2F16993563488538996046%2F16993563488538996046%2F13LyFjq7NIesf-ShRughmo8mGWOS3Vq89%3Fe%3Ddownload%26ax%3DACxEAsaiA3wP6lGLkTNC6Z5ODAP6vTYgqocCsOPCsfJMufnkXL8hFOGAKHbHuiV58ax_Tda9Kn-6L9SykutxmtNMY4lZ6DVzLb3a863jABBUut2tLIejdi7SWpO2sx1o5GKAnbuIAYYSrXzzRmASpKNfkG6oavDyj2MOaasqV48bCZAI5BUoMQCE7ahe_H0iR-u7_f4BkMMTCqzjgSQozQe9A7dwy0PfOSro-IM98d0HFRr9tV_8MeCIrmgtZm5IOpyAa5Jr2uXuROYKW_vg1sDChaP-fttaOFdkdWXCmo5JfQ8bU3QvTtiVi5HomO9ZW0fStz10qMHXBqofzq8dwDx_Bu0YXXBy0SJ3gyYrhNzECrFrwtz7W3PdWrSDGlE4DNcf6TfWhH_i6XCllxMK6uwiVoc0wmCIappaI1cDm1oR7u15AZqLwqQLQakgr_ptJWhscdmXj-f5EBYT1xaB46v9OvZn_ofTFj6xUr0EGop9mosEUcULEtYFmK3MKjX0TMFp0UpYPMrKEGPyBZL-2Ejg0cHUgvcLytwuTUR0UqfQaI4Mbrp7w__eEp4MdT-zytsb_sYi4jqC48XEcA-OqrXwiJLydpCh3FcLEGX_MIGwfiCAYm2noN553UXpPuA-i9m3TFb1KodSUNN_ySttJSHWTURRsOuY23us6dmOgex4NvJtKTsujaATDest8OfxKp0ykZevHwQKgRtGsg%26authuser%3D0&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1652865515276&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+    <div id="header">
+        <h1 class="title">Lorem ipsum</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+    </div>
+        <div id="section">
+            <h1 class="title">Lorem ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+</body>
+</html>
