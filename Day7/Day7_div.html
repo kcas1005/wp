@@ -17,8 +17,8 @@
 
         #wrap {
             width: auto;
-            height: 2000px;
-            padding: 20px 20px;
+            height: 1800px;
+            padding: 20px 80px;
         }
 
         #header {
@@ -52,7 +52,7 @@
         }
 
         .header1 li a {
-            color: black;
+            color: #666;
             width: 100%;
             height: 100%;
             text-align: center;
@@ -99,7 +99,7 @@
             grid-template: 50px 200px 150px 300px 50px 200px 200px / 1fr 1fr;
             grid-gap: 20px;
         }
-        .center h1{
+        .center > h1{
             grid-column: 1 / 3;
             border-bottom:1px solid #666;
             width:100%;
@@ -273,6 +273,7 @@
             display:grid;
             grid-template: 1fr 1fr / 1fr 1fr;
             grid-gap:10px;
+            width:418px;
         }
         #idlogin div:nth-of-type(1) input:nth-of-type(1){
             display:grid;
@@ -328,6 +329,7 @@
         }
         #safe{
             grid-column: 1 / 3;
+            color:#666;
             border-bottom:1px solid #666666;
             font-size:20px;
         }
@@ -381,6 +383,7 @@
             align-items: center;
             width:250px;
             height:60px;
+            color:#666
         }
         #safeimg p em{
             display:inline;
@@ -395,6 +398,7 @@
             grid-area: 1 / 1 / 2 / 2;
         }
         #qna div:nth-of-type(1) span{
+            color:#666;
             font-size:20px;
         }
         #qna div:nth-of-type(2){
@@ -414,26 +418,70 @@
             margin:5px 20px;
         }
         #qna div:nth-of-type(3) ol li{
+            color:#666;
             list-style-type:disc;
+            line-height: 30px;
         }
         #tellcenter{
             display:grid;
-            grid-template: 3fr 7fr / 7fr 3fr
+            grid-template: 3fr 7fr / 3fr 7fr
         }
         #tellcenter div:nth-of-type(1){
+            height: 27px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
             grid-area: 1 / 1 / 2 / 2;
+            
         }
         #tellcenter div:nth-of-type(1) h1{
+            color:#666;
             font-size:20px;
+            font-weight: 500;
         }
         #tellcenter div:nth-of-type(2){
-            grid-area: 1 / 2 / 2 / 3;
+            grid-area: 2 / 1 / 2 / 2;
+            display:flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        #tellcenter div:nth-of-type(2) p{
+            width:55px;
+            height:55px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -388px -153px no-repeat;
         }
         #tellcenter div:nth-of-type(3){
-            grid-area: 2 / 1 / 3 / 2;
+            grid-area: 1 / 2 / 2 / 3;
+            display:flex;
+        }
+        #tellcenter div:nth-of-type(3) span{
+            color:#666;
         }
         #tellcenter div:nth-of-type(4){
             grid-area: 2 / 2 / 3 / 3;
+        }
+        #tellcenter div:nth-of-type(4) ol{
+            display:flex;
+            flex-direction:column;
+        }
+        #tellcenter div:nth-of-type(4) li{
+            color:#666666;
+            line-height: 25px;
+        }
+        #tellcenter div:nth-of-type(4) li p , #tellcenter div:nth-of-type(4) li h1{
+            display:flex;
+            float:left;
+            align-items:center;
+            justify-content: center;
+            color:#195dae;
+        }
+        #tellcenter div:nth-of-type(4) li p {
+        }
+        #tellcenter div:nth-of-type(4) li h1{
+            font-size:25px;
         }
     </style>
 </head>
@@ -555,14 +603,20 @@
                     </div>
                 </div>
                 <div id="tellcenter">
-                    <div><h1>고객센터</h1></div>
-                    <div><span>평일 09:00 ~ 18:00 (은행휴무일 제외)</span></div>
+                    <div><h1 class="tellcenterh1">고객센터</h1></div>
+                    <div><p></p></div>
                     <div><span>평일 09:00 ~ 18:00 (은행휴무일 제외)</span></div>
                     <div>
-                        <p><span>국내 <h1>1599-8000,</h1></span>1577-8000, 1544-8000</p>
-                        <p>해외에서 국내로 걸 때 82-2-3449-8000</p>
-                        <p>외국어 1577-8380</p>
-                        <p>(해외에서 국내로 걸 때 82-2-3449-8380)</p>
+                        <ol>
+                            <li>
+                                <p>국내</p>
+                                    <h1>1599-8000,</h1>
+                                1577-8000, 1544-8000
+                            </li>
+                            <li>해외에서 국내로 걸 때 82-2-3449-8000</li>
+                            <li>외국어 1577-8380</li>
+                            <li>(해외에서 국내로 걸 때 82-2-3449-8380)</li>
+                        </ol>
                     </div>
                 </div>
         </div>
