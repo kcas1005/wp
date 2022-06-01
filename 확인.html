@@ -8,27 +8,15 @@
 </head>
 <body>
 <script>
-    function getDaystudent(){
-        day = 12;
-        return day;
+    getDaystudent(12);
+
+    function getDaystudent( day ){
+        document.write("오늘은 "+day+"일차<br>");
+        document.write("오늘은 "+(day-1)+"일차 공부해야합니다<br>");
+        document.write("오늘은 "+(day-3)+"일차 공부해야합니다<br>");
+        document.write("오늘은 "+(day-6)+"일차 공부해야합니다<br>");
+        document.write("오늘은 "+(day-13)+"일차 공부해야합니다<br>");
     }
-    day=getDaystudent();
-    getDaystudent();
-    document.write("오늘은 "+day+"일차<br>")
-    getDaystudent();
-    document.write("오늘은 "+day+"일차 공부해야합니다<br>")
-    getDaystudent();
-    day -=1;
-    document.write("오늘은 "+day+"일차 공부해야합니다<br>")
-    getDaystudent();
-    day -=3;
-    document.write("오늘은 "+day+"일차 공부해야합니다<br>")
-    getDaystudent();
-    day -=6;
-    document.write("오늘은 "+day+"일차 공부해야합니다<br>")
-    getDaystudent();
-    day -=13;
-    document.write("오늘은 "+day+"일차 공부해야합니다<br>")
     
 </script>
     
