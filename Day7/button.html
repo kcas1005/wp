@@ -1,65 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="utf-8">
-    <title>full down menu </title>
-    <style>
-        *{margin:0; padding:0; list-style:none;}
-        a{text-decoration:none; }
-        /* Menu */
-        .menu{height: 40px;width:1000px;background: #4c4e5a; text-align:center; line-height:40px;}
-        .menu li { position: relative; float:left; width:250px;height: 40px;}
-        /* Links */
-        .menu li a {display:block;  color: #f3f3f3; transition: all 1s;}
-        .menu li:hover > a { background: skyblue; }
-        /* Sub Menu */
-        .submenu {position: absolute; opacity: 0; background: #1f2024; transition: all 1s;}
-        .menu li:hover > .submenu { opacity: 1; }
-        .menu .submenu li {height: 0; transition: height .4s ease .1s;}
-        .menu li:hover > .submenu li {height:40px;} 
-        .menu .submenu li a {width: 250px; }
-    </style>
+
+<head>
+        <meta charset="utf-8">
+        <title>full down menu </title>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                }
+
+                a {
+                        text-decoration: none;
+                }
+
+                /* Menu */
+                .menu {
+                        height: 40px;
+                        width: 1000px;
+                        background: #4c4e5a;
+                        text-align: center;
+                        line-height: 40px;
+                }
+
+                .menu li {
+                        position: relative;
+                        float: left;
+                        width: 250px;
+                        height: 40px;
+                }
+
+                /* Links */
+                .menu li a {
+                        display: block;
+                        color: #f3f3f3;
+                        transition: all 1s;
+                }
+
+                .menu li:hover>a {
+                        background: skyblue;
+                }
+
+                /* Sub Menu */
+                .submenu {
+                        position: absolute;
+                        opacity: 0;
+                        background: #1f2024;
+                        transition: all 1s;
+                }
+
+                .menu li:hover>.submenu {
+                        opacity: 1;
+                }
+
+                .menu .submenu li {
+                        height: 0;
+                        transition: height .4s ease .1s;
+                }
+
+                .menu li:hover>.submenu li {
+                        height: 40px;
+                }
+
+                .menu .submenu li a {
+                        width: 250px;
+                }
+        </style>
 </head>
 
 <body>
-    <div id="wrap">
-        <div class="header">
-                <h1>신한은행 메뉴</h1>
-        </div>
-        <div >
-                <ul class="menu">
-                        <li><a href="#">회원가입</a>
-                                <ul class="submenu">
-                                        <li><a href="#">회원가입 1</a></li>
-                                        <li><a href="#">회원가입 2</a></li>
-                                        <li><a href="#">회원가입 3</a></li>
-                                        <li><a href="#">회원가입 4</a></li>
-                                </ul>
-                        
-                        </li>
-                        <li><a href="#">금융상품</a>
-                                <ul class="submenu">
-                                        <li><a href="#">금융상품 sub1</a></li>
-                                        <li><a href="#">금융상품 sub2</a></li>
-                                </ul>
-                        
-                        </li>
-                        <li><a href="#">기타등등</a>
-                                <ul class="submenu">
-                                        <li><a href="http://www.naver.com" target="_blank">기타등등 sub1</a></li>
-                                        <li><a href="#">기타등등 sub2</a></li>
-                                        <li><a href="#">기타등등 sub3</a></li>
-                                        <li><a href="#">기타등등 sub4</a></li>
-                                        <li><a href="#">기타등등 sub4</a></li>
-                                </ul>
-                        </li>
-                        <li><a href="#">커뮤니티</a></li>
-                </ul>
-        </div>
-        <div class="contents"></div>
+        <div id="wrap">
+                <div class="header">
+                        <h1>신한은행 메뉴</h1>
+                </div>
+                <div>
+                        <ul class="menu">
+                                <li><a href="#">회원가입</a>
+                                        <ul class="submenu">
+                                                <li><a href="#">회원가입 1</a></li>
+                                                <li><a href="#">회원가입 2</a></li>
+                                                <li><a href="#">회원가입 3</a></li>
+                                                <li><a href="#">회원가입 4</a></li>
+                                        </ul>
 
-        <div class="footer"></div>
-    </div>
+                                </li>
+                                <li><a href="#">금융상품</a>
+                                        <ul class="submenu">
+                                                <li><a href="#">금융상품 sub1</a></li>
+                                                <li><a href="#">금융상품 sub2</a></li>
+                                        </ul>
+
+                                </li>
+                                <li><a href="#">기타등등</a>
+                                        <ul class="submenu">
+                                                <li><a href="http://www.naver.com" target="_blank">기타등등 sub1</a></li>
+                                                <li><a href="#">기타등등 sub2</a></li>
+                                                <li><a href="#">기타등등 sub3</a></li>
+                                                <li><a href="#">기타등등 sub4</a></li>
+                                                <li><a href="#">기타등등 sub4</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                </div>
+                <div class="contents"></div>
+
+                <div class="footer"></div>
+        </div>
 
 </body>
+
 </html>
