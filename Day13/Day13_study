@@ -11,7 +11,9 @@
         반환값 출력
         인자와 매개 변수
 
-
+프로그래머스
+    약수의 합
+    약수의 개수와 덧셈
 
 모르는 것
     memory
@@ -33,4 +35,5 @@
     NaN(not a noumber)
     null 이외에 undefined(타입도 없음)
     arguments = 유사배열
-    console.dir(arguments)        
+    console.dir(arguments)
+    객체지향
