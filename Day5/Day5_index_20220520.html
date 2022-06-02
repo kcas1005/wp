@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrap * {
+            display: flex;
+        }
+        #wrap {
+            width:auto;
+            height:1080px;
+        }
+        #header, #main, #footer{
+            height:300px;
+        }
+        #header { 
+            display : table-cell;
+            vertical-align: middle;
+        }
+    </style>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1653038267451&amp;type=content-script&amp;dmn=doc-14-8c-docs.googleusercontent.com&amp;pth=%2Fdocs%2Fsecuresc%2Fl7ubm40bvemkfbo4ojoeukngv06gl87d%2F5q6g08a93a0sc8ki7sql1p5mvfugefhp%2F1653043050000%2F16993563488538996046%2F16993563488538996046%2F1D_znwOJPENzzFo0bTUyJgzCI_C3EodU3%3Fe%3Ddownload%26ax%3DACxEAsZtlAxPLSeqBn7YkykgqIqKejRW9PM7KQRA32zS3kfq1kr-TMBOQX2nxRBmMSYSYtLNeRWet7dGdkFVMXcgrwyuOmMd4wxdOTbjc2zfY7dmYMmiPdnYde2k9iQZXU1QSKS6ECedW_LNGH30omzDUTb8zo9txlLi9yPtL3s-mYA6yqw66nj_BbxeQ1dWqaRMQsW4DBTkqlyQG6BOkXYpAh8jbySlW0vEcswgvRJSvusycUaitzGxkDJLUWhMSj7am7xALHnP1CPYeiJE1WtAwfNCqQbygt_XIKku9B-W5lArUI8FEDhEMN43lmwzgj59nBSjTLFQ-JBdNrGG-hjqoghnCGOWEaBLjXjsuK9nnaUJIsmjppD7liKTUf-DbuBfwTw8FoJqUKIOPJo56cSr7bSXtQ3aYKfi3bZeqWMjsyL6l3x7QxbegzyDgWJxIai0x-AydxCYLgBkX_MU_3n9dzn1uFyMZoq_gu4JKVFedPWwqeRF2RxgGJHJctUdDqiVKNTL0MDK5cbWNAbzwb8s-MypJfdGKGKk63P4ms23cW26L0gOfQkEmVzq-xmnA3KHAhOdpDMoby8YrHx4vy7AJm4euhjCwyPnOGYNRgAJ5ooqjOPgTPpO5ZbYhGHMrmAmRm-tGUtyh5lTLSz46nnU5-zFMUWuEBCtAXp2NCYNDZBwE_OTTm3RBEob-3HA-LWS_iSzA3FaHVAi6Q%26authuser%3D0%26nonce%3Dekbqac60sgtae%26user%3D16993563488538996046%26hash%3D5umhcla8djrffqtifun4ek8oh99bqeou&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="1bfadf6e21334ea9a2b1e41650c" src="//local.adguard.org?ts=1653038267451&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <span>연습1</span>
+        </div>
+        <div id="main">
+            <span>연습2</span>
+        </div>
+        <div id="footer">
+            <span>연습3</span>
+        </div>
+    </div>
+</body>
+</html>
+span의 글은 텍스트 버티컬이 왜 안먹는가? display:table-cell, vertical-align 옵션 넣으면 됨
+플렉스는 블록이랑 호환 되는가? 호환됨

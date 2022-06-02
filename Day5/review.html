@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display:flex;
+            width: auto;
+            height: 200px;
+        }
+        #header{
+            height:100px;
+        }
+        #header h1{
+            margin-left:1%;        }
+        #wrap{
+            height: 50px;
+            border-top:3px solid rgb(73,73,73);
+            background-color:rgb(173,173,173);
+            justify-content:space-between;
+        }
+        #wrap p{
+            display:flex;
+            align-items:center;
+            margin-left:2%;
+        }
+        #content {
+            height:300px;
+            margin:2%;
+            flex-direction:column;
+        }
+        #comment{
+            height:150px;
+            justify-content:flex-end;
+            background-color: rgb(173,173,173);
+            border-top:2px solid rgb(73,73,73);
+        }
+        #comment textarea{
+            width:60%;
+        }
+        #comment input{
+            width:15%;
+            background-color:grey;
+            border-radius:5%;
+            border:none;
+            font-size:120%;
+            color:white;
+            font-weight:600;
+        }
+        #footer{
+            height:100px;
+            justify-content:flex-end;
+        }
+        #footer table{
+            border-spacing: 10px;
+            height:60px;
+        }
+        #footer table tr td{
+            font-size:100%;
+            background-color:grey;
+            width:90px;
+            text-align:center;
+            border-radius:15%;
+            color:white;
+        }
+        #footer table tr td:nth-child(3){
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>게시판</h1>
+    </div>
+    <div id="wrap">
+        <p>게시글1입니다.</p>
+        <table>
+            <tr>
+                <td>김준석 l</td>
+                <td>조희: 15 l</td>
+                <td>2022-05-16(09:00)</td>
+            </tr>
+        </table>
+    </div>
+    <div id="content">
+        <p>게시판 3가지 만들기 끝났습니다!</p>
+        <p>게시판 3가지 만들기 끝났습니다!</p>
+        <p>게시판 3가지 만들기 끝났습니다!</p>
+        <p>게시판 3가지 만들기 끝났습니다!</p>
+        <p>게시판 3가지 만들기 끝났습니다!</p>
+    </div>
+    <div id="comment">
+        <textarea name="textarea" id="msg" cols="30" rows="10"></textarea>
+        <input type="button" value="덧글쓰기">
+    </div>
+    <div id="footer">
+        <table>
+            <tr>
+                <td>삭제</td>
+                <td>목록</td>
+                <td>글쓰기</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
