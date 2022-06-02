@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 960px;
+            margin: 0 auto;
+
+            display: grid;
+            grid-template: 70px 1fr 70px / 200px 1fr;
+            grid-gap: 5px;
+            grid-template-areas:
+                "header header"
+                "aside content"
+                "footer footer";
+        }
+        [class*=cell]{
+            box-sizing: border-box;
+            border: 5px solid black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .cell-header { grid-area: header; }
+        .cell-aside { grid-area: aside; }
+        .cell-content { grid-area: content; }
+        .cell-footer { grid-area: footer; }
+
+    </style>
+<script type="text/javascript" nonce="f8755d7f8efd4cc19f5d6d3afe4" src="//local.adguard.org?ts=1653297334149&amp;type=content-script&amp;dmn=doc-00-8c-docs.googleusercontent.com&amp;pth=%2Fdocs%2Fsecuresc%2Fl7ubm40bvemkfbo4ojoeukngv06gl87d%2Ffoulfldotfacj9lgtiqfjq5vplbbh68f%2F1653301500000%2F16993563488538996046%2F16993563488538996046%2F12wV02hQtCUhTVKx-MOW75S4CEzHGlo5L%3Fe%3Ddownload%26ax%3DACxEAsa55cYG9COQM9Cpq8qOm9mjxizvNzVSfbUnJYnjKIDh6LGbZkNTO1OjSnqh3vtqlG-HpplXVhNxYe8bi_2ybL3B-IzHJgolUYTk0kN2PwKpvIB-74Gkdp-bJJKI3V95jOtf2PqxA3X___n4xqMIhRt-9B2qhtAdQvhVx154R_20KHxc94U5EnqK94QNXjzt57yhMyUMvWYjQrWb8GkleHY7JrWDThBGqn0tsqNknOPO9TzK4dRGFRgyX7MOnGRt4SY_hBcw_UJ_yP7kiI3ElOh_1NR3cDcEJHjwme8e6ouW4Httv56j_JkUrkTeyokHTC5l0vlZt--6n03L18FnQYXRM669BBlX3ecMd-LQr2aLq1IjIswel7YKGPQJZ9q41Xst0bVQ1MbKIxsKx1SDi_oDNZ8WJQtEfCNeOoXLkrGkPDPATmosw0QIoIm9WtaLZ0MCZ0S4cuhrfsBlyIuGfLdHSwUMb8Y95z--4tckjcpY5Uv2ejeBedvmuOPcQRuqWiQF5SXJwCFvBXhGFoRqYZNG1Y8f_d3Opp1FrIMk4jEGcZEqccxy7SQDIY1zmZHvMuszXfBTZWO-cGP4RPJZGWGX-ZTS_gFrPKHXSq6fVD4YyiDRJDmAjtK-JDPRxSg72fUkUUz8cqkAUidH5r2BFfmX-2WHDFPtYbpaR-DKXcKvb-Q1VwMkEDL7l3sx8hCCfkFnXkoiuwJLzg%26authuser%3D0&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="f8755d7f8efd4cc19f5d6d3afe4" src="//local.adguard.org?ts=1653297334149&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+    <div class="container">
+        <div class="cell-header">
+            <h1>Lorem ipsum dolor sit amet</h1>
+        </div>
+        <div class="cell-able">
+            <p>Lorem ipsum</p>
+            <p>dolor sit amet</p>
+            <p>Lorem ipsum</p>
+            <p>dolor sit amet</p>
+        </div>
+        <div class="cell-content">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="cell-footer">Lorem ipsum dolor sit amet</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        display:grid;
+        grid-template: 200px 200px 200px / 200px 200px 200px;
+        grid-gap: 10px;
+    }
+    [class*=cell] {
+        box-sizing: border-box;
+        border: 5px solid black;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .cell-a{
+        grid-row-start:1;
+        grid-row-end:4;
+        grid-column-start: 1;
+        grid-column-end:3;
+    }
+    .cell-c{
+        grid-row-start:2;
+        grid-row-end:4;
+    }
+    .cell-d{
+        grid-column-start:1;
+        grid-column-end:4;
+    }
+    </style>
+<script type="text/javascript" nonce="f8755d7f8efd4cc19f5d6d3afe4" src="//local.adguard.org?ts=1653297334149&amp;type=content-script&amp;dmn=doc-00-8c-docs.googleusercontent.com&amp;pth=%2Fdocs%2Fsecuresc%2Fl7ubm40bvemkfbo4ojoeukngv06gl87d%2Fithfodbk9jrca09c0nqpa798qb69ig3t%2F1653301425000%2F16993563488538996046%2F16993563488538996046%2F1f_40J2zLPapI8Fv5gaB8FN_LmobGORlJ%3Fe%3Ddownload%26ax%3DACxEAsbZ_8Pv2_WaGObf2ecZaHir-jkcUzvKRM1rGAk__WYwUHr5zn1O91sehwRD4jPSC-lpj5pRMu0xXFjy62Jcp_21T6kAZbOex2711oUbrWjhVPbgNqj--0j53VMEDeoOJYF_X0RkCwEGkvTw4jdZnRfRT24Xaj3cdduRTzKNkauyrMkZXyLZF_ORDXcJRyoCm5tCjyA7yrd48wBQEYI-cg1IEU6YjhvmXGJKkR-JqdL7iDstOeDb0YegZ7gGX9iQu1AUP8wgM5T7qnEay2kVM8wTM35tIW8DdEj6ydO5b9Xdqvg76p8cTiWurfP7Py-HkY7ZIUTO96Nw-JGW2TBd1kRYt_WJ-2W_Fqa0WLkv8l0q1_mjDmqLi0Du0ed_5sENyRY4MflCQO7lfzNRm170VH7ip3SMWW3rfWMBsHICMyfUB2pQZtbObYYqsqHiUsI6cQNHsmmO_SlxqrUT6WGl5bQ2lR4lSY0UYCYXjrrMA5X58fakEoA4EThWBBs3z7PPd__tJFbgNCbJ-wAlI5H7zAkllVzWHz2MFdVGZ-FX6rxOPt_Rfl0S1k4u7RmtdIQNW0hE3Lv-ifDFV0ztwEFG8Ms7UEUAkj2fTZx62X8U0sX3yFM0H3zFBOoNrJEM7cOE3v35pH2Y0k8CFz7wscB74kG-YVcuyUhbF6FVJYM_hV6q4nAcXtMbMMMCikq775OqrCNYaeCjYJPFqA%26authuser%3D0&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="f8755d7f8efd4cc19f5d6d3afe4" src="//local.adguard.org?ts=1653297334149&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+    <div class="container">
+        <div class="cell-a">call a</div>
+        <div class="cell-b">call b</div>
+        <div class="cell-c">call c</div>
+        <div class="cell-d">call d</div>
+    </div>
+</body>
+</html>

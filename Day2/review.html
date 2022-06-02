@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            display:flex;
+            flex-direction:column;
+        }
+        #header div{
+            display:flex;
+            justify-content:flex-start;
+            height:30px;
+        }
+        #header div input{
+            display:flex;
+            width:200px;
+            height:20px;
+            align-items:center;
+            margin:0 0;
+        }
+        #header div p{
+            display:flex;
+            width:120px;
+            height:20px;
+            align-items:center;
+            vertical-align: middle;
+            margin:0 0;
+        }
+        #header input{
+            display:inline-block;
+            width:120px;
+            height:25px;
+            align-items:center;
+            text-align: center;
+            margin:0 0;
+            font-weight:800;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+    <h1>블로그 게시글 업로드</h1>
+        <div><p>이름:</p><input type="text"></div>
+        <div><p>이메일:</p><input type="text"></div>
+        <div><p>게시글내용:</p><input type="text"></div>
+    <input type="button" value="submit">
+    </div>
+    <div>
+        <h1>간편 회원 가입</h1>
+        <ol>
+            <li>
+                <fieldset>
+                    <legend>입력정보</legend>
+                    <ol>
+                        <li>
+                            이름 <input type="text" placeholder="이름">    
+                        </li>
+                        <li>
+                            이메일 <input type="text" placeholder="example@example.kr">    
+                        </li>
+                        <li>
+                            휴대폰 번호 <input type="text" placeholder="01000001002">    
+                        </li>
+                    </ol>
+                </fieldset>
+            </li>
+            <li>인증코드 <input type="text"></li>
+        </ol>
+    </div>
+    <div>
+        <h1>기본 회원 가입</h1>
+        <table>
+            <tr>
+                <td>아이디</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 확인</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=radio checked>남성<input type=radio>여성<input type=radio>입력안함</td>
+            </tr>
+            <tr>
+                <td>전화번호</td>
+                <td><select>
+                    <option value="02">02</option>
+                    <option value="041">041</option>
+                </select>-<input type="text">-<input type="text"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="text">@
+                    <select>
+                    <option value="naver.com">네이버</option>
+                    <option value="daum.net">다음</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>소개내용</td>
+                <td><textarea name="msg" id="textarea" cols="60" rows="5"></textarea></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
