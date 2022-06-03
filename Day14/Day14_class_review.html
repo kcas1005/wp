@@ -8,18 +8,17 @@
 </head>
 <body>
     <script>
-        var n = ["Jane", "Kim"];
-        function solution(seoul){
-            
-            var answer = '';
-            for(i=0; i<n.length; i++){
-                document.write(n[i] + "은 " + i + "에 있다 <br>");
+        var arr = [10 , 20, 30, 40, '50'];
+        function printArr(){
+            var i; 
+            var sum = 0;
+            for(i = 0; i<arr.length; i++){
+                sum+=arr[i];
             }
-
-            return answer;
-
+            return sum;
         }
-        solution();
+        var result = printArr();
+        document.write("배열 원소 합 : " + result + "<br>")
     </script>
 </body>
 </html>
