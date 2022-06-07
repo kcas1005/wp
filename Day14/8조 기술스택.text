@@ -1,0 +1,60 @@
+2)기술스택 정리 2인 조는 1인당 문제 2개
+
+1.HTML DOM에 대해 설명 - 나
+    DOM 이란?
+        Document Object Model로 HTML, XML 문서에 접근하기 위한 인터페이스입니다.
+        문서 내의 모든 문서를 정의하고, 각각의 요소에 접근하는 방법을 제공합니다.
+ 
+    DOM의 종류
+        Core DOM : 모든 문서 타입을 위한 DOM 모델
+        HTML DOM : HTML 문서 타입을 위한 DOM 모델
+        XML DOM : XML 문서 타입을 위한 DOM 모델
+    
+2.CSS display 속성의 속성값을 분류하며 설명해 주세요 - 유빈
+
+    display 속성
+    -요소를 어떻게 표시하고 보여줄지를 결정하는 속성( 표시 속성)
+    기본적인 속성값 4가지
+
+    *none 보이지 않음
+    요소를 렌더링 하지 않도록 설정 박스가 생성되지 않으므로
+    영역도 차지 하지 않음
+
+    *block 블록박스
+    가로폭 영역을 차지하고, block 요소 다음에 등장하는 태그는 줄바꿈이
+    된 것처럼 보이고, width,height속성을 지정 할 수 있다. block 요소 뒤에 
+    등장하는 태그가 이전 block 요소의 오른쪽에 배치 될 수 있어도
+    항상 다음 줄에 렌더링 된다.
+
+    *inline 인라인 박스
+    컨텐츠를 딱 감쌀정도의 크기만 갖게 되므로,
+    block과 달리 앞 뒤로 줄바꿈이 되지 않고, width, helight를 지정 할 수 없다.
+    word 같은 문서에서 볼드, 이탤릭, 색상, 밑줄등
+    *글자나 문장에 효과를 주기 위해 존재하는 단위이다.*
+    inline요소 뒤에 나오는 태그 또한 줄바꿈이 되지 않고, 오른쪽에 표시
+
+    *inline-block block과 inline의 중간 형태
+    inline속성을 지니고 있어, 줄 바꿈이 되지 않지만 크기를 지정 할 수 있다
+    박스 모양이 inline처럼 옆으로 줄선다.
+    Explorer7이하에서는 사용 불가
+
+3.CSS content, padding, border, margin과 position에 대해 설명해주세요 - 진실
+    content : 박스에 들어가는 텍스트나 이미지 등의 내용물
+    padding : 콘텐츠와 경계선 사이의 간격
+    border : 콘텐츠와 패딩을 포함한 경계를 나타내는 선
+    margin : 경계선과 외부 요소 사이의 간격
+    css position : HTML 상의 위치를 말합니다.
+    position : static, relative, absolute, fixed 로 구분합니다
+    static : 기본값으로 top, left, bottom, right 속성이 무시됩니다.
+    relative : 기준(static 일떄 있어야 하는 위치)에서 top, left, bottom, right 속성을 이용해 상하좌우로 이동 할 수 있습니다.
+    absolute : 기준을 상위요소로 지정해서 이동할 수 있습니다.
+    fixed : 브라우저 화면에 고정 top, left, bottom, right를 통해 위치 설정합니다.
+
+4.git에 대해 설명해주세요 (github 포함) - 나
+    Git 이란?
+        소스코드의 최신판을 관리하기 어렵기 때문에 생긴 형상 관리 도구 (Configuration Management Tool)입니다.
+    Git 특징
+        여러명이 동시에 작업할 수 있는 병렬 개발이 가능합니다.
+        프로그램의 변동 과정을 체계적으로 관리할 수 있고 지난 시점의 소스코드로 점프 할 수 있습니다.
+        새로운 기능을 추가하는 Experimental version을 개발하는 경우, 실험을 충분히 한 후 합치는 방식인 Merge로 개발을 진행 할 수 있습니다.
+        분산 버전관리라서 인터넷이 연결되지 않는 곳에서 개발을 할 수 있고 중앙 저장소가 폭파되어도 다시 원상 복구 할 수 있습니다.

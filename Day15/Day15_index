@@ -1,0 +1,21 @@
+크롬 개발자도구 
+    퍼포먼스
+        랜더링(보라색)이 많으면 최적화 작업 안된거
+        parseHTML
+    Lighthouse
+        팀 프로젝트를 하고 잘 만들었는지 보는 툴
+
+        컨트롤 쉬프트 P
+            show coverage
+
+브라우저 렌더링 https://www.youtube.com/watch?v=v8H5ujL4Tt8
+    통신
+        프로세스
+        스레드
+
+프로그래머스
+    X만큼 간격이 있는 n의 개수
+    약수의 개수와 덧셈
+
+전자정보 프레임워크
+Team8조 발표
