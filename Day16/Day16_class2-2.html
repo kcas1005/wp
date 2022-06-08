@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="upspeed"></p>
+    <p id="upspeedThis"></p>
+    <p id="upspeedGlobal_1"></p>
+
+    <script>
+        let var_1 = 30;
+        var car={
+            speed: 50,
+            speedup: function(){
+                return this.speed+10;
+            },
+            speedThis : this.speed,
+            speedGlobal : var_1 + 5,
+        };
+        var upspeed = document.getElementById("upspeed");
+        upspeed.textContent='upspeed : ' + car.speedup();
+        var upspeedThis = document.getElementById("upspeedThis");
+        upspeedThis.textContent='upspeedThis : ' + car.speedThis;
+        var upspeedGlobal = document.getElementById("upspeedGlobal_1");
+        upspeedGlobal.textContent='upspeedGlobal_1 : '+ car.speedGlobal;
+    </script>
+</body>
+</html>
