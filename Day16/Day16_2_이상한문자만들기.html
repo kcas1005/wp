@@ -19,15 +19,16 @@
         var answer = '';
         var message = "try hello world";
         var arr1 = message.split("");
-        console.log(0/2==0);
         console.log(arr1);
         console.log(arr1.length);
-        for(i=1; i>arr1.length; i++){
+        for(i=1; i<arr1.length; i++){
             if(i/2==0){
-            console.log(arr1[i].toUpperCase());
+                arr1[i].toUpperCase();
+                console.log(arr1);
             }
             else{
-            console.log(arr[i].toLowerCase());
+                arr[i].toLowerCase();
+                console.log(arr1);
             }            
         }
         return message;
