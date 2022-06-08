@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function add(){
+        var header=document.createElement('h3');
+        var textNode=document.createTextNode('내 이름은 홍길동입니다.');
+        header.appendChild(textNode);
+        document.body.appendChild(header);
+    };
+    </script>
+</head>
+<body>
+    <a href="#" onclick="add()">당신의 이름은 무엇입니까?</a>
+</body>
+</html>
