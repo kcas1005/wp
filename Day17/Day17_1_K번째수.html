@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // slice(i,j), 정렬 K번째 지목
+            function solution(array, commands) {
+            var array = new Array[array];
+            var answer = [];
+            array = array.slice(2-1,5);
+            // array = array.slice(a-1,b);
+            array.sort();
+            array= array.slice(3,3+1);
+            // array= array.slice(k,k+1);
+            return array;
+        }
+        array = [1, 5, 2, 6, 3, 7, 4]
+        commands = [[2, 5, 3]];
+        console.log(solution(array, commends));
+        
+    </script>
+</body>
+</html>

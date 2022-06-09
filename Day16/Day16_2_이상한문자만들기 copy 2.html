@@ -15,27 +15,35 @@
         // 홀수는 소문자 짝수는 대문자
         // 문자를 바꿔주기
 
-      function solution(s) {
-        var answer=[[],[],[]];
-        var message = "try hello world";
-        var arr1 = message.split(" ");
-        for(let i=0; i<arr1.length; i++){
-            var arr2=arr1[i].split("");
-            for(let a=0; a<arr2.length; a++){
-            if(a%2==0){
-                console.log(arr2[a].toUpperCase());
-                answer[i].push(arr2[a].toUpperCase());
-                // answer[i].push("a");
+        function solution(s) {
+            var answer = [];
+            var arr1 = s.split(" ");
+            var arr2 = [];
+            for (var i = 0; i < arr1.length; i++) {
+                var arr2 = arr1[i].split("");
+                for (var a = 0; a <= arr2.length; a++) {
+                    if (a % 2 == 0) {
+                        if (a == arr2.length) {
+                            answer.push(" ");
+                        }
+                        else {
+                            answer.push(arr2[a].toUpperCase());
+                        }
+                    }
+                    else if (a % 2 !== 0) {
+                        if (a == arr2.length) {
+                            answer.push(" ");
+                        }
+                        else {
+                            answer.push(arr2[a].toLowerCase());
+                        }
+                    }
+                }
             }
-            else if(a%2!==0){
-                console.log(arr2[a].toLowerCase());
-                answer[i].push(arr2[a].toLowerCase());
-            }
-        }
-        console.log(answer);
-        }
-        answer = answer[0][1].concat(answer[1][1],answer[2][1]);
-        return answer;
+            answer = answer.join("");
+            answer = answer.slice(0,answer.length-1);
+            console.log(answer);
+            return answer
         }
         solution();
 
