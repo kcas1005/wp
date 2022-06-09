@@ -15,27 +15,26 @@
             var arraylocal2 = array;
             var arraylocal3 = array;
             var command = commands;
-            
-            if(i==k){
-                arraylocal2.slice(i-1,i);
-            }
-
-            arraylocal1 = arraylocal1.slice((command[0][0]),(command[0][1]));
+            if(1<=array.length<=100){
+                if(1<=commands<=50){
+            arraylocal1 = arraylocal1.slice((command[0][0]-1),(command[0][1]));
             arraylocal1.sort();
             arraylocal1 = arraylocal1.slice((command[0][2]-1),(command[0][2]));
 
-            arraylocal2 = arraylocal2.slice((command[1][0]),(command[1][1]));
+            arraylocal2 = arraylocal2.slice((command[1][0]-1),(command[1][1]));
             arraylocal2.sort();
             arraylocal2 = arraylocal2.slice((command[1][2]-1),(command[1][2]));
 
-            arraylocal3 = arraylocal3.slice((command[2][0]),(command[2][1]));
+            arraylocal3 = arraylocal3.slice((command[2][0]-1),(command[2][1]));
             arraylocal3.sort();
-            arraylocal3 = arraylocal3.slice((command[2][2]),(command[2][2]));
+            arraylocal3 = arraylocal3.slice((command[2][2]-1),(command[2][2]));
 
             answer = new Array(arraylocal1,arraylocal2,arraylocal3);
             answer=answer.flat();
 
             return answer;
+                }
+            }
         }
         array = [1, 5, 2, 6, 3, 7, 4];
         commands = [[2, 5, 3],[4,4,1],[1,7,3]];
