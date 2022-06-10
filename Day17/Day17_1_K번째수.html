@@ -9,36 +9,33 @@
 <body>
     <script>
         // slice(i,j), 정렬 K번째 지목
+        //1<=array.length<=100
+        //1<=array<=100
+        //1<=commands<=50
+        //commands.length==3
             function solution(array, commands) {
             var answer = [];
-            var arraylocal1 = array;
-            var arraylocal2 = array;
-            var arraylocal3 = array;
+            var arraylocal = array;
             var command = commands;
             
-            if(i==k){
-                arraylocal2.slice(i-1,i);
+             for(var a=0; a<command.length; a++){
+                if(command[a][0] <= command[a][1]){
+                arraylocal = arraylocal.slice((command[a][0]-1),(command[a][1]));
+                
+                }
+                else if(command[a][0] > command[a][1]){
+                arraylocal = arraylocal.slice((command[a][0]),(command[a][1]-1));
+
+                }
+                arraylocal.sort();
+                arraylocal = arraylocal.slice((command[a][2]-1),(command[a][2]));
+                answer = answer.concat(arraylocal);
+                arraylocal = array;
+               }
+               return answer;
             }
-
-            arraylocal1 = arraylocal1.slice((command[0][0]),(command[0][1]));
-            arraylocal1.sort();
-            arraylocal1 = arraylocal1.slice((command[0][2]-1),(command[0][2]));
-
-            arraylocal2 = arraylocal2.slice((command[1][0]),(command[1][1]));
-            arraylocal2.sort();
-            arraylocal2 = arraylocal2.slice((command[1][2]-1),(command[1][2]));
-
-            arraylocal3 = arraylocal3.slice((command[2][0]),(command[2][1]));
-            arraylocal3.sort();
-            arraylocal3 = arraylocal3.slice((command[2][2]),(command[2][2]));
-
-            answer = new Array(arraylocal1,arraylocal2,arraylocal3);
-            answer=answer.flat();
-
-            return answer;
-        }
         array = [1, 5, 2, 6, 3, 7, 4];
-        commands = [[2, 5, 3],[4,4,1],[1,7,3]];
+        commands = [[2, 5, 3],[4, 4, 1],[1, 7, 3]];
         console.log(solution(array, commands));
         
     </script>
