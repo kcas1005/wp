@@ -8,39 +8,39 @@
 </head>
 <body>
     <script>
-        // slice(i,j), 정렬 K번째 지목
-            function solution(array, commands) {
-            var answer = [];
-            var arraylocal1 = array;
-            var arraylocal2 = array;
-            var arraylocal3 = array;
-            var command = commands;
-            
-            if(i==k){
-                arraylocal2.slice(i-1,i);
+    /* 수포자 3인
+    10,000문제
+    정답 배열 answer = []
+    for문
+    문자열 반복
+    리턴 가장 높은 점수를 받은 사람이 여러명일 경우 오름차수 sort();
+    수포자1 : 1,2,3,4,5 ~ 1,2,3,4,5;
+    수포자2 : 2,1,2,3,2,4,2,5 ~ 2,1,2,3,2,4,2,5;
+    수포자3 : 3,3,1,1,2,2,4,4,5,5 ~ 3,3,1,1,2,2,4,4,5,5; 
+    맞았으면 ++ */
+    
+    
+    function solution(answer){
+        var count1=0;
+        var count2=0;
+        var count3=0;
+        var loser =[[1,2,3,4,5],[2,1,2,3,2,4,2,5],[3,3,1,1,2,2,4,4,5,5]];
+        var answers = answer;
+
+        for(i=0; i<answer.length; i++){
+            if(loser[0][i]==answers[i]){
+                count1++
             }
-
-            arraylocal1 = arraylocal1.slice((command[0][0]),(command[0][1]));
-            arraylocal1.sort();
-            arraylocal1 = arraylocal1.slice((command[0][2]-1),(command[0][2]));
-
-            arraylocal2 = arraylocal2.slice((command[1][0]),(command[1][1]));
-            arraylocal2.sort();
-            arraylocal2 = arraylocal2.slice((command[1][2]-1),(command[1][2]));
-
-            arraylocal3 = arraylocal3.slice((command[2][0]),(command[2][1]));
-            arraylocal3.sort();
-            arraylocal3 = arraylocal3.slice((command[2][2]),(command[2][2]));
-
-            answer = new Array(arraylocal1,arraylocal2,arraylocal3);
-            answer=answer.flat();
-
-            return answer;
+            if(loser[1][i]==answers[i]){
+                count2++
+            }
+            if(loser[2][i]==answers[i]){
+                count3++
+            }
         }
-        array = [1, 5, 2, 6, 3, 7, 4];
-        commands = [[2, 5, 3],[4,4,1],[1,7,3]];
-        console.log(solution(array, commands));
-        
+    }
+    answer = [1,3,2,4,2]
+    solution(answer)
     </script>
 </body>
 </html>
