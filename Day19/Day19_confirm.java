@@ -42,10 +42,6 @@ public class Day19_confirm{
             System.out.println("복습: " + day15 +" day");
             System.out.println("복습: " + day30 +" day");
         }
-
-
-        
-        
-        
+        sc.close();        
     }
 }

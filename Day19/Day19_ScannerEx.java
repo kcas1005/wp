@@ -29,7 +29,6 @@ public class Day19_ScannerEx{
         System.out.println("체중은" + weight + "kg");
         System.out.println("독신 여부는" + isSingle + "입니다.");
 
-
         sc.close();
     }
 }
