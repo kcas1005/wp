@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collections;
-imp
 
 class Solution {
     public int[] solution(int[] numbers) {

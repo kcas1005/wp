@@ -3,14 +3,14 @@ import java.util.*;
 class Day19_두개뽑아서더하기ret {
     public static void main(String[] args) {
         int[] numbers = { 5, 0, 2, 7 };
-        solutionA.solution(numbers);
+        a.solution(numbers);
     }
 
 }
 
-class solutionA{
+class a {
     public static TreeSet<Integer> solution(int[] numbers) {
-        TreeSet<Integer> answer = new TreeSet<>();
+        TreeSet<Integer> answer = new TreeSet<Integer>();
         int length = numbers.length;
         // System.out.println("numbers.length: " + length);
         // System.out.println(Arrays.toString(numbers));
@@ -20,6 +20,7 @@ class solutionA{
                     answer.add(numbers[y] + numbers[z]);
                 }
             }
+
         }
         System.out.println(answer);
         return answer;
