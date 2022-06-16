@@ -5,7 +5,7 @@ public class Day21_num {
 
         number1.numStatic++;
         number1.numNormal++;
-        System.out.println("number1.numStatic: " + number1.numStatic);
+        System.out println("number1.numStatic: " + number1.numStatic);
         System.out.println("number1.numNormal: " + number1.numNormal);
 
         System.out.println("number2.numStatic: " + number2.numStatic);

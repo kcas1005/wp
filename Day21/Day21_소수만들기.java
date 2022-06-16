@@ -60,7 +60,7 @@ class SolutionF {
                     if (num[i] % a == 0) {
                         count += 1;
                     }
-                    if (count >= 3) {
+                    if (count >= 1) {
                     }
                 }
             }
