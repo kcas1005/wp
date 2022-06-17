@@ -1,0 +1,38 @@
+강의 교안 6장 클래스
+    1절. 객체 지향 프로그래밍
+        객체 지향 프로그래밍
+        객체(Object)란?
+        객체의 상호 작용
+        객체간의 관계
+        캡슐화
+        상속
+        다양성(Polymorphism)
+    2절. 객체(Object)와 클래스(Class)
+        객체(Object)와 클래스(Class)
+    3절. 클래스 선언
+        클래스 선언과 컴파일
+    4절. 객체 생성과 클래스 변수
+        new 연산자
+        클래스 변수
+        클래스의 용도
+    5절. 클래스의 구성 멤버
+    6절. 필드(Field)
+    7절. 생성자(Constructor)
+    8절. 메소드(Method)
+    9절. 인스턴스 멤버와 this
+    10절. 정적 멤버와 static
+    11절. final 필드와 상수(static final)
+    12절. 패키지(package)
+    13절. 접근 제한자
+    14절. Getter와 Setter
+    15절. 어노테이션(Annotation)
+
+
+시험
+    arrayList<String></String>
+    2차원 배열 안에 값이 없도록 초기화 하는 것
+    고정 배열 크기 알고 있어야 함
+
+    클래스 , 그리드
+    크롬 개발자도구 element performance coverage
+    중요하게 생각하는 것 Dom
