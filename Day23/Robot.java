@@ -1,4 +1,4 @@
-package JAVA1;
+package Day23;
 
 public class Robot {
     int RobotNum = 2;

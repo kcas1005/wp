@@ -1,4 +1,4 @@
-package JAVA1;
+package Day23;
 
 public class Robotex
  {
@@ -16,6 +16,9 @@ public class Robotex
         myRobot.Color = "black";
         System.out.println("수정된 색상:" + myRobot.Color);
         System.out.println("수정된속도 :" + myRobot.speed);
+
+        Robot myRobot2 = new Robot();
+        System.out.println("myRobot2: " + myRobot2.Color);
         
     } 
 
