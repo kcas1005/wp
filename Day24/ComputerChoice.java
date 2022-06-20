@@ -22,38 +22,46 @@ package Day24;
 
 // Scanner 인스턴스 생성
 public class ComputerChoice {
-    String[] Name = {"김준석", "지성진"}
-    String[] computerName = { "맥북", "갤럭시 북", "그램" };
-    String[] CPUName = { "인텔", "AMD" };
-    String[] RAMName = { "4gb", "8gb", "16gb", "32gb", "64gb" };
-    String[] SSDName = { "128gb", "256gb", "512gb", "1tb" };
+    String Name = "지성진";
+    String computerName = "그램";
+    String CPUName = "인텔";
+    String RAMName = "64gb";
+    String SSDName = "1tb";
 
     // 인자값 넣을 때
     public ComputerChoice() {
     }
 
-    public ComputerChoice(String[] input_computerName) {
+    public ComputerChoice(String input_computerName) {
         this.computerName = input_computerName;
     }
 
-    public ComputerChoice(String[] input_computerName, String[] input_CPUName) {
+    public ComputerChoice(String input_computerName, String input_CPUName) {
         this.computerName = input_computerName;
         this.CPUName = input_CPUName;
     }
 
-    public ComputerChoice(String[] input_computerName, String[] input_CPUName, String[] input_RAMName) {
+    public ComputerChoice(String input_computerName, String input_CPUName, String input_RAMName) {
         this.computerName = input_computerName;
         this.CPUName = input_CPUName;
         this.RAMName = input_RAMName;
     }
 
-    public ComputerChoice(String[] input_computerName, String[] input_CPUName, String[] input_RAMName, String[] input_SSDName) {
+    public ComputerChoice(String input_computerName, String input_CPUName, String input_RAMName, String input_SSDName) {
         this.computerName = input_computerName;
         this.CPUName = input_CPUName;
         this.RAMName = input_RAMName;
         this.SSDName = input_SSDName;
     }
-    // 넣은 인자값이랑 실제로 있는지 확인하는 것
 
+    // 넣은 인자값이랑 실제로 있는지 확인하는 것
+    public BooleanCheck(String inputComputerName){
+    if(inputComputerName == this.computerName){
+        System.out.println("값이 일치합니다.");
+    }
+    else{
+        System.out.println("값이 다릅니다.");
+    }
+}
     // 없을 때 추가하는 것
 }

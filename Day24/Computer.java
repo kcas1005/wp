@@ -37,7 +37,6 @@ class Computer {
         System.out.println("CPU 이름을 입력해주세요.");
         String inputCPUName = sc.next();
         System.out.println("CPUName: " + inputCPUName);
-
         System.out.println("RAM 이름을 입력해주세요.");
         String inputRAMName = sc.next();
         System.out.println("RAMName: " + inputRAMName);
@@ -53,8 +52,16 @@ class Computer {
         System.out.print("RAMName: " + inputRAMName);
         System.out.print(" // ");
         System.out.print("SSDName: " + inputSdName);
+        System.out.println();
 
-        // ComputerChoice cp = new ComputerChoice();
-        // System.out.println("cp.Name: " + cp.Name);
+        ComputerChoice cp = new ComputerChoice(inputComputerName, inputCPUName, inputRAMName, inputSdName);
+
+        System.out.println("-----------------------");
+        System.out.println("cp.Name: " + cp.computerName);
+        System.out.println("cp.Name: " + cp.CPUName);
+        System.out.println("cp.Name: " + cp.RAMName);
+        System.out.println("cp.Name: " + cp.SSDName);
+        System.out.println("-----------------------");
+        
     }
 }
