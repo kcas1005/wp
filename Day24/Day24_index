@@ -5,3 +5,13 @@
 
     취업할 때 이력서에
         MVC패턴을 이해했다(중요)
+        IOC
+        DI
+
+모르는 것
+    gradle-wrapper.properties
+        distributionUrl 
+            리눅스에서는 "\" 를 인식 못함
+            경로명 패스명 자주 오류 남.
+        
+    
