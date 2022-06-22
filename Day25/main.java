@@ -30,7 +30,7 @@ public class main {
 
      
             
-            dogM dogm = new dogM(input_name_4, 10, 100, 10);
+            dogM dogm = new dogM(input_name_4, 1, 10, 10, 100000000);
             dogm.info();
             dogm.dmg(dogm.hit());
             //slime_test.info();

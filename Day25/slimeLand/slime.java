@@ -9,6 +9,7 @@ public class slime {
     public int hp;
     public int mp;
     public int hit;
+    public int amor;
 
 
 
@@ -18,25 +19,27 @@ public class slime {
         this.hp = 10;
         this.mp = 0;
         this.hit = 0;
+        this.amor = 0;
 
     }
 
-    public slime(String name, int hp, int mp, int hit) {
+    public slime(String name, int hp, int mp, int hit, int amor) {
         this.name = name;
         this.hp = hp;
         this.mp = mp;
         this.hit = hit;
+        this.amor = amor;
 
     }
 
     public void dmg(int dmg) {
-        this.hp = this.hp - dmg;
-        if (dmg > 0) {
-            System.out.println(this.name + "은 " + dmg + "의 공격을 받았습니다.");
-        } else {
-
+        int am_dm = this.amor - dmg;
+        if(amor > dmg){
+            System.out.println(this.name + "은 " + "miss");
+        }else if (dmg > amor){
+            this.hp = this.hp - Math.abs(am_dm);
+            System.out.println(this.name + "은 " + am_dm + "의 공격을 받았습니다.");
         }
-
     }
 
     public void info() {
@@ -44,6 +47,7 @@ public class slime {
         System.out.println("Name = " + this.name);
         System.out.println("HP = " + this.hp);
         System.out.println("MP = " + this.mp);
+        System.out.println("MP = " + this.amor);
     }
 
     public int hit() {
