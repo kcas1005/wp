@@ -1,27 +1,27 @@
 package slimeLand;
 
 public class birdM extends slime{
-    public birdM(String name, int hp, int mp, int hit){
-        super(name, hp, mp, hit);
+    public birdM(String name, int hp, int mp, int hit, int amor){
+        super(name, hp, mp, hit, amor);
         this.hp = hp * 20;
 
     }
 
     public void dmg(int dmg) {
-        this.hp = this.hp - dmg;
-        if (dmg > 0) {
-            System.out.println(this.name + "은 " + dmg + "의 공격을 받았습니다.");
-        } else {
-
+        int am_dm = this.amor - dmg;
+        if(amor > dmg){
+            System.out.println(this.name + "은 " + "miss");
+        }else if (dmg > amor){
+            this.hp = this.hp - Math.abs(am_dm);
+            System.out.println(this.name + "은 " + am_dm + "의 공격을 받았습니다.");
         }
-
     }
-
     public void info() {
         System.out.println("__________" + name + "__________");
         System.out.println("Name = " + this.name);
         System.out.println("HP = " + this.hp);
         System.out.println("MP = " + this.mp);
+        System.out.println("MP = " + this.amor);
     }
 
     public int hit() {
