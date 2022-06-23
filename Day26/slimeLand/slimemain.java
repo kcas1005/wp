@@ -100,7 +100,6 @@ public class slimemain {
                     System.out.println("GAME OVER");
                     break;
                 }
-
                 
                 if (choice == 2) {
                     System.out.println("-------------마법사 선택 하셨습니다--------------");
@@ -108,8 +107,6 @@ public class slimemain {
                     sc.nextLine();
                     System.out.println("------------------몬스터 등장--------------------");
                     slimeRed.info();
-                    ghost.info();
-                    beast.info();
                     sc.nextLine();
                     System.out.println("------------------------------------------------");
                     System.out.println("1. 기본공격 2. 스킬 3. 인벤토리 4. 도망가기");
@@ -118,8 +115,6 @@ public class slimemain {
                         System.out.println("----------!!!MagictionAttack!!!----------");
                         slimeRed.dmg(magiction01.BasicAttack());
                         slimeRed.info();
-                        ghost.dmg(magiction01.BasicAttack());
-                        ghost.info();
 
                         System.out.println("----------!!!MonsterAttack!!!----------");
                         warrior01.dmg(slimeRed.att());
@@ -148,5 +143,4 @@ public class slimemain {
             }
         }
     }
-
 }
