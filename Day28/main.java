@@ -1,4 +1,4 @@
-package Day28;
+
 public class main{
     public static void main(String[] args){
 
@@ -16,11 +16,7 @@ public class main{
 
             System.out.println("포션사용" + effectHP);
             System.out.println("포션사용" + effectHP_x3);
-
             
         }
 
-
-
-    
 }

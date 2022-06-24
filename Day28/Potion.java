@@ -1,4 +1,4 @@
-package Day28;
+
 public class Potion {
     public int effectHP;
 
