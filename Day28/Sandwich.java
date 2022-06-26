@@ -1,8 +1,8 @@
 
 public class Sandwich{
     int day;
-    String bread = "빵";
-    String butter = "버터";
+    String bread;
+    String butter;
     
     
     public void Sandwich(String bread, String butter, String c){
