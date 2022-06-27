@@ -139,4 +139,8 @@ public class eat {
                 break;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1a559aa20354150b0b84264603d84f4caf7ceaa2

@@ -64,10 +64,17 @@ public class slime {
     }
 
     // 죽을 경우에 드랍
+<<<<<<< HEAD
+    // 메모리 제거
+    public void die() {
+        if (this.hp <= 0) {
+            System.out.println(this.name + "이 죽었습니다.");
+=======
     public void die() {
         if (this.hp <= 0) {
             System.out.println(this.name + "이/가 죽었습니다.");
             this.hp=0;
+>>>>>>> 64f0896d2bb6f2b9f5d75e8b312659aced562d68
         } else {
             System.out.println("없음");
 
