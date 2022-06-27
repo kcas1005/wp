@@ -6,6 +6,6 @@ public class Eggsalad_Sandwich extends Sandwich{
         super.Sandwich(bread, butter, c, d);
         salad = c;
         egg = d;
-        Sandwich(blue)
+        Sandwich(blue);
     }
 }
