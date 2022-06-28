@@ -1,3 +1,5 @@
+package Day30;
+
 public class point {
 
     public static void main(String[] arg) {
@@ -54,25 +56,26 @@ public class point {
 
         // String a = " ";
         // String b = " ";
-        
-        for (int i = 11; i > 0; i -= 2) {
-        for (int k = 0; k < i; k += 1) {
-        System.out.print("*");
-        }
-        System.out.println("");
-        }
-        
-        /* String c = "*";
-        String d = "*";
 
-        for (int i = 1; i < 10; i += 2) {
-            System.out.print(a);
-            a+=b;
-            for (int k = 0; k < i; k += 1) {
-                System.out.print("*");
+        /*
+         * for (int i = 11; i > 0; i -= 2) {
+         * for (int k = 0; k < i; k += 1) {
+         * System.out.print("*");
+         * }
+         * System.out.println("");
+         * }
+         */
+
+        // String c = "*";
+        // String d = "*";
+
+        for (int i = 1; i < k; i += 2) {
+            for (int j = 0; j < i; j += 1) {
+                System.out.print(" ");
             }
-            System.out.println("");
-        } */
+            System.out.print("*");
+            System.out.println();
+        }
     }
 }
 
