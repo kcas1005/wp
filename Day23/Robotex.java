@@ -1,12 +1,9 @@
 package Day23;
 
-public class Robotex
- {
+public class Robotex{
     public static void main(String[] args) {
         Robot myRobot = new Robot();
-        
-        
-       
+
         System.out.println(myRobot.RobotName);
         System.out.println(myRobot.RobotNum);
         System.out.println(myRobot.Color);
