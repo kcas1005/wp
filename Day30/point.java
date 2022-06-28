@@ -52,18 +52,17 @@ public class point {
          * }
          */
 
-        String a = " ";
-        String b = " ";
-        /*
-         * for (int i = 11; i > 0; i -= 2) {
-         * System.out.print(a += b);
-         * for (int k = 0; k < i; k += 1) {
-         * System.out.print("*");
-         * }
-         * System.out.println("");
-         * }
-         */
-        String c = "*";
+        // String a = " ";
+        // String b = " ";
+        
+        for (int i = 11; i > 0; i -= 2) {
+        for (int k = 0; k < i; k += 1) {
+        System.out.print("*");
+        }
+        System.out.println("");
+        }
+        
+        /* String c = "*";
         String d = "*";
 
         for (int i = 1; i < 10; i += 2) {
@@ -73,7 +72,7 @@ public class point {
                 System.out.print("*");
             }
             System.out.println("");
-        }
+        } */
     }
 }
 
