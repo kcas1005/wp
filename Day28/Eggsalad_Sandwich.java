@@ -8,10 +8,6 @@ public class Eggsalad_Sandwich extends Sandwich{
         salad = c;
         System.out.println(salad + "를 집어 넣습니다.");
         egg = d;
-<<<<<<< HEAD
-        Sandwich(blue);
-=======
         System.out.println(egg + "을 집어 넣습니다.");
->>>>>>> 1a559aa20354150b0b84264603d84f4caf7ceaa2
     }
 }
