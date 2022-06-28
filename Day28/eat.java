@@ -107,7 +107,7 @@ public class eat {
         Eggsalad_Sandwich es = new Eggsalad_Sandwich();
         Avocado_Sandwich as = new Avocado_Sandwich();
 
-        switch (d2) {
+        switch (d4) {
 
             case 1:
                 System.out.println(d11 + "에는 " + d12 + " 를 먹습니다.");
@@ -139,8 +139,4 @@ public class eat {
                 break;
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1a559aa20354150b0b84264603d84f4caf7ceaa2
