@@ -67,13 +67,17 @@ public class point {
         // String c = "*";
         // String d = "*";
 
-        for (int i = 0; i < 6; i += 1) {
-            for (int j = 1; j < i; j += 1) {
-                for (int k = 0; k < 6; k += 1) {
-                    System.out.print("*");
+        for (int i = 0; i < 2; i += 1) {
+            System.out.print("a");
+            for (int j = 0; j < 5; j += 1) {
+                System.out.print("b");
+                for (int k = 0; k < 10; k += 1) {
+                    System.out.print("c");
                 }
-                System.out.println();
+                System.out.print("d");
             }
+            System.out.print("e");
+            System.out.println("");
         }
     }
 }
@@ -83,3 +87,5 @@ public class point {
 // 원형
 
 // 어려운 문제. 얼굴 그리기
+
+
