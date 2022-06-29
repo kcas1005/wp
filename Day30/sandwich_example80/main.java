@@ -1,55 +1,54 @@
-package example_promotion_01;
-import example_promotion_01.package0008_promotionExample.*;
+package sandwich_example80;
+
 import java.util.Random;
 import java.util.Scanner;
 
-/* import package0004_gameSlimeLand.*;
-import package0004_gameSlimeLand.inven.potion.RedPotion;
-import package0005_invenItemOverridingExample.*;
-import package0006_inheritanceExample.*;
+// import package0004_gameSlimeLand.*;
+// import package0004_gameSlimeLand.inven.potion.RedPotion;
+// import package0005_invenItemOverridingExample.*;
+// import package0006_inheritanceExample.*;
 
-import package0007_sandwich.*;
-import package0010_exam.childClass_sandwich_anotherPackage;
+// import package0007_sandwich.*;
+// import package0010_exam.childClass_sandwich_anotherPackage;
 
-import package0008_promotionExample.*; */
+// import package0008_promotionExample.*;
+import sandwich_example80.package0007_sandwich.*;
 
 public class main {
 
     public static void main(String[] arg) {
 
-        // startSandwich();
+        startSandwich();
 
-        startPromotion();
+        // startPromotion();
 
     }
 
-    private static void startPromotion() {
+    // private static void startPromotion() {
 
-        child child = new child();
+    //     child child = new child();
 
-        parent parent = child;
+    //     parent parent = child;
 
-        parent.method1();
+    //     parent.method1();
 
-        parent.method2();
-
-        
-    }
-
-    // private static void startSandwich() {
-
-    //     childClass_sandwich_anotherPackage[] sandwichs = new childClass_sandwich_anotherPackage[5];
-        
-    //     sandwichs[0] = new abocadosand("아보카도샌드위치","빵", "버터", "에그", "아보카도");
-    //     sandwichs[1] = new baconsand("베이컨샌드위치","빵", "버터", "베이컨", "상추");
-    //     sandwichs[2] = new baconsand("베이컨샌드위치","빵", "버터", "계란", "샐러드");
-    //     sandwichs[3] = new baconsand("베이컨샌드위치","빵", "버터", "베이컨", "상추");
-    //     sandwichs[4] = new pumkinsand("베이컨샌드위치","빵", "버터", "단호박");
-
-    //     for(int i=0 ;i < 5; i++){
-    //         sandwichs[i].getInfo("월요일");
-    //     }
+    //     parent.method2();
     // }
+
+    private static void startSandwich() {
+
+        childClass_sandwich_anotherPackage[] sandwichs = new childClass_sandwich_anotherPackage[5];
+        
+        sandwichs[0] = new abocadosand("아보카도샌드위치","빵", "버터", "에그", "아보카도");
+        sandwichs[1] = new baconsand("베이컨샌드위치","빵", "버터", "베이컨", "상추");
+        sandwichs[2] = new baconsand("베이컨샌드위치","빵", "버터", "계란", "샐러드");
+        sandwichs[3] = new baconsand("베이컨샌드위치","빵", "버터", "베이컨", "상추");
+        sandwichs[4] = new pumkinsand("베이컨샌드위치","빵", "버터", "단호박");
+
+        for(int i=0 ;i < 5; i++){
+            sandwichs[i].getInfo("월요일");
+        }
+    }
 
     // public static void CreateSlime() {
 
@@ -91,18 +90,18 @@ public class main {
     // }
 
     // private static void weekTest() {
-    //     //*특정 학생분들께 제공하는 조별 주말과제 입니다 */
-    //     //김준석은 요리를 하려고 한다.
-    //     //일 주일동안 점심식사 준비를 하려고 샌드위치를 만들려고 합니다.
-    //     //월요일에는 블루베리베이컨 샌드위치(재료 : 빵, 버터, 블루베리, 베이컨), 
-    //     //화요일에는 상추베이컨 샌드위치(재료 : 빵, 버터, 상추, 베이컨),
-    //     //수요일에는 단호박 샌드위치(재료 : 빵, 버터, 단호박),
-    //     //목요일에는 에그샐러드 샌드위치(재료 : 빵, 버터, 계란, 샐러드),
-    //     //금요일에는 아보카도에그 샌드위치(재료 : 빵, 버터, 아보카도, 계란)를 만들려고 합니다.
-    //     //class Sandwich를 상속받은 다양한 샌드위치 class를 만들어서 
-    //     //(배열)특정 요일에는 특정 샌드위치를 먹는다는 System.out.println을 출력하시오.
-    //     //더불어 특정 샌드위치의 재료를 출력하는 System.out.println을 만들어 출력하시오.
-    // }
+        //*특정 학생분들께 제공하는 조별 주말과제 입니다 */
+        //김준석은 요리를 하려고 한다.
+        //일 주일동안 점심식사 준비를 하려고 샌드위치를 만들려고 합니다.
+        //월요일에는 블루베리베이컨 샌드위치(재료 : 빵, 버터, 블루베리, 베이컨), 
+        //화요일에는 상추베이컨 샌드위치(재료 : 빵, 버터, 상추, 베이컨),
+        //수요일에는 단호박 샌드위치(재료 : 빵, 버터, 단호박),
+        //목요일에는 에그샐러드 샌드위치(재료 : 빵, 버터, 계란, 샐러드),
+        //금요일에는 아보카도에그 샌드위치(재료 : 빵, 버터, 아보카도, 계란)를 만들려고 합니다.
+        //class Sandwich를 상속받은 다양한 샌드위치 class를 만들어서 
+        //(배열)특정 요일에는 특정 샌드위치를 먹는다는 System.out.println을 출력하시오.
+        //더불어 특정 샌드위치의 재료를 출력하는 System.out.println을 만들어 출력하시오.
+    }
 
     // private static void usePotion() {
     //     //용사의 인벤토리에 아이템 번호를 가지고 포션을 사용합니다
@@ -197,16 +196,16 @@ public class main {
 
           
 
-    //         슬라임 증식을 한다
+            //슬라임 증식을 한다
 
-    //         용사의 공격(1턴)
+            //용사의 공격(1턴)
            
         
-    //         슬라임의 공격(1턴)
+            //슬라임의 공격(1턴)
          
            
-    //         if(모든 슬라임이 죽을 경우) break;
-    //     }
+            //if(모든 슬라임이 죽을 경우) break;
+        }
     
     }
-// }
+}

@@ -6,18 +6,21 @@ public class Day31_Test {
         Icecream t_icecream = new Icecream();
         Noodle t_noodle = new Noodle();
 
-        t_eating.eeating(t_eat);
-        t_eating.eeating(t_icecream);
-        t_eating.eeating(t_noodle);
+        t_eat.rice(t_eating);
+        t_eat.rice(t_icecream);
+        t_eat.rice(t_noodle);
 
-        // Eat t_eat_A = new Eat();
-        // method1(t_eat_A);
-        // method2(t_eat_A); //예외 발생
+        Noodle t_eat_A = t_noodle;
+        method1(t_eat_A);
+        method2(t_eat_A); //예외 발생
+
+        // t_eat_A.goicecream();
+        t_eat_A.gonoodle();
 
         // Eat t_eat_B = new Eat();
         // method1(t_eat_B);
     }
-    public static void method1(Eat parent){
+    public static void method1(Eating parent){
         if(parent instanceof Icecream){
             Icecream child = (Icecream) parent;
             System.out.println("method1 - Child로 변환 성공");
@@ -27,8 +30,8 @@ public class Day31_Test {
         }
         
     }
-    public static void method2(Eat parent){
-        Icecream child = (Icecream) parent;
+    public static void method2(Eating parent){
+        Eating child = (Noodle)parent;
         System.out.println("method2 - Child로 변환 성공");
     }
     

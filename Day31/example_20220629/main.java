@@ -4,13 +4,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 import package0004_gameSlimeLand.*;
-import package0004_gameSlimeLand.inven.potion.RedPotion;
-import package0004_gameSlimeLand.slime.NormalSlime;
-import package0004_gameSlimeLand.slime.RedSlime;
-import package0004_gameSlimeLand.slime.actionSlime;
-import package0004_gameSlimeLand.slime.actionSlimeBludslime;
-import package0004_gameSlimeLand.slime.actionSlimeRedslime;
-import package0004_gameSlimeLand.slime.slime_notUse;
+import package0004_gameSlimeLand.slime.*;
+import package0004_gameSlimeLand.inven.potion.*;
+// import package0004_gameSlimeLand.inven.potion.RedPotion;
+// import package0004_gameSlimeLand.slime.NormalSlime;
+// import package0004_gameSlimeLand.slime.RedSlime;
+// import package0004_gameSlimeLand.slime.actionSlime;
+// import package0004_gameSlimeLand.slime.actionSlimeBludslime;
+// import package0004_gameSlimeLand.slime.actionSlimeRedslime;
+// import package0004_gameSlimeLand.slime.slime_notUse;
 
 
 

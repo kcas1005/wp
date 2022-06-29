@@ -1,7 +1,7 @@
-public class Icecream extends Eat {
+public class Icecream extends Eating {
 
     @Override
-    void rice(){
+    void eeating(){
         System.out.println("아이스크림을 먹는다.");
     }
     void goicecream(){

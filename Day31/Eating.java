@@ -1,6 +1,6 @@
 public class Eating {
-    void eeating(Eat eataction){
-        eataction.rice();
+    void eeating(){
+        System.out.println("밥을 먹는다.");
 
     }
 }
