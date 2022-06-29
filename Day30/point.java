@@ -1,5 +1,3 @@
-package Day30;
-
 public class point {
 
     public static void main(String[] arg) {
@@ -69,11 +67,14 @@ public class point {
         // String c = "*";
         // String d = "*";
 
-        for (int i = 1; i < k; i += 2) {
-            for (int j = 0; j < i; j += 1) {
-                System.out.print(" ");
+        for (int i = 1; i < 10; i += 2) {
+            for (int j = 1; j < i; j += 1) {
+                for (int k = 0; k < j; k += 1) {
+                    System.out.print(" ");
+                    
+                }
+                System.out.print("*");
             }
-            System.out.print("*");
             System.out.println();
         }
     }
