@@ -68,13 +68,12 @@ public class point {
         // String d = "*";
 
         for (int i = 0; i < 2; i += 1) {
-            System.out.print("a");
             for (int j = 0; j < 5; j += 1) {
-                System.out.print("b");
+                System.out.print(" ");
                 for (int k = 0; k < 10; k += 1) {
                     System.out.print("c");
                 }
-                System.out.print("d");
+                System.out.print(" ");
             }
             System.out.print("e");
             System.out.println("");
