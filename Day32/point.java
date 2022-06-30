@@ -69,16 +69,28 @@ public class point {
         // String c = "*";
         // String d = "*";
 
-        for (int i = 0; i < 1; i++) {
-            for (int j = 5; j > 0 ; j--) {
-                for (int k = j; k > 0; k--) {
-                    System.out.print(" ");
-                }
-                System.out.print("0");
-                System.out.println(" ");
+        /* // 마름모
+        for (int i = 0; i < 5; i++) {
+            for (int j = 5; j > i; j--) {
+                System.out.print(" ");
             }
+            for (int k = 1-i; k < i; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
         }
-    }
+        for(int i = 2; i < 5; i++){
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 9-i; k > i; k--) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    } */
+    원형
+
 
     // ☆☆★☆☆
     // ☆★★★☆
