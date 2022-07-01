@@ -79,10 +79,10 @@ public class point {
 
         // 원형 (해결해야됨)
         for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
+            for (int j = 10; j > i; j-=2) {
                 System.out.print(" ");
             }
-            for (int k = 0; k < 30; k++) {
+            for (int k = i*2; k > -1; k-=2) {
                 System.out.print("*");
             }
             System.out.println("");
