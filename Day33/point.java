@@ -77,84 +77,16 @@ public class point {
          * }
          */
 
-<<<<<<< HEAD
-        // String c = "*";
-        // String d = "*";
-
-        /* // 마름모
-        for (int i = 0; i < 5; i++) {
-            for (int j = 5; j > i; j--) {
-                System.out.print(" ");
-            }
-            for (int k = 1-i; k < i; k++) {
-=======
         // 원형 (해결해야됨)
         for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
+            for (int j = 10; j > i; j-=2) {
                 System.out.print(" ");
             }
-            for (int k = 0; k < 30; k++) {
->>>>>>> e744aef3b4bd64f70af6085d8f1813e67238905a
+            for (int k = i*2; k > -1; k-=2) {
                 System.out.print("*");
             }
             System.out.println("");
         }
-<<<<<<< HEAD
-        for(int i = 2; i < 5; i++){
-            for (int j = 0; j < i; j++) {
-                System.out.print(" ");
-            }
-            for (int k = 9-i; k > i; k--) {
-                System.out.print("*");
-            }
-            System.out.println("");
-        }
-    } */
-    원형
-
-
-    // ☆☆★☆☆
-    // ☆★★★☆
-    // ★★★★★
-
-    // ★☆☆☆☆
-    // ★★☆☆☆
-    // ★★★☆☆
-    // ★★★★☆
-    // ★★★★★
-
-    /*
-     * //배열로 사각형
-     * String[][] x = new String[60][30];
-     * for(int i=0; i<x.length; i++){
-     * for(int j=0; j<x[i].length; j++){
-     * x[i][j] = "*";
-     * }
-     * }
-     * 
-     * for(int i=50; i<x.length; i++){
-     * for(int j=10; j<x[i].length; j++){
-     * x[i][j] = "@";
-     * }
-     * }
-     * 
-     * for(int i=0; i<x.length; i++){
-     * for(int j=0; j<x[i].length; j++){
-     * System.out.print(x[i][j]);
-     * }
-     * System.out.println("");
-     * }
-     * // System.out.println(Arrays.deepToString(x));
-     */
-
-}
-
-// 마름모
-
-// 원형
-
-// 어려운 문제. 얼굴 그리기
-=======
 
         // 어려운 문제. 얼굴 그리기 (해결해야됨)
 
@@ -184,4 +116,3 @@ public class point {
 
     }
 }
->>>>>>> e744aef3b4bd64f70af6085d8f1813e67238905a
