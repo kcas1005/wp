@@ -13,7 +13,7 @@ https://velog.io/@bensworks/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%
 
 
 
-3대 회사
+3대 회사1
 웹프로그래밍
 보안쪽
 클라우드
@@ -21,6 +21,31 @@ https://velog.io/@bensworks/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%
 
 #기술스택
 @java 버전관리 (패스 저장, jvm 돌아가는 방식)
+    시스템 환경변수로 각 자바가 설치되어있는 경로에 Path를 주면 Path 경로에 있는 버전에 맞는 자바가 실행됨
+
+    long term support(LTS) 3년마다 개발
+    자바 8
+        람다 표현식
+        Stream 스레드 2~3개를 사용해서 for문 보다 빠름
+        인터페이스 - default
+        optional 래퍼클래스
+
+    자바 11
+        스트링, 파일
+        람다를 var 키워드로 사용
+        Httpclient
+    
+
 @메모리와 기본타입, 참조타입(상수풀, stringbuffer...)
+
+    스택 영역에는 상수 값을 저장함
+
+    참조타입은 배열,클래스,인터페이스(위치에 대한 정보)
+
 @클래스와 객체형변환
+
+    객체간의 타입변환
+        부모가 상속 받은 자식을 참조값으로 불러오는거 up-casting
+        자식이 부모를 참조값으로 불러오는거 down-casting
+
 @상속, 추상메서드, 인터페이스
