@@ -1,5 +1,3 @@
-package example_20220701_multi_implement;
-
 public class Day33_Question {
     public static void main(String[] arg) {
         Searchable sc = new SmartTelevision();
@@ -8,16 +6,23 @@ public class Day33_Question {
         sc.search("www.naver.com");
         sc.Channel(100);
 
-        remote krm = new Kim();
-        remote prm = new Park();
-        remote lrm = new Lee();
 
+        
         /* // 문제 2번
-        remote[] rm = { krm, prm, lrm };
+        Remote krm = new Kim();
+        Remote prm = new Park();
+        Remote lrm = new Lee();
+
+        Remote[] rm = { krm, prm, lrm };
 
         for (int i = 0; i < 3; i++) {
             rm[i].tv_remote(3);
         } */
+
+
+        // 문제 3번
+        // 선호 채널, 사용했던 채널 저장, 로그인 구현
+        
 
         // implements와 extends차이에 따른 사용 예시
         // 인터페이스의 static과 default 불러오는 메모리 구조 방식 차이 설명
@@ -33,8 +38,8 @@ public class Day33_Question {
         // 검색해서 사용하세요.
 
         // 문제3. 사람마다 선호 채널이 있습니다.
-        // 사용했던 채널의 정보를 저장하는 시스템을 상속 받아 구현하고,
-        // SmartTelevision에 로그인하면 선호 채널 중 가장 많이 출력한 채널을 자동으로 바꿔주는 시스템을 구현하시오.
+        // 사용했던 (추상클래스)채널의 정보를 저장하는 시스템을 상속 받아 구현하고,
+        // SmartTelevision에 (인터페이스)로그인(ID/PW/강제채널변경)하면 선호 채널 중 가장 많이 출력한 채널을 자동으로 바꿔주는 시스템을 구현하시오.
         // (채널 확인하는 부모클래스와 자동으로 채널을 바꿔주는 자식클래스의 형변환을 적용하시오.)
 
         // 문제4. implements와 extends차이에 따른 사용 예시
