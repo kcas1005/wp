@@ -25,7 +25,7 @@ public class Day33_Question {
         // 선호 채널, 사용했던 채널 저장, 로그인 구현
         Login lg = new Kim();
         
-        lg.login("Kim","Kim123");
+        lg.Login("Kim","Kim123");
         
 
         // implements와 extends차이에 따른 사용 예시
