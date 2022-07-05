@@ -1,3 +1,3 @@
-public interface Login{
+public interface Login {
     void Login(String id, String pw);
 }

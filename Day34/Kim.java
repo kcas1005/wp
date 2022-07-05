@@ -21,6 +21,7 @@ public class Kim implements Remote, Login {
         if (this.id == id) {
             if(this.pw == pw){
                 System.out.println("로그인 되었습니다.");
+                //선호하는 채널 정보
             }
             else{
                 System.out.println("비밀번호가 다릅니다.");
