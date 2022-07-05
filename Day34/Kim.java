@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 public class Kim implements Remote, Login{
     // 오빠 메롱                                                                  ^ㅠ^
     public void tv_remote(int input_channel){
+=======
+public class Kim implements Remote, Login {
+    String id = "Kim";
+    String pw = "Kim123";
+    // 오빠 메롱 ^ㅠ^
+
+    public void tv_remote(int input_channel) {
+>>>>>>> 3f2dc3ccafaf536266e7043a5c83af5d2d5ebce4
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -10,7 +19,27 @@ public class Kim implements Remote, Login{
         System.out.println("5초 기다림 끝 " + input_channel + "번 화면 출력");
     }
 
+<<<<<<< HEAD
     public void Login(String id, String pw, String fc){
         
+=======
+    public void favorit_channel() {
+
+    }
+
+    public void Login(String id, String pw) {
+        if (this.id == id) {
+            if(this.pw == pw){
+                System.out.println("로그인 되었습니다.");
+                //선호하는 채널 정보
+            }
+            else{
+                System.out.println("비밀번호가 다릅니다.");
+            }
+
+        } else {
+            System.out.println("Kim의 아이디가 다릅니다.");
+        }
+>>>>>>> 3f2dc3ccafaf536266e7043a5c83af5d2d5ebce4
     }
 }

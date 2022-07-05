@@ -1,10 +1,11 @@
 public class Day33_Question {
     public static void main(String[] arg) {
+
+        /* // 문제 1번
         Searchable sc = new SmartTelevision();
 
-        // 문제 1번
         sc.search("www.naver.com");
-        sc.Channel(100);
+        sc.Channel(100); */
 
 
         
@@ -22,6 +23,9 @@ public class Day33_Question {
 
         // 문제 3번
         // 선호 채널, 사용했던 채널 저장, 로그인 구현
+        Login lg = new Kim();
+        
+        lg.Login("Kim","Kim123");
         
 
         // implements와 extends차이에 따른 사용 예시
