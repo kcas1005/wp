@@ -21,6 +21,8 @@ public class CarExample {
 		myCar.run();
 		
 		//브레이크, 패달
+
+		System.out.println("----브레이크 패달----");
 		myCar.run_();
 
 

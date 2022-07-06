@@ -1,0 +1,14 @@
+package com.google.testproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TestprojectApplication {
+
+	public static void main(String[] args) {
+		System.out.println("start project");
+		SpringApplication.run(TestprojectApplication.class, args);
+	}
+
+}

@@ -8,11 +8,28 @@
 </head>
 <body>
     <script>
-        var count1=8; 
-        var count2=15; 
-        var result;
-        if(result=((count1 > count2)? count1 : count2));
-        document.write("큰 값 : " + result + "<br>");
-    </script>
+        function solution(a, b) {
+        let answer = 0;
+        let first = a;
+        let second = b;
+     
+        if ( a > b ){
+            first = b;
+            second = a;
+        }else if(b > a){
+            first = a;
+            second = b;
+        }
+     
+        for(let i = first; i <= second; i++){
+            answer = answer + i;
+        }
+        
+     return answer;
+ }
+    var anre = solution(5, 3);
+
+    document.write(anre);
+     </script>
 </body>
 </html>
