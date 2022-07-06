@@ -1,0 +1,5 @@
+package exam01_field_polymorphism;
+
+public interface Tire {
+	public void roll();
+}
