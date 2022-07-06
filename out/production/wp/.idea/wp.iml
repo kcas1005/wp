@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Day1" />
+      <excludeFolder url="file://$MODULE_DIR$/Day10" />
+      <excludeFolder url="file://$MODULE_DIR$/Day11" />
+      <excludeFolder url="file://$MODULE_DIR$/Day12" />
+      <excludeFolder url="file://$MODULE_DIR$/Day13" />
+      <excludeFolder url="file://$MODULE_DIR$/Day14" />
+      <excludeFolder url="file://$MODULE_DIR$/Day15" />
+      <excludeFolder url="file://$MODULE_DIR$/Day16" />
+      <excludeFolder url="file://$MODULE_DIR$/Day17" />
+      <excludeFolder url="file://$MODULE_DIR$/Day18" />
+      <excludeFolder url="file://$MODULE_DIR$/Day19" />
+      <excludeFolder url="file://$MODULE_DIR$/Day2" />
+      <excludeFolder url="file://$MODULE_DIR$/Day20" />
+      <excludeFolder url="file://$MODULE_DIR$/Day21" />
+      <excludeFolder url="file://$MODULE_DIR$/Day22" />
+      <excludeFolder url="file://$MODULE_DIR$/Day23" />
+      <excludeFolder url="file://$MODULE_DIR$/Day24" />
+      <excludeFolder url="file://$MODULE_DIR$/Day25" />
+      <excludeFolder url="file://$MODULE_DIR$/Day26" />
+      <excludeFolder url="file://$MODULE_DIR$/Day27" />
+      <excludeFolder url="file://$MODULE_DIR$/Day28" />
+      <excludeFolder url="file://$MODULE_DIR$/Day29" />
+      <excludeFolder url="file://$MODULE_DIR$/Day3" />
+      <excludeFolder url="file://$MODULE_DIR$/Day30" />
+      <excludeFolder url="file://$MODULE_DIR$/Day31" />
+      <excludeFolder url="file://$MODULE_DIR$/Day32" />
+      <excludeFolder url="file://$MODULE_DIR$/Day33" />
+      <excludeFolder url="file://$MODULE_DIR$/Day34" />
+      <excludeFolder url="file://$MODULE_DIR$/Day35" />
+      <excludeFolder url="file://$MODULE_DIR$/Day4" />
+      <excludeFolder url="file://$MODULE_DIR$/Day5" />
+      <excludeFolder url="file://$MODULE_DIR$/Day6" />
+      <excludeFolder url="file://$MODULE_DIR$/Day7" />
+      <excludeFolder url="file://$MODULE_DIR$/Day8" />
+      <excludeFolder url="file://$MODULE_DIR$/Day9" />
+      <excludeFolder url="file://$MODULE_DIR$/Study" />
+      <excludeFolder url="file://$MODULE_DIR$/Week1" />
+      <excludeFolder url="file://$MODULE_DIR$/Week2" />
+      <excludeFolder url="file://$MODULE_DIR$/Week3" />
+      <excludeFolder url="file://$MODULE_DIR$/Week4" />
+      <excludeFolder url="file://$MODULE_DIR$/Week5" />
+      <excludeFolder url="file://$MODULE_DIR$/Week6" />
+      <excludeFolder url="file://$MODULE_DIR$/Work" />
+      <excludeFolder url="file://$MODULE_DIR$/학원.강의.교안" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam02_field_array" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam03_method_polymorphism" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam04_casting" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam05_instanceof" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/studyJava0706" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/Fruit" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_field_polymorphism" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="ojdbc10-full" level="project" />
+  </component>
+</module>
