@@ -37,10 +37,6 @@ public class Car {
 		example_20220706.exam01_field_polymorphism.Number01_brake brake02 = (example_20220706.exam01_field_polymorphism.Number01_brake) brake01;
 		brake02.push();
 
-		System.out.println("-----------------run02----------------------");
-
-				brake02.defaultmethod_install_pedal(frontRightTire);
-
 	}
 
 
