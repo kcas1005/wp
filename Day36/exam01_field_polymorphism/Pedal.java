@@ -1,4 +1,4 @@
-package example_20220706.exam01_field_polymorphism;
+package Day36.exam01_field_polymorphism;
 
 public interface Pedal {
     public void push();
@@ -9,7 +9,7 @@ public interface Pedal {
         } else if (abc instanceof KumhoTire) {
             System.out.println("금호 타이어 세팅으로 변경합니다.");
         } else if (abc instanceof newHankookTire) {
-            System.out.println("새로운 한국 타이어 다이어 세팅으로 변경합니다.");
+            System.out.println("새로운 한국 타이어 세팅으로 변경합니다.");
         }
     }
 }
