@@ -1,4 +1,4 @@
-package sec05.exam02_field_array;
+package example_20220706.exam02_field_array;
 
 public class HankookTire implements Tire {
 	@Override

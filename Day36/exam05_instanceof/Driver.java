@@ -1,4 +1,4 @@
-package sec05.exam05_instanceof;
+package example_20220706.exam05_instanceof;
 
 public class Driver {
 	public void drive(Vehicle vehicle) {
