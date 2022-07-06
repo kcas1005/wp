@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:100px;
+        }
+        #header{
+            height:100px;
+        }
+        #wrap {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background-color:rgb(68,68,68);
+            border-top:3px solid black;
+            height: 50px;
+        }
+        #wrap p:first-child {
+            margin-left:20px;
+            font-size:100%;
+            font-weight:600;
+        }
+        #content{
+            display:flex;
+            flex-direction:column;
+            height:300px;
+        }
+        #content p{
+            margin-left:30px;
+        }
+        #comment{
+            display:flex;
+            justify-content:flex-end;
+            border-top:2px solid black;
+            background-color:grey;
+        }
+        #comment div:first-of-type{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-right:20px;
+        }
+        #comment div:first-of-type textarea{
+            width:600px;
+            border-radius:3%;
+            border:none;
+        }
+        #comment div#i1{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-right:20px;
+            
+        }
+        #comment div#i1 input{
+            border:none;
+            border-radius:15%;
+            background:grey;
+            color:white;
+            width:81px;
+            height:81px;
+            font-size:100%;
+            font-weight:600;
+        }
+        #footer{
+            display:flex;
+            justify-content:flex-end;
+            align-items:center;
+            height:100px;
+        }
+        #footer div{
+            display:flex;
+            align-items:center;
+            margin-left:10px
+        }
+        #footer div input{
+            border:none;
+            background-color:grey;
+            color:white;
+            border-radius:15%;
+            height:40px;
+            width:80px;
+            font-size:100%;
+            font-weight:600;
+        }
+        #footer div input.e{
+            background-color:black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header"><h1>게시판</h1></div>
+    <div id="wrap">
+        <p>게시글1 입니다</p>
+        <p>김윤석 l 조회 : 15 l 2022-05-16(09:00)</p>
+    </div>
+    <div id="content">
+        <p>게시판 3가지 만들기 끝났습니다.</p>
+        <p>게시판 3가지 만들기 끝났습니다.</p>
+        <p>게시판 3가지 만들기 끝났습니다.</p>
+        <p>게시판 3가지 만들기 끝났습니다.</p>
+        <p>게시판 3가지 만들기 끝났습니다.</p>
+    </div>
+    <div id="comment">
+        <div><textarea cols="50" rows="5"></textarea></div>
+        <div id="i1"><input type="button" value="덧글쓰기"></div>
+    </div>
+    <div id="footer">
+        <div><input type="button" value="삭제"></div>
+        <div><input type="button" value="목록"></div>
+        <div><input class="e" type="button" value="글쓰기"></div>
+    </div>
+</body>
+</html>

@@ -1,8 +1,0 @@
-DOM 이란?
-        Document Object Model로 HTML, XML 문서에 접근하기 위한 인터페이스입니다.
-        문서 내의 모든 문서를 정의하고, 각각의 요소에 접근하는 방법을 제공합니다.
- 
-    DOM의 종류
-        Core DOM : 모든 문서 타입을 위한 DOM 모델
-        HTML DOM : HTML 문서 타입을 위한 DOM 모델
-        XML DOM : XML 문서 타입을 위한 DOM 모델

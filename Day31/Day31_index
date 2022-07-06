@@ -1,6 +1,0 @@
-강의 교안 7장
-    7절 타입변환과 다형성(polymorphism)
-        다형성(polymorphism)
-        매개변수의 다형성
-        강제 타입 변환(Casting)
-        객체 타입 확인(instanceof)

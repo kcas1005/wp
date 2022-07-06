@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+</head>
+<body>
     <script>
-      function solution(array, commands) {
-        var answer = [];
-        var arraylocal = array;
-        var command = commands;
+            function solution(array, commands) {
+            var answer = [];
+            var arraylocal = array;
+            var command = commands;
+            
+             for(var a=0; a<command.length; a++){
+                if(command[a][0] <= command[a][1]){
+                arraylocal = arraylocal.slice(command[a][0]-1,command[a][1]);
+                
+                }
+                else if(command[a][0] > command[a][1]){
+                arraylocal = arraylocal.slice(command[a][0],command[a][1]-1);
 
-        for (var a = 0; a < command.length; a++) {
-          if (command[a][0] <= command[a][1]) {
-            arraylocal = arraylocal.slice(command[a][0] - 1, command[a][1]);
-          } else if (command[a][0] > command[a][1]) {
-            arraylocal = arraylocal.slice(command[a][0], command[a][1] - 1);
-          }
-          arraylocal.sort(function (a, b) {
-            return a - b;
-          });
-          arraylocal = arraylocal.slice(command[a][2] - 1, command[a][2]);
-          answer = answer.concat(arraylocal);
-          arraylocal = array;
-        }
-        return answer;
-      }
-      array = [1, 5, 2, 6, 10, 7, 4];
-      commands = [
-        [2, 5, 3],
-        [4, 4, 1],
-        [1, 7, 3],
-      ];
-      console.log(solution(array, commands));
+                }
+                arraylocal.sort(function(a,b){
+                    return a - b;
+                });
+                arraylocal = arraylocal.slice(command[a][2]-1,command[a][2]);
+                answer = answer.concat(arraylocal);
+                arraylocal = array;
+               }
+               return answer;
+            }
+        array = [1, 5, 2, 6, 10, 7, 4];
+        commands = [[2, 5, 3],[4, 4, 1],[1, 7, 3]];
+        console.log(solution(array, commands));
+        
     </script>
-  </body>
+</body>
 </html>
