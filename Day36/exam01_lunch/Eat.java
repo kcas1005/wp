@@ -14,7 +14,7 @@ public class Eat {
             who = "Park";
             } else if (input_people instanceof Lee) {
                 System.out.println("Lee(을/를) 골랐습니다.");
-            who = "Park";
+            who = "Lee";
         } else {
             System.out.println("유효하지 않는 값 입니다.");
         } return who;
