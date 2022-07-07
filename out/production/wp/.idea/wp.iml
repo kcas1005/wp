@@ -55,6 +55,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Day36/studyJava0706" />
       <excludeFolder url="file://$MODULE_DIR$/Day36/Fruit" />
       <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_field_polymorphism" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_lunch" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
