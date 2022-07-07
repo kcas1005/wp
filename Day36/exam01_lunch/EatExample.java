@@ -10,7 +10,7 @@ public class EatExample {
         Jelly jstrawberry = new Strawberry();
         Jelly jgrape = new Grape();
 
-        myeat.Eating(myeat.Select_People(plee), myeat.Select_Jelly(jmango));
+        myeat.Eating(myeat.Select_People(plee), myeat.Select_Jelly(jstrawberry));
 
 
     }
