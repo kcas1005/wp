@@ -11,7 +11,7 @@ public class Day33_Question {
 
 
         
-         // 문제 2번
+        /* // 문제 2번
         Remote krm = new Kim();
         Remote prm = new Park();
         Remote lrm = new Lee();
@@ -20,15 +20,15 @@ public class Day33_Question {
 
         for (int i = 0; i < 3; i++) {
             rm[i].tv_remote(3);
-        }
+        }*/
 
 
-        /*// 문제 3번
-        // 선호 채널, 사용했던 채널 저장, 로그인 구현
+        // 문제 3번
+        // 선호 채널, 출력한 채널 저장(배열), 로그인 구현
         Login lg = new Kim();
         
-        lg.Login("Kim","Kim123");*/
-        
+        lg.Login("Kim","Kim123");
+
 
         // implements와 extends차이에 따른 사용 예시
         // 인터페이스의 static과 default 불러오는 메모리 구조 방식 차이 설명
