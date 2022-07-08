@@ -58,8 +58,14 @@
       <excludeFolder url="file://$MODULE_DIR$/Day36/teacher" />
       <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_lunch" />
       <excludeFolder url="file://$MODULE_DIR$/Day36" />
+      <excludeFolder url="file://$MODULE_DIR$/Day37" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam01_field_polymorphism" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam04_casting" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam05_instanceof" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam02_field_array" />
     </content>
     <content url="file://$MODULE_DIR$/Day36/teacher" />
+    <content url="file://$MODULE_DIR$/Day38/exam031" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ojdbc10-full" level="project" />

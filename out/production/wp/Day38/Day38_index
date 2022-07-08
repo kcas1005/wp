@@ -1,0 +1,20 @@
+강의교안 15장
+    1절 컬렉션 프레임워크 소개
+        컬렉션 프레임워크(Collection Framework)
+        컬렉션 프레임워크의 주요 인터페이스
+            collection List 계열, Set 계열 중요함 꼭 외우기
+    2절 List 컬렉션
+        ArrayList
+        LinkedList
+        Vector
+    3절 Set 생략
+    4절 Map 컬렉션
+        Map 컬렉션의 특징 및 주요 메소드
+        HashMap
+        Hashtable
+        Properties 거의 본적도 없음
+    5절 검색기능을 강화시킨 컬렉션 (꽤 많이 쓰임)
+        검색 기능을 강화시킨 컬렉션(계층 구조 활용)
+        이진 트리 구조
+        TreeSet
+        TreeMap
