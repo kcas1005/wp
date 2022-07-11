@@ -63,6 +63,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam04_casting" />
       <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam05_instanceof" />
       <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam02_field_array" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38" />
     </content>
     <content url="file://$MODULE_DIR$/Day36/teacher" />
     <content url="file://$MODULE_DIR$/Day38/exam031" />
