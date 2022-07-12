@@ -9,13 +9,13 @@ public class DriverExample {
 		Vehicle expert = new Expert();
 		Vehicle master = new Master();
 
-		driver.run(bus);
+		driver.drrun(bus);
 		System.out.println("-----------구분선-----------");
-		driver.run(novice);
+		driver.drrun(novice);
 		System.out.println("-----------구분선-----------");
-		driver.run(expert);
+		driver.drrun(expert);
 		System.out.println("-----------구분선-----------");
-		driver.run(master);
+		driver.drrun(master);
 		System.out.println("-----------구분선-----------");
 
 		/*Taxi taxi = new Taxi();
