@@ -1,3 +1,4 @@
+/*
 package Day40.highwayChange;
 
 import Day40.highwayChange.check.CheckPrint;
@@ -23,3 +24,19 @@ public class main {
         }
     }
 }
+*/
+
+package Day40.highwayChange;
+
+import Day40.highwayChange.check.CheckPrint;
+import Day40.highwayChange.driver.*;
+
+public class main{
+    public static void main(String[] args) {
+        String[] goaway = {"천안", "고속도로", "고속도로", "고속도로", "서울", "알수없음"};
+
+        Horse startCar = new Horse();
+//        highwaySimulation
+    }
+}
+
