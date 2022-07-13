@@ -8,8 +8,8 @@ public class Horse {
     public Horse(){
         driverType = new Beginner();
     }
-    public void setDriver(Driver input_driver){
-        driverType = input_driver;
+    public void setDriver(Driver driverType){
+        this.driverType = driverType;
         System.out.println("드라이버가 교체 되었습니다 : " + driverType.getClass().getName());
     }
     public Driver getDriver(){

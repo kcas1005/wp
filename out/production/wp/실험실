@@ -12,11 +12,27 @@
             
         내부/외부 클래스 호출 =  내부/외부 오버로딩 호출 두개 혼동 중
 
-        배열에서 null 값이 있을 시
+        배열에서 null 값이 있을 시 Array를 사용 (Array 함수는 Null값이 들어감)
 
         부모,자식 상속, 인터페이스 상속 중첩 가능
 
         상위 상속이 없으면 형변환 안됨
+
+        Enum과 String 배열 값은 서로 같음 대신 Enum을 쓸 땐 .equals()를 써야함
+            그리고 배열은 길이를 .length 를하지만 Enum은 .Value를 씀
+
+        배열에서 배열 안에 있는 값을 볼때는 Arrays.ToString(), 이중 배열 볼때는 Arrays.DeepToString()
+
+        클래스끼리 값이 같은지 비교할 때는 instanceof를 씀
+
+        Enum은 값을 추가 할 수 있을까?
+
+        Enum을 출력하면 주소값이 보일까? 안에 값이 보일까?
+
+        주소값이 보인다면 안에 값을 보려면 어떻게 해야 하나?
+
+        static 으로 배열 만든 후 집어넣고 다시 실행하면 기존에 있던 값이 저장 되는가?
+
 
 
     
@@ -27,3 +43,11 @@
     HTML / CSS
         span의 글은 텍스트 버티컬이 왜 안먹는가? display:table-cell, vertical-align 옵션 넣으면 됨
         플렉스는 블록이랑 호환 되는가? 호환됨
+
+    git
+
+
+    인텔리제이
+
+
+    vscode

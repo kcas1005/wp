@@ -1,0 +1,37 @@
+기술 면접
+    blex.me/@baealex/취준생이-생각하는-개발자-기술면접-준비
+
+    네트워크
+        GET, POST 방식의 차이점(웸프로그래머를 할 꺼라면 반드시 외우기)
+            GET은 데이터 노출
+            POST는 데이터 노출 없음
+
+        TCP 3-way-handshake
+            SYN(Syncronize)
+
+        TCP와 UDP의 차이점(웸프로그래머를 할 꺼라면 반드시 외우기)
+
+        HTTP와 HTTPS의 차이점
+
+        DNS round robin 방식
+
+다이어그램
+
+트랜잭션(Transaction)
+    트랜잭션의 성질(ACID)
+        원자성(Atomicity)
+        일관성(Consistency)
+        독립성(Isolation)
+        영구성(Durability)
+
+    트랜잭션 연산
+        롤백(Rollback)
+        커밋(Commit)
+
+https://loosie.tistory.com/527
+
+Undo(언두)
+    방금전에 했던 일 취소
+
+Redo(리두)
+    취소 했던 일 돌리기

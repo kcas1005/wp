@@ -33,6 +33,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Day33" />
       <excludeFolder url="file://$MODULE_DIR$/Day34" />
       <excludeFolder url="file://$MODULE_DIR$/Day35" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36" />
+      <excludeFolder url="file://$MODULE_DIR$/Day37" />
+      <excludeFolder url="file://$MODULE_DIR$/Day38" />
+      <excludeFolder url="file://$MODULE_DIR$/Day39" />
       <excludeFolder url="file://$MODULE_DIR$/Day4" />
       <excludeFolder url="file://$MODULE_DIR$/Day5" />
       <excludeFolder url="file://$MODULE_DIR$/Day6" />
@@ -40,34 +44,17 @@
       <excludeFolder url="file://$MODULE_DIR$/Day8" />
       <excludeFolder url="file://$MODULE_DIR$/Day9" />
       <excludeFolder url="file://$MODULE_DIR$/Study" />
+      <excludeFolder url="file://$MODULE_DIR$/testproject" />
       <excludeFolder url="file://$MODULE_DIR$/Week1" />
       <excludeFolder url="file://$MODULE_DIR$/Week2" />
       <excludeFolder url="file://$MODULE_DIR$/Week3" />
       <excludeFolder url="file://$MODULE_DIR$/Week4" />
       <excludeFolder url="file://$MODULE_DIR$/Week5" />
       <excludeFolder url="file://$MODULE_DIR$/Week6" />
-      <excludeFolder url="file://$MODULE_DIR$/Work" />
+      <excludeFolder url="file://$MODULE_DIR$/Week7" />
       <excludeFolder url="file://$MODULE_DIR$/학원.강의.교안" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam02_field_array" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam03_method_polymorphism" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam04_casting" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam05_instanceof" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/studyJava0706" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/Fruit" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_field_polymorphism" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/teacher" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36/exam01_lunch" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36" />
-      <excludeFolder url="file://$MODULE_DIR$/Day37" />
-      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam01_field_polymorphism" />
-      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam04_casting" />
-      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam05_instanceof" />
-      <excludeFolder url="file://$MODULE_DIR$/Day38/example_20220706_packageFix/exam02_field_array" />
-      <excludeFolder url="file://$MODULE_DIR$/Day38" />
-      <excludeFolder url="file://$MODULE_DIR$/Day39" />
+      <excludeFolder url="file://$MODULE_DIR$/Day40" />
     </content>
-    <content url="file://$MODULE_DIR$/Day36/teacher" />
-    <content url="file://$MODULE_DIR$/Day38/exam031" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ojdbc10-full" level="project" />

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 하는 중">
+      <change afterPath="$PROJECT_DIR$/Day41/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/check/CheckPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/check/CheckPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day41/Day41_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Day41_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Oracle/ojdbc10-full",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Day41.main">
+    <configuration name="Day41.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day41.main" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day41.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day40.highwayChange.main" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day40.highwayChange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Day41.main" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="" />
+      <created>1657677055273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657677055273</updated>
+      <workItem from="1657677056913" duration="11390000" />
+    </task>
+    <task id="LOCAL-00001" summary="학원에서 하는 중">
+      <created>1657678026972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657678026972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="학원에서 하는 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 하는 중" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
