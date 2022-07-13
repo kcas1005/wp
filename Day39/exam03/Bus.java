@@ -1,7 +1,9 @@
 package Day39.exam03;
 
 public class Bus implements Vehicle, Pay, Hipass {
+	public String name;
 	public int speed;
+	public int maxspeed;
 	@Override
 	public void run() {
 		System.out.println("일반버스가 달립니다.");

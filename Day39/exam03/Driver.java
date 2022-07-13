@@ -25,11 +25,12 @@ public class Driver {
 		if (vehicle instanceof Bus) {
 			Bus bus = (Bus) vehicle;
 			bus.runaway();
-		} else if (vehicle instanceof Taxi) {
+		}
+		else if (vehicle instanceof Taxi) {
 			Taxi texi = (Taxi) vehicle;
 			texi.runaway();
 		}
-		if(vehicle instanceof Novice) {
+		else if(vehicle instanceof Novice) {
 			Novice novice = (Novice) vehicle;
 			novice.runaway();
 		}
@@ -72,7 +73,7 @@ public class Driver {
 			bus.enter();
 			bus.pay();
 		}
-		if (vehicle instanceof Taxi) {
+		else if (vehicle instanceof Taxi) {
 			Taxi taxi = (Taxi) vehicle;
 			taxi.enter();
 			taxi.pay();
@@ -117,9 +118,7 @@ public class Driver {
 			master.change();
 		}
 	}
-	public void run(){
-	}
-	public void run(Vehicle vehicle){
+	public void drrun(Vehicle vehicle){
 		// Driver 인스턴스 생성
 		Driver dr = new Driver();
 
@@ -141,11 +140,11 @@ public class Driver {
 			dr.hipassexit(bus);
 
 		}
-		else if (vehicle instanceof Taxi) {
+		/*else if (vehicle instanceof Taxi) {
 			Taxi taxi = (Taxi) vehicle;
 			taxi.exit();
 
-		}
+		}*/
 		else if(vehicle instanceof Novice) {
 			Novice novice = (Novice) vehicle;
 
