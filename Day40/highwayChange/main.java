@@ -31,12 +31,20 @@ package Day40.highwayChange;
 import Day40.highwayChange.check.CheckPrint;
 import Day40.highwayChange.driver.*;
 
-public class main{
+public class main {
     public static void main(String[] args) {
         String[] goaway = {"천안", "고속도로", "고속도로", "고속도로", "서울", "알수없음"};
-
-        Horse startCar = new Horse();
-//        highwaySimulation
+            Horse StartHorse = new Horse();
+            highwaySimulation(StartHorse, goaway);
+            System.out.println("안됨");
+            System.out.println("오류 없는뎅?");
+        }
     }
+        private static void highwaySimulation (Horse StartHorse, String[]goaway){
+            for (String index : goaway) {
+                System.out.println("현재 위치는" + index + "입니다");
+                CheckPrint.viewLocation(index);
+            }
+        }
 }
 

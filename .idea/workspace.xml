@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day41/Day41_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day36/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/libraries/ojdbc10_full.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Alice목차" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day36/Day36_index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/Day40_index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/example_20220712_highwayChangeDriver.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/check/CheckPrint$city.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/check/CheckPrint$highway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/check/CheckPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/driver/Beginner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/driver/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/driver/Expert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/hipassDriver.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day40/highwayChange/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Python목차" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Week7/30.성능.테스트.계획서.확인.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Week7/31.성능.테스트.실행.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Week7/32.결함.관리.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Week7/33.결함.등록.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Week7/34.모바일.테스트.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Work/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Work/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Work/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Work/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Work/Work.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Zoom_Password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/html,CSS,javascript목차" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/html.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/oracle 목차" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/review.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/td.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/7.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/testproject/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/실험실" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/원격훈련 시간표_자바(JAVA),스프링(Spring)기반 스마트웹_앱 콘텐츠 개발자 과정.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/Day7_step03_extra_IA시나리오예제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/Day7_step03_extra_UI시나리오예제.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/HTML과DOM.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/flexbox_속성_가이드.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/html_css_Part1_CHAPTER01_환경.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/html_css_Part1_CHAPTER02_태그.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/html_css_Part1_CHAPTER03_선택자.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/html_css_Part1_CHAPTER04_속성.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step01_extra_기본 태그와 멀티미디어 태그.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step01_extra_입력 양식 태그_공간 분할 태그.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER03_display와position과float.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER04_마진패딩디스플레이.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER04_속성_20220519.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER05_grid속성01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER05_grid속성02_20220523.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER05_플롯과포지션.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER06_flex속성_20220519.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER07_grid속성01_20220523.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER07_메디아쿼리.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER08_grid속성02_20220523.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_CHAPTER10_메디아쿼리.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_extra_CSS3 효과_애니메이션.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step02_extra_마진패딩보더z인덱스_.pptx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step03_CHAPTER01_UI설계구성01_UI레이아웃.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step03_CHAPTER02_UI설계구성02_20220523.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/HTML.CSS/step03_CHAPTER03_UI설계구성03_20220523.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_10장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_15장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_17장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_1장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_2장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_3장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_4장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_5장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_6장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_7장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_8장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVA/강의교안_9장.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVASCRIPT/step03_CHAPTER04_자바스크립트 기본 문법.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVASCRIPT/step04_CHAPTER01_자바스크립트 기본 문법.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVASCRIPT/step04_CHAPTER02_자바스크립트 함수와 배열.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/JAVASCRIPT/step04_CHAPTER03_자바스크립트 객체.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/SQL/oracle_06_select.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/SQL/oracle_08_create_view.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/github_pullRequest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/springboot.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step01_CHAPTER04_요약집.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_CHAPTER05_UI설계구성01_20220520.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_CHAPTER06_UI설계구성02_20220520.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_IA시나리오예제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오01_예제.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오02_예제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오03_예제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오04_사용자가이드_예제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오04_스토리보드.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_UI시나리오예제.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/step03_extra_git설치와githubpages.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/개발환경.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/브라우저 랜더링 과정.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/브라우저 랜더링 과정_20220519.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step01_001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step02_002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step02_003.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step02_004.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step03_001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step03_002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step04_001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step04_002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step05_001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step05_002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step06_001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/학원.강의.교안/파이썬/step06_002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/확인.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Oracle/ojdbc10-full",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="" />
+      <created>1657677055273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657677055273</updated>
+      <workItem from="1657677056913" duration="834000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
