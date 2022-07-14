@@ -10,6 +10,8 @@
             SYN(Syncronize)
 
         TCP와 UDP의 차이점(웸프로그래머를 할 꺼라면 반드시 외우기)
+            TCP 데이터 보안
+            UDP 데이터 전송 속도 빠름
 
         HTTP와 HTTPS의 차이점
 
@@ -35,3 +37,4 @@ Undo(언두)
 
 Redo(리두)
     취소 했던 일 돌리기
+
