@@ -1,0 +1,75 @@
+메모리 (stack heap)
+
+    Arraylist<String> A = new Arraylist();
+
+    stack   heap
+
+minchoi0912.tistory.com/93
+기술면접
+    자바
+        OOP란?
+            코드의 재사용가능(재활용성), 유지보수에 용이
+
+        자바 장점
+            Java 가상 머신 위에 동작 OS에 독립적
+
+        자바 단점
+            속도가 느리다.
+
+        메모리 영역
+            메소드 영역
+                Static 변수
+                전역변수
+                Class
+
+            stack
+                지역변수
+                함수(메서드)
+
+            heap
+                new 연산자를 통한 동적 할당 된 객체 저장. 가비지 컬렉션에 의해 관리.
+
+            Primitive type vs Reference type
+                기본형
+                    stack 메모리 영역에 실제 값을 저장하는 데이터 타입
+
+                참조형
+                    메모리 상에 객체가 있는 위치를 저장하는 것
+
+            가비지 컬렉션
+                시스템에서 더 이상 사용하지 않는 동적 할당된 메모리 블록을 찾아 다시 사용 가능한 자원으로 회수하는 것(자동, 수동 둘다 가능)
+
+            전역변수 vs 지역변수
+                전역변수
+                지역변수
+
+            static 의미
+                정적 멤버(static)
+
+            devmoony.tistory.com/43
+
+            싱글톤 패턴(Singleton pattern)(교과서 250page)
+
+
+javacpro.tistory.com/43
+
+JSP (책으로 안나간다.)
+    JSP(Java Server Pages)란 무엇인가?
+
+수업
+    강의교안 9장
+
+        1절 중첩 클래스와 중첩 인터페이스란
+
+        2절 중첩 클래스
+            중첩 클래스의 분류
+            인스턴스 멤버 클래스
+            정적 클래스
+            로컬 클래스
+
+        3절 중첩 클래스의 접근 제한
+            로컬 클래스에서 사용 제한
+            로컬 클래스에서 얻기
+
+        4절 중첩 인터페이스 선언
+        5절 익명 클래스

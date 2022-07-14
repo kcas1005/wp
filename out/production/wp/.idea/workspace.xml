@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 하는 중">
-      <change afterPath="$PROJECT_DIR$/Day41/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day42/Day42_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day42/db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day42/java30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day42/java31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day42/java32.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/check/CheckPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/check/CheckPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41/Day41_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Day41_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day41/Remote/Day33_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Day33_Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day41/Remote/Kim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Kim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day41/Remote/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Day41_index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Kim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Lee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Park.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Remote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControlExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Searchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/SmartTelevision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +57,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Oracle/ojdbc10-full",
+    "last_opened_file_path": "C:/work/wp/Day41",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,13 +69,18 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Day41.main">
-    <configuration name="Day41.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day41.main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day41" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Day33_Question">
+    <configuration name="Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day41.Remote.Day33_Question" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day41.*" />
+          <option name="PATTERN" value="Day41.Remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +88,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day40.highwayChange.main" />
+    <configuration name="Day41.Remote.Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Day41.Remote.Day33_Question" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day40.highwayChange.*" />
+          <option name="PATTERN" value="Day41.Remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day42.java30" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day42.java31" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day42.java32" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day41.main" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Day33_Question" />
+        <item itemvalue="Application.Day41.Remote.Day33_Question" />
+        <item itemvalue="Application.java32" />
+        <item itemvalue="Application.java31" />
+        <item itemvalue="Application.java30" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +160,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657677055273</updated>
-      <workItem from="1657677056913" duration="11390000" />
+      <workItem from="1657677056913" duration="20458000" />
+      <workItem from="1657756627997" duration="8441000" />
+      <workItem from="1657765245373" duration="8068000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -104,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657678026972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="학원에서 하는 중">
+      <created>1657700391996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657700391996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="학원에서 하는 중">
+      <created>1657700856442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657700856442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
