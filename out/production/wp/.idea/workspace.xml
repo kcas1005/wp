@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 하는 중">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day42/Day42_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day42/db.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day42/java30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day42/java31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day42/java32.java" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 채널3 db 넣는 중">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day43/Day43_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day43/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41/Remote/Day33_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Day33_Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41/Remote/Kim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Kim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day41/Remote/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day41/Remote/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Day41_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Kim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Lee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Park.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Remote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControlExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Searchable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/SmartTelevision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +43,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "last_opened_file_path": "C:/work/wp/Day41",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -162,7 +152,8 @@
       <updated>1657677055273</updated>
       <workItem from="1657677056913" duration="20458000" />
       <workItem from="1657756627997" duration="8441000" />
-      <workItem from="1657765245373" duration="8068000" />
+      <workItem from="1657765245373" duration="18491000" />
+      <workItem from="1657842335541" duration="13876000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657700856442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="학원에서 채널3 db 넣는 중">
+      <created>1657786938036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657786938036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +202,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="학원에서 하는 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="학원에서 하는 중" />
+    <MESSAGE value="학원에서 채널3 db 넣는 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 채널3 db 넣는 중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
