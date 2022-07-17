@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3c54ec9d-1676-4421-b5d8-2160c64d09dc" name="cloudTest">
+        <fileTransfer accessType="SFTP" host="130.162.147.213" port="22" sshConfigId="57449f95-537e-442f-88e8-6f04369301b2" sshConfig="ubuntu@130.162.147.213:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
