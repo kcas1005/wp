@@ -1,0 +1,38 @@
+수업
+    기술 스택
+        Stringbuffer 와 Stringbuilder 차이
+        동기화 유무
+
+        String 과 Stringbuffur,Stringbuilder의 차이
+        불변(String), 가변(Stringbuffur, StringBuilder)의 차이
+
+        Stringbuffur
+            동기화 지원
+            멀티 스레드에서 강함
+
+        StringBuilder
+            동기화 지원하지 않음
+            단일 스레드에서 강함
+
+
+    강의교안 9장
+        5절 익명 객체
+            익명 객체
+                한번 쓰고 버릴 목적으로 만듬
+            익명 자식 객체 생성
+            익명 객체에 새롭게 정의된 필드와 메소드
+            익명 객체 구현 설명
+
+포트폴리오 솔루션 계획서
+    1. 어떤 서비스(아이디어)
+        ex) -슬라임 게임
+            -블로그
+            -게임
+            -인스타그램
+            -객체
+    2. 어떤 데이터와 구조 : 객체지향 (문서 : UML, 스토리보드(플로우차트, UI시나리오, IA시나리오))
+    3. 분업 (어떤 거 먼저 만들고, 차례대로 솔루션 구축할지 계획서)
+
+    youtube.com/watch?v=zirnWvVfqQ
+
+    1. 학생의 주특기(프론트엔드? 벡엔드?)
