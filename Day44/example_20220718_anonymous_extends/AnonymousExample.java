@@ -5,6 +5,7 @@ public class AnonymousExample {
 
         //1. 필드값으로 익명객체 사용
         Anonymous anonymous_1 = new Anonymous();
+        Anonymous anonymous_1 = new Anonymous();
         anonymous_1.field.wake();
         anonymous_1.wayToWork_1.run();
         System.out.println("--------------------");
