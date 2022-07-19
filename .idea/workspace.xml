@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 함">
-      <change afterPath="$PROJECT_DIR$/Day45/Day45.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day45/question01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day45/question01/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day45/question01/Team.java" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 throw try catch finally 배움">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/AnonymousExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/AnonymousExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/Day44_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Anonymous$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Anonymous$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Anonymous$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Anonymous$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Anonymous.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/AnonymousExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/AnonymousExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/AnonymousExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/example_20220718_anonymous_extends/WayToWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/화면 캡처 2022-07-18 092000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day44/화면 캡처 2022-07-18 114234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/실험실" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/Day45.index" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +158,7 @@
       <workItem from="1658102841005" duration="3318000" />
       <workItem from="1658106295690" duration="883000" />
       <workItem from="1658107233091" duration="17484000" />
-      <workItem from="1658188168870" duration="25588000" />
+      <workItem from="1658188168870" duration="26700000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -238,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658132046674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="학원에서 throw try catch finally 배움">
+      <created>1658218645578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658218645578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +240,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="school" />
+                        <option value="origin/school" />
                       </list>
                     </value>
                   </entry>
@@ -271,7 +256,8 @@
     <MESSAGE value="학원에서 하는 중" />
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
-    <option name="LAST_COMMIT_MESSAGE" value="학원에서 함" />
+    <MESSAGE value="학원에서 throw try catch finally 배움" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
