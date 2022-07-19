@@ -62,6 +62,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Day45/sec05_try_with_resources" />
       <excludeFolder url="file://$MODULE_DIR$/Day45/sec06_throws" />
       <excludeFolder url="file://$MODULE_DIR$/Day45/sec07_user_define_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/Week8" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
