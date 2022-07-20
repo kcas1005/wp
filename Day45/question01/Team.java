@@ -4,7 +4,7 @@ public class Team extends Person {
     String[] team = new String[6];
     Person frontend = new Person() {
         String[] front;
-
+        int to;
         @Override
         void front_1(String input_front, String input_front2){
             front = new String[2];
