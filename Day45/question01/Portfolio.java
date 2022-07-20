@@ -5,8 +5,7 @@ public class Portfolio {
 
         try {
             Team tm = new Team();
-//            tm.frontend.front_1("성진", "병진");
-            tm.frontend.front_1("성진","병진");
+            tm.frontend.front_1("성진", "병진");
             System.out.println("--------------------구분선-------------------");
             tm.backend.backend_1("영민", "승현");
             System.out.println("--------------------구분선-------------------");
@@ -17,6 +16,11 @@ public class Portfolio {
             tm.team_check();
 
 
+       /* } catch (WhyException e) {
+            String message = e.getMessage();
+            System.out.println(message);
+            System.out.println();
+            e.printStackTrace();*/
 
         } catch (StackOverflowError e) {
             System.out.println("스택오버플로 에러");

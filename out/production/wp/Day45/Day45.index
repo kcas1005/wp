@@ -45,7 +45,24 @@
             7절 사용자 정의 예외와 예외 발생
 
         강의 교안 10장
-            1절 예외와
+            1절 예외와 예외 클래스
+                예외클래스
+            2절 실행 예외(RuntimeException)
+                NullPointerException
+                ArrayIndexOutOfBoundsException
+                ClassCastException
+            3절 예외 처리 코드
+            4절 예외 종류에 따른 처리 코드
+                다중 catch
+                멀티(multi) catch
+            5절 자동 리소스 닫기
+                try-with-resources
+            6절 예외 떠 넘기기
+                throws
+            7절 사용자 정의 예외와 예외 발생
+
+            8절 예외 정보 얻기 (e.printStackTrace();)
+
 
     문제
     최종 포트폴리오를 작성하기 위한 팀을 구성하려고 합니다.

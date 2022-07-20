@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 throw try catch finally 배움">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day45/question01/WhyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/Day46_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/question01/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Portfolio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/question01/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,53 +64,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day41&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/work/wp/Day41",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day41" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Portfolio">
-    <configuration name="AccountExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day45.sec07_user_define_exception.AccountExample" />
+  <component name="RunManager" selected="Application.MemberExample">
+    <configuration name="MemberExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../Program Files/Java/jdk-11.0.15" />
+      <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day45.sec07_user_define_exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatchByExceptionKindExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day45.sec04_multi_catch.CatchByExceptionKindExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day45.sec04_multi_catch.*" />
+          <option name="PATTERN" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryWithResourceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day45.sec05_try_with_resources.TryWithResourceExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day45.sec05_try_with_resources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.MemberExample" />
+      <item itemvalue="Application.Portfolio" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Portfolio" />
-        <item itemvalue="Application.AccountExample" />
-        <item itemvalue="Application.TryWithResourceExample" />
-        <item itemvalue="Application.CatchByExceptionKindExample" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +152,14 @@
       <workItem from="1658106295690" duration="883000" />
       <workItem from="1658107233091" duration="17484000" />
       <workItem from="1658188168870" duration="26700000" />
+      <workItem from="1658273952771" duration="9742000" />
+      <workItem from="1658285247539" duration="201000" />
+      <workItem from="1658285475887" duration="848000" />
+      <workItem from="1658286377870" duration="35000" />
+      <workItem from="1658286437834" duration="10056000" />
+      <workItem from="1658301088508" duration="194000" />
+      <workItem from="1658301306634" duration="148000" />
+      <workItem from="1658301481595" duration="3149000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -223,14 +224,7 @@
       <option name="project" value="LOCAL" />
       <updated>1658218645578</updated>
     </task>
-    <task id="LOCAL-00010" summary="집에서함">
-      <created>1658238986205</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1658238986205</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +241,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/school" />
                       </list>
                     </value>
                   </entry>
@@ -264,8 +258,7 @@
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
-    <MESSAGE value="집에서함" />
-    <option name="LAST_COMMIT_MESSAGE" value="집에서함" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,7 +271,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec05_try_with_resources/TryWithResourceExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample">
+          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -287,7 +280,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec07_user_define_exception/AccountExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec07_user_define_exception.AccountExample">
+          <properties class="Day45.sec07_user_define_exception.AccountExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
