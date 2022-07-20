@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/Day33_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/Day33_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Kim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Kim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Lee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Lee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Searchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Searchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/SmartTelevision.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/SmartTelevision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/remote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/Day45.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day46/Day46_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day46/Day46_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Day41_index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Day33_Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Kim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Lee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Park.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Remote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControlExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Searchable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/SmartTelevision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/Day46_index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/Day46_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/확인.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="school" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="adcc7930-f3f0-42ed-ac53-9f41fe5bf741" />
+        <option name="url" value="https://github.com/kcas1005/wp.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Day44/Day44_index" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/Anonymous.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/AnonymousExample.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Day44/example_20220718_anonymous_extends/WayToWork.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/work/wp/Day41",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day41" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.question1_memberExample">
+    <configuration name="Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day33.example_20220701_multi_implement.Day33_Question" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day33.example_20220701_multi_implement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day43.Driver" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../Program Files/Java/jdk-11.0.15" />
+      <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day33.example_20220701_multi_implement.RemoteControlExample" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day33.example_20220701_multi_implement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day40.highwayChange.main" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day40.highwayChange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question1_memberExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MemberExample" />
+      <item itemvalue="Application.Day33_Question" />
+      <item itemvalue="Application.Driver" />
+      <item itemvalue="Application.RemoteControlExample" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.question1_memberExample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.question1_memberExample" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Day33_Question" />
+        <item itemvalue="Application.RemoteControlExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="" />
+      <created>1657677055273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657677055273</updated>
+      <workItem from="1657677056913" duration="20458000" />
+      <workItem from="1657756627997" duration="8441000" />
+      <workItem from="1657765245373" duration="18491000" />
+      <workItem from="1657842335541" duration="14711000" />
+      <workItem from="1658102841005" duration="3318000" />
+      <workItem from="1658106295690" duration="883000" />
+      <workItem from="1658107233091" duration="17484000" />
+      <workItem from="1658188168870" duration="26700000" />
+      <workItem from="1658273952771" duration="9742000" />
+      <workItem from="1658285247539" duration="201000" />
+      <workItem from="1658285475887" duration="848000" />
+      <workItem from="1658286377870" duration="35000" />
+      <workItem from="1658286437834" duration="10056000" />
+      <workItem from="1658301088508" duration="194000" />
+      <workItem from="1658301306634" duration="148000" />
+      <workItem from="1658301481595" duration="3149000" />
+    </task>
+    <task id="LOCAL-00001" summary="학원에서 하는 중">
+      <created>1657678026972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657678026972</updated>
+    </task>
+    <task id="LOCAL-00002" summary="학원에서 하는 중">
+      <created>1657700391996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657700391996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="학원에서 하는 중">
+      <created>1657700856442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657700856442</updated>
+    </task>
+    <task id="LOCAL-00004" summary="학원에서 채널3 db 넣는 중">
+      <created>1657786938036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657786938036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="학원에서 채널3 db 넣는 중">
+      <created>1657873680982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657873680982</updated>
+    </task>
+    <task id="LOCAL-00006" summary="학원에서 함">
+      <created>1658130925121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130925121</updated>
+    </task>
+    <task id="LOCAL-00007" summary="학원에서 함">
+      <created>1658132027413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658132027413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="학원에서 함">
+      <created>1658132046674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658132046674</updated>
+    </task>
+    <task id="LOCAL-00009" summary="학원에서 throw try catch finally 배움">
+      <created>1658218645578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658218645578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/school" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="학원에서 하는 중" />
+    <MESSAGE value="학원에서 채널3 db 넣는 중" />
+    <MESSAGE value="학원에서 함" />
+    <MESSAGE value="학원에서 throw try catch finally 배움" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Day45/sec05_try_with_resources/TryWithResourceExample.java</url>
+          <line>3</line>
+          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Day45/sec07_user_define_exception/AccountExample.java</url>
+          <line>3</line>
+          <properties class="Day45.sec07_user_define_exception.AccountExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java</url>
+          <line>3</line>
+          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java</url>
+          <line>3</line>
+          <properties class="Day33.example_20220701_multi_implement.Day33_Question" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
+          <line>34</line>
+          <properties class="Day40.highwayChange.main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

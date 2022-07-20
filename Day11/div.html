@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>신한은행(2)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* border : 1px solid; */
+            width: auto;
+            height: auto;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        #wrap {
+            width: auto;
+            height: 2000px;
+            padding: 20px 20px;
+        }
+
+        #header {
+            width: auto;
+            height: 100px;
+        }
+        #H_center{
+            display:grid;
+            grid-template-columns:100px 1fr 1fr 1fr;
+        }
+
+        .logo a {
+            display: block;
+            width: 109px;
+            height: 25px;
+            background: url(https://image.shinhan.com/rib2017/images/layout/sp_layout.png) -10px -40px no-repeat;
+        }
+
+        .header1 {
+            display:flex;
+            flex-direction: row;
+            width: 300px;
+            height: 25px;
+            padding: 0px 20px;
+        }
+
+        .header1 li {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .header1 li a {
+            color: black;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #wrap #header div div:nth-of-type(2) .header1 li:nth-of-type(1) {
+            color: black;
+            border: 1px solid #195dae;
+
+        }
+
+        #wrap #header div div:nth-of-type(4) .header1 li:nth-of-type(1) {
+            width: 350px;
+        }
+
+        #H_bottom {
+            width: 100%;
+            height: 50px;
+            background-color: #195dae;
+        }
+
+        #H_bottom ul {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #H_bottom ul li {
+            display: block;
+            width: 100%;
+        }
+
+        #H_bottom ul li a {
+            display: block;
+            color: white;
+            font-size: 18px;
+            width: 100%;
+            text-align: center;
+        }
+        .center{
+            display:grid;
+            grid-template: 50px 200px 150px 300px 50px 200px 200px / 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .center h1{
+            grid-column: 1 / 3;
+            border-bottom:1px solid #666;
+            width:100%;
+        }
+        .security{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            grid-column: 1 / 3;
+        }
+        .security div{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            grid-column: 1 / 3;
+            background-color:#f2f2f2 ;
+            width:100%;
+            height:200px;
+        }
+        .security div p:nth-of-type(1){
+            width:257px;
+            height:70px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -743px -323px no-repeat;
+        }
+        #safeinstall{
+            margin:auto auto;
+            grid-column:1 / 3;
+            border:1px solid #666;
+            width:100%;
+            height:150px;
+        }
+        #safeinstall p{
+            color:#666666;
+            display:flex;
+            justify-content:flex-start;
+            align-items: center;
+            margin:10px 20px;
+        }
+        #safeinstall p span{
+            color:#3579d4;
+        }
+        #safeinstall p:nth-of-type(3){
+            color:#d48100;
+        }
+        #safeinstall input{
+            position:relative;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            width:151px;
+            height:30px;
+            float:right;
+            border:1px solid #666;
+            background-color:white;
+            color:#666;
+            margin:20px 20px;
+            bottom:40px
+        }
+        #setlogin{
+            display:grid;
+            grid-column: 1 / 3;
+            grid-template-columns: 1fr 1fr;
+            border:1px solid #666666;
+
+        }
+        #safelogin{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            border-right:1px solid #768392;
+
+        }
+        #safelogin div:nth-of-type(1){
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(1){
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:280px;
+            height:60px;
+            font-weight: 800;
+            background-color:#3579d4;
+            color:white;
+            border-radius: 5%;
+            margin-bottom:10px;
+
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(1)::before{
+            position:relative;
+            left:-55px;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            content:"";
+            width:25px;
+            height:25px;
+            background: url(https://image.shinhan.com/rib2017/images/main/img_intro_cloud.png);
+            color:white;
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(2){
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:280px;
+            height:60px;
+            font-weight: 800;
+            background-color:#768392;
+            color:white;
+            border-radius: 5%;
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(2)::before{
+            position: relative;
+            left:-10px;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            content:"";
+            width:25px;
+            height:25px;
+            background: url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -343px -10px no-repeat;
+            color:white;
+        }
+        #safelogin div:nth-of-type(1) a:nth-of-type(2) span{
+            font-size:12px;
+            background-color:#768392;
+            color:white;
+        }
+        #safelogin div:nth-of-type(2) a, #safelogin div:nth-of-type(3) a{
+            color:black;
+        }
+        #safelogin div:nth-of-type(2){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:16px;
+        }
+        #safelogin div:nth-of-type(2) div{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+        }
+        #safelogin div:nth-of-type(2) div input{
+            margin-left:20px;
+        }
+        #safelogin div:nth-of-type(3){
+            margin-top:16px;
+        }
+        #safelogin div:nth-of-type(3) a::after{
+            display:inline-block;
+            content:"l";
+            width:30px;
+            text-align:center;
+        }
+        #safelogin div:nth-of-type(3) a:last-of-type::after{
+            content:" ";
+        }
+        #idlogin{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        #idlogin div:nth-of-type(1){
+            display:grid;
+            grid-template: 1fr 1fr / 1fr 1fr;
+            grid-gap:10px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(1){
+            display:grid;
+            grid-area: 1 / 1 / 2 / 2;
+            width:200px;
+            height:40px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(2){
+            display:grid;
+            grid-area: 2 / 1 / 3 / 2;
+            width:200px;
+            height:40px;
+        }
+        #idlogin div:nth-of-type(1) input:nth-of-type(3){
+            display:grid;
+            grid-area: 1 / 2 / 3 / 3;
+            width:90px;
+            height:90px;
+            color:white;
+            border:none;
+            background:#768392;
+            border-radius: 5%;
+        }
+        #idlogin div:nth-of-type(2){
+            position: relative;
+            display:flex;
+            margin-top:60px;
+            right:30px;
+            justify-content: center;
+            align-items: center;
+        }
+        #idlogin div:nth-of-type(2) a{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+        #idlogin div:nth-of-type(2) a::after{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:30px;
+            content:"l";
+            color: black;
+        }
+        #idlogin div:nth-of-type(2) a:last-of-type::after{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:30px;
+            content:"";
+            color: black;
+        }
+        #safe{
+            grid-column: 1 / 3;
+            border-bottom:1px solid #666666;
+            font-size:20px;
+        }
+        #safe a{
+            display:inline-block;
+            width:20px;
+            height:20px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -10px -10px no-repeat;
+        }
+        #safeimg{
+            display:grid;
+            grid-column: 1 / 3;
+            border-bottom:1px solid #666666;
+            grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+        }
+        #safeimg div{
+            display:flex;
+            width:100%;
+            height:100%;
+        }
+        #safeimg div:nth-of-type(1) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -436px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(2) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -517px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(3) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -598px -58px no-repeat;
+        }
+        #safeimg div:nth-of-type(4) span{
+            position:relative;
+            left:25%;
+            width:76px;
+            height:76px;
+            background:url(https://image.shinhan.com/rib2017/images/ico/sp_ico.png) -679px -58px no-repeat;
+        }
+        #safeimg p{
+            justify-content: center;
+            align-items: center;
+            width:250px;
+            height:60px;
+        }
+        #safeimg p em{
+            display:inline;
+            color:rgb(74, 107, 202);
+            font-style: normal;
+        }
+        #qna{
+            display:grid;
+            grid-template: 7fr 3fr / 7fr 3fr;
+        }
+        #tellcenter div:nth-of-type(1){
+            grid-area: 1 / 1 / 2 / 2;
+        }
+        #tellcenter div:nth-of-type(2){
+            grid-area: 1 / 2 / 2 / 3;
+        }
+        #tellcenter div:nth-of-type(3){
+            grid-area: 2 / 1 / 3 / 3;
+        }
+        #tellcenter{
+            display:grid;
+            grid-template: 3fr 7fr / 7fr 3fr
+        }
+    </style>
+</head>
+
+<body>
+    <div id=wrap>
+        <div id="header">
+            <div id="H_center">
+                <div class="logo">
+                    <a></a>
+                </div>
+                <div>
+                    <ul class="header1">
+                        <li class="H1"><a href="#">개인</a></li>
+                        <li><a href="#">기업</a></li>
+                        <li><a href="#">금융상품</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="header1">
+                        <li><a href="#">금융서비스</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">은행소개</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="header1">
+                        <li><a href="#">신한멤버스 ▼</a></li>
+                        <li><a href="#">Global ▼</a></li>
+                        <li><a href="#">돋보기</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="H_bottom" class="header2">
+                <ul class="menu">
+                    <li><a href="#">조회</a></li>
+                    <li><a href="#">이체</a></li>
+                    <li><a href="#">금융상품</a></li>
+                    <li><a href="#">공과금/법원</a></li>
+                    <li><a href="#">뱅킹보안관리</a></li>
+                    <li><a href="#">기타금융</a></li>
+                    <li><a href="#">부가서비스</a></li>
+                    <li><a href="#">사용자관리</a></li>
+                    <li><a href="#">카드/증권</a></li>
+                    <li><a href="#2"><img class="aa" src="img(신한)/신한은행 메뉴 네비바.PNG" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="center">
+            <h1>로그인</h1>
+            <div class="security">
+                <div>
+                    <p></p>
+                    <p style="font-size: 14px;">신한은행은 보안강화 등을 이유로 보안카드번호(3개 이상 또는 전체)를 요구하지 않습니다.<br>
+                        신한은행 홈페이지는 인터넷 주소창이 녹색으로 표시되거나 보안 자물쇠가 있습니다.<br>
+                        수사기관 등 공공기관은 어떤 명목으로도 통장 비밀번호 등 금융정보를 묻거나 범죄에 연루되었다는 등의<br>
+                        이유로 돈을 요구하지 않습니다.</p>
+                </div>
+            </div>
+                <div id="safeinstall">
+                    <p>키보드를 이용하여 입력하시려면 <span>키보드보안 프로그램을 설치</span>하세요.</p>
+                    <input type="button" href="#" value="통합설치페이지로 이동">
+                    <p>미설치된 PC에서 각종 비밀번호 등 주요정보를 마우스입력기(가상키보드)로만 입력할 수 있습니다.</p>
+                    <p>※단, 윈도우 환경에서 이용 가능하며 맥,리눅스,모바일,가상환경 등에서는 마우스입력기(가상키보드)로만 이용가능합니다.</p>
+                </div>
+            <div id="setlogin">
+                <div id="safelogin">
+                    <div>
+                        <a href="#">금융인증서 로그인</a>
+                        <a href="#">공동인증서 로그인<span>(구 공인인증서)</span></a>
+                    </div>
+                    <div>
+                        <a href="#">인증서 자동팝업</a>
+                        <div>
+                            <input type="radio">사용
+                            <input type="radio">사용안함
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">인증서발급/재발급</a>
+                        <a href="#">타 인증서 등록</a>
+                        <a href="#">인증센터</a>
+                    </div>
+                </div>
+                <div id="idlogin">
+                    <div>
+                        <input type="text" placeholder="이용자ID">
+                        <input type="password" placeholder="비밀번호"><a href=""></a>
+                        <input type="button" value="ID로그인">
+                    </div>
+                    <div>
+                        <a href="#">아이디 찾기</a>
+                        <a href="#">비밀번호 재설정</a>
+                        <a href="#">회원가입</a>
+                    </div>
+                </div>
+            </div>
+                <div id="safe"><a href="#"></a> 안전한 금융거래를 위한 <strong>이용자 유의사항</strong></div>
+                <div id="safeimg">
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <div><span></span></div>
+                    <p>개인정보 보호를 위해 서비스 이용 중 자리를 비우게 될 경우 반드시 <em>로그아웃</em> 하세요.</p>
+                    <p>약 10분 동안 화면이동이 없는 경우 고객님의 개인정보 보호를 위해 <em>자동 로그아웃</em> 처리됩니다.</p>
+                    <p>비밀번호 및 인증서 암호는 <em>주기적으로 변경관리</em>하시고 타인에게 노출되지 않도록 주의하세요.</p>
+                    <p><em>비밀번호 5회 오류</em> 시 온라인 서비스 <em>이용이 제한</em>되며 <em>비밀번호 재설정</em> 후 이용이 가능합니다.</p>
+                </div>
+                <div id="qna">
+                    <div><span>자주 묻는질문</span></div>
+                    <div><span>플러스 이미지</span></div>
+                    <div>
+                    <ol>
+                        <li>개인뱅킹 신규 가입했습니다. 인증서 발급은 어떻게 하나요?</li>
+                        <li>타행에서 발급된 공동인증서(구 공인인증서)가 있는 경우 어떻게 해...</li>
+                        <li>통합프로그램 설치안내</li>
+                        <li>뱅킹 이용시 유의할 사항이 있나요?</li>
+                    </ol>
+                    </div>
+                </div>
+                <div id="tellcenter">고객센터</div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

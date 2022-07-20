@@ -1,0 +1,32 @@
+자바스크립트 함수와 배열
+    자바스크립트 함수
+        함수 선언과 호출
+        반환값 출력
+        인자와 매개 변수
+
+프로그래머스
+    약수의 합
+    약수의 개수와 덧셈
+
+모르는 것
+    memory
+        stack
+        hip
+        for문
+        변수 할당
+    
+    메모리
+        스택(선언)
+            할당자바스크립트 함수
+                함수 선언과 호출
+
+                타입 변수명
+                    let
+                    const
+                    var
+        힙
+    NaN(not a noumber)
+    null 이외에 undefined(타입도 없음)
+    arguments = 유사배열
+    console.dir(arguments)
+    객체지향

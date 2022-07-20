@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // a, b 정수의 answer = a + b합 리턴 return
+        // 정수 사이의 합 for 문
+        // 대소 관계
+
+        function solution(a, b){
+            var answer = 0;
+            if(a > b){
+                for(i=b; i<=a; i++){
+                    var b = i
+                    answer += b;
+                }
+            }
+            else if(b > a){
+                for(i=a; i<=b; i++){
+                    var a = i;
+                    answer += a;
+                }
+                
+            }
+            else if(a==b){
+                var a;
+                answer += a;
+            }
+
+            return answer;
+        }
+        console.log(solution(3, 3));
+    </script>
+</body>
+</html>
