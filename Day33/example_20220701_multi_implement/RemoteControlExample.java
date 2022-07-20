@@ -1,4 +1,4 @@
-package example_20220701_multi_implement;
+package Day33.example_20220701_multi_implement;
 
 public class RemoteControlExample {
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class RemoteControlExample {
 		rc.setMute(true);
 		rc.setMute(false);
 		System.out.println("rc.MAX_VOLUME: " + rc.MAX_VOLUME);
-		System.out.println("----------------------RemoteControl 끝----------------------")
+		System.out.println("----------------------RemoteControl 끝----------------------");
 
 
 		searchable.search("네이버");

@@ -1,6 +1,6 @@
 커널코드 분석
 
-https://velog.io/@bensworks/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%EB%8F%84%EC%A0%84%EA%B8%B05-%ED%99%94%EB%A9%B4-%EC%84%A4%EA%B3%84
+https://velog.io/@bensworks/정보처리기사도전기5-화면-설계
 
 제1절 UI요구사향 확인
     1. UI 표준
@@ -14,10 +14,10 @@ https://velog.io/@bensworks/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%
 
 
 3대 회사1
-웹프로그래밍
-보안쪽
-클라우드
-서밋
+    웹프로그래밍
+    보안쪽
+    클라우드
+    서밋
 
 #기술스택
 @java 버전관리 (패스 저장, jvm 돌아가는 방식)
