@@ -1,4 +1,4 @@
-package example_20220701_multi_implement;
+package Day33.example_20220701_multi_implement;
 
 public class Day33_Question {
     public static void main(String[] arg) {

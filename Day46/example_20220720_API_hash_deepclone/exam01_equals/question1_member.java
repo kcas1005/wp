@@ -9,11 +9,11 @@ public class question1_member {
         this.team = team;
     }
 
-    public void setId(){
-
+    public void setId(String id){
+        this.id = id;
     }
-    public void setTeam(){
-
+    public void setTeam(int team){
+        this.team = team;
     }
     public int getTeam(){
 
@@ -22,6 +22,20 @@ public class question1_member {
     public String getId(){
 
         return id;
+    }
+    public boolean equals(Object obj){
+        if(obj instanceof question1_member){
+            question1_member qm1 = (question1_member) obj;
+            if(team == qm1.getTeam()| id == qm1.getId()){
+                System.out.println("아이디와 그룹이 같습니다.");
+                return true;
+            }else{
+                System.out.println("아이디 또는 그룹이 다릅니다.");
+            }
+        } else{
+            System.out.println("클래스가 다릅니다.");
+        }
+        return false;
     }
 
 }

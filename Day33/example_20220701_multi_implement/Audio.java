@@ -1,4 +1,4 @@
-package example_20220701_multi_implement;
+package Day33.example_20220701_multi_implement;
 
 public class Audio implements RemoteControl {
     private int volume;
