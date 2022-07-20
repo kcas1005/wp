@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/Day33_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/Day33_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Kim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Kim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Lee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Lee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Park.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Searchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/Searchable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/SmartTelevision.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/SmartTelevision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day33/example_20220701_multi_implement/remote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day40/highwayChange/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day40/highwayChange/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/Day45.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day46/Day46_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day46/Day46_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Day41_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Day33_Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Kim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Lee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Park.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Remote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/RemoteControlExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/Searchable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/Remote/SmartTelevision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day41/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/Day46_index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/Day46_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/확인.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,6 +208,7 @@
       <workItem from="1658301088508" duration="194000" />
       <workItem from="1658301306634" duration="148000" />
       <workItem from="1658301481595" duration="3149000" />
+      <workItem from="1658331056361" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -315,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658218645578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="집에서함">
+      <created>1658331089050</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658331089050</updated>
+    </task>
+    <task id="LOCAL-00011" summary="집에서함">
+      <created>1658331272016</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658331272016</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +304,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/school" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -349,7 +321,8 @@
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
-    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
+    <MESSAGE value="집에서함" />
+    <option name="LAST_COMMIT_MESSAGE" value="집에서함" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
