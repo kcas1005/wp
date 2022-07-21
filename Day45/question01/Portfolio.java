@@ -14,19 +14,22 @@ public class Portfolio {
             tm.manager.manager_1("경섭");
             System.out.println("---------------------구분선-------------------");
             tm.team_check();
+            throw new WhyException("이건 뭐야?");
 
 
-       /* } catch (WhyException e) {
+
+        } catch (WhyException e) {
             String message = e.getMessage();
             System.out.println(message);
             System.out.println();
-            e.printStackTrace();*/
+            e.printStackTrace();
 
         } catch (StackOverflowError e) {
             System.out.println("스택오버플로 에러");
             e.printStackTrace();
+
         } catch (Exception e) {
-            System.out.println("왜 오류가 나지?");
+            System.out.println("왜 오류가 남?");
             e.printStackTrace();
 
         } finally {

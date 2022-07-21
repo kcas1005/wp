@@ -38,4 +38,10 @@ public class Member {
 		}
 		return false;
 	}
+	@Override
+	public int hashCode(){
+		//String 문자열은 상수풀이기 때문에 같은 주소를 가르칠 컷이고
+		//같은 주소이면 hashcode가 통일하게 return 받습니다
+		return id.hashCode();
+	}
 }
