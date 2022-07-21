@@ -3,11 +3,10 @@ package Day45.question01;
 public class Team extends Person {
     String[] team = new String[6];
     Person frontend = new Person() {
-        String[] front;
-        int to;
+        String[] front = new String[2];
+        int people;
         @Override
         void front_1(String input_front, String input_front2){
-            front = new String[2];
             front[0] = input_front;
             front[1] = input_front2;
 
@@ -21,11 +20,11 @@ public class Team extends Person {
     };
 
     Person backend = new Person() {
-        String[] back;
+        String[] back = new String[2];
+
 
         @Override
         void backend_1(String input_back, String input_back2) {
-            back = new String[2];
             back[0] = input_back;
             back[1] = input_back2;
 
@@ -38,11 +37,10 @@ public class Team extends Person {
         }
     };
     Person database = new Person() {
-        String[] db;
+        String[] db = new String[1];
 
         @Override
         void database_1(String input_db) {
-            db = new String[1];
             db[0] = input_db;
 
             team[4] = db[0];
@@ -53,10 +51,9 @@ public class Team extends Person {
         }
     };
     Person manager = new Person() {
-        String[] mg;
+        String[] mg = new String[1];
         @Override
         void manager_1(String input_mg) {
-            mg = new String[1];
             mg[0] = input_mg;
 
             team[5] = mg[0];
@@ -73,4 +70,12 @@ public class Team extends Person {
             System.out.println(t);
         }
     }
+
+    /*void String team_find(){
+        switch (true){
+            case 1:
+
+        }
+        return team
+    }*/
 }
