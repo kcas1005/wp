@@ -1,3 +1,5 @@
+package Day34;
+
 public class SmartTelevision implements RemoteControl, Searchable {
 	private int volume;
 	

@@ -1,3 +1,5 @@
+package Day34;
+
 public class Kim implements Remote, Login {
     String id = "Kim";
     String pw = "Kim123";

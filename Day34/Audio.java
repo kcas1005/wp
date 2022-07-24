@@ -1,3 +1,5 @@
+package Day34;
+
 public class Audio implements RemoteControl {
     private int volume;
 
