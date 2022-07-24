@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 스쿨 첵아웃 배움">
-      <change afterPath="$PROJECT_DIR$/Day48/Day48_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__8_04__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14_오후_8_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14_오후_9_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_30__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14_오후_9_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14_오후_9_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__8_04__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_30__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Portfolio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Portfolio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 스쿨 첵아웃 배움" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +215,7 @@
       <workItem from="1658383595540" duration="630000" />
       <workItem from="1658384494187" duration="49000" />
       <workItem from="1658384666709" duration="3057000" />
-      <workItem from="1658446437014" duration="5445000" />
+      <workItem from="1658446437014" duration="6122000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -316,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658331272016</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="학원에서 스쿨 첵아웃 배움">
+      <created>1658478406284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658478406284</updated>
+    </task>
+    <task id="LOCAL-00013" summary="학원에서 스쿨 첵아웃 배움">
+      <created>1658478441620</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658478441620</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
