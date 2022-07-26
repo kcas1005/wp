@@ -1,3 +1,4 @@
+
 public class ChoiceHuman implment eat {
 
     private String name;
@@ -13,7 +14,7 @@ public class ChoiceHuman implment eat {
     }
 
     public void eat(String action) {
-        System.out.println(this.name + "이/(가) " + this.jellyName "을/(를) " +action);
+        System.out.println(this.name + "이/(가) " + this.jellyName"을/(를) " + action);
     }
 
 }

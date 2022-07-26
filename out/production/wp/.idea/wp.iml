@@ -14,7 +14,6 @@
       <excludeFolder url="file://$MODULE_DIR$/Day16" />
       <excludeFolder url="file://$MODULE_DIR$/Day17" />
       <excludeFolder url="file://$MODULE_DIR$/Day2" />
-      <excludeFolder url="file://$MODULE_DIR$/Day20" />
       <excludeFolder url="file://$MODULE_DIR$/Day21" />
       <excludeFolder url="file://$MODULE_DIR$/Day22" />
       <excludeFolder url="file://$MODULE_DIR$/Day23" />
@@ -28,7 +27,6 @@
       <excludeFolder url="file://$MODULE_DIR$/Day30" />
       <excludeFolder url="file://$MODULE_DIR$/Day31" />
       <excludeFolder url="file://$MODULE_DIR$/Day32" />
-      <excludeFolder url="file://$MODULE_DIR$/Day36" />
       <excludeFolder url="file://$MODULE_DIR$/Day37" />
       <excludeFolder url="file://$MODULE_DIR$/Day38" />
       <excludeFolder url="file://$MODULE_DIR$/Day39" />
@@ -51,14 +49,24 @@
       <excludeFolder url="file://$MODULE_DIR$/Week8" />
       <excludeFolder url="file://$MODULE_DIR$/Day33" />
       <excludeFolder url="file://$MODULE_DIR$/Day40" />
-      <excludeFolder url="file://$MODULE_DIR$/Day43" />
       <excludeFolder url="file://$MODULE_DIR$/Day44" />
       <excludeFolder url="file://$MODULE_DIR$/Day18" />
       <excludeFolder url="file://$MODULE_DIR$/Day34" />
       <excludeFolder url="file://$MODULE_DIR$/Day41" />
-      <excludeFolder url="file://$MODULE_DIR$/Day46" />
       <excludeFolder url="file://$MODULE_DIR$/Week9" />
       <excludeFolder url="file://$MODULE_DIR$/Day35" />
+      <excludeFolder url="file://$MODULE_DIR$/Day42" />
+      <excludeFolder url="file://$MODULE_DIR$/Day19" />
+      <excludeFolder url="file://$MODULE_DIR$/Day45" />
+      <excludeFolder url="file://$MODULE_DIR$/Day47" />
+      <excludeFolder url="file://$MODULE_DIR$/Day20" />
+      <excludeFolder url="file://$MODULE_DIR$/Day36" />
+      <excludeFolder url="file://$MODULE_DIR$/Day43" />
+      <excludeFolder url="file://$MODULE_DIR$/Day46/example_20220720_API_hash_deepclone/exam04_clone" />
+      <excludeFolder url="file://$MODULE_DIR$/Day46/example_20220720_API_hash_deepclone/exam05_deep_clone" />
+      <excludeFolder url="file://$MODULE_DIR$/Day46/example_20220720_API_hash_deepclone/exam06_finalize" />
+      <excludeFolder url="file://$MODULE_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals" />
+      <excludeFolder url="file://$MODULE_DIR$/Day46/example_20220720_API_hash_deepclone/exam02_hashcode" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
