@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 스쿨 첵아웃 배움">
-      <change afterPath="$PROJECT_DIR$/Day49/Day49_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day49/Script1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day49/Script5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day50/Day50_Script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day50/Day50_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day50/Day50_예제_풀이" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day49/Script1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Day49/Day49_Script1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day49/Script5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Day49/Day49_Script5.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
   <component name="ProjectLevelVcsManager">
@@ -221,7 +227,8 @@
       <workItem from="1658384494187" duration="49000" />
       <workItem from="1658384666709" duration="3057000" />
       <workItem from="1658446437014" duration="6122000" />
-      <workItem from="1658705790416" duration="13422000" />
+      <workItem from="1658705790416" duration="13871000" />
+      <workItem from="1658794103579" duration="7129000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -328,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658705956156</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="학원에서 스쿨 첵아웃 배움">
+      <created>1658737114059</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658737114059</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +353,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="school" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
