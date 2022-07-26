@@ -51,10 +51,14 @@ WHERE 제품번호 NOT in(
 SELECT 제품명, 단가, 제조업체
 FROM 제품
 WHERE 단가 = (
-);
 	SELECT MAX(단가)
 	FROM 제품
-	WHERE 단가;
+);
+
+--예제 7-45
+SELECT
+FROM 주문
+WHERE
 
 
 
