@@ -4,7 +4,7 @@
         동기화 유무
 
         String 과 Stringbuffur,Stringbuilder의 차이
-        불변(String), 가변(Stringbuffur, StringBuilder)의 차이
+        불변(String), 가변(Stringbuffer, StringBuilder)의 차이
 
         Stringbuffur
             동기화 지원

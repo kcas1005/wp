@@ -7,69 +7,7 @@
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day36/teacher/ChoiceHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day36/teacher/ChoiceHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day43/Day43_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day43/Day43_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day19/Day19_confirm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day19/Day19_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day19_Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day19_ScannerEx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/Day42_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/Day42_stack,heap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/Test_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/example_20220714.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/java30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/java31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day42/java32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Exceptionexam.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/KakaoTalk_20220719_121514064.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Portfolio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/WhyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec04_multi_catch/CatchByExceptionKindExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec04_multi_catch/MultiCatchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec05_try_with_resources/FileInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec05_try_with_resources/TryWithResourceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec05_try_with_resources/file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec06_throws/ThrowsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec07_user_define_exception/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec07_user_define_exception/AccountExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/sec07_user_define_exception/BalanceInsufficientException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/화면 캡처 2022-07-19 135028.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/Day47_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/example_20220720_API_hash_deepclone.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/20220721_애플리케이션배포_지성진.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/20220721_애플리케이션배포_평가지_ver0001.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제1-1-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제1-3-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제2-1-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제2-2-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제2-3-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제3-1-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제3-3-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제3-4-5.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제4-1-0.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제4-2-0.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/시험/문제4-3-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day47/캡처.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam/MaxException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam/NewTeamPeopleException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam/PartException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam/TeamPeople.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/ExceptionExam1/TeamPeople.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/db.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/sec04_multi_catch/CatchOrderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/확인.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Day21_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Day21_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,35 +56,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/work/wp/Day43",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day43&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day43" />
@@ -159,7 +97,7 @@
       <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToStringExample">
+  <component name="RunManager" selected="Application.Day33_Question">
     <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day36.exam01_field_polymorphism.CarExample" />
       <module name="wp" />
@@ -173,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day19_confirm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day19.Day19_confirm" />
+    <configuration name="Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day37.Remote.Day33_Question" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day19.*" />
+          <option name="PATTERN" value="Day37.Remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MemberExample" />
+      <item itemvalue="Application.Day33_Question" />
       <item itemvalue="Application.CarExample" />
       <item itemvalue="Application.KeyExample" />
       <item itemvalue="Application.ToStringExample" />
       <item itemvalue="Application.question1_memberExample" />
-      <item itemvalue="Application.Day19_confirm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day33_Question" />
         <item itemvalue="Application.ToStringExample" />
         <item itemvalue="Application.KeyExample" />
         <item itemvalue="Application.question1_memberExample" />
         <item itemvalue="Application.CarExample" />
-        <item itemvalue="Application.Day19_confirm" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +228,8 @@
       <workItem from="1658640235661" duration="1786000" />
       <workItem from="1658658547643" duration="3468000" />
       <workItem from="1658744841727" duration="337000" />
-      <workItem from="1658748748366" duration="5463000" />
+      <workItem from="1658748748366" duration="6572000" />
+      <workItem from="1658830696753" duration="3847000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -390,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658745020703</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="집에서함">
+      <created>1658832196383</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658832196383</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
