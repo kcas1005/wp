@@ -1,0 +1,80 @@
+SELECT 고객이름
+FROM 고객
+WHERE 나이 IS not NULL;
+
+SELECT 제품.제품명
+FROM 제품, 주문
+WHERE 제품.제품번호 = 주문.주문제품 AND 주문.주문고객 = 'banana';
+
+SELECT 주문.주문제품 , 주문.주문일자
+FROM 주문, 고객
+WHERE 고객.나이 >=30 AND 주문.주문고객= 고객.고객아이디;
+
+SELECT 제품.제품명
+FROM 제품, 주문, 고객
+WHERE 고객.고객이름 = '고명석' AND 고객.고객아이디 = 주문.주문고객 AND 제품.제품번호  = 주문.주문제품;
+
+--예제7-40
+SELECT 제품명, 단가
+FROM 제품
+WHERE 제조업체 =
+(
+	SELECT 제조업체
+	FROM 제품
+	WHERE 제품명 = '달콤비스킷'
+);
+--예제7-41
+SELECT 고객이름, 적립금
+FROM 고객
+WHERE 적립금 = (
+	SELECT max(적립금)
+	FROM 고객
+);
+--예제7-42
+SELECT 제품명, 제조업체
+FROM 제품
+WHERE 제품번호 IN (
+	SELECT 주문제품
+	FROM 주문
+	WHERE 주문고객 = 'banana'
+);
+--예제7-43
+SELECT  제품명, 제조업체
+FROM 제품
+WHERE 제품번호 NOT in(
+	SELECT 주문제품
+	FROM 주문
+	WHERE 주문고객 = 'banana'
+);
+
+--예제 7-44
+SELECT 제품명, 단가, 제조업체
+FROM 제품
+WHERE 단가 = (
+	SELECT MAX(단가)
+	FROM 제품
+);
+
+--예제 7-45
+SELECT
+FROM 주문
+WHERE
+
+
+
+SELECT * FROM 제품;
+SELECT * FROM 고객;
+SELECT * FROM 주문;
+
+
+
+
+-------------------------------------------
+
+
+SELECT * FROM 고객 a INNER JOIN 주문 b ON a.고객아이디 = b.주문고객;
+SELECT * FROM 고객;
+
+
+SELECT * FROM 주문 b INNER JOIN 고객 a ON a.고객아이디 = b.주문고객;
+SELECT * FROM 고객;
