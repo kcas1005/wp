@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-19__10_55__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-19_오후_10_55_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day21/Day21_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Day21_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day44/Day44_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day44/Day44_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day50/Day50_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day50/Day50_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/Day46_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220708_화면구현_사전평가_지성진.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220708_화면구현_사전평가_지성진.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220715_애플리케이션테스트수행_사전평가__지성진.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220715_애플리케이션테스트수행_사전평가__지성진.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220721_애플리케이션배포_사전평가_지성진.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/_모듈단위평가_20220721_애플리케이션배포_사전평가_지성진.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/example_20220720_API_hash_deepclone.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day46/지성진.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/01.dbeaver레이아웃.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/02.dbeaver 문제1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/03.예제7-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/04.예제7-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/05.예제7-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/06.예제7-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/07.예제7-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/08.예제7-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/09예제7-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/10.예제7-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/11.예제7-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day48/Day48_index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day49/Script1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day49/Script5.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/review.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/sec03/exam03_tostring/SmartPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/sec03/exam03_tostring/SmartPhoneExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/sec03/exam03_tostring/ToStringExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/확인.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,35 +51,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day43&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/work/wp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day43" />
@@ -266,6 +226,7 @@
       <workItem from="1658748748366" duration="6572000" />
       <workItem from="1658830696753" duration="4335000" />
       <workItem from="1658916534411" duration="905000" />
+      <workItem from="1658966375791" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
