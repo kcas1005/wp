@@ -1,0 +1,44 @@
+수업
+    기술면접
+        카카오 PM
+            AWS
+            마일스톤
+            OSI7 계층
+            DevOps
+            OAuth 인증 절차 ,시퀀스 다이어그램
+        잡코리아 이력서 보기
+
+    XOR 연산자
+        true true = 0
+        true false = 1
+        equals랑 다른 점 (연산 작업(Stack)을 하나 줄일 수 있음)
+
+    강의 교안 6장
+        1절 자바 API 도큐먼트
+            자바 API란?
+            API 도큐먼트
+
+        2절 java.lang과 java.util 패키지
+            java.lang
+            java.util
+
+        3절 Object 클래스
+            자바의 최상위 부모 클래스
+            객체 비교 (equals() 메소드)
+
+
+알아야 할것
+    1장 ~ 8장
+    10장
+    15장
+
+커리큘럼
+    DB 1주일 동안 할 거임
+
+해야 할 것
+    삼각형 만들기 문제
+    슬라임 문제
+    3 채널 문제
+    예외 문제
+    인스턴스 문제
+
