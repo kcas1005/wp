@@ -1,5 +1,3 @@
-package Day34;
-
 public class Lee implements Remote{
     public void tv_remote(int input_channel){
         try {

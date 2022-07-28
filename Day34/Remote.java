@@ -1,5 +1,3 @@
-package Day34;
-
 public interface Remote {
 
     public int favorite = 0;

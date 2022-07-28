@@ -10,8 +10,6 @@
         암호키 있는 곳 폴더로 이동 한 후
         ssh -i
         ssh -i "ssh-key-2022-07-15.key" ubuntu@130.162.147.213
-        
-        ssh -i "id_rsa" ubuntu@130.162.147.213
 
         파일 만들기
         scp .\scptest.text  ubuntu@130.162.147.213:/home/ubuntu

@@ -1,4 +1,4 @@
-package Day19;//package 작성
+//package 작성
 import java.util.Scanner;
 //파일명과 클래스명 동일
 public class Day19_confirm{

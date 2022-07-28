@@ -1,5 +1,3 @@
-package Day34;
-
 public class Day33_Question {
     public static void main(String[] arg) {
 

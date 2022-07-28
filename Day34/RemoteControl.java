@@ -1,5 +1,3 @@
-package Day34;
-
 public interface RemoteControl {
 
 	//실수

@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 스쿨 첵아웃 배움">
+      <change afterPath="$PROJECT_DIR$/Day48/Day48_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__8_04__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14_오후_8_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-14_오후_9_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14__9_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14_오후_9_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2022-07-14_오후_9_30_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day21/Day21_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Day21_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,12 +84,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
-    ]
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -97,33 +99,7 @@
       <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day33_Question">
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day36.exam01_field_polymorphism.CarExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day36.exam01_field_polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day37.Remote.Day33_Question" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day37.Remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KeyExample">
     <configuration name="KeyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam02_hashcode.KeyExample" />
       <module name="wp" />
@@ -151,12 +127,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sec03.exam03_tostring.ToStringExample" />
+    <configuration name="Portfolio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day45.question01.Portfolio" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sec03.exam03_tostring.*" />
+          <option name="PATTERN" value="Day45.question01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day47.aa" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day47.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day40.highwayChange.main" />
+      <module name="wp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day40.highwayChange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,19 +181,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MemberExample" />
-      <item itemvalue="Application.Day33_Question" />
-      <item itemvalue="Application.CarExample" />
+      <item itemvalue="Application.aa" />
       <item itemvalue="Application.KeyExample" />
-      <item itemvalue="Application.ToStringExample" />
+      <item itemvalue="Application.Portfolio" />
+      <item itemvalue="Application.main" />
       <item itemvalue="Application.question1_memberExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day33_Question" />
-        <item itemvalue="Application.ToStringExample" />
         <item itemvalue="Application.KeyExample" />
+        <item itemvalue="Application.aa" />
+        <item itemvalue="Application.Portfolio" />
         <item itemvalue="Application.question1_memberExample" />
-        <item itemvalue="Application.CarExample" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -225,11 +227,7 @@
       <workItem from="1658383595540" duration="630000" />
       <workItem from="1658384494187" duration="49000" />
       <workItem from="1658384666709" duration="3057000" />
-      <workItem from="1658640235661" duration="1786000" />
-      <workItem from="1658658547643" duration="3468000" />
-      <workItem from="1658744841727" duration="337000" />
-      <workItem from="1658748748366" duration="6572000" />
-      <workItem from="1658830696753" duration="3847000" />
+      <workItem from="1658446437014" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -308,35 +306,7 @@
       <option name="project" value="LOCAL" />
       <updated>1658331272016</updated>
     </task>
-    <task id="LOCAL-00012" summary="집에서함">
-      <created>1658640788233</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1658640788233</updated>
-    </task>
-    <task id="LOCAL-00013" summary="집에서함">
-      <created>1658640803098</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1658640803098</updated>
-    </task>
-    <task id="LOCAL-00014" summary="집에서함">
-      <created>1658745020703</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1658745020703</updated>
-    </task>
-    <task id="LOCAL-00015" summary="집에서함">
-      <created>1658832196383</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1658832196383</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,19 +317,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/school" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -370,9 +328,9 @@
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
-    <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
     <MESSAGE value="집에서함" />
-    <option name="LAST_COMMIT_MESSAGE" value="집에서함" />
+    <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 스쿨 첵아웃 배움" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,51 +388,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day34/Day33_Question.java</url>
-          <line>3</line>
-          <properties class="Day34.Day33_Question" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day34/RemoteControlExample.java</url>
-          <line>3</line>
-          <properties class="Day34.RemoteControlExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day36/exam01_field_polymorphism/CarExample.java</url>
-          <line>3</line>
-          <properties class="Day36.exam01_field_polymorphism.CarExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.java</url>
-          <line>9</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java</url>
-          <line>3</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
