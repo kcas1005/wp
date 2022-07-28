@@ -1,0 +1,28 @@
+수업
+    delete 문(p105)
+
+    update
+
+    ch10_회복과 병행 제어
+        트랜젝션, 뷰(p109)
+            원자성(완성되기 전 오류나면 초기화로 돌아가는 것)
+            일관성(총량이 같은지 다른지 검산 같은 느낌)
+            격리성(멀티태스킹 안됨 > 동시에 일 수행 못함)
+            지속성(반영되면 동일하게 지속되야 함)
+
+api 이해도
+    rest api
+    보안성 성립
+    jwt 토큰 (json 방식)
+
+
+스프링 이니셜라이즈
+
+src
+    main(backend)
+
+    resource(front)
+        static : css 넣기
+        templates : html 넣기
+
+Graddle

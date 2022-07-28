@@ -1,0 +1,54 @@
+--USER_tables
+--table의 정보는 어딘가 다 정리되어 있습니다 = [스키마] = [메타데이터]
+--스키마를 저장하는 테이블도 있다!
+--관계형 데이터베이스 (오라클, mysql, mssql, sqlite..)는 테이블로 데이터 저장!
+--table의 정보는 저장하는 테이블의 이름은 tabs;
+
+SELECT * FROM tabs;
+
+SELECT * FROM tabs
+WHERE TABLE_NAME = '고객';
+
+--inner join(교집합)
+SELECT * FROM basket_a ba --a테이블
+INNER JOIN basket_b bb --b테이블
+ON ba.fruit = bb.fruit; --공통된 컬럼값을 조회해서 해당되는 튜플을 출력
+
+SELECT * FROM BASKET_A;
+SELECT * FROM BASKET_B;
+
+--create 문 : 테이블을 생성하는 쿼리
+CREATE TABLE 테이블이름 (
+	테이블컬럼 varchar(10) --컬럼이름 / 컬럼속성(범위)
+);
+
+--user_tab_columns : 컬럼 정보 조회
+SELECT * FROM cols;
+
+SELECT * FROM cols
+WHERE TABLE_NAME = '주문' AND COLUMN_NAME = '주문고객';
+
+--index
+--특정 컬럼의 조회 속도를 높이기 위해 사용
+--단, 공간적부분(테이블), 절차적인부분(튜플 insert할 때마다 index값 저장하기 때문에)에 비용발생
+--create index[index이름] on [테이블이름]([컬럼이름])
+CREATE INDEX index_name ON 고객(나이);
+
+SELECT * FROM 고객테이블 WHERE 나이 > 24;
+
+--create table .. as select
+--특정 테이블을 검색해서 복사하여 테이블 생성[복사]
+--create table [복사할 테이블 이름] as select [복사할 컬럼 이름] from[원본 테이블]
+CREATE TABLE 고객테이블_백업2
+AS SELECT * FROM 고객 WHERE 고객이름 = '정소화';
+
+SELECT * FROM 고객테이블_백업2;
+------------------------------------------------------------
+CREATE TABLE 주문_백업1
+AS SELECT * FROM 주문;
+
+SELECT * FROM 고객테이블_백업1;
+
+DROP TABLE 주문_백업1;
+
+DESC 고객;
