@@ -1,0 +1,72 @@
+수업
+    기술스택
+        자바
+            상속과 인터페이스
+                인터페이스와 추상클래스의 차이
+            메모리 구조와 참조타입
+            예외처리
+            형변환
+            스트링 버퍼, 빌더와 일반 스트링(상수풀) 차이
+
+        sql
+            오라클
+            DML, DDL, inner join, outer join
+            트랜젝션 ACID
+            테이블 연관구조(기본키, 외래키, 대체키...)
+
+        스프링부트
+            web start의 내장 톰캣와 웹서비스 흐름 이해
+            thymeleaf 사용
+            gradle 장점,차별점
+
+        클라우드와 우분투
+            EC2(컴퓨팅)
+            네트워크 방화벽
+                os
+                클라우드
+
+        gradle 배포
+            아티펙트는 메이븐만 사용 가능
+
+        클라우드 배포
+            클라우드에 파일 송신
+            클라우드 OS(우분투)에 java설치
+            우분투 방화벽 열기
+            클라우드에 방화벽 열기
+
+        클라우드, OS미션
+
+
+
+
+        구글 인스턴스 클라우드
+            Google Cloud
+
+            1. sudo vi /etc/ssh/sshd_config
+            2. 설정 PasswordAuthentication no 를 찾는다.
+                2-1. PasswordAuthentication no = no 쪽으로 스페이스바 끝까지 누른다. 여기서 i를 누르면 insert모드가 나오는데 PasswordAuthentication no = > PasswordAuthentication yes로 바꾼다.
+            3. sudo service sshd restart = > 새로 고침
+            4. sudo useradd -m -s /bin/bash -G users [계정명 : test001]
+            5. sudo passwd [계정명]
+                그럼 패스워드 설정함 : 비밀번호는 안보인다.
+            6. scp [파일명][계정명]@[ip주소]:/[저장위치]
+
+        터미널에 치는 것
+
+        sudo apt update && sudo apt upgrade -y
+        sudo apt-get install openjdk-17-jre
+        sudo iptables -I INPUT -p tcp —dport 8080 -m state —state NEW,ESTABLELISHED -j ACCEPT
+        sudo iptables —list
+
+        iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
+        iptables --list (root 계정 들어가서 써주세여)
+
+        iptables는 재부팅할때마다 설정 내용이 초기화되기때문에 ufw 사용하는게 좋을듯합니다.
+            https://huimang2.github.io/etc/docker#%EB%B0%A9%ED%99%94%EB%B2%BD-%EC%98%A4%ED%94%88open
+
+        미션(linux)
+        인국님 하신 것 처럼 iptables
+
+        방화벽 자체 없애기
+
+        터미널이 꺼졌을 때 서버 유지 하는 방법
