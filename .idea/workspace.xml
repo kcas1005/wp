@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포">
-      <change afterPath="$PROJECT_DIR$/Day55/Day55_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day55/mypet_Pjt_타임테이블.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day55/스토리보드 0001.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day55/플로우차트.drawio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +236,7 @@
       <workItem from="1659082740345" duration="6000" />
       <workItem from="1659314210779" duration="10909000" />
       <workItem from="1659395138945" duration="4341000" />
-      <workItem from="1659416091106" duration="5451000" />
+      <workItem from="1659416091106" duration="5798000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -399,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659342149616</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
+      <created>1659428245861</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659428245861</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +436,8 @@
     <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
     <MESSAGE value="집에서함" />
     <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
-    <option name="LAST_COMMIT_MESSAGE" value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
+    <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
+    <option name="LAST_COMMIT_MESSAGE" value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
