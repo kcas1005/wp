@@ -71,6 +71,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Week3" />
       <excludeFolder url="file://$MODULE_DIR$/Week7" />
       <excludeFolder url="file://$MODULE_DIR$/Week9" />
+      <excludeFolder url="file://$MODULE_DIR$/Day51" />
+      <excludeFolder url="file://$MODULE_DIR$/Day52" />
+      <excludeFolder url="file://$MODULE_DIR$/Day53" />
+      <excludeFolder url="file://$MODULE_DIR$/Day54" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

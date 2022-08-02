@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="집에서함">
-      <change afterPath="$PROJECT_DIR$/Day54/Day54_index" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포">
+      <change afterPath="$PROJECT_DIR$/Day55/Day55_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55/mypet_Pjt_타임테이블.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55/스토리보드 0001.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55/플로우차트.drawio.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day55&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -86,6 +89,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day55" />
       <recent name="C:\work\wp\Day43" />
       <recent name="C:\work\wp\Day41" />
     </key>
@@ -237,7 +241,9 @@
       <workItem from="1658994702972" duration="632000" />
       <workItem from="1659053143603" duration="3050000" />
       <workItem from="1659082740345" duration="6000" />
-      <workItem from="1659314210779" duration="9824000" />
+      <workItem from="1659314210779" duration="10909000" />
+      <workItem from="1659395138945" duration="4341000" />
+      <workItem from="1659416091106" duration="5451000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -386,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659082621093</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포">
+      <created>1659342149616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659342149616</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +435,8 @@
     <MESSAGE value="학원에서 throw try catch finally 배움" />
     <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
     <MESSAGE value="집에서함" />
-    <option name="LAST_COMMIT_MESSAGE" value="집에서함" />
+    <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
+    <option name="LAST_COMMIT_MESSAGE" value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
