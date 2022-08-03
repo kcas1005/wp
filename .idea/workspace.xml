@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
-      <change afterPath="$PROJECT_DIR$/Day56/Day56_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day55/Day55_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day55/Day55_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day56/Day56_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day56/Day56_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +243,7 @@
       <workItem from="1659395138945" duration="4341000" />
       <workItem from="1659416091106" duration="6099000" />
       <workItem from="1659483778274" duration="8260000" />
-      <workItem from="1659495980477" duration="6576000" />
+      <workItem from="1659495980477" duration="11346000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
