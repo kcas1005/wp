@@ -75,6 +75,8 @@
       <excludeFolder url="file://$MODULE_DIR$/Day52" />
       <excludeFolder url="file://$MODULE_DIR$/Day53" />
       <excludeFolder url="file://$MODULE_DIR$/Day54" />
+      <excludeFolder url="file://$MODULE_DIR$/Day55" />
+      <excludeFolder url="file://$MODULE_DIR$/Day56" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
