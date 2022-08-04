@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wp.iml" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <change beforePath="$PROJECT_DIR$/Day57/20220804_lecture_spring_initProject_fix0002" beforeDir="false" afterPath="$PROJECT_DIR$/Day57/20220804_lecture_spring_initProject_fix0002" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +245,7 @@
       <workItem from="1659483778274" duration="8260000" />
       <workItem from="1659495980477" duration="11377000" />
       <workItem from="1659569970512" duration="2868000" />
+      <workItem from="1659600930347" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -422,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659515093578</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659600968036</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600968036</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +468,8 @@
     <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
     <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
     <MESSAGE value="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <MESSAGE value="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
