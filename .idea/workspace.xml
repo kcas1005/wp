@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day56_집에서">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,6 +243,7 @@
       <workItem from="1659416091106" duration="6099000" />
       <workItem from="1659483778274" duration="8260000" />
       <workItem from="1659495980477" duration="11346000" />
+      <workItem from="1659606639488" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -409,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659428646559</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Day56_집에서">
+      <created>1659537469530</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659537469530</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +458,8 @@
     <MESSAGE value="집에서함" />
     <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
     <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
-    <option name="LAST_COMMIT_MESSAGE" value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
+    <MESSAGE value="Day56_집에서" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day56_집에서" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
