@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <change afterPath="$PROJECT_DIR$/Day58/Day58_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day57/20220804_lecture_spring_initProject_fix0002" beforeDir="false" afterPath="$PROJECT_DIR$/Day57/20220804_lecture_spring_initProject_fix0002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +248,8 @@
       <workItem from="1659483778274" duration="8260000" />
       <workItem from="1659495980477" duration="11377000" />
       <workItem from="1659569970512" duration="2868000" />
-      <workItem from="1659600930347" duration="417000" />
+      <workItem from="1659600930347" duration="664000" />
+      <workItem from="1659655891338" duration="6353000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -429,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659600968036</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659601532846</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659601532846</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
