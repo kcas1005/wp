@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day56_집에서">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day57_집에서">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/확인.html" beforeDir="false" afterPath="$PROJECT_DIR$/확인.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day56/시험&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Cording/pet&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -243,7 +243,12 @@
       <workItem from="1659416091106" duration="6099000" />
       <workItem from="1659483778274" duration="8260000" />
       <workItem from="1659495980477" duration="11346000" />
-      <workItem from="1659606639488" duration="874000" />
+      <workItem from="1659606639488" duration="1581000" />
+      <workItem from="1660042759270" duration="280000" />
+      <workItem from="1660043643205" duration="19000" />
+      <workItem from="1660054462352" duration="88000" />
+      <workItem from="1660054592554" duration="10000" />
+      <workItem from="1660054846153" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -420,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659537469530</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Day57_집에서">
+      <created>1659616830627</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659616830627</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +471,8 @@
     <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
     <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
     <MESSAGE value="Day56_집에서" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day56_집에서" />
+    <MESSAGE value="Day57_집에서" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day57_집에서" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
