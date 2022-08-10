@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day57_집에서">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day60_실험실 내용 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,6 +248,7 @@
       <workItem from="1660054462352" duration="88000" />
       <workItem from="1660054592554" duration="10000" />
       <workItem from="1660054846153" duration="14000" />
+      <workItem from="1660054965121" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659616830627</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Day60_실험실 내용 추가">
+      <created>1660054993415</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660054993415</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +479,8 @@
     <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
     <MESSAGE value="Day56_집에서" />
     <MESSAGE value="Day57_집에서" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day57_집에서" />
+    <MESSAGE value="Day60_실험실 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day60_실험실 내용 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
