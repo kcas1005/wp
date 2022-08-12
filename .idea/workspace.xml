@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day61_학원에서 한 것">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day62_학원에서 한 것">
+      <change afterPath="$PROJECT_DIR$/Day63/Day63_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,6 +255,11 @@
       <workItem from="1660119382239" duration="45000" />
       <workItem from="1660174818248" duration="1821000" />
       <workItem from="1660178530635" duration="162000" />
+      <workItem from="1660205842241" duration="40000" />
+      <workItem from="1660262867740" duration="68000" />
+      <workItem from="1660262987353" duration="2643000" />
+      <workItem from="1660267415838" duration="3509000" />
+      <workItem from="1660285071517" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -465,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660119405361</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Day62_학원에서 한 것">
+      <created>1660205870315</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660205870315</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +521,8 @@
     <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
     <MESSAGE value="Day58_오늘 학원에서 한 것" />
     <MESSAGE value="Day61_학원에서 한 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day61_학원에서 한 것" />
+    <MESSAGE value="Day62_학원에서 한 것" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day62_학원에서 한 것" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
