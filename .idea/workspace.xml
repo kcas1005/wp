@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day60_실험실 내용 추가">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day64_학원에서 한 것">
+      <change afterPath="$PROJECT_DIR$/Day64/Day64_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day52/Day52_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day52/Day52_index" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -65,7 +69,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Cording/pet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/20220810_crud_게시판&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -241,14 +245,23 @@
       <workItem from="1659395138945" duration="4341000" />
       <workItem from="1659416091106" duration="6099000" />
       <workItem from="1659483778274" duration="8260000" />
-      <workItem from="1659495980477" duration="11346000" />
-      <workItem from="1659606639488" duration="1581000" />
-      <workItem from="1660042759270" duration="280000" />
-      <workItem from="1660043643205" duration="19000" />
-      <workItem from="1660054462352" duration="88000" />
-      <workItem from="1660054592554" duration="10000" />
-      <workItem from="1660054846153" duration="14000" />
-      <workItem from="1660054965121" duration="641000" />
+      <workItem from="1659495980477" duration="11377000" />
+      <workItem from="1659569970512" duration="2868000" />
+      <workItem from="1659600930347" duration="664000" />
+      <workItem from="1659655891338" duration="7399000" />
+      <workItem from="1659914603853" duration="4003000" />
+      <workItem from="1660001623742" duration="7791000" />
+      <workItem from="1660089582606" duration="7222000" />
+      <workItem from="1660114224669" duration="665000" />
+      <workItem from="1660119382239" duration="45000" />
+      <workItem from="1660174818248" duration="1821000" />
+      <workItem from="1660178530635" duration="162000" />
+      <workItem from="1660205842241" duration="40000" />
+      <workItem from="1660262867740" duration="68000" />
+      <workItem from="1660262987353" duration="2643000" />
+      <workItem from="1660267415838" duration="3509000" />
+      <workItem from="1660285071517" duration="1941000" />
+      <workItem from="1660607432830" duration="4949000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -418,28 +431,63 @@
       <option name="project" value="LOCAL" />
       <updated>1659428646559</updated>
     </task>
-    <task id="LOCAL-00025" summary="Day56_집에서">
-      <created>1659537469530</created>
+    <task id="LOCAL-00025" summary="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659515093578</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1659537469530</updated>
+      <updated>1659515093578</updated>
     </task>
-    <task id="LOCAL-00026" summary="Day57_집에서">
-      <created>1659616830627</created>
+    <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659600968036</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1659616830627</updated>
+      <updated>1659600968036</updated>
     </task>
-    <task id="LOCAL-00027" summary="Day60_실험실 내용 추가">
-      <created>1660054993415</created>
+    <task id="LOCAL-00027" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659601532846</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1660054993415</updated>
+      <updated>1659601532846</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659687258086</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659687258086</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659687900732</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659687900732</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Day61_학원에서 한 것">
+      <created>1660119405361</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660119405361</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Day62_학원에서 한 것">
+      <created>1660205870315</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660205870315</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Day63_학원에서 한 것">
+      <created>1660292068747</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660292068747</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,10 +525,14 @@
     <MESSAGE value="집에서함" />
     <MESSAGE value="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포" />
     <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
-    <MESSAGE value="Day56_집에서" />
-    <MESSAGE value="Day57_집에서" />
-    <MESSAGE value="Day60_실험실 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day60_실험실 내용 추가" />
+    <MESSAGE value="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <MESSAGE value="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <MESSAGE value="Day58_오늘 학원에서 한 것" />
+    <MESSAGE value="Day61_학원에서 한 것" />
+    <MESSAGE value="Day62_학원에서 한 것" />
+    <MESSAGE value="Day63_학원에서 한 것" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day63_학원에서 한 것" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,7 +540,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec05_try_with_resources/TryWithResourceExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample">
+          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -497,7 +549,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec07_user_define_exception/AccountExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec07_user_define_exception.AccountExample">
+          <properties class="Day45.sec07_user_define_exception.AccountExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -506,7 +558,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java</url>
           <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample">
+          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -515,7 +567,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java</url>
           <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.Day33_Question">
+          <properties class="Day33.example_20220701_multi_implement.Day33_Question" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -524,7 +576,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
           <line>34</line>
-          <properties class="Day40.highwayChange.main">
+          <properties class="Day40.highwayChange.main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -533,7 +585,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/question01/Portfolio.java</url>
           <line>3</line>
-          <properties class="Day45.question01.Portfolio">
+          <properties class="Day45.question01.Portfolio" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -542,7 +594,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day34/Day33_Question.java</url>
           <line>1</line>
-          <properties class="Day33_Question">
+          <properties class="Day33_Question" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -551,7 +603,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day34/RemoteControlExample.java</url>
           <line>1</line>
-          <properties class="RemoteControlExample">
+          <properties class="RemoteControlExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -560,7 +612,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day36/exam01_field_polymorphism/CarExample.java</url>
           <line>3</line>
-          <properties class="Day36.exam01_field_polymorphism.CarExample">
+          <properties class="Day36.exam01_field_polymorphism.CarExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -569,7 +621,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.java</url>
           <line>9</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample">
+          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -578,7 +630,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java</url>
           <line>3</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample">
+          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
