@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day64_학원에서 한 것">
-      <change afterPath="$PROJECT_DIR$/Day64/Day64_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day65/Day65_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day52/Day52_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day52/Day52_index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -262,6 +262,9 @@
       <workItem from="1660267415838" duration="3509000" />
       <workItem from="1660285071517" duration="1941000" />
       <workItem from="1660607432830" duration="4949000" />
+      <workItem from="1660637289197" duration="181000" />
+      <workItem from="1660694900677" duration="451000" />
+      <workItem from="1660695384331" duration="12237000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -487,11 +490,29 @@
       <option name="project" value="LOCAL" />
       <updated>1660292068747</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Day64_학원에서 한 것">
+      <created>1660637457192</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637457192</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -532,7 +553,8 @@
     <MESSAGE value="Day61_학원에서 한 것" />
     <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day63_학원에서 한 것" />
+    <MESSAGE value="Day64_학원에서 한 것" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day64_학원에서 한 것" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
