@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day64_학원에서 한 것">
-      <change afterPath="$PROJECT_DIR$/Day66/2022-08-17 10 31 17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day66/Day66_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day66_학원에서 한 것" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +262,7 @@
       <workItem from="1660637289197" duration="181000" />
       <workItem from="1660694900677" duration="451000" />
       <workItem from="1660695384331" duration="12237000" />
-      <workItem from="1660780101928" duration="8310000" />
+      <workItem from="1660780101928" duration="8726000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -500,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660637457192</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Day66_학원에서 한 것">
+      <created>1660810675017</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660810675017</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +530,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -557,7 +559,9 @@
     <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
     <MESSAGE value="Day64_학원에서 한 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day64_학원에서 한 것" />
+    <MESSAGE value="Day65_학원에서 한 것" />
+    <MESSAGE value="Day66_학원에서 한 것" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day66_학원에서 한 것" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
