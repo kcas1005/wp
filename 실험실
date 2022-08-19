@@ -73,6 +73,10 @@
         플렉스는 블록이랑 호환 되는가? 호환됨
 
     git
+        깃 명령어
+            https://velog.io/@delilah/GitHub-Git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%AA%A8%EC%9D%8C
+            https://nack1400.tistory.com/16
+
         .git 파일 숨김 표시로 되어있음
 
         vscode에선 팀프로젝트랑 연동이 잘 되서 팀프로젝트로 push가 가능했는데, 인텔리 제이에선 팀프로젝트가 연동이 안됨
