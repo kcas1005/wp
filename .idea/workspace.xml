@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day66_학원에서 한 것">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_test중 최상위 wp에서 커밋한거">
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 13 05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 17 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 23 02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 26 22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 28 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 30 07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 31 00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 32 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 35 08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 39 29.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Day67/Day67_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -71,36 +81,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day66&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/work/wp/spring/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day66" />
@@ -283,7 +293,7 @@
       <workItem from="1660695384331" duration="12237000" />
       <workItem from="1660780101928" duration="8802000" />
       <workItem from="1660867286589" duration="5698000" />
-      <workItem from="1660874705946" duration="300000" />
+      <workItem from="1660874705946" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -537,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660811122752</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Day67_test중 최상위 wp에서 커밋한거">
+      <created>1660875290547</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875290547</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +613,8 @@
     <MESSAGE value="Day64_학원에서 한 것" />
     <MESSAGE value="Day65_학원에서 한 것" />
     <MESSAGE value="Day66_학원에서 한 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day66_학원에서 한 것" />
+    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day67_test중 최상위 wp에서 커밋한거" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
