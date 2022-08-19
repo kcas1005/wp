@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_test중 최상위 wp에서 커밋한거">
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 13 05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 17 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 23 02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 26 22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 28 20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 30 07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 31 00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 32 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 35 08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/2022-08-19 09 39 29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day67/Day67_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/7.4.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/bin/main/com/google/testproject/TestprojectApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testproject/bin/test/com/google/testproject/TestprojectApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_test중 최상위 wp에서 커밋한거2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +264,7 @@
       <workItem from="1660695384331" duration="12237000" />
       <workItem from="1660780101928" duration="8802000" />
       <workItem from="1660867286589" duration="5698000" />
-      <workItem from="1660874705946" duration="622000" />
+      <workItem from="1660874705946" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -554,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660875290547</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Day67_test중 최상위 wp에서 커밋한거2">
+      <created>1660875535774</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875535774</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Day67_test중 최상위 wp에서 커밋한거2">
+      <created>1660875595079</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875595079</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +567,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -614,7 +599,8 @@
     <MESSAGE value="Day65_학원에서 한 것" />
     <MESSAGE value="Day66_학원에서 한 것" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day67_test중 최상위 wp에서 커밋한거" />
+    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day67_test중 최상위 wp에서 커밋한거2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
