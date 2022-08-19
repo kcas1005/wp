@@ -2,8 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring/board" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring/demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring/pet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring/teachercode" vcs="Git" />
   </component>
 </project>
