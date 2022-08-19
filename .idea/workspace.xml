@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_서브모델 설정함">
-      <change afterPath="$PROJECT_DIR$/spring/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.idea/spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-17 10 31 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,22 +63,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
+    "ToolWindowGit.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/work/wp/spring/teachercode",
+    "last_opened_file_path": "C:/work/wp/spring/lecture_spring_2_crudProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -92,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day67" />
       <recent name="C:\work\wp\Day66" />
       <recent name="C:\work\wp\Day56\시험" />
       <recent name="C:\work\wp\Day55" />
       <recent name="C:\work\wp\Day43" />
-      <recent name="C:\work\wp\Day41" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
@@ -274,7 +271,10 @@
       <workItem from="1660867286589" duration="5698000" />
       <workItem from="1660874705946" duration="2462000" />
       <workItem from="1660878281717" duration="579000" />
-      <workItem from="1660879209436" duration="973000" />
+      <workItem from="1660879209436" duration="1662000" />
+      <workItem from="1660884265135" duration="860000" />
+      <workItem from="1660892541875" duration="1723000" />
+      <workItem from="1660896170292" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -563,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660878739486</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Day67_서브모델 설정함">
+      <created>1660880375311</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1660880375311</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,6 +611,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring/board" />
+      <path value="$PROJECT_DIR$/spring/demo" />
+      <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
+      <path value="$PROJECT_DIR$/spring/pet" />
+    </ignored-roots>
     <MESSAGE value="학원에서 하는 중" />
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
