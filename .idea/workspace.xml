@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day66_학원에서 한 것" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_서브모델 설정함">
+      <change afterPath="$PROJECT_DIR$/Day67/2022-08-17 10 31 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day67/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +49,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -59,22 +63,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
+    "ToolWindowGit.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/work/wp/Day66",
+    "last_opened_file_path": "C:/work/wp/spring/lecture_spring_2_crudProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -84,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day67" />
       <recent name="C:\work\wp\Day66" />
       <recent name="C:\work\wp\Day56\시험" />
       <recent name="C:\work\wp\Day55" />
       <recent name="C:\work\wp\Day43" />
-      <recent name="C:\work\wp\Day41" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
@@ -262,7 +267,14 @@
       <workItem from="1660637289197" duration="181000" />
       <workItem from="1660694900677" duration="451000" />
       <workItem from="1660695384331" duration="12237000" />
-      <workItem from="1660780101928" duration="8726000" />
+      <workItem from="1660780101928" duration="8802000" />
+      <workItem from="1660867286589" duration="5698000" />
+      <workItem from="1660874705946" duration="2462000" />
+      <workItem from="1660878281717" duration="579000" />
+      <workItem from="1660879209436" duration="1662000" />
+      <workItem from="1660884265135" duration="860000" />
+      <workItem from="1660892541875" duration="1723000" />
+      <workItem from="1660896170292" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -502,7 +514,63 @@
       <option name="project" value="LOCAL" />
       <updated>1660810675017</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Day66_학원에서 한 것">
+      <created>1660811081695</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811081695</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Day66_학원에서 한 것">
+      <created>1660811122752</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811122752</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Day67_test중 최상위 wp에서 커밋한거">
+      <created>1660875290547</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875290547</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Day67_test중 최상위 wp에서 커밋한거2">
+      <created>1660875535774</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875535774</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Day67_test중 최상위 wp에서 커밋한거2">
+      <created>1660875595079</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875595079</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Day67_test중 최상위 wp에서 커밋한거3">
+      <created>1660875775279</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1660875775279</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Day67_서브모델 설정함">
+      <created>1660878739486</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1660878739486</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Day67_서브모델 설정함">
+      <created>1660880375311</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1660880375311</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +611,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring/board" />
+      <path value="$PROJECT_DIR$/spring/demo" />
+      <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
+      <path value="$PROJECT_DIR$/spring/pet" />
+    </ignored-roots>
     <MESSAGE value="학원에서 하는 중" />
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
@@ -561,7 +635,11 @@
     <MESSAGE value="Day64_학원에서 한 것" />
     <MESSAGE value="Day65_학원에서 한 것" />
     <MESSAGE value="Day66_학원에서 한 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day66_학원에서 한 것" />
+    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거" />
+    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
+    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
+    <MESSAGE value="Day67_서브모델 설정함" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day67_서브모델 설정함" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
