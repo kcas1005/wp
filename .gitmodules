@@ -7,3 +7,6 @@
 [submodule "spring/pet1"]
 	path = spring/pet1
 	url = https://github.com/kcas1005/pet.git
+[submodule "spring/lecture_spring_2_crudProject/teachercode2"]
+	path = spring/lecture_spring_2_crudProject/teachercode2
+	url = https://github.com/kcas1005/teachercode2.git
