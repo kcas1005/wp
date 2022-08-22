@@ -4,6 +4,8 @@
 
         500에러 나오면 HTML @{/경로 설정 꼭 할 것} (화면, 값저장 둘다 안됨)
         404에러면 값은 저장되지만 화면 출력이 안됨
+        공식 문서 오류 정리 : https://developer.mozilla.org/ko/docs/Web/HTTP/Status
+        나무위키 오류 정리 : https://namu.wiki/w/HTTP/%EC%9D%91%EB%8B%B5%20%EC%BD%94%EB%93%9C
 
         회원정보 수정하기 오류 걸린이유(경로설정을 안해줘서)
             @RequestMapping(path = "/account")클래스 위에 이거 안넣어서 그럼
@@ -87,3 +89,6 @@
 
 
     vscode
+
+    정보
+        https://huimang2.github.io/

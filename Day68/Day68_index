@@ -1,0 +1,8 @@
+개발환경
+언어: Java17 , HTML/CSS , JavaScript , Gradle 7.5
+서버: Tomcat 2.7.2
+프레임워크: Springboot Framework 2.7.2
+DB: Oracle 12c , OracleDB 21.5
+IDE:  IntelliJ IDEA Ultimate , DBever
+API: JPA 2.7.2
+

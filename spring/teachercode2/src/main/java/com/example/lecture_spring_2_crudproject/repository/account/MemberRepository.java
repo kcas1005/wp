@@ -16,19 +16,19 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
 
     //Return 내용선언, Find~변수명에 맞춰서 메서드 생성, 필요한 매개변수
 /*
-    @Query(value = "select m from Member m where m.email = :email_1 or m.id = :id_1")
+    @Query(value = "select M from Member M where M.email = :email_1 or M.id = :id_1")
     Member findMemberByEmailOrId(String email_1, String id_1);
 */
-    @Query(value = "select * from Member m where m.email = :email_1 or m.id = :id_1", nativeQuery = true)
+    @Query(value = "SELECT * FROM Member M WHERE M.email = :email_1 or M.id = :id_1", nativeQuery = true)
     Member findMemberByEmailOrId(String email_1, String id_1);
 
     //(ID는 중복가능한 구조에서)Id값을 매개변수로 넣고, 아이디 생성날짜가 가장 최신인 것
 /*
-    @Query(value = "select m from Member m where m.id = :id_1 order by m.createDate DESC")
+    @Query(value = "select M from Member M where M.id = :id_1 order by M.createDate DESC")
     Member findFirstById(String id_1);
 */
 
-    @Query(value = "select * from Member m where  m.id = :id_1 ", nativeQuery = true)
+    @Query(value = "select * from Member M where  M.id = :id_1 ", nativeQuery = true)
     Member findFirstById(String id_1);
 
 //    List<Member> findAllByEmailContainsOrderByCreateDateDesc (String a);

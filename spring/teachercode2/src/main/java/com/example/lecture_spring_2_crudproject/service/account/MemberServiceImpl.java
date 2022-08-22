@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+//@Conponent화 (@Controller, @Repository, @Service)와 같은 Bean으로 등록할 Class를 선언하여
+//Container에서 Bean관리와 생명주기를 처리하기 위해 @Service 등록하는 작업
 @Service
 public class MemberServiceImpl implements MemberService {
 

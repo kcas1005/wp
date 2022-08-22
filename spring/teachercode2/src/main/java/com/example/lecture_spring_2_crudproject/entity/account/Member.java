@@ -1,12 +1,14 @@
 package com.example.lecture_spring_2_crudproject.entity.account;
 
 import com.example.lecture_spring_2_crudproject.entity.base.BaseTimeEntity;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import com.example.lecture_spring_2_crudproject.entity.board.Board;
+import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 //@AllArgsConstructor : 모든 매개변수를 갖는 생성자
 //@NoArgsConstructor(access = AccessLevel.PROTECTED) : 매개변수 없는 생성자
@@ -17,7 +19,10 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-public class Member extends BaseTimeEntity {
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Member extends BaseTimeEntity implements Serializable {
 
     //SELCT [*컬럼명=객체의 필드] FROM TABLE_NAME*객체;
     //CREATE TABLE (
@@ -30,8 +35,20 @@ public class Member extends BaseTimeEntity {
     @GeneratedValue
     private Long seq;
 
-    @Column(length = 40)
+    //table 끼리 조인을 하는 조건
+    //1. Member.id는 member의 튜플마다 유일한 값(유니크 키)
+    //member마다 게시글(board)를 쓸 수 있다는 조건이 있으므로,
+    //board입장에서는 member의 id가 유일해야지 식별할 수 있다
+    //2. null처리 (null이 들어가던 board는 Id를 식별할 수 없다)
+    @Column(length = 40, nullable = false, unique = true)
     private String id;
+
+    //member는 여러개의 board를 가질 수 있다고 선언,
+    //board들을 가지고 있다고 필드에 넣음(JPA는 이 필드내용으로 테이블 연관관계(JOIN)으로 식별)
+    //@OneToMany는 member 1튜플마다 여러개의 board를 가진다는 속성 선언과 다수 엔티티 연동에
+    //Springboot는 serializable 상속 요구함
+    @OneToMany(mappedBy = "member")
+    private List<Board> boardlist = new ArrayList<>();
 
     private String password;
 

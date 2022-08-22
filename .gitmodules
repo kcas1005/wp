@@ -1,6 +1,3 @@
-[submodule "spring/board/board"]
-	path = spring/board/board
-	url = https://github.com/kcas1005/board.git
 [submodule "spring/teachercode"]
 	path = spring/teachercode
 	url = https://github.com/kcas1005/teachercode.git
