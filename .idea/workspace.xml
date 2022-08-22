@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_서브모델 설정함">
-      <change afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/account/getAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/account/getAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/account/getAccountList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/account/getAccountList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode3/src/main/resources/templates/index.html" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day68_집에서 선생님 코드 압축풀음">
+      <change afterPath="$PROJECT_DIR$/Day68/20220822_lecture_spring_2_crudProject.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -625,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661127113955</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Day68_집에서 선생님 코드 압축풀음">
+      <created>1661183793880</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1661183793880</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +683,8 @@
     <MESSAGE value="Day67_서브모델 설정함" />
     <MESSAGE value="Day68_서브모델 티처코드2 submodule add url로 만듬" />
     <MESSAGE value="Day68_git폴더에서 config 변경, submodule config변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day68_git폴더에서 config 변경, submodule config변경" />
+    <MESSAGE value="Day68_집에서 선생님 코드 압축풀음" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day68_집에서 선생님 코드 압축풀음" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
