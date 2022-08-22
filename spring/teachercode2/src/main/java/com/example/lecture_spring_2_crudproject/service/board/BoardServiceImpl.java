@@ -62,7 +62,6 @@ public class BoardServiceImpl implements BoardService{
     @Override
     public List<Board> getBoardListByMemberId(Member member) {
 //       Repository
-        boardRepo.findAllByMemberIdEqualsBoardWriter(Member member);
-        return null;
+        return boardRepo.findAllByMemberIdEqualsBoardWriter(member.getId());
     }
 }
