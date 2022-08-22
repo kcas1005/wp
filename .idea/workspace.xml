@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_서브모델 설정함">
-      <change afterPath="$PROJECT_DIR$/Day68/Day68_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +273,7 @@
       <workItem from="1660884265135" duration="860000" />
       <workItem from="1660892541875" duration="1723000" />
       <workItem from="1660896170292" duration="1268000" />
-      <workItem from="1661125887660" duration="317000" />
+      <workItem from="1661125887660" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="학원에서 하는 중">
       <created>1657678026972</created>
@@ -577,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660896333082</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <created>1661126482190</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1661126482190</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <created>1661126491866</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1661126491866</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +618,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -647,7 +660,8 @@
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
     <MESSAGE value="Day67_서브모델 설정함" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day67_서브모델 설정함" />
+    <MESSAGE value="Day68_서브모델 티처코드2 submodule add url로 만듬" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day68_서브모델 티처코드2 submodule add url로 만듬" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
