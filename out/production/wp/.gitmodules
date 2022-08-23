@@ -1,0 +1,9 @@
+[submodule "spring/teachercode"]
+	path = spring/teachercode
+	url = https://github.com/kcas1005/teachercode.git
+[submodule "spring/pet1"]
+	path = spring/pet1
+	url = https://github.com/kcas1005/pet.git
+[submodule "spring/teachercode2"]
+	path = spring/teachercode2
+	url = https://github.com/kcas1005/teachercode2.git

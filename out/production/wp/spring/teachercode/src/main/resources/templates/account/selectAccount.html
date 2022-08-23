@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/document.css">
+  <link rel="stylesheet" href="/css/comment.css">
+  <title>회원정보 찾기</title>
+</head>
+<body>
+<h1 th:align="center">회원정보 찾기</h1>
+<main>
+  <form class="fl" th:action="@{/account/selectAccount}" method="post">
+    <div class="row between">
+      <div class="title">아이디</div>
+      <div class="title"><input name="id" type="text" th:placeholder="ID" size="50"></div>
+    </div>
+    <div class="row between">
+      <div class="name fl">이메일</div>
+      <div class="name fr"><input name="email" type="text" th:placeholder="EMAIL" size="50"></div>
+    </div>
+    <div class="row between">
+      <a class="btn back fl" th:href="@{/account/getAccountList}"></a>
+      <div class="row fr gap"><input type="submit" th:value="회원찾기"></div>
+  </form>
+</main>
+</body>
+</html>
