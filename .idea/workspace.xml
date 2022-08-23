@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day68_오늘 커밋 안되있는거 하는 중">
-      <change afterPath="$PROJECT_DIR$/Day69/Day69_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/getAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/getAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/getAccountList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/getAccountList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/resultAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/resources/templates/account/resultAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
-    </list>
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day69_오늘자 커밋" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,13 +272,6 @@
       <workItem from="1660892541875" duration="1723000" />
       <workItem from="1660896170292" duration="1268000" />
       <workItem from="1661125887660" duration="11398000" />
-    </task>
-    <task id="LOCAL-00001" summary="학원에서 하는 중">
-      <created>1657678026972</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657678026972</updated>
     </task>
     <task id="LOCAL-00002" summary="학원에서 하는 중">
       <created>1657700391996</created>
@@ -625,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661212817505</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Day69_오늘자 커밋">
+      <created>1661237461090</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1661237461091</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +644,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -673,7 +664,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
     <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
@@ -698,7 +688,8 @@
     <MESSAGE value="Day68_git폴더에서 config 변경, submodule config변경" />
     <MESSAGE value="Day68_집에서 선생님 코드 압축풀음" />
     <MESSAGE value="Day68_오늘 커밋 안되있는거 하는 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day68_오늘 커밋 안되있는거 하는 중" />
+    <MESSAGE value="Day69_오늘자 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day69_오늘자 커밋" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
