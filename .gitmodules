@@ -4,3 +4,6 @@
 [submodule "spring/pet1"]
 	path = spring/pet1
 	url = https://github.com/kcas1005/pet.git
+[submodule "spring/donecode"]
+	path = spring/donecode
+	url = https://github.com/kcas1005/teachercode2.git
