@@ -15,13 +15,14 @@ import java.util.List;
 //@Builder
 
 //@Entity JPA가 이 객체를 기준으로 table을 만들어야 한다고 선언
-@ToString
+//@ToString
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+//@Data
 public class Member extends BaseTimeEntity implements Serializable {
 
     //SELCT [*컬럼명=객체의 필드] FROM TABLE_NAME*객체;

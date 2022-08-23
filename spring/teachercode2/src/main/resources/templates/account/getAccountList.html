@@ -20,6 +20,7 @@
   <tr th:each="member :${memberList}">
     <td th:text="${member.seq}"></td>
     <td> <a th:text="${member.id}"></a></td>
+      <td th:text="${member.password}"></td>
     <td th:text="${member.email}"></td>
     <td>
 <!--      account/getAccountList에서 getAccount호출할 때-->
