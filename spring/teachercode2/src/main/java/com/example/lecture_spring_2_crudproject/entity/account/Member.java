@@ -16,6 +16,7 @@ import java.util.List;
 
 //@Entity JPA가 이 객체를 기준으로 table을 만들어야 한다고 선언
 //@ToString
+@ToString
 @Entity
 @Getter
 @Setter

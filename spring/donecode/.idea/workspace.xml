@@ -6,46 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0c17e1-f6e7-462d-b71e-4da548b01f26" name="변경" comment="Day69_tachercode3만 따로 커밋">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/RouteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/RouteEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Comments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/RouteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/RouteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/getAccount.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/getAccountList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/insertAccount.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/resultAccount.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/selectAccount.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/getBoard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/getBoardList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/insertBoard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/insertComment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teachercode3/src/test/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../실험실" beforeDir="false" afterPath="$PROJECT_DIR$/../../실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +101,7 @@
       <workItem from="1661239764703" duration="49000" />
       <workItem from="1661239844790" duration="134000" />
       <workItem from="1661240010223" duration="126000" />
+      <workItem from="1661241560443" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1660638490572</created>
