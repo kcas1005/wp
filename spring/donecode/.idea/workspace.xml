@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d0c17e1-f6e7-462d-b71e-4da548b01f26" name="변경" comment="Day69_tachercode3만 따로 커밋">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/RouteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/RouteEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Comments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/RouteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/RouteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/java/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/getAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/getAccountList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/insertAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/resultAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/account/selectAccount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/getBoard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/getBoardList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/insertBoard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/board/insertComment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teachercode3/src/test/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../실험실" beforeDir="false" afterPath="$PROJECT_DIR$/../../실험실" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DPgTOJygxhJ9NDBXXWGHTPZKYy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/spring/donecode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cb7948fadbb849a497fa41a3edef24cb&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/account" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LectureSpring2CrudProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lecture_spring_2_crudProject.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lecture_spring_2_crudproject.LectureSpring2CrudProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="2d0c17e1-f6e7-462d-b71e-4da548b01f26" name="변경" comment="" />
+      <created>1660606145043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660606145043</updated>
+      <workItem from="1660606148486" duration="19763000" />
+      <workItem from="1660691965987" duration="7516000" />
+      <workItem from="1660777887430" duration="16975000" />
+      <workItem from="1660872474397" duration="10112000" />
+      <workItem from="1660905144139" duration="123000" />
+      <workItem from="1661126418919" duration="10039000" />
+      <workItem from="1661218234941" duration="6287000" />
+      <workItem from="1661237607093" duration="1038000" />
+      <workItem from="1661239764703" duration="49000" />
+      <workItem from="1661239844790" duration="134000" />
+      <workItem from="1661240010223" duration="126000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1660638490572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660638490572</updated>
+    </task>
+    <task id="LOCAL-00002" summary="last update // use Date Setter">
+      <created>1660784902384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660784902384</updated>
+    </task>
+    <task id="LOCAL-00003" summary="last update">
+      <created>1660811814201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660811814201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="last update 202208">
+      <created>1660898382444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660898382444</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day69_tachercode3만 따로 커밋">
+      <created>1661237661594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661237661594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="last update // use Date Setter" />
+    <MESSAGE value="last update" />
+    <MESSAGE value="last update 202208" />
+    <MESSAGE value="Day69_tachercode3만 따로 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day69_tachercode3만 따로 커밋" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
