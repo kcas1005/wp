@@ -277,13 +277,7 @@
       <workItem from="1661298127875" duration="2799000" />
       <workItem from="1661349678354" duration="253000" />
       <workItem from="1661349943459" duration="111000" />
-    </task>
-    <task id="LOCAL-00011" summary="집에서함">
-      <created>1658331272016</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1658331272016</updated>
+      <workItem from="1661350060440" duration="311000" />
     </task>
     <task id="LOCAL-00012" summary="집에서함">
       <created>1658640788233</created>
@@ -621,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661349953193</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Day70_집에서 하는 것 서브 모듈 없앰">
+      <created>1661350066882</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1661350066882</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
