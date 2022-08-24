@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day70_집에서 하는 것 서브 모듈 없앰" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day70_집에서 하는 것 서브 모듈 없앰">
+      <change beforePath="$PROJECT_DIR$/spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources/132bbd84-e175-413b-879e-f745fcef7c47/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources/132bbd84-e175-413b-879e-f745fcef7c47/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/lecture_spring_2_crudProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,14 +303,7 @@
       <workItem from="1661298127875" duration="2799000" />
       <workItem from="1661349678354" duration="253000" />
       <workItem from="1661349943459" duration="111000" />
-      <workItem from="1661350060440" duration="311000" />
-    </task>
-    <task id="LOCAL-00012" summary="집에서함">
-      <created>1658640788233</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1658640788233</updated>
+      <workItem from="1661350060440" duration="588000" />
     </task>
     <task id="LOCAL-00013" summary="집에서함">
       <created>1658640803098</created>
@@ -622,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661350066882</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Day70_집에서 하는 것 서브 모듈 없앰">
+      <created>1661350491788</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1661350491788</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
