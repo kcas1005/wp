@@ -7,6 +7,7 @@ import com.example.lecture_spring_2_crudproject.entity.customDto.CustomDtoSortPa
 import com.example.lecture_spring_2_crudproject.repository.account.MemberRepository;
 import com.example.lecture_spring_2_crudproject.repository.board.BoardRepository;
 import com.example.lecture_spring_2_crudproject.repository.board.CommentsRepository;
+import com.example.lecture_spring_2_crudproject.repository.customRepository.CustomDtoExampleRepositoryPred;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,10 +19,12 @@ public class BoardServiceImpl implements BoardService{
 
     private final BoardRepository boardRepo;
     private final CommentsRepository commentsRepository;
+    private final CustomDtoExampleRepositoryPred customDtoExampleRepositoryPred;
 
     //순환참조 중단
     @Autowired
-    protected BoardServiceImpl(BoardRepository boardRepo, CommentsRepository commentsRepository) {
+    protected BoardServiceImpl(BoardRepository boardRepo, CommentsRepository commentsRepository, CustomDtoExampleRepositoryPred customDtoExampleRepositoryPred) {
+        this.customDtoExampleRepositoryPred = customDtoExampleRepositoryPred;
         this.commentsRepository = commentsRepository;
         this.boardRepo = boardRepo;
     }
@@ -97,7 +100,9 @@ public class BoardServiceImpl implements BoardService{
     }
 
     public CustomDtoSortPages getPagesSortIndex(Board board){
-        return customDtoExcampleRepositoryPred.findBypages(board.getSeq());
+        CustomDtoSortPages customDtoSortPages = customDtoExampleRepositoryPred.findByPages(board.getSeq());
+        System.out.println(customDtoSortPages.getPREVID());
+        return customDtoSortPages;
     }
 
 }

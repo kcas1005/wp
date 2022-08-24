@@ -4,7 +4,7 @@ import com.example.lecture_spring_2_crudproject.entity.customDto.CustomDtoExampl
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-public interface CustomDtoExcampleRepository extends JpaRepository<CustomDtoExample, String> {
+public interface CustomDtoExampleRepository extends JpaRepository<CustomDtoExample, String> {
 
     //nativeQuery :
     //1. Entity단위로 DB조회와 Client데이터 전송을 동시에 할 경우 table 구조가 드러나기 때문에 보안적인 위험 > DTO를 만들어서 데이터 전송에 쓰임
