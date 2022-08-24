@@ -1,6 +1,7 @@
 package com.example.lecture_spring_2_crudproject.controller.account;
 
 import com.example.lecture_spring_2_crudproject.entity.account.Member;
+import com.example.lecture_spring_2_crudproject.entity.customDto.CustomDtoExample;
 import com.example.lecture_spring_2_crudproject.repository.account.MemberRepository;
 import com.example.lecture_spring_2_crudproject.service.account.MemberService;
 import com.example.lecture_spring_2_crudproject.service.account.MemberServiceImpl;
@@ -148,21 +149,21 @@ public class MemberController {
                 memberService.getMemberWhereIdOrEmail(member.getEmail(), member.getId()));
         return "account/resultAccount";
     }
-}
 
-//@Controller
-//public class MemberController {
-//
-//    @GetMapping("/account/insertAccount")
-//    public String insertBoardView() {
-//        return "account/insertAccount";
-//    }
-//
-//    @PostMapping("/account/insertAccount")
-//    public String insertBoard(Member member) {
-////        board.setCreateDate(new Date());
-//
-////        boardService.insertBoard(board);
-//        return "redirect:index";
-//    }
-//}
+    @GetMapping("/inittest")
+    public String inittest(Member member, Model model){
+        System.out.println("----------example select!!----------");
+        System.out.println(member.getId());
+
+        CustomDtoExample listCheck = (CustomDtoExample) memberService.getCustomDtoByMemberId(member.getId());
+
+        //member id
+        System.out.println(listCheck.getInput_id());
+        //board writer
+        System.out.println(listCheck.getInput_writer());
+        //board title
+        System.out.println(listCheck.getInput_title());
+
+        return "/board/getBoardList";
+    }
+}

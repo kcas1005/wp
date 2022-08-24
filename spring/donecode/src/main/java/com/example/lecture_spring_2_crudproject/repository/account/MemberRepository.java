@@ -21,4 +21,7 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     //(ID는 중복가능한 구조에서)Id값을 매개변수로 넣고, 아이디 생성날짜가 가장 최신인 것
     @Query(value = "select m from Member m where m.id = :id_1 order by m.createDate DESC")
     Member findFirstById(String id_1);
+
+    @Query(value = "SELECT m FROM Member m JOIN fetch m.boardList WHERE m.id = :memberId")
+    List<Member> findAllByMemberIdEqualsBoardWriter(String memberId);
 }

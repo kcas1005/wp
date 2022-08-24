@@ -4,10 +4,174 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day67_서브모델 설정함">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day70_게시글 삭제할 때 댓글도 삭제">
+      <change afterPath="$PROJECT_DIR$/Day70/20220824_failcode_lecture_spring_2_crudProject.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day70/Day70_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getCommentsList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoSortPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/CommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExcampleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getCommentsList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources/132bbd84-e175-413b-879e-f745fcef7c47/storage_v2/_src_/schema/SYS.rUIBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/dataSources/132bbd84-e175-413b-879e-f745fcef7c47/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/lecture_spring_2_crudProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/RouteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/account/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/board/BoardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/RouteEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/account/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Board$BoardBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Comments$CommentsBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Comments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoSortPages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/RouteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/board/CommentsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepositoryPred.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/RouteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/account/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/board/BoardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/account/getAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/account/getAccountList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/account/insertAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/account/resultAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/account/selectAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/getAllUserBoardList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/getBoard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/getBoardList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/getCommentsList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/insertBoard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/board/insertComments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/controller/RouteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/RouteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoSortPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/RouteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/CommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepositoryPred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/RouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/account/getAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/account/getAccountList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/account/insertAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/account/resultAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/account/selectAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/getAllUserBoardList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/getBoard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/getBoardList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/getCommentsList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/insertBoard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/board/insertComments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/test/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/RouteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/account/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/board/BoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/RouteEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/account/Member$MemberBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/account/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Board$BoardBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/entity/board/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/RouteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/repository/board/BoardRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/RouteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/account/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/board/BoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/service/encrypt/EncryptAES256.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/insertComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/insertComment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/account/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/board/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/account/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/insertComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/insertComment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +227,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Cording/wp/spring/lecture_spring_2_crudProject&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/spring/teachercode3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,7 +243,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -274,44 +438,11 @@
       <workItem from="1660879209436" duration="1662000" />
       <workItem from="1660884265135" duration="860000" />
       <workItem from="1660892541875" duration="1723000" />
-      <workItem from="1660896170292" duration="40000" />
-      <workItem from="1661051889377" duration="289000" />
-      <workItem from="1661178921321" duration="594000" />
-    </task>
-    <task id="LOCAL-00001" summary="학원에서 하는 중">
-      <created>1657678026972</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657678026972</updated>
-    </task>
-    <task id="LOCAL-00002" summary="학원에서 하는 중">
-      <created>1657700391996</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657700391996</updated>
-    </task>
-    <task id="LOCAL-00003" summary="학원에서 하는 중">
-      <created>1657700856442</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1657700856442</updated>
-    </task>
-    <task id="LOCAL-00004" summary="학원에서 채널3 db 넣는 중">
-      <created>1657786938036</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1657786938036</updated>
-    </task>
-    <task id="LOCAL-00005" summary="학원에서 채널3 db 넣는 중">
-      <created>1657873680982</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1657873680982</updated>
+      <workItem from="1660896170292" duration="1268000" />
+      <workItem from="1661125887660" duration="11398000" />
+      <workItem from="1661240136356" duration="240000" />
+      <workItem from="1661240410428" duration="2216000" />
+      <workItem from="1661298127875" duration="2799000" />
     </task>
     <task id="LOCAL-00006" summary="학원에서 함">
       <created>1658130925121</created>
@@ -572,7 +703,91 @@
       <option name="project" value="LOCAL" />
       <updated>1660880375311</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Day67_서브모델 설정함">
+      <created>1660896333082</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1660896333082</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <created>1661126482190</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1661126482190</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <created>1661126491866</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1661126491866</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
+      <created>1661126769168</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1661126769168</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Day68_git폴더에서 config 변경, submodule config변경">
+      <created>1661127113955</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1661127113955</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Day68_집에서 선생님 코드 압축풀음">
+      <created>1661183793880</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1661183793880</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Day68_오늘 커밋 안되있는거 하는 중">
+      <created>1661212817505</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1661212817505</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Day69_오늘자 커밋">
+      <created>1661237461090</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1661237461091</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Day69_오늘자 커밋">
+      <created>1661240481514</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1661240481515</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Day69_오늘자 커밋">
+      <created>1661240538942</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1661240538943</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Day69_오늘자 커밋">
+      <created>1661240869053</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1661240869053</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Day69_오늘자 커밋">
+      <created>1661241461455</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1661241461456</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,17 +810,12 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -618,15 +828,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring/board" />
       <path value="$PROJECT_DIR$/spring/demo" />
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="학원에서 하는 중" />
-    <MESSAGE value="학원에서 채널3 db 넣는 중" />
-    <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
     <MESSAGE value="학원에서 스쿨 첵아웃 배움" />
     <MESSAGE value="집에서함" />
@@ -646,7 +854,13 @@
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
     <MESSAGE value="Day67_서브모델 설정함" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day67_서브모델 설정함" />
+    <MESSAGE value="Day68_서브모델 티처코드2 submodule add url로 만듬" />
+    <MESSAGE value="Day68_git폴더에서 config 변경, submodule config변경" />
+    <MESSAGE value="Day68_집에서 선생님 코드 압축풀음" />
+    <MESSAGE value="Day68_오늘 커밋 안되있는거 하는 중" />
+    <MESSAGE value="Day69_오늘자 커밋" />
+    <MESSAGE value="Day70_게시글 삭제할 때 댓글도 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day70_게시글 삭제할 때 댓글도 삭제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

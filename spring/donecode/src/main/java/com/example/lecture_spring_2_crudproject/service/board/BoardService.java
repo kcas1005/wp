@@ -33,4 +33,6 @@ public interface BoardService {
 
     //오름차순으로 변경 (arrayList)
     List<Board> getBoardListSortColumnByBoardList(List<Board> boardlist);
+
+    List<Comments> getAllComments(Comments comments);
 }

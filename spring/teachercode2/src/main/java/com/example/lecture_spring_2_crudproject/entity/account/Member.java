@@ -56,32 +56,4 @@ public class Member extends BaseTimeEntity implements Serializable {
 
     private String email;
 
-    //deleteYn
-
 }
-
-//
-//@ToString
-//@Entity
-//public class Member {
-//
-//    @Id
-//    @GeneratedValue
-//    private Long seq;
-//
-//    @Column(length = 40, nullable = false)
-//    private String id;
-//
-//    @Column(nullable = false)
-//    private String password;
-//
-//    @Temporal(TemporalType.DATE)
-//    private Date createDate;
-//
-//    @Temporal(TemporalType.DATE)
-//    private Date updateDate;
-//
-////    @ColumnDefault("false")
-////    @Column(insertable = false, updatable = false)
-////    private boolean deleteYN;
-//}
