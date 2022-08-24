@@ -3,8 +3,10 @@ package com.example.lecture_spring_2_crudproject.service.board;
 import com.example.lecture_spring_2_crudproject.entity.account.Member;
 import com.example.lecture_spring_2_crudproject.entity.board.Board;
 import com.example.lecture_spring_2_crudproject.entity.board.Comments;
+import com.example.lecture_spring_2_crudproject.entity.customDto.CustomDtoSortPages;
 import com.example.lecture_spring_2_crudproject.repository.account.MemberRepository;
 import com.example.lecture_spring_2_crudproject.repository.board.BoardRepository;
+import com.example.lecture_spring_2_crudproject.repository.board.CommentsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +17,12 @@ public class BoardServiceImpl implements BoardService{
 
 
     private final BoardRepository boardRepo;
+    private final CommentsRepository commentsRepository;
 
     //순환참조 중단
     @Autowired
-    protected BoardServiceImpl(BoardRepository boardRepo) {
+    protected BoardServiceImpl(BoardRepository boardRepo, CommentsRepository commentsRepository) {
+        this.commentsRepository = commentsRepository;
         this.boardRepo = boardRepo;
     }
 
@@ -86,4 +90,14 @@ public class BoardServiceImpl implements BoardService{
     public List<Board> getBoardListSortColumnByBoardList(List<Board> boardlist) {
         return null;
     }
+
+    @Override
+    public List<Comments> getAllComments(Comments comments){
+        return commentsRepository.findCommentsByBoard_seq(comments.getBoard_seq());
+    }
+
+    public CustomDtoSortPages getPagesSortIndex(Board board){
+        return customDtoExcampleRepositoryPred.findBypages(board.getSeq());
+    }
+
 }

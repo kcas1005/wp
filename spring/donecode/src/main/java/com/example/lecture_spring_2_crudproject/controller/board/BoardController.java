@@ -32,11 +32,20 @@ public class BoardController {
         this.boardService = boardService;
     }
 
-    @PostMapping("/insertComment")
-    public String insertCommnet(Comments comments, Model model) {
+    @PostMapping("/insertComments")
+    public String insertCommnets(Comments comments, Model model) {
 
         boardService.insertComment(comments);
         return "redirect:/board/getBoardList";
+    }
+
+    //board Seq전달하면 전체 comments를 불러오는 controller method
+    @GetMapping("/getCommentsList")
+    public String getCommentsList(Comments comments, Model model){
+
+        model.addAttribute("commentsList", boardService.getAllComments(comments));
+
+        return "/board/getCommentsList";
     }
 
     @GetMapping("/getBoardList")
