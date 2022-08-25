@@ -111,6 +111,18 @@ import java.util.List;
 @Entity
 public class Member extends BaseTimeEntity implements Serializable {
 
+    //*영속화
+    //JVM밖에서도 객체를 (영원히)저장
+    //Commit, flush, persist를 포괄하는 내용
+    //SQL(MyBatis)는 DB틀에 맞춘 mapper라고 정의한다면,
+    //JPA는 객체(Entity, 튜플)단위로 데이터베이스에 저장하는 개념을 영속화 한다고 정의
+
+    //*IDENTITY : DB에 필드값을 저장 후에 기본키를 생성함
+    //Entity가 영속상태가 되기 위해서는 식별자가 필수
+    //*Sequence : DB(Oracle) Sequence 함수 기능을 활용하여 생성
+    //*Table : Seq(시퀀스)를 정보로 갖고 있는 테이블을 만들고, seq컬럼값을 저장뒤에 불러온다
+    //여타 위에 전략과 달리 임의의 seq table을 만들기 때문에 table 성능이 좋지 않을경우(튜닝x)
+    //속도적인 문제를 야기할 수 있다.
     @Id
     @GeneratedValue
     private Long seq;

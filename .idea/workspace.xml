@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day70_집에서 하는 것 서브 모듈 없앰">
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepositoryPred.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day71/Day71_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day71/insertmember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/teachercode/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-07-21__8_24__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -30,24 +22,39 @@
       <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoSortPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/entity/customDto/CustomDtoSortPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExcampleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/repository/customRepository/CustomDtoExampleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/account/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/board/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/classes/java/main/com/example/lecture_spring_2_crudproject/controller/board/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getCommentsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/getCommentsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/resources/main/templates/board/insertComment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getCommentsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/getCommentsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/insertComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode/src/main/resources/templates/board/insertComments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/lecture_spring_2_crudproject/entity/account/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/teachercode/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/teachercode/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +120,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Cording/wp/spring/donecode_v2",
+    "last_opened_file_path": "C:/work/wp/spring/donecode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -324,6 +331,7 @@
       <workItem from="1661350915041" duration="14000" />
       <workItem from="1661350956743" duration="245000" />
       <workItem from="1661351223624" duration="1403000" />
+      <workItem from="1661386062933" duration="12707000" />
     </task>
     <task id="LOCAL-00015" summary="집에서함">
       <created>1658832196383</created>

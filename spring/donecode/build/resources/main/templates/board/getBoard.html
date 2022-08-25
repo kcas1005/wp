@@ -8,14 +8,11 @@
     <h1>게시글 상세</h1>
     <form th:action="@{/board/updateBoard}" method="post">
         <input name="seq" type="hidden" th:value="${board.seq}">
-
     <table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0">
-
         <tr>
             <td bgcolor="#add8e6" th:text="번호" width="80"></td>
             <td th:text="${board.seq}"></td>
         </tr>
-
         <tr>
             <td bgcolor="#add8e6" th:text="제목" width="80"></td>
             <!--

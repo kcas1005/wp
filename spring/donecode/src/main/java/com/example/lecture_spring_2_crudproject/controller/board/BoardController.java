@@ -3,9 +3,7 @@ package com.example.lecture_spring_2_crudproject.controller.board;
 import com.example.lecture_spring_2_crudproject.entity.account.Member;
 import com.example.lecture_spring_2_crudproject.entity.board.Board;
 import com.example.lecture_spring_2_crudproject.entity.board.Comments;
-import com.example.lecture_spring_2_crudproject.service.account.MemberService;
 import com.example.lecture_spring_2_crudproject.service.board.BoardService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;
 
@@ -32,11 +29,15 @@ public class BoardController {
         this.boardService = boardService;
     }
 
+    @GetMapping("/insertComments")
+    public String insertCommentsView(Board board, Model model) {
+        model.addAttribute("TITLE", board.getTitle());
+        return "/board/insertComments";
+    }
     @PostMapping("/insertComments")
-    public String insertCommnets(Comments comments, Model model) {
-
+    public String insertComments(Comments comments, Model model) {
         boardService.insertComment(comments);
-        return "redirect:/board/getBoardList";
+        return "redirect:/board/getCommentsList";
     }
 
     //board Seq전달하면 전체 comments를 불러오는 controller method

@@ -1,0 +1,9 @@
+수업내용
+    목표
+        취업할 때 차별성을 두어야함
+            각 직군마다 필요한 기술 한개 파고들기
+
+            insertAccount.html에서 form 태그에 th:action="@{/account/insertAccount}" method="post"를 넣습니다.
+            (넣는 이유는 id, password, email 값을 @Controller가 붙은 memberController 안에 /account/insertAccount 메서드
+            로 보내주기 위함입니다.)
+            input 태그에 속성이 submit으로 해서 눌렀을 때 값이 전달됩니다.
