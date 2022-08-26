@@ -97,6 +97,9 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public boolean booleanSearchUserByEmail(Member member) {
+        for(Member member1 : memberRepo.findByEmailContaining(member.getEmail())){
+            System.out.println(member1.getId());
+        }
         return false;
     }
 

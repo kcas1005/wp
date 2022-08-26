@@ -27,6 +27,16 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     @Query(value = "SELECT m FROM Member m JOIN fetch m.boardList WHERE m.id = :memberId")
     List<Member> findAllByMemberIdEqualsBoardWriter(String memberId);
 
+    //JPA는 메서드 이름으로 DBdㅔ 조회하는 기능
+    //JPQL : JPA를 통해 JPA에서 제공하는 쿼리문으로 조회(단, 엔티티 기준으로만 조회가능)
+    //NativeQuery : 일반 SQL문으로 DB 조회하며 보통 DTO단위로 리턴 (Entity단위로 리턴x)
+    //jpql containing (SQL문의 like처럼 유사한 단어를 찾는 메서드명)
+    List<Member> findByEmailContaining(String email);
 
+    //JPQL contains
+    List<Member> findByIdContains(String id);
+
+    //JPQL incontaing
+    List<Member> findByPasswordIsContaining(String password);
 
 }

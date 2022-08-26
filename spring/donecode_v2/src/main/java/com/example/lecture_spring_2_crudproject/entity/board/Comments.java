@@ -1,7 +1,6 @@
 package com.example.lecture_spring_2_crudproject.entity.board;
 
-import com.example.lecture_spring_2_crudproject.entity.account.Member;
-import com.example.lecture_spring_2_crudproject.entity.base.BaseTimeEntity;
+import com.example.lecture_spring_2_crudproject.entity.board.base.BaseTimeEntity;
 import lombok.*;
 
 import javax.persistence.*;

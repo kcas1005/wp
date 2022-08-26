@@ -2,16 +2,13 @@ package com.example.lecture_spring_2_crudproject.entity.board;
 
 
 import com.example.lecture_spring_2_crudproject.entity.account.Member;
-import com.example.lecture_spring_2_crudproject.entity.base.BaseTimeEntity;
+import com.example.lecture_spring_2_crudproject.entity.board.base.BaseTimeEntity;
 import lombok.*;
 import org.hibernate.annotations.ColumnDefault;
-import org.hibernate.annotations.DynamicInsert;
-import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Getter

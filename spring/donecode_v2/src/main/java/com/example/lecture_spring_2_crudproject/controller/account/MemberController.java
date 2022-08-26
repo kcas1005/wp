@@ -29,11 +29,11 @@ public class MemberController {
     //MemberController는 MemberService를 주입당하겠다고 선언
     //Springboot는 인식 함 : MemberController가 실행할려면
     //MemberService가 필요함
-    //장점1 : MemberController 실행되는 시점에서 필요한 객체만 실행할 수 있는 절약
-    //장점2 : 이미 컨테이너에 있는 객체를 활용하여 최대한 인스턴스(객체)를 최소한 사용
+    //장점2 : MemberController 실행되는 시점에서 필요한 객체만 실행할 수 있는 절약
+    //장점3 : 이미 컨테이너에 있는 객체를 활용하여 최대한 인스턴스(객체)를 최소한 사용
     //아래 @Autowired는 필드 주입 방식
     //메서드, 생성자, 필드 (객체의 데이터)
-    //필드 주입의 경우에는 2개이상 주입할시 어떤 게 먼저 주입당하는지를 모름
+    //필드 주입의 경우에는 3개이상 주입할시 어떤 게 먼저 주입당하는지를 모름
     //주입 당하는 A와 B가 서로 주입당할 경우에는 어떤 게 먼저 생성할지 모르는 문제
 //    @Autowired
 //    private MemberService memberService;

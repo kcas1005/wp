@@ -1,4 +1,4 @@
-package com.example.lecture_spring_2_crudproject.entity.base;
+package com.example.lecture_spring_2_crudproject.entity.board.base;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -23,7 +23,6 @@ import java.util.Date;
 @Getter
 @MappedSuperclass
 public abstract class BaseTimeEntity {
-
     @Temporal(TemporalType.DATE)
     @CreatedDate
     private Date createDate;
