@@ -61,9 +61,6 @@
 
         static 으로 배열 만든 후 집어넣고 다시 실행하면 기존에 있던 값이 저장 되는가?
 
-
-
-    
     자바스크립트
         배열에 공백을 넣고 계산하면 NaN이 나오는데 null을 넣는다면 어떻게 될까?
             자바스크립트만 배열에 모든 타입을 집어넣을 수 있음
@@ -84,9 +81,7 @@
         vscode에선 팀프로젝트랑 연동이 잘 되서 팀프로젝트로 push가 가능했는데, 인텔리 제이에선 팀프로젝트가 연동이 안됨
             포크로 가져와서 사용
 
-
     인텔리제이
-
 
     vscode
 
@@ -171,7 +166,6 @@
             1. 신입 개발자
             2. 성실성
             3. 미래지향석(현실적)
-            4.
 
         #OSI 7계층이 무엇인지 설명하시오
 
@@ -259,33 +253,40 @@
             모르는 부분은 공부하면서 회사에 도움이 되도록 노력하겠으며,
             JPA와 SQL문 모두 활용하는 프로젝트를 경험하였으므로 배우는데 아무 문제가 없습니다.
 
-
-
-
-
-
     모르는 용어
+    의존 객체(Dependency Injection) DI = 의존관계 주입
     @Autowired
-    @NoArgsConstructor
+        의존 객체를 주입하는 방식으로 총 3가지 방식이 있음
+        생성자 방식, 필드 방식, Setter 방식
     @AllArgsConstructor
-    @Entity
-    @Id
-    @GeneratedValue
-    @Column(length = 40, nullable = false, unique = true)
     @BatchSize(size=100)
-    @OneToMany(mappedBy = "member")
-    @EntityListeners(AuditingEntityListener.class)
-    @MappedSuperclass
-    @Temporal(TemporalType.DATE)
-    @CreatedDate
-    @LastModifiedDate
-    @GeneratedValue
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "id", referencedColumnName = "id")
-    @ColumnDefault("'no content'")
     @Builder
-    @Transient
-    @Query(value = "select m from Member m where m.email = :email_1 or m.id = :id_1")
-    @Service
+    @Column(length = 40, nullable = false, unique = true)
+    @CreatedDate
+    @ColumnDefault("'no content'")
+    @Controller
+    @Data
+        getter, setter 만들어줌
+    @EntityListeners(AuditingEntityListener.class)
     @EnableJpaAuditing
+    @Entity
+    @GeneratedValue
+    @GetMapping
+    @Getter
+    @Id
+    @JoinColumn(name = "id", referencedColumnName = "id")
+    @LastModifiedDate
+    @MappedSuperclass
+    @ManyToOne(fetch = FetchType.LAZY)
+    @NoArgsConstructor
+    @OneToMany(mappedBy = "member")
+    @Override
+    @PostMapping("/insertComments")
+    @Query(value = "select m from Member m where m.email = :email_1 or m.id = :id_1")
+    @RequestMapping
+    @Service
     @SpringBootApplication
+    @SequenceGenerator
+    @Setter
+    @Temporal(TemporalType.DATE)
+    @Transient
