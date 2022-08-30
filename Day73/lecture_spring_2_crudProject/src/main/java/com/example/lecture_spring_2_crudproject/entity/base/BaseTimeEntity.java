@@ -17,7 +17,6 @@ import java.util.Date;
 //@EntityListeners 는 리스너 클래스 지정을 통해 엔티티 객체 상태가 변경될 때 해당 리스너로 콜백을 받는다.
 //AuditingEntityListener 는 JPA 내부에서 엔티티 객체가 생성/변경 되는 것을 감지
 
-
 @EntityListeners(AuditingEntityListener.class)
 @Setter
 @Getter

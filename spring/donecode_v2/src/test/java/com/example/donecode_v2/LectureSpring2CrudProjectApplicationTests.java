@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import sun.security.krb5.internal.ccache.MemoryCredentialsCache;
+import sun.security.krb5.internal.cache.MemoryCredentialsCache;
 
 @SpringBootTest
 class LectureSpring2CrudProjectApplicationTests {
@@ -34,4 +34,21 @@ class LectureSpring2CrudProjectApplicationTests {
         member.getEmail("class4@123.com");
         memberRepository.save(member);
     }
+
+
+
+
+    @Test
+    void textTest() throws Exception{
+
+    }
+    @Test
+    void Scraping(){
+        selenium.scraping();
+    }
+    @Test
+    void ScrapingTest(){
+        seleniumExample.scraping();
+    }
+
 }

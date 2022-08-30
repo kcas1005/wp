@@ -298,6 +298,7 @@
         일반 메서드 주입
 
     @AllArgsConstructor
+        Class 모든 필드 값을 파라미터로 받는 생성자를 추가합니다.
         필드에 쓴 모든 생성자만 만들어줌(전달 인수가 필요함)
 
     @BatchSize(size=100)
@@ -307,12 +308,14 @@
         빌더패턴을 만들어줌
 
     @Column(length = 40, nullable = false, unique = true)
+        객체 필드를 테이블 컬럼과 매핑한다.
 
     @CreatedDate
 
     @ColumnDefault("'no content'")
 
     @Controller
+        Spring에게 해당 Class가 Controller의 역활을 한다고 명시하기 위해 사용하는 Annotation입니다.
 
     @Data
         getter, setter 만들어줌
@@ -328,8 +331,10 @@
     @GeneratedValue
 
     @GetMapping
+        RequestMapping(Method=RequestMethod.GET)과 똑같은 역할을 합니다.
 
     @Getter
+        Class 모든 필드의 Getter method를 생성해줍니다.
 
     @Id
 
@@ -337,24 +342,45 @@
 
     @LastModifiedDate
 
+    @ModelAttribute
+        클라이언트가 전송하는 HTTP parameter, Body 내용을 Setter 함수를 통해 1:1로 객체에 데이터를 연결(바인딩)합니다.
+        RequestBody와 다르게 HTTP Body 내용은 multipart/form-data 형태를 요구합니다.
+        @RequestBody가 json을 받는 것과 달리 @ModenAttribute 의 경우에는 json을 받아 처리할 수 없습니다.
+
     @MappedSuperclass
 
     @ManyToOne(fetch = FetchType.LAZY)
 
     @NoArgsConstructor
         기본 생성자를 만들어 줌(전달인수가 필요 없음)
+        Class 기본 생성자를 자동으로 추가해줍니다.
+
 
     @OneToMany(mappedBy = "member")
 
     @Override
 
     @PostMapping("/insertComments")
+        RequestMapping(Method=RequestMethod.POST)과 똑같은 역할을 합니다.
 
     @Query(value = "select m from Member m where m.email = :email_1 or m.id = :id_1")
 
     @RequestMapping
+        Request의 header값을 가져올 수 있으며, 해당 Annotation을 쓴 메소드의 파라미터에 사용합니다.
+
+    @RequestBody
+        Body에 전달되는 데이터를 메소드의 인자와 매칭시켜,
+        데이터를 받아서 처리할 수 있는 Annotation으로 아래와 같이 사용합니다.
+        클라이언트가 보내는 HTTP 요청 본문(JSON 및 XML 등)을 Java 오브젝트로 변환합니다.
+        아래와 같이 사용합니다.
+        클라이언트가 body에 json or xml 과 같은 형태로 형태로 값(주로 객체)를 전송하면,
+        해당 내용을 Java Object로 변환합니다.
 
     @ResponseBody
+        @ResponseBody은 메소드에서 리턴되는 값이 View 로 출력되지 않고
+        HTTP Response Body에 직접 쓰여지게 됩니다.
+        return 시에 json, xml과 같은 데이터를 return 합니다.
+
 
     @Service
 
@@ -363,10 +389,18 @@
     @SequenceGenerator
 
     @Setter
+        Class 모든 필드의 Setter method를 생성해줍니다.
+
+    @ToString
+        필드값 = 값 형식으로 저장함
+        (seq = 1, id = user)
+        Class 모든 필드의 toString method를 생성한다.
 
     @Test
+        JUnit에서 테스트 할 대상을 표시합니다.
 
     @Temporal(TemporalType.DATE)
+        @Temporal은 날짜 타입을 매핑할 때 사용한다
 
     @Transient
 
