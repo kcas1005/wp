@@ -18,5 +18,6 @@ public class TextTransfer {
         System.out.println(wordLast);
 
         System.out.println(wordFirst3+wordLast);
+        return wordFirst3 + wordLast;
     }
 }

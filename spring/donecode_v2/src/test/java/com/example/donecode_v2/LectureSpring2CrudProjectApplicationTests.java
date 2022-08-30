@@ -2,6 +2,7 @@ package com.example.donecode_v2;
 
 import com.example.donecode_v2.entity.account.Member;
 import com.example.donecode_v2.service.apiTest.apiTest;
+import com.example.donecode_v2.service.textTransfer.TextTransfer;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,9 @@ import sun.security.krb5.internal.cache.MemoryCredentialsCache;
 @SpringBootTest
 class LectureSpring2CrudProjectApplicationTests {
 
+
+    @Autowired
+    TextTransfer textTransfer;
 
     @Test
     void contextLoads() {

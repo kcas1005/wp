@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day73_API, Spring Test 쓰는 방법 배움">
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/ScrapingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/repository/data/ScrapingEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/textTransfer/SeleniumExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day74/Day74_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/donecode_v2/service/textTransfer/SeleniumExample.java" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day72_집에서 모르는 용어 몇개 찾아봄">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/base/BaseTimeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/test/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/test/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,34 +17,9 @@
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/LectureSpring2CrudProjectApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/controller/RouteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/controller/account/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/controller/board/BoardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/RouteEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/account/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/board/Board$BoardBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/board/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/board/Comments$CommentsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/board/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/board/base/BaseTimeEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/customDto/CustomDtoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/entity/customDto/CustomDtoSortPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/RouteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/account/MemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/board/BoardRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/board/CommentsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/customRepository/CustomDtoExampleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/repository/customRepository/CustomDtoExampleRepositoryPred.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/RouteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/account/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/account/MemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/apiTest/apiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/board/BoardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/board/BoardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/classes/java/main/com/example/donecode_v2/service/encrypt/EncryptAES256.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/donecode_v2/service/textTransfer/TextTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/src/main/java/com/example/donecode_v2/service/textTransfer/TextTransfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/donecode_v2/src/test/java/com/example/donecode_v2/LectureSpring2CrudProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/donecode_v2/src/test/java/com/example/donecode_v2/LectureSpring2CrudProjectApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
