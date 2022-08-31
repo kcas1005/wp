@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -38,5 +38,21 @@
         </table>
     </form>
     <a th:href="@{/board/getBoardList}">글목록</a>
+    <hr>
+<!--        /board/image/는 GetMapping이고, 뒤에 내용은 img주소(파일명)-->
+        <img src="/board/imge/2cc0028f_c016_4cf0_a0b4_e34189a4335b_upladfile.png">
+        <img src="/board/viewImage/2cc0028f_c016_4cf0_a0b4_e34189a4335b_upladfile.png">
+        <img src="/board/imge/2cc0028f_c016_4cf0_a0b4_e34189a4335b_upladfile.png/filter">
+    <hr>
+    <form th:action="@{/board/uploadFile}" method="post" enctype="multipart/form-data">
+<!--
+        multipartupload객체를 사용하여 서버에 데이터를 전달
+        input tag의 타입이 file로 지정하여 전달
+        name이 uploadfile로 requestParam에 동일한 매개변수명울 가져야 함
+-->
+<!--        <input type="id" type="hidden" th:value="aaa">-->
+        <input type="file" name="upladfile" multiple="multiple"/>
+        <input type="submit" value="데이터 전송">
+    </form>
 </body>
 </html>

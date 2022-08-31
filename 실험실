@@ -313,8 +313,10 @@
         객체 필드를 테이블 컬럼과 매핑한다.
 
     @CreatedDate
+        생성된 시간 정보 자동으로 저장
 
     @ColumnDefault("'no content'")
+        해당 컬럼의 default value를 지정한다.
 
     @Controller
         Spring에게 해당 Class가 Controller의 역활을 한다고 명시하기 위해 사용하는 Annotation입니다.
@@ -323,10 +325,14 @@
         getter, setter 만들어줌
 
     @DisplayName("저장, 데이터가 잘 들어갔는지 확인")
+        테스트결과를 한눈에 보기편하게 하기 위해 쓰는 어노테이션
 
     @EntityListeners(AuditingEntityListener.class)
+        AuditingEntityListener클래스가 callback listener로 지정되어 Entity에서 이벤트가 발생할 때마다 특정 로직을 수행
 
     @EnableJpaAuditing
+        main method가 있는 클래스에 적용하며, JPA Auditing(감시, 감사)기능을 활성화하기 위한 어노테이션.
+        CreateDate, modifiedDate처럼 DB에 데이터가 저장되거나 수정될 때 언제, 누가 했는지를 자동으로 관리할 수 있게 됨.
 
     @Entity
 
@@ -346,6 +352,7 @@
     @JoinColumn(name = "id", referencedColumnName = "id")
 
     @LastModifiedDate
+        수정된 시간정보 자동 저장
 
     @ModelAttribute
         클라이언트가 전송하는 HTTP parameter, Body 내용을 Setter 함수를 통해 1:1로 객체에 데이터를 연결(바인딩)합니다.
@@ -353,6 +360,7 @@
         @RequestBody가 json을 받는 것과 달리 @ModenAttribute 의 경우에는 json을 받아 처리할 수 없습니다.
 
     @MappedSuperclass
+        객체의 입장에서 '생성시간', '수정시간' 같은 공통 매핑 정보가 필요할 때 사용됨
 
     @ManyToOne(fetch = FetchType.LAZY)
 
@@ -386,8 +394,10 @@
         HTTP Response Body에 직접 쓰여지게 됩니다.
         return 시에 json, xml과 같은 데이터를 return 합니다.
 
+    @Slf4j
 
     @Service
+        서비스 계층에 대한 고정관념
 
     @SpringBootApplication
         스프링 부트의 가장 기본적인 설정을 선언해 줍니다.
