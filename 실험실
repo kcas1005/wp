@@ -282,7 +282,6 @@
     -----------------------------------------------------------------------
     모르는 용어
 
-    Parameter = 매개변수 (함수와 메서드 입력 변수(Variable)명
 
     Argument = 전달인자, 인자 (함수와 메서드의 입력값(Value)
 
@@ -335,6 +334,10 @@
         CreateDate, modifiedDate처럼 DB에 데이터가 저장되거나 수정될 때 언제, 누가 했는지를 자동으로 관리할 수 있게 됨.
 
     @Entity
+        테이블과 매핑
+        @Entity가 붙은 클래스는 JPA가 관리하는 것으로, 엔티티라고 불림
+
+    Eager(즉시 로딩)
 
     @GeneratedValue
         기본 키 맵핑
@@ -364,6 +367,7 @@
 
     @ManyToOne(fetch = FetchType.LAZY)
 
+
     @NoArgsConstructor
         기본 생성자를 만들어 줌(전달인수가 필요 없음)
         Class 기본 생성자를 자동으로 추가해줍니다.
@@ -375,6 +379,8 @@
 
     @PostMapping("/insertComments")
         RequestMapping(Method=RequestMethod.POST)과 똑같은 역할을 합니다.
+
+    Parameter = 매개변수 (함수와 메서드 입력 변수(Variable)명
 
     @Query(value = "select m from Member m where m.email = :email_1 or m.id = :id_1")
 

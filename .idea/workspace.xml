@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함">
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/repository/board/FileUploadInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day76/Day76_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insertmember.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temple.css" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day74_집에서 모르는 용어 몇개 찾아봄">
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/2627558e-5bb8-49f8-9b7c-37d5ad18c0a5_upladfile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/65df86c8-0ec6-4f84-91b1-93d47d065ace_upladfile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/84a1b6f3-5cb9-4ee6-b5ba-c8d2be849c88_upladfile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9756a1ee-6c72-420d-af1e-128f4c308fb2_upladfile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/98660295-d94b-428c-aa10-8c4fdde875c0_upladfile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9de89951-4b78-409c-9306-9d96a74eaad0_upladfile.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day71/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day71/insertmember.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/controller/board/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/board/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/board/getBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/board/getBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/board/insertBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/board/insertBoard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/2627558e-5bb8-49f8-9b7c-37d5ad18c0a5_upladfile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/65df86c8-0ec6-4f84-91b1-93d47d065ace_upladfile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/84a1b6f3-5cb9-4ee6-b5ba-c8d2be849c88_upladfile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9756a1ee-6c72-420d-af1e-128f4c308fb2_upladfile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/98660295-d94b-428c-aa10-8c4fdde875c0_upladfile.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9de89951-4b78-409c-9306-9d96a74eaad0_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertmember.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,6 +302,8 @@
       <workItem from="1661817308161" duration="13333000" />
       <workItem from="1661987757375" duration="7543000" />
       <workItem from="1662018640718" duration="660000" />
+      <workItem from="1662039074585" duration="4540000" />
+      <workItem from="1662043678848" duration="1465000" />
     </task>
     <task id="LOCAL-00019" summary="집에서함">
       <created>1658987714244</created>
