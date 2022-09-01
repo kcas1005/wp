@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+	padding: 1%;
+	text-align: center;
+}
+
+div#wrap {
+	padding: 1%;
+}
+
+div#container {
+	padding: 1%;
+}
+
+div#contents {
+	padding: 1%;
+}
+
+div#path {
+	padding: 1%;
+}
+
+#path h2 {
+	font-size: 12px;
+	color: #333333;
+}
+
+#path ol {
+	display: block;
+	list-style: none;
+	float: right;
+}
+
+#path ol li {
+	float: left;
+	padding: 5px;
+}
+
+div.boardWrite {
+	margin : 0px auto;
+	
+}
+div.boardWrite table {
+	clear: both;
+	width:70%;margin : 0px auto;
+	
+}
+
+table tbody tr {
+	border-top: 1px solid f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	margin: 10px;
+}
+
+table tbody tr th, td {
+	font-size: 11px;
+	color: #333333;
+	text-align: left;
+}
+
+div.xans-element-.xans-member.xans-member-join h3 {
+	margin: 20px 0px;
+	font-size: 11px;
+}
+
+div h3 {
+	font-size: 11px;
+}
+div.agree{text-align: center;width:70%; margin:0 auto;}
+div.agree textarea {
+	font-size: 11px;
+	border: 1px solid #f1f1f1;
+	width:100%;margin:0 auto;
+}
+div.info_agree{
+	text-align: center;width:70%; margin:0 auto;
+}
+div.info_agree textarea {
+	font-size: 11px;
+	border: 1px solid #f1f1f1;
+	width:100%;margin:0 auto;
+}
+
+Area.center a {
+	
+}
+.reg_btn{padding: 20px;;
+	display:inline-block;
+	color: #FFFFFF;
+	font: 12px;
+	background: #333333;
+	color: #FFFFFF;}

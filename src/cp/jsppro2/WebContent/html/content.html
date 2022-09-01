@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-sacle=1"charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<style type="text/css">
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+ <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+ <script src="../js/includeHTML.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<div w3-include-html="header.html"></div>
+
+
+<div id="product_box">
+	<form action="" method="get">
+		<p><img src = '../image/product00.gif'></p>
+		<ul> 
+			<li><h5 class="product_name">상품명</h5></li>
+			<li><h6>판매가</h6><h6 class="product_price">10000 원</h6></li>
+			<li><span>사이즈 </span><select id="size" name="size">
+				<option value='' selected>사이즈를 선택해주세요
+				<option value='220'>220
+				<option value='225'>225
+				<option value='230'>230
+				<option value='235'>235
+				<option value='240'>240
+				<option value='245'>245
+				<option value='250'>250
+			</select></li>
+			<li><span>구매갯수 </span> <select id="product_check" name="product_check">
+					<option value=''selected>구매수량:필수사항
+					<option value='1'>
+					<option value='2'>
+					<option value='3'>
+					<option value='4'>
+					<option value='5'>
+					<option value='6'>
+					<option value='7'>
+			</select></li>
+			<li><span class="amount">현재 재고 </span><input type='text' value='100'class='amount' readonly></li>
+			<li class='li_price'><span>총 가격 </span><input type='text' value=''class='price' readonly><b></b></li>
+			
+			<script>
+			 $(document).ready(function(){
+				$('#product_check').change(function(){
+				 $("#product_check option:selected").each(function () {
+					if($(this).val()== ''){ //바뀌지않는 기본 틀
+					     $(".price").val('');//값 초기화
+					     $("input.amount").val('100');
+						 $(".price").attr("disabled",true); //입력제한활성화 
+					 }
+					else{ //값 출력
+						count = parseInt($(this).text());
+						price = count*10000;
+						amount = parseInt( $("input.amount").val());-count;
+						$(".price").val(price); //선택값 입력
+						$("input.amount").val(amount); //선택값 입력
+						$(".price").attr("disabled",true); //비활성화
+						$("#product_box form ul li b").text(" 원");
+					}
+					});
+				 
+				 if($("#size").val()!="" && $("#product_check").val()!=""){
+					 $(".pro_btn").css("display","block");
+				}
+				 if($("#size").val()=="" || $("#product_check").val()==""){
+					 $(".pro_btn").css("display","none");
+				}
+				})
+				$("#product_check option").addClass('selectclass');
+				$('#size').change(function(){
+					b =$("#product_check option:selected").val();
+					a =$("#size option:selected").val();
+				if(a!=''){
+					$("#product_check option").removeClass('selectclass');
+					
+				}else{
+					$("#product_check option").addClass('selectclass');
+					$("#product_check option:eq(0)").attr({'selected':'selected'});
+					 $(".pro_btn").css("display","none");
+				}
+				}) 
+
+			})
+			</script>
+			<li>
+				<input type="hidden" name='category' value='1' class="category">
+				<button class="cart pro_btn" >장바구니</button>
+			<button class="wish pro_btn" >관심목록</button>
+			</li>
+			<li>
+			
+			</li>
+			<li>
+				
+				<p><input type="submit" value="구매하기"  class="submit pro_btn"></p>
+			</li>
+			
+		</ul>
+	</form>
+</div>
+
+<div id="tabmenu">
+	<table>
+		<tr><td><a href="#product_detail" >상품 상세정보</a></td>
+		<td><a href="#review">상품 리뷰</a></td>
+		<td><a href="#qna">상품 문의</a></td></tr>
+	</table>
+</div>
+<script>
+$(document).ready(function(){
+	$("#tabmenu table a").click(function(){
+		$("body,html").animate({
+			scrollTop : 0
+		})
+	})
+	
+})
+
+</script>
+<div id="view">
+	<div id="product_detail"style='display:none'>
+		<p><img src="../image/dec_product00.jpg" title='' alt=''></p>
+	</div>
+	<div id="review" class="re">
+		<ul>
+			<li class='star top' style='width:20%'>별점</li>
+			<li class='text top' style='width:65%'>내용</li>
+			<li  style='width:15%' class='top'>작성자</li>
+			<li class='clear star' style='width:20%'>별점</li>
+			<li class='text' style='width:65%'>내용<span class='date'>날짜</span><i class='overflow'>더보기</i></li>
+			<li  style='width:15%'>작성자</li>
+				
+		</ul>
+	
+	
+	
+	</div>
+	<div id="qna"style='display:none' class="re">
+	 <ul>
+			<li class='star top' style='width:20%'>별점</li>
+			<li class='text top' style='width:65%'>내용</li>
+			<li  style='width:15%' class='top'>작성자</li>
+			<li class='clear star' style='width:20%'>별점</li>
+			<li class='text' style='width:65%'>내용<span class='date'>날짜</span><i class='overflow'>더보기</i></li>
+			<li  style='width:15%'>작성자</li>
+	</ul>
+
+
+
+</div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+	$("#tabmenu table td a").click(function(){
+		tabmenu = $(this).attr('href');
+		$(tabmenu).show();
+		$("#view div:not("+tabmenu+")").hide();
+		$("#tabmenu table td a").css({'color':'#666','background':'#fff'});
+		$(this).css({'color':'#fff','background':'pink'});
+		
+	})
+	
+	$("#product_box ul li button.cart").click(function(){
+		$("#product_box form").attr({'action':'PrductInPro.jsp'});
+		$(".category").val('1');
+		$(this).submit();
+	})
+	$("#product_box ul li button.wish").click(function(){
+		$("#product_box form").attr({'action':'PrductInPro.jsp'});
+		$(".category").val('2');
+		$(this).submit();
+		
+	})
+	
+	
+})
+
+
+</script>
+<div w3-include-html="footer.html"></div>
+<script>includeHTML();</script>
+</body>
+</html>

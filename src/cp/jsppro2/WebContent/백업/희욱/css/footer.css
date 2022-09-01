@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+footer {
+	min-width: 320px;
+	text-align:center;
+}
+.info_company {
+	padding: 0 10px 0%;
+	background: #f7f7f7;
+}
+
+.info_company ul {
+	line-height: 12px;
+}
+
+.info_company li {
+	font-size: 9px;
+}
+
+.info_company li.company {
+	padding-bottom: 4px;
+}
+
+.info_company li.info {
+	display: inline;
+}
+
+.info_company li.info_tel {
+	display: inline;
+	border-left: 1px solid #dfdfdf;
+	padding-left: 4px;
+}
+
+.info_company {
+	margin : 0px auto;
+	float: center;
+}
+.info_company ul{
+	padding : 10px;
+	margin : 0px auto;
+}
+.info_company ul li {
+	margin : 0px;
+	padding : 0px;
+	list-style:	none;
+	font-size : 12px;
+}

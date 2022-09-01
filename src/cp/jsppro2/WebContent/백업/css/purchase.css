@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* 전체 */
+.box{
+	width:40%;
+	height:80%;
+	margin:9% auto;
+}
+/* 컨텐츠 */
+#title{
+	text-align:left;}
+table tr, table td, table th{
+	border: 1px solid black;
+	border-left:none;
+	border-right:none;
+	text-align:left;
+	}
+table td{
+	padding : 1%;}
+table input,table textarea{
+	text-align:left;
+}
+.ltd{
+	width:20%;
+}
+#chkInfo{
+	text-align:left;}
+.roof{
+	border-top:2px solid black;}
+#address{
+	width:60%;}
+#detailAddress{
+	width:60%;}
+
+#table2 td{
+	width:10%;}
+#table2 td, #table2 tr, #table2 th{
+	text-align:center;}
+
+#priceResult p{
+	text-align:right;
+}
+#finalPrice{
+	font-size:1.5em;}
+/* 푸터 */	
+footer{
+	clear:both;}
+@media screen and (max-width: 767px){
+	.box{
+	width:100%;
+	}
+}

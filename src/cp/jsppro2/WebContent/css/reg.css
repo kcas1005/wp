@@ -1,0 +1,99 @@
+@import url('common.css');
+*{font-family:'nanumgodic';}
+body {
+	padding: 1%;
+	text-align: center;
+}
+
+
+
+div#wrap {
+	padding: 1%;
+}
+
+div#container {
+	padding: 1%;
+	width:70%;margin:0 auto;
+}
+
+div#contents {
+	padding: 1%;
+}
+
+div#path {
+	padding: 1%;
+}
+
+#path h2 {
+	font-size: 1em;
+	color: #333333;width:30%; float:left;
+}
+
+#path ol {
+	width:175px;
+	text-align:right; 
+	list-style: none;
+	float: right;
+}
+
+#path ol li {
+	float: left;
+	text-align:right;
+	padding: 5px;
+}
+
+div.boardWrite {
+	margin : 0px auto;
+	
+}
+div.boardWrite table {
+	clear: both;
+	width:100%;margin : 0px auto;
+	
+}
+
+table tbody tr {
+	border-top: 1px solid f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	margin: 10px;
+}
+
+table tbody tr th, td {
+	font-size: 1em;
+	color: #333333;
+	padding:1% 0;
+	text-align: left;
+}
+
+div.xans-element-.xans-member.xans-member-join h3 {
+	margin: 20px 0px;
+	font-size: 11px;
+}
+
+div h3 {
+	font-size: 11px;
+}
+div.agree{text-align: center;width:100%;}
+div.agree .textarea {
+	font-size: 11px;
+	border: 1px solid #f1f1f1;
+	width:100%;margin:5px 0;
+}
+div.info_agree{
+	text-align: center;width:100%
+}
+div.info_agree .textarea {
+	font-size: 11px;
+	border: 1px solid #f1f1f1;margin:5px 0;
+	width:100%;
+}
+
+Area.center a {
+	
+}
+.reg_btn{padding: 20px;;
+	display:inline-block;
+	color: #FFFFFF;
+	font: 12px;border-style:none;margin:1px;
+	background: #333333;
+	color: #FFFFFF;}

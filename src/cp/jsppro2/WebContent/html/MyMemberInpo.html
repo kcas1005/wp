@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href = "../css/common.css" type = "text/css" rel= "stylesheet">
+<link href = "../css/MyMemberInPo.css" type = "text/css" rel= "stylesheet">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+<script src="../js/includeHTML.js"></script>
+<script type="text/javascript" src="../js/MyMemberInpo.js"></script>
+</head>
+<body>
+
+<!-- 해더 -->
+<div w3-include-html="header.html"></div>
+
+
+<div class = "mypageIn">
+	<h2 class = "mypageName">마이페이지</h2>
+	<div class = "mySimpleInpo">
+		<p>어서오세요 "회원아이디" 님!</p>
+		<p>포인트 : 12030123 <img src = "../image/plus.png"></p>
+	</div>
+	<div class = "mypageMain">
+		<ul class = "mypageManu">
+			<li><a href = "#">장바구니</a></li>
+			<li><a href = "#">관심목록</a></li>
+			<li><a href = "#">회원정보</a></li>
+			<li><a href = "#">주문조회</a></li>
+		</ul>
+		<div class = "mypageCountent Inpo" id="memInpo">
+			<table>
+				<tr>
+					<td>이름 : </td>
+					<td>홍길동</td>
+				</tr>
+				<tr>
+					<td>아이디 : </td>
+					<td>ID</td>
+				</tr>
+				<tr>
+					<td>비밀번호 : </td>
+					<td><input type="password" name = "pw" value = "ㅇㅁㄴㅇㅁㄴㅇ"></td>
+				</tr>
+				<tr>
+					<td>이메일 : </td>
+					<td><input type="text" name = "pw" value = "dlsda">@<input type="text" name = "pw" value = "naver.com"></td>
+				</tr>
+				<tr>
+					<td>우편번호 : </td>
+					<td><input type="text" name = "pw" value = "000-111"></td>
+				</tr>
+				<tr>
+					<td>주소 : </td>
+					<td><input type="text" style="width:500px" name = "pw" value = "지구"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="text" style="width:500px" name = "pw" value = "어디"></td>
+				</tr>
+				<tr>
+					<td>핸드폰번호 : </td>
+					<td><input type="text" style="width:50px" maxlength="3" name = "pw" value = "010" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');"> - 
+					<input type="text" style="width:50px" maxlength="4" name = "pw" value = "1234" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');"> - 
+					<input type="text" style="width:50px" maxlength="4" name = "pw" value = "5678" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');"></td>
+				</tr>
+				<tr>
+					<td>배송메시지 : </td>
+					<td><textarea name = "message" style="width:400px" >문앞에 배달 해 주세요</textarea></td>
+				</tr>
+			</table>
+			<input type='submit' name='product' value = '수정'>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- 푸터 -->
+<div w3-include-html="footer.html"></div>
+<script>includeHTML();</script>
+
+</body>
+</html>

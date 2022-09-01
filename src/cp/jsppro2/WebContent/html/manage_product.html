@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/manage_product.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../js/includeHTML.js"></script>
+<title>관리자 모드 템플릿</title>
+
+</head>
+<body>
+<div w3-include-html="header.html"></div>
+
+<div class="box">
+	<div class="index">
+		<h2><span class="bar">|</span>관리자 모드</h2>
+	</div>
+	
+	<div class="aside">
+		<table>
+			<tr>
+				<td><a href="manage_members.jsp"><button class="blink">회원 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_article.jsp"><button class="blink">게시판 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_product.jsp"><button class="blink" id="active">상품 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_admin.jsp"><button class="blink">관리자 관리</button></a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="content">
+		<div class="tableRoof">
+			<span class="tableTitle">상품 등록</span>
+		</div>
+		<div class="regfrm">
+			<form method="post" action="regProductpro.jsp" id ="frm"
+					 enctype="multipart/form-data">
+				<table>
+					<tr>
+						<td>상품명<br>&nbsp;</td>
+						<td>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;</td>
+						<td><input type="text" name="name" id="name" value=""><br>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>상품 이미지&nbsp;&nbsp;<br>&nbsp;</td>
+						<td>:<br>&nbsp;</td>
+						<td><input type="file" name="img" id="img" value=""><br>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>상품 설명<br>&nbsp;</td>
+						<td>:<br>&nbsp;</td>
+						<td><input type="file" name="dec" id="dec" value=""><br>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>가격<br>&nbsp;</td>
+						<td>:<br>&nbsp;</td>
+						<td><input type="text" name="price" id="price" value=""><br>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>수량<br>&nbsp;</td>
+						<td>:<br>&nbsp;</td>
+						<td><input type="text" name="amount" id="amount" value=""><br>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>사이즈<br>&nbsp;</td>
+						<td>:<br>&nbsp;</td>
+						<td><input type="text" name="size" id="size" value=""><br>&nbsp;</td>
+					</tr>
+				</table>
+			</form>
+			<button id="reg" onclick="reg()">등록</button>
+		</div>
+	</div>
+</div>
+
+<div w3-include-html="footer.html"></div>
+<script>includeHTML();</script>
+</body>
+</html>

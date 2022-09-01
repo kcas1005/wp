@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/login.css">
+<title>로그인</title>
+<style>
+</style>
+<script src="../js/includeHTML.js"></script>
+</head>
+<body>
+<div w3-include-html="header.html"></div>
+	<div id="wrap">
+		<div id="container">
+			<div class="titleArea">
+				<h2>MEMBERSHIP</h2>
+				<div id="contents">
+					<div class="path">
+						<ol>
+							<li><a href="http://localhost:9090/inc4/main.jsp">home</a></li>
+							<li>><li>
+							<li>membership</li>
+						</ol>
+						<div>
+							<form id="member_form_7556641419">
+								<div class="login">
+									<h3>Registered Customers</h3>
+									<form class="login" method="get" action="loginAction.jsp">
+										<div class="form-group row">
+
+											<div class="col-sm-12">
+												<input type="text" class="form-control" id="id" name="id" maxlength="15"
+													placeholder="ID">
+											</div>
+											<div class="col-sm-12">
+												<input type="password" class="form-control" id="pw" name="pw" maxlength="16"
+													placeholder="PASSWORD">
+											</div>
+										</div>
+										<div class="form-group row">
+											<div class="col-sm-12">
+												<button type="submit" class="btn btn-primary">login</button>
+											</div>
+										</div>
+										<div class="custom-control custom-switch">
+											<input type="checkbox" class="custom-control-input"
+												id="customSwitch1"> <label
+												class="custom-control-label" for="customSwitch1">보안접속</label>
+										</div>
+									</form>
+									<fieldset></fieldset>
+								</div>
+								<p class="find">
+									<a href="*">아이디 찾기</a> <a href="*">비밀번호 찾기</a>
+								</p>
+							</form>
+							<p class="link">
+								회원가입을 하시면 다양하고 특별한 혜택이 준비되어 있습니다.</br> <a href="reg.jsp" class="jo"><b>회원가입</b></a>
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div w3-include-html="footer.html"></div>
+	<script>
+		includeHTML();
+	</script>
+</body>
+</html>

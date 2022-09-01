@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+<
+style>body {
+	margin: 0;
+	font: 11px 'Lato', 'Open Sans', arial, "Malgun Gothic", "맑은 고딕", 나눔고딕,
+		'Nanum Gothic', AppleGothic, "돋움", Dutum, sans-serif;
+}
+
+div#wrap {
+	margin: 0;
+	/* background: red; */
+	padding: 5%;
+}
+
+div#container {
+	padding: 5%;
+	/* background: orange; */
+}
+
+div.titleArea {
+	padding: 5%;
+	/* background: yellow; */
+}
+
+div.titleArea h2 {
+	font-size: 12px;
+	letter-spzcing: 2px;
+	text-align: left;
+}
+
+div#contents {
+	padding: 5%;
+	/* background: green; */
+}
+
+div.path {
+	text-align: right;
+	padding: 5%;
+	/* background: white; */
+}
+
+div.path ol {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+}
+
+div.path ol li {
+	margin: 0;
+	float: left;
+	padding: 5px;
+	text-align: right;
+	font-size: 10px;
+}
+
+div.path>div {
+	border: 3px solid #eeee;
+}
+
+form #member_form_7556641419 {
+	padding: 5%;
+	/* background: blue; */
+}
+
+div.login {
+	padding: 5%;
+	/* background: navy; */
+}
+
+div.login h3 {
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: underline;
+	text-align: left;
+	overflow: hidden;
+}
+
+p.ment {
+	/* background: purple; */
+	font-size: 11px line-height: 30px;
+	text-align: left;
+	margin: 0 auto 20px;
+	color: #757575;
+}
+
+div.col-sm-12 form-control {
+	text-align: left;
+}
+
+div.col-sm-12 .btn-primary {
+	width: 100%;
+	background-color: #FFC0CB;
+	border-color: #FFC0CB;
+}
+
+input#id.form-control {
+	text-align: left;
+}
+
+div.custom-control.custom-switch {
+	/* background: red; */
+	float: right;
+}
+
+label.custom-control-input {
+	/* background: orange; */
+	
+}
+
+.custom-control-label {
+	/* background: yellow; */
+	font-size: 11px;
+}
+
+p.find {
+	/* background: green; */
+	
+}
+
+p.find {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+p.find a {
+	height: 50px;
+	line-height: 30px;
+	weidth: 70px;
+	margin: 0 2px 0 0;
+	padding: 10px;
+	border: 1px #ddd solid;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px;
+	color: #333;
+	display: inline-block;
+	border: 1px #ddd solid;
+}
+
+div p.link {
+	/* background: blue; */
+	text-align: center;
+	font-size: 11px;
+}
+
+div p.link a.jo {
+	margin: 12px auto 0;
+	/* background: navy; */
+}
+
+div p.link a.jo b {
+	text-decorate: none;
+	font-size: 11px;
+	width: 350px;
+	height: 40px;
+	border: 1px #ccc solid;
+}

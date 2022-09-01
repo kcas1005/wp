@@ -1,0 +1,233 @@
+@charset "UTF-8";
+*{text-align:center;}
+.mypageIn{
+	width: 75%;
+	margin : 100px auto 50px;
+}
+.mypageName{
+	width:20%;
+	margin:20px 0 10px;
+	float:left;
+	font-size:2.2em;font-family: 'Noto Sans KR', sans-serif;
+	padding-left:8px;
+	text-align: left;border-left:3px solid #b03e97;
+	line-height: 37px;
+}
+.mypageName2{
+	width:20%;
+	margin:20px 0 20px;
+	float:left;
+	font-size:2.2em;font-family: 'Noto Sans KR', sans-serif;
+	padding-left:8px;
+	text-align: left;border-left:3px solid #b03e97;
+	line-height: 37px;
+}
+.mySimpleInpo{
+	width : 72%;
+	float:right;
+	margin:20px 0 20px;
+	text-align: left;
+}
+.mySimpleInpo .userImg{
+	display: inline-block;
+	margin: 10px 10px 20px 0px;
+}
+.InpoText{
+	display: inline-block;
+	vertical-align: middle;
+}
+.InpoText li{
+	text-align: left;
+}
+.InpoText h2 , .InpoText h4{
+	font-size:1.5em;font-family: 'Noto Sans KR', sans-serif;
+	text-align: left;
+}
+.InpoText h4{
+	float: left;
+}
+.InpoText li img{
+	vertical-align: middle;
+	margin-left:5px; 
+}
+.mypageMain{
+	width: 100%;
+}
+.mypageManu{
+	clear : both;
+	width: 20%;
+	display:inline-block;
+	background-color: white;
+	float: left;
+	border: 1px solid #ccc;
+}
+.mypageManu li{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	color : black;
+	background-color: white;
+}
+.mypageManu li a{
+	color:#333;
+	text-decoration: none;
+}
+
+.mypageCountent{
+	width: 80%;
+	margin : 0 auto 0;
+	display:inline-block;
+	height: 500px;
+}
+
+.mypageCountent2{
+	width: 80%;
+	margin : 75px auto 0;
+	display:inline-block;
+	height: 500px;
+}
+.mypageCountent table{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.CartForm table{margin-top:35px;}
+.mypageCountent table tr:first-child{background-color: #333; }
+.mypageCountent table tr{border: 1px solid #ccc;}
+
+.mypageCountent table tr:first-child td{padding : 10px;color: white;}
+.mypageCountent table tr:not-child(1) td{color:#333;}
+.mypageCountent table tr td{padding:10px;}
+.mypageCountent table tr td a{color:#333;}
+.mypageCountentResult{width: 80%; margin:0 auto; text-align: center;}
+.mypageCountentResult input{float: right; width: 30%; background-color: #ff6e75; border: none;height:33.2px;font-weight: bold; color: #fff;}
+
+#Cart tr{
+	width: 100%;
+}
+#Cart tr td:first-child{
+	width: 10%;
+}
+#Cart tr td:last-child{
+	width: 5%;
+}
+.cartPaging{
+	width : 80%;
+	margin : 0 auto;
+}
+
+.cartPaging input{margin:2px; background:#333; color:#fff;border-style:none;padding:1% 2%; float:right;}
+.cartPaging a{
+	color:#333;
+}
+
+.cartIn{
+	width: 15%;float:right; 
+	margin-right:10%;
+	background-color: #333; color:#fff; 
+	border: none;height:33.2px;font-size:1em; 
+	border-right: 1px solid #fff;}
+.d_btn{width: 80%;margin:0 auto; float:inherit; }
+	
+	
+.ifff{
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top: -250px;
+	margin-left: -250px;
+	display: none;
+	padding: 20px;
+	background-color: white;
+	border: 2px solid #ff6e75;
+}
+
+button.close{
+   position:absolute; top:80%; left:50%;
+   width:100px;height:30px; margin-top:-30px;
+   text-align:center; line-height:30px; margin-left: -50px;
+   z-index: 99999999; font-size:1em;
+   background: #fff; border:2px solid #000;color:#000;
+   opacity:1;
+   display: none;
+}
+@media all and (max-width : 768px){
+	.mypageCountent table tr:first-child td{padding : 0px;}
+	.mypageIn{margin-top: 80px; width:100%;}
+	.mypageManu{ display : none;}
+	.mypageCountent{ width: 100%;}
+	.mypageCountent table{width: 100%;}
+	.mypageCountentResult{width: 100%;}
+	.mySimpleInpo{width:80%;margin:0 auto;float:inherit;}
+	.mypageName{width:80%;  margin:0 auto 10px;float:inherit; font-size:1.7em;}
+	.mypageName2{width:80%;  margin:0 auto 10px;float:inherit; font-size:1.7em;}
+	
+	.mySimpleInpo .userImg{
+	width:30%;
+	}
+	.InpoText h2 , .InpoText h4{
+	font-size:1.2em;
+}
+	.mypageCountent table tr td{padding:0;text-align: center;}
+	.mypageCountent table tr td:nth-child(1){width: 20%;}
+	.mypageCountent table tr td:nth-child(2){width: 0%;}
+	.mypageCountent table tr td:nth-child(3){width: 60%;}
+	.mypageCountent table tr td:nth-child(4){width: 10%;}
+	.mypageCountent table tr td:nth-child(4){width: 10%;}
+	
+	.mypageCountent table tr:first-child td:nth-child(1){width:10%;}
+	.mypageCountent table tr:first-child td:nth-child(2){width:0%;}
+	.mypageCountent table tr:first-child td:nth-child(3){width:55%;text-align: left;}
+	.mypageCountent table tr:first-child td:nth-child(4){width:20%;}
+	.mypageCountent table tr:first-child td:nth-child(5){width:15%;}
+	
+	.mypageCountent table tr td img{width:90px;margin:10px 0;}
+	.mypageCountent table tr:not-child(1) td:nth-child(3){word-break:keep-all; width:120px;}
+	
+
+	.mypageCountent2{
+	width: 100%;
+	margin : 20px auto 0;
+	display:inline-block;
+	}
+
+
+	.mypageCountent table tr td{padding:0;text-align: center;}
+	.mypageCountent table tr td:nth-child(1){width: 15%;}
+	.mypageCountent table tr td:nth-child(2){width: 15%;}
+	.mypageCountent table tr td:nth-child(3){width: 30%;}
+	.mypageCountent table tr td:nth-child(4){width: 20%;}
+	.mypageCountent table tr td:nth-child(5){width: 20%;}
+	
+	.like table tr:first-child td:nth-child(1){width:5%;text-align: center;}
+	.mypageCountent table tr:first-child td:nth-child(2){width:15%; }
+	.mypageCountent table tr:first-child td:nth-child(3){width:35%;text-align: center;}
+	.mypageCountent table tr:first-child td:nth-child(4){width:20%;}
+	.mypageCountent table tr:first-child td:nth-child(5){width:20%;}
+	
+	/* 관심목록 모바일상단 */
+	.mypageCountent_order table tr:first-child td:nth-child(1){width:10%;text-align: center;}
+	.mypageCountent_order table tr:first-child td:nth-child(3){width:10%;text-align: center;}
+	.mypageCountent_order table tr:first-child td:nth-child(4){width:10%;}
+	.mypageCountent_order table tr:first-child td:nth-child(5){width:10%;}
+	/* 관심목록 모바일하단 */
+	.mypageCountent_order table{width:100%;}
+	.mypageCountent_order table td{padding:0;}
+	.mypageCountent_order table tr:not-chlid(1) td:nth-child(1){width: 10%;}
+	.mypageCountent_order table tr:not-chlid(1) td:nth-child(3){width: 10%;}
+	.mypageCountent_order table tr:not-chlid(1) td:nth-child(4){width: 10%;}
+	.mypageCountent_order table tr:not-chlid(1) td:nth-child(5){width: 10%;text-align: center;}
+	
+	.mypageCountent_order table tr td img{width:110px;margin:10px 0;}
+	.cartIn{
+	width: 15%;float:right; 
+	margin:0 auto;
+	background-color: #333; color:#fff; 
+	border: none;height:33.2px;font-size:1em; 
+	border-right: 1px solid #fff;}
+	.d_btn{width: 80%;float:inherit; }
+	.cartPaging{width:100%;}
+	.cartPaging input{margin:0; background:#333; color:#fff;border-style:none;padding:1% 2%; float:right;}
+}
+
+

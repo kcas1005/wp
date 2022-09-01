@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* 전체 */
+*{text-align: center; color:#333;}
+.box{
+	width:60%;
+	margin:9% auto;
+}
+/* 컨텐츠 */
+#title{
+	text-align:left;font-size:1.6em;font-family: 'Noto Sans KR', sans-serif;}
+table tr, table td, table th{
+	
+	border-left:none;
+	border-right:none;
+	text-align:left;
+	}
+
+#table1 {width:100%;}
+table td{
+	padding : 2% 1%;
+	font-weight:1em;
+	}
+table td input{
+	padding : 1% 0%;
+	}
+table input,table textarea{
+	text-align:left;
+}
+.ltd{
+	width:20%;
+}
+#chkInfo{
+	text-align:left;}
+.roof{
+	border-top:2px solid black;}
+#address{
+	width:60%;}
+#detailAddress{
+	width:60%;}
+
+#table2 td{
+	width:10%;}
+#table2 td a{
+	color:#333;}
+	
+#table2 td, #table2 tr, #table2 th{
+	text-align:center;}
+
+#btns input{
+	width: 20%;
+	padding:1% 0;
+	background: #333;
+	color:#fff;
+	border-style:none;
+}
+
+#priceResult p{
+	text-align:right;
+}
+#finalPrice{
+	font-size:1.5em;}
+#finalMny{font-size:0.9em;}
+.message{width:70%;}
+/* 푸터 */	
+footer{
+	clear:both;}
+@media screen and (max-width: 767px){
+	.box{
+	margin-top:80px;
+	width:100%;
+	}
+	.ltd{width:25%;}
+	
+	#chkInfo{
+	text-align:left;}
+	
+	.message{width:90%;}
+	#btns input{
+	width: 20%;
+	width:100px;
+	background: #333;
+	color:#fff;
+	border-style:none;
+}
+}

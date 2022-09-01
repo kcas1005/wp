@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{text-align: center;}
+@media all and (min-width:768px){
+header{
+	width:100%; 
+	height:100px; 
+	background: pink;
+	position:fixed; top:0; left:0;}
+header #header{
+	width:80%; 
+	height:100%; 
+	margin:0 auto; 
+	position:relative;
+	}
+#menu_bg{width:100%; z-index:998; 
+	background: url(../image/menu_bg.jpg) center no-repeat; 
+	border-bottom:1px solid #ccc;
+	position:fixed;top:100px;left:0;
+	height:200px;display:none;}
+header #header p{width:10%; height:60%;background: blue;position: absolute; top:15%; left:2%;}
+header #header ul{width:80%; height:100%;margin:0 auto;text-align:center;}
+header #header ul>li{width:17%;height:60px; position:relative; display:inline-block; text-align:center; line-height:60px;}
+header #header ul>li>a{
+	width:100%;display:inline-block;
+	height:60px;
+	font-size:17px; 
+	color:#fff; 
+	font-family:ThecircleM;}
+header #header ul li .sub{
+	width:100%;position: absolute; height:200px;
+	top:100px; left:0;display:none;
+	z-index:999;}
+header #header ul li .sub li{
+	width:100%;height:30px;
+	margin:2px;line-height:30px;
+	display:block;color:#999;
+	}
+header #header ul li ul.sub li a{color:#ccc; font-size:14px;  }
+header #header ul.menu>li.m_form{display:none;}
+form{margin-top:-37px;}
+form.p_form .search{width:17%;height:32px;border:none;}
+form.p_form .search_btn{width:5%;height:32px;border:none;}
+button{display:none;}
+header #header ul.menu>li:hover>a{background: #fff; color:pink;}
+header #header ul li:hover .sub li a{color:pink;}
+header #header ul li .sub li:hover a{text-decoration: underline;}
+header #header ul li .sub li:hover{}
+}
+
+@media all and (max-width:768px){
+	
+header{width:100%; height:60px;background: pink;}
+header #header{width:100%; height:60px; position:fixed;position:relative; }
+header #header p{width:20%; height:80%;display:inline-block;margin:1% auto;position: inherit;background: blue;}
+header #header ul.menu{
+	width:100%; height:100%; font-size:0.875em;
+	background:url(../image/m_menubg.png) repeat;
+	margin-top:60px;
+	padding-top:10%;
+	position: absolute; top:0; right:100%;}
+header #header ul.menu>li{float:inherit;padding:3%;}	
+header #header ul.menu>li>a{font-size:2em; color:pink; font-weight:bold;}	
+header #header ul.menu>li ul.sub{display:none;}	
+header #header ul.menu>li ul>li {height:25%;}
+header #header ul.menu>li>ul>li>a{font-size:1.5em;color:#666;}
+.p_form{display:none;}
+header #header ul.menu>li.m_form form{}
+header #header ul.menu>li.m_form form .search{width:45%;height:35px; border:2px solid #ccc;font-size:2em;}
+header #header ul.menu>li.m_form form .search_btn{width:13%;height:35px;border:none;}
+button{font-size:2em; color:#fff;display:block;padding:2%;position: absolute;border:none; background:pink; top:11%; left:2%; }
+
+}
