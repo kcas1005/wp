@@ -4,9 +4,10 @@ import com.example.lecture_spring_2_crudproject.entity.account.Member;
 import com.example.lecture_spring_2_crudproject.entity.board.Board;
 import com.example.lecture_spring_2_crudproject.entity.board.Comments;
 import com.example.lecture_spring_2_crudproject.entity.customDto.CustomDtoSortPages;
-import com.example.lecture_spring_2_crudproject.repository.account.MemberRepository;
+import com.example.lecture_spring_2_crudproject.entity.data.FileUploadEntity;
 import com.example.lecture_spring_2_crudproject.repository.board.BoardRepository;
 import com.example.lecture_spring_2_crudproject.repository.board.CommentsRepository;
+import com.example.lecture_spring_2_crudproject.repository.board.FileUploadInfoRepository;
 import com.example.lecture_spring_2_crudproject.repository.customRepository.CustomDtoExampleRepositoryPred;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,15 +22,19 @@ public class BoardServiceImpl implements BoardService{
     private final CommentsRepository commentsRepository;
     private final CustomDtoExampleRepositoryPred customDtoExampleRepositoryPred;
 
+    private final FileUploadInfoRepository fileUploadInfoRepository;
+
     //순환참조 중단
     @Autowired
     protected BoardServiceImpl(BoardRepository boardRepo,
                                CommentsRepository commentsRepository,
-                               CustomDtoExampleRepositoryPred customDtoExampleRepositoryPred
-    ) {
+                               CustomDtoExampleRepositoryPred customDtoExampleRepositoryPred,
+                               FileUploadInfoRepository fileUploadInfoRepository,
+                               FileUploadInfoRepository fileUploadInfoRepository1) {
         this.customDtoExampleRepositoryPred = customDtoExampleRepositoryPred;
         this.commentsRepository = commentsRepository;
         this.boardRepo = boardRepo;
+        this.fileUploadInfoRepository = fileUploadInfoRepository1;
     }
 
 
@@ -39,8 +44,9 @@ public class BoardServiceImpl implements BoardService{
     }
 
     @Override
-    public void insertBoard(Board board) {
-        boardRepo.save(board);
+    public Long insertBoard(Board board) {
+
+        return boardRepo.save(board).getSeq();
     }
 
     @Override
@@ -132,4 +138,20 @@ public class BoardServiceImpl implements BoardService{
         System.out.println(customDtoSortPages.getPREVID());
         return customDtoSortPages;
     }
+
+    @Override
+    public Long insertFileUploadEntity(FileUploadEntity fileUploadEntity){
+        return fileUploadInfoRepository.save(fileUploadEntity).getId();
+    }
+    @Override
+    public FileUploadEntity getFileUploadEntity(String board_seq){
+        return fileUploadInfoRepository.findByBoardSeq(Long.parseLong(board_seq));
+    }
+
+    @Override
+    public FileUploadEntity getFileUploadEntity2(Long board_seq){
+        return fileUploadInfoRepository.findByBoardSeq(board_seq);
+    }
+
+
 }

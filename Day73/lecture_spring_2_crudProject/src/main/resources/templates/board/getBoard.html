@@ -56,5 +56,8 @@
     <p th:text="${boardPrv.PREV_SUBJECT}"></p>
     <a th:href="@{/board/getBoard(seq=${boardPrv.NEXTID})}"><p th:text="${boardPrv.NEXTID}"></p></a>
     <p th:text="${boardPrv.NEXT_SUBJECT}"></p>
+<hr>
+        <img th:src="@{${imgLoading}}">
+    <hr>
 </body>
 </html>
