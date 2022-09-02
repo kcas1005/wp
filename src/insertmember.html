@@ -16,6 +16,7 @@
             box-sizing: border-box;
         }
         .logo {
+            display: flex;
             width: 122px;
             height: 44px;
             background: url("/img/h1_mobile.png") 50% 50% no-repeat;
@@ -25,34 +26,29 @@
         .block{
             display: block;
         }
-        .inline-block{
-            display: inline-block;
-        }
-        .flex{
-            display: flex;
-        }
-        .flexjustify-content-center{
-            justify-content: center;
-        }
-        .flexflex-direction-column{
-            flex-direction: column;
-        }
-        .flexjustify-items-center{
-            justify-items: center;
-        }
-        .grid{
-            display:grid;
-        }
-        .border{
+        input.border{
+
+            width: 100%;
+            height: 100%;
+            font-size: 1em;
+
             border: 1px solid rgba(0,0,0,0.08);
             border-radius: 6px;
         }
+        .login_session{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     </style>
 </head>
 <body>
-    <div class="flex flexflex-direction-column flexjustify-content-center flexjustify-items-center">
-        <a class="logo block"></a>
-        <form class="">
+    <div class="login_session">
+        <a class="logo block" href="main.html"></a>
+        <form class="" method="post" action="">
             <div><p>아이디</p>
                 <input type="text" class="border" placeholder="@naver.com">
             </div>

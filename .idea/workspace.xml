@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day74_집에서 모르는 용어 몇개 찾아봄">
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/2627558e-5bb8-49f8-9b7c-37d5ad18c0a5_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/65df86c8-0ec6-4f84-91b1-93d47d065ace_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/84a1b6f3-5cb9-4ee6-b5ba-c8d2be849c88_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9756a1ee-6c72-420d-af1e-128f4c308fb2_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/98660295-d94b-428c-aa10-8c4fdde875c0_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9de89951-4b78-409c-9306-9d96a74eaad0_upladfile.PNG" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day76 이미지 DB에 연결함">
+      <change afterPath="$PROJECT_DIR$/Day77/Day77_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/0d4d1bd4-61ec-492a-9ff1-cb0a3301843b_2022-08-03 08 49 24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/2627558e-5bb8-49f8-9b7c-37d5ad18c0a5_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/65df86c8-0ec6-4f84-91b1-93d47d065ace_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/84a1b6f3-5cb9-4ee6-b5ba-c8d2be849c88_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/8c7208e6-d83e-4d73-a578-cb3d4bc06914_2022-08-03 08 46 28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9756a1ee-6c72-420d-af1e-128f4c308fb2_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/98660295-d94b-428c-aa10-8c4fdde875c0_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9de89951-4b78-409c-9306-9d96a74eaad0_upladfile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/b402c632-fec4-48ca-97b4-bc0b979e386b_MY PET조 발표자료.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/e7b94727-c18d-471d-85ea-7eb2070bcb26_KakaoTalk_20220802_160249662.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertmember.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
