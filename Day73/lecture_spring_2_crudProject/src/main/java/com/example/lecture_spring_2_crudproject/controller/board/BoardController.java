@@ -50,7 +50,7 @@ public class BoardController {
     }
 
     @PostMapping("/insertComments")
-    public String insertComments(@RequestParam("board_title")String boardTitle, Comments comments, Model model) {
+    public String insertComments(@RequestParam("board_title") String boardTitle, Comments comments, Model model) {
 
         System.out.println("------inertComments---------");
         System.out.println(comments.getBoard_title());
@@ -85,16 +85,16 @@ public class BoardController {
     }
 
     @PostMapping("/insertBoard")
-    public String insertBoard(Board board, @Nullable@RequestParam("uploadfile")MultipartFile[] uploadfile) {
+    public String insertBoard(Board board, @Nullable @RequestParam("uploadfile") MultipartFile[] uploadfile) {
         //@Nullable@RequestParam("uploadfile")MultipartFile[] :
         //MultipartFile를 클라이언트에서 받아오고, 데이터가 없더라도 허용(@Nullable)
-        try{
+        try {
             //boardService.insertBoard 메서드에서는 DB에 데이터를 저장하고 저장된 board_seq를 리턴 받음
             Long board_seq = boardService.insertBoard(board);
             List<FileUploadEntity> list = new ArrayList<>();
-            for(MultipartFile file : uploadfile){
+            for (MultipartFile file : uploadfile) {
                 //MultipartFile로 클라이언트에서 온 데이터가 무결성 조건에 성립을 안하거나 메타데이터가 없거나 문제가 생길 여지를 if문으로 처리
-                if(!file.isEmpty()){
+                if (!file.isEmpty()) {
                     FileUploadEntity entity = new FileUploadEntity(null,
                             UUID.randomUUID().toString(),
                             file.getContentType(),
@@ -105,13 +105,13 @@ public class BoardController {
                     //fileuploadtable에 데이터 저장
                     boardService.insertFileUploadEntity(entity);
                     list.add(entity);
-                    File newFileName = new File(entity.getUuid()+"_"+entity.getOriginalFilename());
+                    File newFileName = new File(entity.getUuid() + "_" + entity.getOriginalFilename());
                     //서버에 이미지 파일 업로드(저장)
                     file.transferTo(newFileName);
                 }
             }
 
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
 
         }
@@ -130,7 +130,7 @@ public class BoardController {
     public String getBoard(Board board, Model model) {
 
         FileUploadEntity fileUploadEntity = boardService.getFileUploadEntity2(board.getSeq());
-        String path = "/board/image/"+fileUploadEntity.getUuid()+"_"+fileUploadEntity.getOriginalFilename();
+        String path = "/board/image/" + fileUploadEntity.getUuid() + "_" + fileUploadEntity.getOriginalFilename();
 
 
         model.addAttribute("imgLoading", path);
@@ -139,13 +139,13 @@ public class BoardController {
         return "/board/getBoard";
     }
 
-    @PostMapping ("/updateBoard")
+    @PostMapping("/updateBoard")
     public String updateBoard(Board board) {
         System.out.println("----------updateBoard---------");
         System.out.println(board.getContent());
         System.out.println(board.getSeq());
         boardService.updateBoard(board);
-        return "redirect:/board/getBoard?seq="+board.getSeq();
+        return "redirect:/board/getBoard?seq=" + board.getSeq();
     }
 
     @GetMapping("/updateBoard")
@@ -259,7 +259,6 @@ public class BoardController {
     }*/
 
     //--------------------------------------------------------------
-
     //server에서 client로 이미지 전송
     //supringboot에서 URL주소를 통해 이미지를 받음. InputStream을 통해 파일을 http프로토콜에 전달하여 클라이언트에게 전송
     @GetMapping("/image/{imageview}")

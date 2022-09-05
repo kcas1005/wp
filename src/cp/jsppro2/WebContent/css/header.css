@@ -42,28 +42,28 @@
 	background: #ff6e75;color:#fff; display:inline-block;
 	text-align: center; line-height: 50px;opacity:0.8;
 	font-size:1.5em;
-	
-	
+
+
 }
 #scroll_btn div a.scroll_top1:hover{
 	background: #fff;color:#ff6e75; border-radius:30px;
 	border:1px solid #ff6e75;text-decoration: none;}
 
 header{
-   width:100%; 
-   height:100px; 
+   width:100%;
+   height:100px;
    background: #ff6e75;
    z-index:99999;
    border:4px solid #feff97;
    position:fixed; top:0; left:0;}
 header #header{
-   width:80%; 
-   height:100%; 
-   margin:0 auto; 
+   width:80%;
+   height:100%;
+   margin:0 auto;
    position:relative;
    }
-#menu_bg{width:100%; z-index:998; 
-   background: url(../image/menu_bg.jpg) center no-repeat; 
+#menu_bg{width:100%; z-index:998;
+   background: url(../image/menu_bg.jpg) center no-repeat;
    border-bottom:1px solid #ccc;
    position:fixed;top:100px;left:0;
    height:250px;display:none;}
@@ -74,7 +74,7 @@ header #header ul>li{width:17%;height:60px; position:relative; display:inline-bl
 header #header ul>li>a{
    width:100%;display:inline-block;
    height:50px;
-   font-size:17px; 
+   font-size:17px;
    color:#fff; }
 header #header ul li .sub{
    width:100%;position: absolute; height:250px;
@@ -103,17 +103,17 @@ header ul.home_login li a{color:#fff;padding: 0 10px;}
 }
 
 @media all and (max-width:1025px){
-	
+
 #scroll_btn{position:fixed; bottom:5px; right:5px;}
 #scroll_btn div a.scroll_top1{
 	width:40px; height:40px;transition:all 0.3s;
 	background: #ff6e75;color:#fff; display:inline-block;
 	text-align: center; line-height: 40px;opacity:0.8;
 	font-size:1.5em;
-	
-	
+
+
 }
-   
+
 header{width:100%; z-index:99999; height:60px;background:#ff6e75;position:fixed; top:0; left:0; }
 header #header{width:100%; height:60px; position:fixed;position:relative; border-bottom:2px solid #feff97;}
 header #header a.logo{width:106px; z-index:999999;height:54px;display:inline-block;top:0; left:50%;margin-left:-53px; position:absolute;background:url(../image/m_logo.jpg) center #ff6e75;background-size:cover;}
@@ -124,9 +124,9 @@ header #header ul.menu{
    margin-top:60px;
    padding-top:10%;
    position: absolute; top:0; right:100%;}
-header #header ul.menu>li{float:inherit;padding:3%;text-align: center;}   
-header #header ul.menu>li>a{font-size:1.5em; color:#ff6e75; font-weight:bold;}   
-header #header ul.menu>li ul.sub{display:none;}   
+header #header ul.menu>li{float:inherit;padding:3%;text-align: center;}
+header #header ul.menu>li>a{font-size:1.5em; color:#ff6e75; font-weight:bold;}
+header #header ul.menu>li ul.sub{display:none;}
 header #header ul.menu>li ul>li {height:25%;text-align: center;}
 header #header ul.menu>li>ul>li>a{font-size:1.5em;color:#666;}
 /* 마우스오버 */
