@@ -3,16 +3,19 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="../css/temple.css">
-    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <title>마이 펫</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/header.css"/>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>-->
     <script src="../js/includeHTML.js"></script>
+<!--    <script src="../js/swiper.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>-->
+
 </head>
 <body>
-    <script>
-        includeHTML();
-    </script>
+
 <div w3-include-html="header.html"></div>
+
 <div>
     <a href="#"><span></span>
         <p>모텔</p></a>
@@ -55,14 +58,37 @@
     </div>
 
 <div>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
 </div>
 <div>
-    이벤트
 </div>
 
 <footer>
-    <div id="footer"></div>
+    <div w3-include-html="footer.html"></div>
 </footer>
+<script>
+    includeHTML();
+</script>
 
 
 </body>
