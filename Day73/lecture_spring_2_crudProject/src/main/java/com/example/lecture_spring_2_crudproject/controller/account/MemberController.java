@@ -19,7 +19,7 @@ import java.util.List;
 
 //[디스페처 서블릿]이 컨트롤러를 찾기 위해서 @Controller라고 선언
 @Controller
-@RequestMapping(path = "/account")
+@RequestMapping(path ="/account")
 public class MemberController {
 
 
