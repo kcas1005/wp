@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day74_집에서 모르는 용어 몇개 찾아봄">
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/2627558e-5bb8-49f8-9b7c-37d5ad18c0a5_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/65df86c8-0ec6-4f84-91b1-93d47d065ace_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/84a1b6f3-5cb9-4ee6-b5ba-c8d2be849c88_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9756a1ee-6c72-420d-af1e-128f4c308fb2_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/98660295-d94b-428c-aa10-8c4fdde875c0_upladfile.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/upload/9de89951-4b78-409c-9306-9d96a74eaad0_upladfile.PNG" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day76_집에서 함">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/entity/data/FileUploadEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertmember.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/jsppro2/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp/jsppro2/WebContent/css/common.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,13 +298,6 @@
       <workItem from="1662018640718" duration="660000" />
       <workItem from="1662039074585" duration="4540000" />
       <workItem from="1662043678848" duration="1465000" />
-    </task>
-    <task id="LOCAL-00019" summary="집에서함">
-      <created>1658987714244</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1658987714244</updated>
     </task>
     <task id="LOCAL-00020" summary="집에서함">
       <created>1658996320892</created>
@@ -648,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661934265131</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Day76_집에서 함">
+      <created>1662471613680</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1662471613681</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +670,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -696,7 +690,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="스토리보드 IA 시나리오 UI 시나리오&#10;등등" />
     <MESSAGE value="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
     <MESSAGE value="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
     <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
@@ -721,7 +714,8 @@
     <MESSAGE value="Day71_수정" />
     <MESSAGE value="Day73_API, Spring Test 쓰는 방법 배움" />
     <MESSAGE value="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함" />
+    <MESSAGE value="Day76_집에서 함" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day76_집에서 함" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

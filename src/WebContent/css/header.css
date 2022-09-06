@@ -14,6 +14,8 @@ header {
     position: fixed;
     background-color: #f7323f;
     width: 100%;
+    /*max-width: 962px;*/
+    min-width: 375px;
     height: 60px;
 }
 
@@ -28,8 +30,8 @@ header div > a {
     display: block;
     width: inherit;
     height: inherit;
-    margin-left: 5%;
-    line-height: 60px;
+    /*margin-left: 5%;*/
+    line-height: 3em;
     color: rgb(255,255,255,0.8);
 
 }
@@ -54,4 +56,13 @@ header div > ul > li > a {
     line-height: 60px;
     color: rgb(255,255,255,0.8);
 
+}
+
+body > div:nth-of-type(1) {
+    width: 100%;
+    min-width: 375px;
+    height: 535px;
+    margin: 0 auto;
+    background: url('//image.goodchoice.kr/images/web_v3/mainspot_220531.png') 50% 100% no-repeat;
+    background-size: 924px auto;
 }
