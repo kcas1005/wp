@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day76_집에서 함">
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/service/Scheduled/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/tailwind318.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day80/Day80_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cp/jsppro2/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp/jsppro2/WebContent/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/java/com/example/lecture_spring_2_crudproject/LectureSpring2CrudProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day73/lecture_spring_2_crudProject/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day79/tailwind.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day79/tailwind.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,45 +64,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/src&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/work/wp/Day73/lecture_spring_2_crudProject/src/main/resources/templates",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day73\lecture_spring_2_crudProject\src\main\resources\templates" />
       <recent name="C:\work\wp\src" />
       <recent name="C:\work\wp\Day67" />
       <recent name="C:\work\wp\Day66" />
       <recent name="C:\work\wp\Day56\시험" />
-      <recent name="C:\work\wp\Day55" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\wp\src" />

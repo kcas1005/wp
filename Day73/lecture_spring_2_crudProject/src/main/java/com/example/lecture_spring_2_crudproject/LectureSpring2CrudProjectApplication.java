@@ -3,6 +3,7 @@ package com.example.lecture_spring_2_crudproject;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 //@EnableJpaAuditing
 //Entity의 @CreatedDate, @LastModifiedDate를
@@ -16,9 +17,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 //3. DB에서 : DB는 모든 정보를 총괄하는 1개 뿐인 서버 (날짜를 완전히 일관성)
 //모든 백엔드가 접속하기 때문에 리소스 문제 야기할 가능성 높음
 @EnableJpaAuditing
+@EnableScheduling
 @SpringBootApplication
 public class LectureSpring2CrudProjectApplication {
-
+    //@SpringBootApplication : 스크래핑이나 api 등 특정 메서드를 반복적 혹은 주기적으로 돌리는 어노테이션
+    //1. 메인 메서드 위에 @SpringBootApplication 붙힘
     public static void main(String[] args) {
         SpringApplication.run(LectureSpring2CrudProjectApplication.class, args);
     }
