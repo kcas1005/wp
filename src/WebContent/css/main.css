@@ -91,37 +91,37 @@ body > div:nth-of-type(3){
 
 }
 body > div:nth-of-type(3) > h2 {
+    display: block;
     width: inherit;
     max-width: 926px;
     font-size: 24px;
-    height: 24px;
+    height: 50px;
     margin: 0 6em;
     font-optical-sizing: auto;
 }
 body > div:nth-of-type(3) > ul {
-    display:block;
+    display:inherit;
     width:962px;
-    height:50%;
-    clear: both;
+    height:65%;
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 body > div:nth-of-type(3) >ul > li {
+    display: inherit;
     overflow:hidden;
     margin: 0 0 16px 0;
     padding: 0 24px 0 186px;
     box-sizing:border-box;
-    display: block;
     position:relative;
-    float:left;
     width: 473px;
     height: 161px;
     border: solid 1px rgba(0,0,0,0.08);
 }
 body > div:nth-of-type(3) >ul > li > a {
-    display:block;
+    display:inherit;
+    flex-direction: column;
     width:261px;
     height:161px;
     font-size: 17px;
@@ -130,7 +130,7 @@ body > div:nth-of-type(3) >ul > li > a {
 }
 
 body > div:nth-of-type(3) >ul > li > a > strong {
-    display: block;
+    display: flex;
     font-size:20px;
     line-height: 1;
     font-weight: normal;
@@ -158,7 +158,7 @@ body > div:nth-of-type(4) {
 
 }
 body > div:nth-of-type(4) > p {
-    /*width: 926px;
+/*    width: 926px;
     height:150px;*/
     width: inherit;
     height: 50%;
