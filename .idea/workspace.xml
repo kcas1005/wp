@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day80_선생님 바뀐다고 통보받음">
-      <change afterPath="$PROJECT_DIR$/Day81/Day81_index" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day81_css 수정">
+      <change afterPath="$PROJECT_DIR$/Day82/Day82_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -296,14 +299,8 @@
       <workItem from="1662018640718" duration="660000" />
       <workItem from="1662039074585" duration="4540000" />
       <workItem from="1662043678848" duration="1465000" />
-      <workItem from="1662595696754" duration="9080000" />
-    </task>
-    <task id="LOCAL-00022" summary="오늘 스프링 배포빌드 &gt; 방화벽 &gt; 클라우드 &gt; 배포">
-      <created>1659342149616</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1659342149616</updated>
+      <workItem from="1662595696754" duration="9176000" />
+      <workItem from="1663027120430" duration="11529000" />
     </task>
     <task id="LOCAL-00023" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
       <created>1659428245861</created>
@@ -641,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662539069543</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Day81_css 수정">
+      <created>1662625631101</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1662625631102</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +693,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
     <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
     <MESSAGE value="Day58_오늘 학원에서 한 것" />
     <MESSAGE value="Day61_학원에서 한 것" />
@@ -714,7 +717,8 @@
     <MESSAGE value="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함" />
     <MESSAGE value="Day76_집에서 함" />
     <MESSAGE value="Day80_선생님 바뀐다고 통보받음" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day80_선생님 바뀐다고 통보받음" />
+    <MESSAGE value="Day81_css 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day81_css 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
