@@ -4,11 +4,241 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day81_css 수정">
-      <change afterPath="$PROJECT_DIR$/Day82/Day82_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day83_수업한내용">
+      <change afterPath="$PROJECT_DIR$/Day83/2022-09-14 10 21 00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/2022-09-14 10 30 07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/2022-09-14 10 36 06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/2022-09-14 11 35 07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/2022-09-14 12 18 33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/Day83_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/ZoomIt64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/ZoomIt64/ZoomIt64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/apache-tomcat-9.0.65.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/jre-8u202-windows-x64.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/RedirectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/lib/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/board/checkId.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/board/confirmId.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/member/join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentNg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentOk.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/studentURL1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/studentURL2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/resources/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/resources2/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/RedirectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/02spring/target/test-classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/dao/IHumanDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/dto/HumanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/ex/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/service/HumanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/service/IHumanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/mappers/humanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/selectAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/selectName.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/dao/IHumanDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/dto/HumanDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/ex/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/service/HumanServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/service/IHumanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/mappers/humanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/test-classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/dao/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/dto/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/model/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/model/BoardServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/mappers/boardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/error_common.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/error_common2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/listAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/home2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/include/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/css/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/include/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/dao/BoardDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/dto/BoardVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/BoardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/CommonExceptionAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/model/BoardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/model/BoardServiceImpl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/mappers/boardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/04spring/target/test-classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.springBeans" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dao/ICustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dao/IHobbyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dto/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dto/HobbyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/CustomInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/HobbyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/CustomInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/HobbyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/ICustomInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/IHobbyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/vo/CustomerInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/vo/CustomerInfoVo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mappers/customerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mappers/hobbyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/selectAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/selectAll2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/selectAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/selectAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dao/ICustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dao/IHobbyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dto/CustomerDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dto/HobbyDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/CustomInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/HobbyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/CustomInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/HobbyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/ICustomInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/ICustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/IHobbyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/vo/CustomerInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/vo/CustomerInfoVo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mappers/customerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mappers/hobbyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/test-classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/01.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/02.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/03.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/04erd.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/05transection.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/06security01.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/07interceptor.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/08uploadAjax.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/el.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/human.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day83/springPPT/PPT/jstl.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WebContent/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
@@ -24,8 +254,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,38 +293,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day73/lecture_spring_2_crudProject/src/main/resources/templates&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/work/wp/Day73/lecture_spring_2_crudProject/src/main/resources/templates",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\wp\Day73\lecture_spring_2_crudProject\src\main\resources\templates" />
@@ -300,14 +530,9 @@
       <workItem from="1662039074585" duration="4540000" />
       <workItem from="1662043678848" duration="1465000" />
       <workItem from="1662595696754" duration="9176000" />
-      <workItem from="1663027120430" duration="11529000" />
-    </task>
-    <task id="LOCAL-00023" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
-      <created>1659428245861</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1659428245861</updated>
+      <workItem from="1663027120430" duration="11999000" />
+      <workItem from="1663113889885" duration="1959000" />
+      <workItem from="1663115903186" duration="13142000" />
     </task>
     <task id="LOCAL-00024" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
       <created>1659428646559</created>
@@ -645,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662625631102</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Day82_리액트">
+      <created>1663057887281</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1663057887282</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,8 +925,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
-    <MESSAGE value="Day58_오늘 학원에서 한 것" />
     <MESSAGE value="Day61_학원에서 한 것" />
     <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
@@ -718,7 +948,9 @@
     <MESSAGE value="Day76_집에서 함" />
     <MESSAGE value="Day80_선생님 바뀐다고 통보받음" />
     <MESSAGE value="Day81_css 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day81_css 수정" />
+    <MESSAGE value="Day82_리액트" />
+    <MESSAGE value="Day83_수업한내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day83_수업한내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

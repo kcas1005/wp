@@ -1,0 +1,47 @@
+정보
+    새로오신 선생님
+        박수민
+        foxman12@hanmail.net
+        010-2211-3805
+
+        https://cafe.naver.com/grapec
+
+    1개 마우스, 키보드로 여러대 컴퓨터 조종하기
+        https://www.youtube.com/watch?v=PPHdT3LPzaE
+
+수업
+    STS3(스프링 툴) 다운
+    Tomcat9 다운
+    JDK zip으로 다운
+
+    STS3 압축 푼 것 C드라이브로 옮김
+    STS3 폴더 안에 Common, Work 폴더 만듬
+    Common 폴더에 Tomcat9,JDK 압축 풀음
+    Release 폴더에 STS.ini에
+    -Vm
+    $경로설정 써주기$
+
+    -Dfile.encoding=UTF-8 써줌
+
+    코드에 이상없을 때 안될 때
+        0.톰캣 중지 이클립스닫고 실행한다.
+        1.톰캣 클린->프로젝트 클린->메이븐 클린
+        2.사용자 폴더에서 .m2 .p2 폴더 삭제
+
+    한글 에러날때 web.xml에서 한글필터 추가하기
+    html, jsp 파일에서 <%@ page  language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+    구문 추가해주기
+
+    자바변수 html에 출력하기
+    servlet-context 이미지 경로 설정하기
+    <resources mapping="/resources/**" location="/resources/" />
+
+    주소창에 id=변수값&pw=변수값 (쿼리스트링)넣어서 값이 화면에 뜨는것 보여줌
+
+    @PathVariable 개념을 모르겠음
+
+    get방식 post방식 알려줌
+
+
+
+
