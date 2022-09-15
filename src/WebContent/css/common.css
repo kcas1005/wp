@@ -24,11 +24,13 @@ header, section, nav, article, footer {
     -> 인식하지 못하는 태그를 인라인으로 인식하기때문에 강제로 블럭으로 설정함*/
 }
 
-li {
+ul, li {
     list-style: none; /* 목록에 점 없애기 */
+    color: rgb(0, 0, 0, 0.56);
 }
 
-a {
+p, a {
     text-decoration: none;
+    color: rgb(0, 0, 0, 0.56);
 }
 

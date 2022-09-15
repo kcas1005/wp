@@ -1,0 +1,40 @@
+수업
+    네이버 검색창에 sql developer 검색해서 오라클 다운받기
+
+    mybatis
+        1.새로운 프로젝트를 만든다.
+        2.pom.xml에서 필요한 의존객체를 추가한다. mavenrepository
+        https://mvnrepository.com/search?q=ojdbc
+        3.db에 human 테이블을 만든다.
+        4.human테이블 데이터를 담을수 있는 dto를 만든다.
+        5.데이터베이스 조작을 위한 dao를 만든다.
+        6.mapper파일과 config파일 생성한다.
+        7.root-context.xml에 설정파일 3개를 추가한다.
+
+    Oracle 설치 방법
+    oracle database express edition 서비스가 이미 있습니다
+    해결법
+
+    1.cmd창을 관리자 권한으로 실행
+    window+r cmd라고 입력
+    ctrl+shift+enter
+
+    sc delete OracleServiceXE
+
+    human/human
+
+    insert into human(name,age,height,birthday) values ('홍길동', 30, 152.1,
+    to_date('2000:02:03 00:00:00', 'YYYY:MM:DD HH24:MI:SS'));
+    - human(name,age,height,birthday) 테이블에 전체데이터를 넣는다면 다음처럼c
+    생략이 가능하다.
+    insert into human values ('홍길남', 31, 156.4, to_date('2001:02:03 00:00:00',
+    'YYYY:MM:DD HH24:MI:SS'));
+    insert into human values ('홍길영', 30, 173.5, to_date('2000:12:21 00:00:00',
+    'YYYY:MM:DD HH24:MI:SS'));
+    insert into human values ('홍길아', 21, 143.2, to_date('2011:04:17 00:00:00',
+    'YYYY:MM:DD HH24:MI:SS'));
+
+    Commmit;
+
+
+    db설치하고 dto dao mapping으로 데이터 가져오는거 사용함

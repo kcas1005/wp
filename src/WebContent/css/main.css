@@ -1,3 +1,12 @@
+body > div:nth-of-type(1) {
+    width: 100%;
+    min-width: 375px;
+    height: 535px;
+    margin: 0 auto;
+    background: url('//image.goodchoice.kr/images/web_v3/mainspot_220531.png') 50% 100% no-repeat;
+    background-size: 924px auto;
+}
+
 body > div:nth-of-type(2) {
     /*background-color: brown;*/
     display: flex;
@@ -183,7 +192,6 @@ body > div:nth-of-type(4) > a {
 body > div:nth-of-type(4) > a > img {
     width: inherit;
     height: inherit;
-
 }
 
 .swiper {

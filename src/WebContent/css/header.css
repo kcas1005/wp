@@ -1,3 +1,16 @@
+/*border:2px solid blue;*/
+
+@media(max-width: 375px){
+    header{
+        width:100px;
+        border:2px solid blue;
+    }
+    header > div {
+        width:10px;
+        border:2px solid blue;
+    }
+}
+
 header {
     position: fixed;
     background-color: #f7323f;
@@ -5,11 +18,6 @@ header {
     /*max-width: 962px;*/
     min-width: 375px;
     height: 60px;
-}
-@media(max-width: 375px){
-    header{
-        width:100%;
-    }
 }
 
 
@@ -29,7 +37,7 @@ header div > a {
     color: rgb(255, 255, 255, 0.8);
 }
 
-header div > form > button {
+header div > form > input {
     display: block;
     width: 100%;
     height: 100%;
@@ -51,18 +59,3 @@ header div > ul > li > a {
 
 }
 
-body > div:nth-of-type(1) {
-    width: 100%;
-    min-width: 375px;
-    height: 535px;
-    margin: 0 auto;
-    background: url('//image.goodchoice.kr/images/web_v3/mainspot_220531.png') 50% 100% no-repeat;
-    background-size: 924px auto;
-}
-
-@media (max-width: 400px) {
-    header > div > a {
-        border: 1px solid #0202ef;
-    }
-
-}

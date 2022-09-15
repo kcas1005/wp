@@ -30,7 +30,7 @@
 
     한글 에러날때 web.xml에서 한글필터 추가하기
     html, jsp 파일에서 <%@ page  language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-    구문 추가해주기
+    (페이지 지시자)구문 추가해주기
 
     자바변수 html에 출력하기
     servlet-context 이미지 경로 설정하기
