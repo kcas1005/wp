@@ -4,20 +4,245 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day83_수업한내용">
-      <change afterPath="$PROJECT_DIR$/Day84/Day84_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebContent/css/insertmember.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebContent/css/login.css" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day84_수업한내용">
+      <change afterPath="$PROJECT_DIR$/Day85/Day85_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/src/main/java/com/example/testc/TestcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/testc/src/test/java/com/example/testc/TestcApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day83/Day83_index" beforeDir="false" afterPath="$PROJECT_DIR$/Day83/Day83_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/java/com/human/ex/RedirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/lib/ojdbc6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/board/checkId.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/board/confirmId.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/helloworld.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/member/join.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentNg.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentOk.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/student/studentView.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/studentURL1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/views/studentURL2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/resources/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/main/webapp/resources2/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/src/test/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/com/human/ex/RedirectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/02spring/target/test-classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/dao/IHumanDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/dto/HumanDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/ex/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/service/HumanServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/java/com/human/service/IHumanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/mappers/humanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/selectAll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/selectName.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/views/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/src/test/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/dao/IHumanDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/dto/HumanDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/ex/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/service/HumanServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/com/human/service/IHumanService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/mappers/humanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/03humanCrud/target/test-classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/dao/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/dto/BoardVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/CommonExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/ex/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/model/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/java/com/human/model/BoardServiceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/mappers/boardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/error_common.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/error_common2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/listAll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/board/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/home2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/include/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/views/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/include/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/main/webapp/resources/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/src/test/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/dao/BoardDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/dto/BoardVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/BoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/CommonExceptionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/ex/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/model/BoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/com/human/model/BoardServiceImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/mappers/boardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/04spring/target/test-classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dao/ICustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dao/IHobbyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/dto/HobbyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/CustomInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/HobbyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/ex/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/CustomInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/HobbyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/ICustomInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/service/IHobbyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/vo/CustomerInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/java/com/human/vo/CustomerInfoVo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mappers/customerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mappers/hobbyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/selectAll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customInfo/selectAll2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/selectAll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/customer/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/insert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/selectAll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/hobby/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/src/test/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dao/ICustomerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dao/IHobbyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dto/CustomerDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/dto/HobbyDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/CustomInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/HobbyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/ex/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/CustomInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/HobbyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/ICustomInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/service/IHobbyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/vo/CustomerInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/com/human/vo/CustomerInfoVo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mappers/customerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mappers/hobbyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/m2e-wtp/web-resources/META-INF/maven/com.human/ex/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/spring220914/05CustommerInformation/target/test-classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/01.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/02.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/03.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/04erd.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/05transection.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/06security01.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/07interceptor.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/08uploadAjax.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/el.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/human.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day83/springPPT/PPT/jstl.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/insertmember.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +536,9 @@
       <workItem from="1663113889885" duration="1959000" />
       <workItem from="1663115903186" duration="13537000" />
       <workItem from="1663199406677" duration="19595000" />
-      <workItem from="1663225852591" duration="4395000" />
-    </task>
-    <task id="LOCAL-00025" summary="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
-      <created>1659515093578</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1659515093578</updated>
+      <workItem from="1663225852591" duration="4425000" />
+      <workItem from="1663230461095" duration="101000" />
+      <workItem from="1663285982285" duration="16491000" />
     </task>
     <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
       <created>1659600968036</created>
@@ -656,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663143662335</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Day84_수업한내용">
+      <created>1663230307287</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1663230307288</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +931,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="Day61_학원에서 한 것" />
     <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
     <MESSAGE value="Day64_학원에서 한 것" />
@@ -729,7 +955,8 @@
     <MESSAGE value="Day81_css 수정" />
     <MESSAGE value="Day82_리액트" />
     <MESSAGE value="Day83_수업한내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day83_수업한내용" />
+    <MESSAGE value="Day84_수업한내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day84_수업한내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

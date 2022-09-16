@@ -1,0 +1,46 @@
+수업
+    jstl
+        한글깨지는거 page지시자 이용해서 제거
+
+        <c:set var="?변수" value="${연산속성}/> 구문 이용해서 변수 설정
+        <c:out value="${변수 호출}/>
+
+        if문
+        <c:if test="${income<=1000}"> 구문 사용
+
+        choose문
+        <c:when test="${income<=1000}">
+
+        for문
+        <c:forEach var="j" begin="1" end="3">
+
+        for문 list식
+        <c:forEach var="item" items="{list}" varStatus="status">
+        ${item }<c:if test:"${not status.last }">,</c:if>
+        items="${list}"
+        items="서울,대전,부산"
+        delims=","
+
+
+    SQL Developer
+        플러스 접속 눌러서 접속이름, 사용자이름 c##human, 비밀번호 human 입력후
+        테스트하고 접속하기
+
+    spring
+        dto > dao > mappers > mybatis
+
+        root.xml
+            ojdbc > mapping > sql bean
+
+        1.새로운 프로젝트를 만든다.
+        2.pom.xml에서 필요한 의존객체를 추가한다.
+
+
+
+
+
+
+    새로운, 모르는 용어
+    RedirectAttributes
+    addFlashAttribute
+
