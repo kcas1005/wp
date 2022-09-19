@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
+    <title>loginmember</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/login.css">
@@ -12,38 +12,34 @@
     </style>
 </head>
 <body>
-    <div w3-include-html="header.html"></div>
+<div w3-include-html="header.html"></div>
 <div id="wrapper">
-    <div>
+    <div class="login-div-logo">
         <a class="logo" href="#">확인</a>
     </div>
-    <form action="" method="post">
+    <form class="login-form" action="" method="post">
         <div id="container">
-            <div>
-                <input type="text" class="border" placeholder="아이디">
-                <input type="text" class="border" placeholder="비밀번호">
+            <div class="login-containter">
+                <div class="login-containter-child">
+                    <input type="text" class="border" placeholder="아이디">
+                    <input type="text" class="border" placeholder="비밀번호">
+                </div>
+                <button class="login-btn" type="submit">로그인</button>
             </div>
-            <button type="submit" >로그인</button>
         </div>
         <div>
-
+            <ul class="login-ul">
+                <li><a href="#">비밀번호 찾기</a></li>
+                <li><a href="#">아이디 찾기</a></li>
+                <li><a href="insertmember.html">회원가입</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="#">이벤트 보기</a>
         </div>
     </form>
 </div>
-<div>
-</div>
-<ul>
-    <li>비밀번호 찾기</li>
-    <li>아이디 찾기</li>
-    <li>회원가입</li>
-</ul>
-<div>
-    <a href="#">이벤트 보기</a>
-</div>
-
-<footer>
-
-</footer>
+<div w3-include-html="footer.html"></div>
 </body>
 <script>
     includeHTML();
