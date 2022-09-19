@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day84_수업한내용">
-      <change afterPath="$PROJECT_DIR$/Day86/Day86_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebContent/css/insertbusiness.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebContent/html/insertbusiness.html" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day79_집에서 메인페이지 CSS 살짝 맞춤">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/insertmember.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebContent/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/js/swiper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,45 +63,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/work/wp/src/WebContent/html",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/Day73/lecture_spring_2_crudProject/src/main/resources/templates&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\wp\src\WebContent\html" />
-      <recent name="C:\work\wp\src\WebContent\css" />
       <recent name="C:\work\wp\Day73\lecture_spring_2_crudProject\src\main\resources\templates" />
       <recent name="C:\work\wp\src" />
       <recent name="C:\work\wp\Day67" />
+      <recent name="C:\work\wp\Day66" />
+      <recent name="C:\work\wp\Day56\시험" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\wp\src" />
@@ -308,14 +300,28 @@
       <workItem from="1662039074585" duration="4540000" />
       <workItem from="1662043678848" duration="1465000" />
       <workItem from="1662595696754" duration="9176000" />
-      <workItem from="1663027120430" duration="11999000" />
-      <workItem from="1663113889885" duration="1959000" />
-      <workItem from="1663115903186" duration="13537000" />
-      <workItem from="1663199406677" duration="19595000" />
-      <workItem from="1663225852591" duration="4425000" />
-      <workItem from="1663230461095" duration="101000" />
-      <workItem from="1663285982285" duration="16491000" />
-      <workItem from="1663545957531" duration="22294000" />
+      <workItem from="1663027120430" duration="11529000" />
+    </task>
+    <task id="LOCAL-00023" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
+      <created>1659428245861</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659428245861</updated>
+    </task>
+    <task id="LOCAL-00024" summary="스토리보드 IA 시나리오 UI 시나리오&#10;등등">
+      <created>1659428646559</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659428646559</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Day56_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659515093578</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659515093578</updated>
     </task>
     <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
       <created>1659600968036</created>
@@ -639,28 +645,7 @@
       <option name="project" value="LOCAL" />
       <updated>1662625631102</updated>
     </task>
-    <task id="LOCAL-00072" summary="Day82_리액트">
-      <created>1663057887281</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1663057887282</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Day83_수업한내용">
-      <created>1663143662335</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1663143662335</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Day84_수업한내용">
-      <created>1663230307287</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230307288</updated>
-    </task>
-    <option name="localTasksCounter" value="75" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +673,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -708,6 +693,9 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
+    <MESSAGE value="Day58_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스" />
+    <MESSAGE value="Day58_오늘 학원에서 한 것" />
+    <MESSAGE value="Day61_학원에서 한 것" />
     <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
     <MESSAGE value="Day64_학원에서 한 것" />
@@ -730,10 +718,7 @@
     <MESSAGE value="Day76_집에서 함" />
     <MESSAGE value="Day80_선생님 바뀐다고 통보받음" />
     <MESSAGE value="Day81_css 수정" />
-    <MESSAGE value="Day82_리액트" />
-    <MESSAGE value="Day83_수업한내용" />
-    <MESSAGE value="Day84_수업한내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day84_수업한내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day81_css 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
