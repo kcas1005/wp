@@ -16,7 +16,6 @@
     width: 100%;
     height: 4em;
     margin: auto;
-    margin: auto;
     padding: 0 2em;
     grid-template-columns:2fr 3fr 2fr;
     position: fixed;
@@ -25,17 +24,15 @@
     min-width: 375px;
 }
 
-#header > a {
-    display: block;
-    width: inherit;
-    height: 4em;
-    /*margin-left: 5%;*/
-    line-height: 4em;
+#header > a.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(255, 255, 255, 0.8);
 }
 
 #header > form {
-    width: 100%;
+    display: flex;
     height: inherit;
     margin: auto;
 }
@@ -59,14 +56,24 @@ input.header-input-text{
 }
 
 #header > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: inherit;
     height: inherit;
 }
 
-#header > ul > li > a {
-    margin-right: 5%;
-    line-height: 60px;
+#header > ul > li {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
     color: rgb(255, 255, 255, 0.8);
-
 }
 
+#header > ul > li > a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255, 0.8);
+}

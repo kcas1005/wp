@@ -1,3 +1,4 @@
+/*전체 박스 규격 세팅해주기*/
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +6,11 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-y: hidden; /* 문서전체에 세로 스크롤바자국 항상 숨김 */
-    overflow-x: hidden; /* 문서전체에 가로 스크롤바자국 항상 숨김 */
+/*스크롤바 작동하지만 눈에는 안보이게 하기*/
+::-webkit-scrollbar{
+    display:none;
 }
-
+/*반응형 되도록 화면에 따른 해상도 설정*/
 html body {
     width: 100%;
     height: 100%;
