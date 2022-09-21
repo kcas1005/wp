@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day86_수업한내용">
-      <change afterPath="$PROJECT_DIR$/Day87/Day87_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day88/Day88_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebContent/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/js/includeHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/js/includeHTML.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/js/swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,13 +306,8 @@
       <workItem from="1663230461095" duration="101000" />
       <workItem from="1663285982285" duration="16491000" />
       <workItem from="1663545957531" duration="22294000" />
-    </task>
-    <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
-      <created>1659600968036</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1659600968036</updated>
+      <workItem from="1663664371596" duration="43000" />
+      <workItem from="1663719117198" duration="10549000" />
     </task>
     <task id="LOCAL-00027" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
       <created>1659601532846</created>
@@ -660,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663230307288</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Day86_수업한내용">
+      <created>1663664385720</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1663664385736</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +700,6 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
-    <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
     <MESSAGE value="Day64_학원에서 한 것" />
     <MESSAGE value="Day65_학원에서 한 것" />
@@ -733,7 +724,8 @@
     <MESSAGE value="Day82_리액트" />
     <MESSAGE value="Day83_수업한내용" />
     <MESSAGE value="Day84_수업한내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day84_수업한내용" />
+    <MESSAGE value="Day86_수업한내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day86_수업한내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

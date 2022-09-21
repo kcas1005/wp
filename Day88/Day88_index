@@ -1,0 +1,81 @@
+둘의 차이점은?
+
+select *
+from (select rownum rn,tbl_board.*
+from tbl_board
+where 1=1
+order by bno desc);
+
+select rownum rn,tbl_board.*
+from tbl_board
+where 1=1
+order by bno desc;
+
+1,2,3,4 확인해보기
+확인 결과 > rn, bno 둘이 똑같이 asc, dec가 오른차순, 내림차순으로 되는지
+
+1,2 방식은 화면에 불러오면서 정리를 해주기 때문에 숫자가 뒤틀림
+
+--1
+select rownum rn,tbl_board.*
+from tbl_board
+where 1=1
+order by bno desc;
+--2
+select rownum rn,tbl_board.*
+from tbl_board
+where 1=1
+order by bno asc;
+
+--3
+select rownum rn, a.*
+from (select tbl_board.*
+from tbl_board
+where 1=1
+order by bno asc) a;
+
+--4
+select rownum rn, a.*
+from (select tbl_board.*
+from tbl_board
+where 1=1
+order by bno desc) a;
+
+--5
+-- page 2 , perPageNum 5
+select rownum rn, a.*
+from (select tbl_board.*
+    from tbl_board
+    where 1=1
+    order by bno desc) a
+where rownum <=2*5;
+
+--6
+-- page 2 , perPageNum 5
+select b.*
+from (select rownum rn, a.*
+    from (select tbl_board.*
+        from tbl_board
+        where 1=1
+        order by bno desc) a
+    where rownum <=2*5) b
+where rn >(2-1)*5;
+--7 원하는 조건의 데이터 검색
+select b.*
+from (select rownum rn, a.*
+    from (select tbl_board.*
+        from tbl_board
+        where 1=1 and title like '%'||'pp'||'%'
+        order by bno desc) a
+    where rownum <=2*5) b
+where rn >(2-1)*5;
+
+
+CDATA = 단순 문자열이라 표시해주는 것
+
+refid = "search" = id search랑 연결되는 것
+
+페이징
+
+시험 보는 방법
+프린트 뽑은 것
