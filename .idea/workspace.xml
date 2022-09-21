@@ -4,11 +4,139 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day86_수업한내용">
-      <change afterPath="$PROJECT_DIR$/Day88/Day88_index" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day86_집에서 함">
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/insertbusiness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/insertmember.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/copy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/insertbusiness.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/insertmember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/js/includeHTML.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebContent/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebContent/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/dependencies-accessors/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileChanges/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/7.5/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/TeamProExApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/TeamProExApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/businessMember/businessMemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/businessMember/businessMemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/Base/member_BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/Base/member_BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/board/board.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/board/board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/business_Member/businessMember$businessMemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/business_Member/businessMember$businessMemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/business_Member/businessMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/business_Member/businessMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member$MemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/businessMember/businessMemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/businessMember/businessMemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/businessMember/businessMemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/businessMember/businessMemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/businessMember/businessMemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/businessMember/businessMemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/member/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/member/MemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/test/MemberEntity$MemberEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/test/MemberEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/test/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/test/MemberService_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/test/testRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/classes/java/test/com/example/team_pro_ex/TeamProExApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/test/com/example/team_pro_ex/TeamProExApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/classes/com.example.team_pro_ex.TeamProExApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/classes/com.example.team_pro_ex.TeamProExApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/reports/tests/test/packages/com.example.team_pro_ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/reports/tests/test/packages/com.example.team_pro_ex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/mUpdate/Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mUpdate/Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/memberList/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/memberList/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/selectMember/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member/selectMember/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/Member_business_Join/Choice_Member_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member_business_Join/Choice_Member_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/bmList/bm_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmList/bm_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/bmLoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmLoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/bmUpdate/bm_Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmUpdate/bm_Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/businessMemberPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/businessMemberPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/resultBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/resultBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/selectBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/selectBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/idcheck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/test-results/test/TEST-com.example.team_pro_ex.TeamProExApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/test-results/test/TEST-com.example.team_pro_ex.TeamProExApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/TeamProExApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/TeamProExApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/businessMember/businessMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/businessMember/businessMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/Base/member_BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/Base/member_BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/board/board.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/board/board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/business_Member/businessMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/business_Member/businessMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/businessMember/businessMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/businessMember/businessMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/businessMember/businessMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/businessMember/businessMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/businessMember/businessMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/businessMember/businessMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/mUpdate/Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mUpdate/Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/memberList/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/memberList/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/selectMember/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member/selectMember/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/Member_business_Join/Choice_Member_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member_business_Join/Choice_Member_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/bmList/bm_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmList/bm_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/bmLoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmLoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/bmUpdate/bm_Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmUpdate/bm_Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/businessMemberPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/businessMemberPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/resultBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/resultBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/selectBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/selectBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/Team_pro_ex/src/test/java/com/example/team_pro_ex/TeamProExApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/test/java/com/example/team_pro_ex/TeamProExApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day88/Team_pro_ex/__MACOSX/Team_pro_ex/._.DS_Store" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +203,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/src/WebContent/html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Cording/wp/spring/Team_pro_ex/src/main/resources/templates&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -95,13 +223,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cording\wp\spring\Team_pro_ex\src\main\resources\templates" />
       <recent name="C:\work\wp\src\WebContent\html" />
       <recent name="C:\work\wp\src\WebContent\css" />
       <recent name="C:\work\wp\Day73\lecture_spring_2_crudProject\src\main\resources\templates" />
       <recent name="C:\work\wp\src" />
-      <recent name="C:\work\wp\Day67" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Cording\wp\spring" />
       <recent name="C:\work\wp\src" />
       <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
     </key>
@@ -306,8 +435,14 @@
       <workItem from="1663230461095" duration="101000" />
       <workItem from="1663285982285" duration="16491000" />
       <workItem from="1663545957531" duration="22294000" />
-      <workItem from="1663664371596" duration="43000" />
-      <workItem from="1663719117198" duration="10549000" />
+      <workItem from="1663766671144" duration="674000" />
+    </task>
+    <task id="LOCAL-00026" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
+      <created>1659600968036</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600968036</updated>
     </task>
     <task id="LOCAL-00027" summary="Day57_스토리보드 만듬, 프레임워크, mvc패턴, jpa와 마이바티스">
       <created>1659601532846</created>
@@ -645,14 +780,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663230307288</updated>
     </task>
-    <task id="LOCAL-00075" summary="Day86_수업한내용">
-      <created>1663664385720</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1663664385736</updated>
-    </task>
-    <option name="localTasksCounter" value="76" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,6 +828,7 @@
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
     </ignored-roots>
+    <MESSAGE value="Day62_학원에서 한 것" />
     <MESSAGE value="Day63_학원에서 한 것" />
     <MESSAGE value="Day64_학원에서 한 것" />
     <MESSAGE value="Day65_학원에서 한 것" />
@@ -724,8 +853,7 @@
     <MESSAGE value="Day82_리액트" />
     <MESSAGE value="Day83_수업한내용" />
     <MESSAGE value="Day84_수업한내용" />
-    <MESSAGE value="Day86_수업한내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day86_수업한내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day84_수업한내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
