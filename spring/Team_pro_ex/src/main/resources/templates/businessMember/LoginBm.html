@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>사업자 로그인</title>
+</head>
+<body>
+<form th:action="@{/businessMember/LoginBm}" method="post">
+    <div>
+        <input name="id" type="text">
+    </div>
+    <div>
+        <input name="password" type="password">
+    </div>
+    <div>
+        <input type="submit" value="로그인">
+    </div>
+
+</form>
+</body>
+</html>
