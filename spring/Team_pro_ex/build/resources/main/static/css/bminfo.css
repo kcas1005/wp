@@ -51,7 +51,7 @@
     display:block;
 }
 
-p.border, .input.border, button.border{
+p.border, input.border, button.border{
     width: 24rem;
     height: 2rem;
     font-size: 1rem;
