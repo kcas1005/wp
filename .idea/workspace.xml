@@ -4,73 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day87_수업한내용">
-      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/myinfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/copy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/myinfo.html" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day86_집에서 함">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day88/13홍길동_스마트문화앱개발환경구축문제해결시나리오.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member$MemberBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Entity/member/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Service/member/memberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/member/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/persistence/member/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/insertbusiness.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/insertmember.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/insertbusiness.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/insertmember.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/html/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/js/includeHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Entity/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Service/member/memberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/persistence/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/insertbusiness.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/insertbusiness.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/insertmember.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/insertmember.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day89/Day89_index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/insertbusiness.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertbusiness.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertmember.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/js/includeHTML.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -744,7 +679,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -797,7 +732,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec05_try_with_resources/TryWithResourceExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample" method="main">
+          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -806,7 +741,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec07_user_define_exception/AccountExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec07_user_define_exception.AccountExample" method="main">
+          <properties class="Day45.sec07_user_define_exception.AccountExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -815,7 +750,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java</url>
           <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample" method="main">
+          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -824,7 +759,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java</url>
           <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.Day33_Question" method="main">
+          <properties class="Day33.example_20220701_multi_implement.Day33_Question">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -833,7 +768,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
           <line>34</line>
-          <properties class="Day40.highwayChange.main" method="main">
+          <properties class="Day40.highwayChange.main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -842,7 +777,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/question01/Portfolio.java</url>
           <line>3</line>
-          <properties class="Day45.question01.Portfolio" method="main">
+          <properties class="Day45.question01.Portfolio">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -851,7 +786,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day34/Day33_Question.java</url>
           <line>1</line>
-          <properties class="Day33_Question" method="main">
+          <properties class="Day33_Question">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -860,7 +795,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day34/RemoteControlExample.java</url>
           <line>1</line>
-          <properties class="RemoteControlExample" method="main">
+          <properties class="RemoteControlExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -869,7 +804,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day36/exam01_field_polymorphism/CarExample.java</url>
           <line>3</line>
-          <properties class="Day36.exam01_field_polymorphism.CarExample" method="main">
+          <properties class="Day36.exam01_field_polymorphism.CarExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -878,7 +813,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.java</url>
           <line>9</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" method="main">
+          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -887,7 +822,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java</url>
           <line>3</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample" method="main">
+          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
