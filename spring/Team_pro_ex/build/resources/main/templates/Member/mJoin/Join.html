@@ -1,61 +1,99 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>(일반) 회원가입</title>
+    <title>(일반)회원가입</title>
+    <style>
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/insertmember.css">
+    <script src="/js/includeHTML.js"></script>
 </head>
-
-<!--
-중복되지 않은 아이디 체크 말머리?? 표시 필요
-중복되지 된 아이디 체크 말머리?? 표시 필요
--->
 <body>
+<div w3-include-html="/html/header.html"></div>
 
-<div>회원 가입</div>
-<form th:action="@{/Member/mJoin/Join}" method="post" modelAttribute="member">
-    <div>
-        <input type="text" name="id" th:value="${member.id}" placeholder="ID를 입력해주세요.">
-        <span th:text="${valid_id}"></span>
-    </div>
-    <div>
-        <input type="password" name="password" th:value="${member.password}" placeholder="비밀번호는 8~16자 영문 대 소문자, 숫자를 포함한 특수문자를 사용하세요.">
-        <span th:text="${valid_password}"></span>
-    </div>
-    <div>
-        <input type="text" name="name" th:value="${member.name}" placeholder="이름을 입력해주세요.">
-        <span th:text="${valid_name}"></span>
-    </div>
-    <div>
-        <input type="text" name="year" th:value="${member.year}" placeholder="(회원)생년월일을 입력해주세요.">
-        <span th:text="${valid_year}"></span>
-    </div>
-    <div>
-        <input type="text" name="phoneNumber" th:value="${member.phoneNumber}" placeholder="핸드폰번호를 입력해주세요.">
-        <span th:text="${valid_phoneNumber}"></span>
-    </div>
-    <div>
-        <input type="text" name="address" th:value="${member.address}" placeholder="(회원)주소를 입력해주세요.">
-        <span th:text="${valid_address}"></span>
-    </div>
-    <div>
-        <input type="text" name="petT" th:value="${member.petT}" placeholder="애견,애묘의 종류 입력해주세요.">
-        <span th:text="${valid_petT}"></span>
-    </div>
-    <div>
-        <input type="text" name="petS" th:value="${member.petS}" placeholder="애견, 애묘의 성별을 입력해주세요.">
-        <span th:text="${valid_mpetS}"></span>
-    </div>
-    <div>
-        <input type="text" name="petD" th:value="${member.petD}" placeholder="애견, 애묘의 생년월일을 입력해주세요.">
-        <span th:text="${valid_petD}"></span>
-    </div>
-    <div>
-        <input type="text" name="petW" th:value="${member.petW}" placeholder="애견, 애묘의 무게를 입력해주세요.">
-        <span th:text="${valid_petW}"></span>
-    </div>
-    <input type="submit" value="회원등록">
-</form>
+<div id="warapper">
+    <a class="logo block" href="main.html"></a>
+    <form id="container" method="post" th:action="@{/Member/mJoin/Join}" modelAttribute="member">
+        <div>
+            <p class="insertmember-p-size">아이디</p>
+            <input type="text" class="border" name="id" th:value="${member.id}" placeholder="아이디 입력">
+            <span th:text="${valid_id}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">비밀번호</p>
+            <input type="password" class="border" name="password" th:value="${member.password}" placeholder="비밀번호는 8~16자 영문 대 소문자, 숫자를 포함한 특수문자를 사용하세요.">
+            <span th:text="${valid_password}"></span>
+        </div>
+        <!--        <div>
+                    <p class="insertmember-p-size">비밀번호 재확인</p>
+                    <input type="text" class="border" placeholder="비밀번호 확인">
+                </div>-->
+        <div>
+            <p class="insertmember-p-size">사용자 이름</p>
+            <input type="text" class="border" name="name" th:value="${member.name}" placeholder="사용자 이름 입력">
+            <span th:text="${valid_name}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">생년월일</p>
+            <input type="date" class="border" name="year" th:value="${member.year}" placeholder="생년월일 입력">
+            <span th:text="${valid_year}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">핸드폰 번호</p>
+            <input type="tel" class="border" name="phoneNumber" th:value="${member.phoneNumber}" placeholder="핸드폰 번호 입력">
+            <span th:text="${valid_phoneNumber}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">사용자 주소</p>
+            <input type="text" class="border" name="address" th:value="${member.address}" placeholder="사용자 주소 입력">
+            <span th:text="${valid_address}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">펫 종류</p>
+            <select id="" name="petT" th:value="${member.petT}">
+                <option value="dog">강아지</option>
+                <option value="cat">고양이</option>
+            </select>
+            <span th:text="${valid_petD}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">펫 생년월일</p>
+            <input type="date" class="border" name="petD" th:value="${member.petD}" placeholder="펫 생년월일 입력">
+            <span th:text="${valid_petD}"></span>
+        </div>
+        <div>
+            <p class="insertmember-p-size">펫 몸무게</p>
+            <input type="number" class="border" name="petW" th:value="${member.petW}" placeholder="펫 몸무게 입력">
+            <span th:text="${valid_petW}"></span>
+        </div>
+        <!--<div>
+            <fieldset>
+                <legend class="insertmember-p-size">성별</legend>
+                <input type="radio" id="male" name="gender" value="male" checked="checked"> 남자
+                <input type="radio" id="female" name="gender" value="female"> 여자
+            </fieldset>
 
+            <select  name="" id="">
+                <option value="1">남자</option>
+                <option value="2">여자</option>
+            </select>
 
+            <input type="text" class="border" placeholder="성별 입력">
+        </div>
+        <div>
+            <p class="insertmember-p-size">본인 확인 이메일(선택)</p>
+            <input type="email" class="border" placeholder="이메일 입력">
+        </div>-->
+        <div>
+            <input class="border insertmember-button-submit" type="submit" value="제출">
+        </div>
+    </form>
+</div>
+<div w3-include-html="/html/footer.html"></div>
+<script>
+    includeHTML();
+</script>
 </body>
 </html>

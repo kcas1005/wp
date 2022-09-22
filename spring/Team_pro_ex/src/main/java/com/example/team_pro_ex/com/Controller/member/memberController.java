@@ -55,7 +55,6 @@ public class memberController {
                 member.getPhoneNumber(), // 핸드폰 번호
                 member.getAddress(), //주소
                 member.getPetT(), // 애견, 애묘 : 종류
-                member.getPetS(), // 애견, 애묘 : 성별
                 member.getPetD(), // 애견, 애묘 : 생년월일
                 member.getPetW(), // 애견, 애묘 : 몸무게
                 member.getRole(), // 권한 : 관리자, 사업자, 회원
@@ -70,11 +69,11 @@ public class memberController {
         System.out.println("---PostMapping 실제로 여기서 값이 들어감---");
         System.out.println("아이디 : "+ member.getId());
         System.out.println("비밀번호 : "+ member.getPassword());
+        System.out.println("생년월일 : "+ member.getYear());
         System.out.println("이름 : "+ member.getName());
         System.out.println("폰번 : "+ member.getPhoneNumber());
         System.out.println("주소 : "+ member.getAddress());
         System.out.println("펫 종류 :"+ member.getPetT());
-        System.out.println("펫 성별 : "+ member.getPetS());
         System.out.println("펫 생년 : "+ member.getPetD());
         System.out.println("펫 몸무게 :" +member.getPetW());
         System.out.println("권한 : " + member.getRole());
@@ -99,16 +98,9 @@ public class memberController {
             }
             return "/Member/mJoin/Join";
         }
-
-
         memberService.insertMember(member);
         return "redirect:/Member/Login";
     }
-
-
-
-
-
 
     @GetMapping("/mUpdate/Update") //마이 페이지 수정폼
     public String myPage(Member member, Model model){
@@ -126,7 +118,6 @@ public class memberController {
                 member.getPhoneNumber(), // 핸드폰 번호
                 member.getAddress(), //주소
                 member.getPetT(), // 애견, 애묘 : 종류
-                member.getPetS(), // 애견, 애묘 : 성별
                 member.getPetD(), // 애견, 애묘 : 생년월일
                 member.getPetW(), // 애견, 애묘 : 몸무게
                 member.getRole(), // 권한 : 관리자, 사업자, 회원
@@ -148,7 +139,6 @@ public class memberController {
         System.out.println("폰번 : "+ member.getPhoneNumber());
         System.out.println("주소 : "+ member.getAddress());
         System.out.println("펫 종류 :"+ member.getPetT());
-        System.out.println("펫 성별 : "+ member.getPetS());
         System.out.println("펫 생년 : "+ member.getPetD());
         System.out.println("펫 몸무게 :" +member.getPetW());
         System.out.println("권한 : " + member.getRole());
@@ -209,14 +199,14 @@ public class memberController {
     }
 
     @GetMapping("/loginPage")
-        public void loginPage(){
+    public void loginPage(){
     }
 
 
     //회원을 삭제하는게 아니라 수정한다. ID, Name, Join_m 및 날짜 테이블의 join_O을 제외한 값 전부 Null
     @PostMapping("/mDelete/upDelete")
     public String deleteUpdateMember(Member member){
-        System.out.println("-------delete-------");
+        System.out.println("———delete———");
         memberService.deleteUpdateMember(member);
         return "redirect:/Member/loginPage";
     }
@@ -230,14 +220,10 @@ public class memberController {
     //핸드폰으로 아이디찾기 => 결과값을 보여준다.
     @PostMapping("/selectMember/select")
     public String resultMember(Member member, Model model) {
-        System.out.println("------select ID--------");
-       System.out.println(memberService.booleanSearchUserById(member));
-      model.addAttribute("member", memberService.getMemberWhereId(member.getId()));
+        System.out.println("———select ID————");
+        System.out.println(memberService.booleanSearchUserById(member));
+        model.addAttribute("member", memberService.getMemberWhereId(member.getId()));
         return "/Member/selectMember/result";
     }
-
-
-
-
 
 }

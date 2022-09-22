@@ -40,7 +40,7 @@ public class memberServiceImpl implements memberService{
         Optional<Member> findMember = memberRepo.findById(member.getMember_Number_Seq());
         if(findMember.isPresent())
             return memberRepo.findById(member.getMember_Number_Seq()).get();
-            else return null;
+        else return null;
     }
 
 
@@ -55,7 +55,6 @@ public class memberServiceImpl implements memberService{
         findMember.setPhoneNumber(member.getPhoneNumber());
         findMember.setAddress(member.getAddress());
         findMember.setPetT(member.getPetT());
-        findMember.setPetS(member.getPetS());
         findMember.setPetD(member.getPetD());
         findMember.setPetW(member.getPetW());
 
@@ -64,7 +63,6 @@ public class memberServiceImpl implements memberService{
         System.out.println(findMember.getPhoneNumber());
         System.out.println(findMember.getAddress());
         System.out.println(findMember.getPetT());
-        System.out.println(findMember.getPetS());
         System.out.println(findMember.getPetD());
         System.out.println(findMember.getPetW());
         System.out.println("--------회원정보 수정---------");
