@@ -4,8 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day86_집에서 함">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day88_수업한내용">
+      <change afterPath="$PROJECT_DIR$/Day90/Day90_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/java/com/example/start/controller/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/java/com/example/start/model/request/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/static/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/01helloWorld.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/02loginInput.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/03loginOutput.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/04loginInput.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/05forloginOutput.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/05loginOutput.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/06Output.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/07main.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/common/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/01start/src/main/resources/templates/common/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/join.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/common/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zoom_Password.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom_Password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/classes/java/main/com/example/team_pro_ex/com/Controller/member/memberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/css/bminfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/css/insertmember.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/css/myinfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/bminfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/bminfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/insertbusiness.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/insertbusiness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/insertmember.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/myinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/static/html/myinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mJoin/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mUpdate/Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/mUpdate/Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/memberList/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/memberList/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member/selectMember/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member_business_Join/Choice_Member_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/Member_business_Join/Choice_Member_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/LoginBm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmList/bm_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmList/bm_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmLoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmLoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmUpdate/bm_Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/bmUpdate/bm_Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/businessMemberPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/businessMemberPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/resultBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/resultBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/selectBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/businessMember/selectBusinessMember/selectBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/resources/main/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/java/com/example/team_pro_ex/com/Controller/member/memberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/bminfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/bm_update.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/insertmember.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/bm_join.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/css/myinfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/bminfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/bminfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertbusiness.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertbusiness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertmember.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/insertmember.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/myinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/static/html/myinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mJoin/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mUpdate/Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/mUpdate/Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/memberList/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/memberList/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member/selectMember/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member_business_Join/Choice_Member_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/Member_business_Join/Choice_Member_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/LoginBm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmJoin/bm_Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmList/bm_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmList/bm_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmLoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmLoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmUpdate/bm_Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/bmUpdate/bm_Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/businessMemberPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/businessMemberPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/resultBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/resultBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/selectBM.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/businessMember/selectBusinessMember/selectBM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring/Team_pro_ex/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -679,7 +763,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>

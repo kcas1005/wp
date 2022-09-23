@@ -1,0 +1,38 @@
+수업
+    스프링 부트(박수민쌤)
+        adoptium 다운 받는 곳
+            https://adoptium.net/temurin/releases?version=8
+            자바 8버전 설치
+
+        스프링 다운
+            https://start.spring.io/
+
+            build.gradle
+                sourceCompatibility = '1.8' 자바버전 수정하는 곳
+
+                dependencies에서 security, thymleaf, ojdbc8 당장 안쓸 거라서 삭제
+
+                id 'org.springframework.boot' version '2.6.8' 스프링 버전 바꾸는 곳
+
+                잘 돌아가는 버전 기억하는게 정신건강에 좋음(2.7.4에서 2.6.8로 낮춘 이유
+                머스터치(mustache)한글 적용 하기위해
+
+            머스터치(mustache)는 뭐하는 녀석인가?
+                thymeleaf 같이 템플릿 엔진임
+
+            RequestMapping은 옛날 방식
+
+            dto
+                constructor
+                toString
+                getter and setter
+
+            Model과 ModelAndView 차이점
+            Model은 값만 저장하고 ModelAndView는 값과 페이지를 저장해줘야 한다.
+            옛날에 쓰는 방식이다
+
+            addObject
+            setViewName ModelAndView에 사용할 때 쓰는 문법(페이지 저장하기 위해 쓴다.)
+
+            mustache에서 반복문 할때는 {{#변수}} 반복할 것 {{/변수}}문법을 사용함
+

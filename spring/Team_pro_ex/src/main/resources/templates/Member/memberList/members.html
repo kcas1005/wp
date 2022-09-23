@@ -3,6 +3,9 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/css/default.css">
     <title>회원목록</title>
 </head>
@@ -11,6 +14,7 @@
 </script>
 <!--<p class="test">test color</p>-->
 <body th:align="center">
+<div th:replace="common/header :: header"></div>
 <h1>회원목록</h1>
 <table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0" th:width="700">
     <tr>
@@ -54,5 +58,6 @@
     </tr>
 </table>
 <a th:href="@{/Member/mJoin/Join}">회원등록</a>
+<div th:replace="common/footer :: footer"></div>
 </body>
 </html>

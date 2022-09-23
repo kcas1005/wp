@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>로그인 페이지</title>
+    <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
 </head>
 <body>
+<th:block th:replace="common/header :: style"></th:block>
 <a th:href="@{/Member/mUpdate/Update}">회원 수정하기</a>
+<th:block th:replace="common/footer :: style"></th:block>
 </body>
 </html>

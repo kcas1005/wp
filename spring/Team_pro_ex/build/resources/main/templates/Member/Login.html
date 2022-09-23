@@ -2,15 +2,14 @@
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>loginmember</title>
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/login.css">
+    <title>로그인페이지</title>
     <link rel="stylesheet" type="text/css" href="/css/header.css"/>
     <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
-    <script src="/js/includeHTML.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
 </head>
 <body>
-<div w3-include-html="/html/header.html"></div>
+<div th:replace="common/header :: header"></div>
 <div id="wrapper">
     <div class="login-div-logo">
         <a class="logo" href="#">확인</a>
@@ -26,18 +25,15 @@
             </div>
             <div>
                 <ul class="login-ul">
-                    <li><a href="/Member/mUpdate/Update">사용자 아이디 찾기</a></li>
+                    <li><a href="/Member/selectMember/select">사용자 아이디 찾기</a></li>
                     <li><a href="/Member/mJoin/Join">사용자 회원가입</a></li>
-                    <li><a href="/businessMember/bmUpdate/bm_Update">사업자 아이디 찾기</a></li>
+                    <li><a href="/businessMember/selectBusinessMember/selectBM">사업자 아이디 찾기</a></li>
                     <li><a href="/businessMember/bmJoin/bm_Join">사업자 회원가입</a></li>
                 </ul>
             </div>
         </div>
     </form>
 </div>
-<div w3-include-html="/html/footer.html"></div>
+<div th:replace="common/footer :: footer"></div>
 </body>
-<script>
-    includeHTML();
-</script>
 </html>

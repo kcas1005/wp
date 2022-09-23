@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
-    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="/css/header.css"/>
     <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
-    <script src="/js/includeHTML.js"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+<!--    <th:block th:replace="common/header :: style"></th:block>-->
+<!--    <th:block th:replace="common/footer :: style"></th:block>-->
 <body>
-<div w3-include-html="/html/header.html"></div>
+<div th:replace="common/header :: header"></div>
 <div>
     <a href="#"><span></span>
         <p>모텔</p></a>
@@ -54,10 +54,7 @@
 <p>이벤트</p>
 <div>
 </div>
-<div w3-include-html="/html/footer.html"></div>
-<script>
-    includeHTML();
-</script>
+<div th:replace="common/footer :: footer"></div>
 <!--<h3><font color="red" th:text="${session['member'].id}"></font>로그인 되었습니다.</h3>-->
 <!--
     <a th:if="${session['member'].role == 'ROLE_ADMIN'}" th:href="@{/deleteBorad(seq=${board.seq})}">글삭제</a>

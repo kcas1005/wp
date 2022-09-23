@@ -5,14 +5,13 @@
     <title>사업자 회원 가입</title>
     <style>
     </style>
-    <link rel="stylesheet" type="text/css" href="/css/common.css">
-    <link rel="stylesheet" type="text/css" href="/css/header.css">
-    <link rel="stylesheet" type="text/css" href="/css/insertmember.css">
-    <script src="/js/includeHTML.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/bm_join.css">
 </head>
 <body>
-<div w3-include-html="/html/header.html"></div>
-
+<div th:replace="common/header :: header"></div>
 <div id="warapper">
     <a class="logo block" href="main.html"></a>
     <!--        완성 되면 액션 비지니스로 바꿔야함 ex) /insertbusiness/-->
@@ -76,9 +75,6 @@
         </div>
     </form>
 </div>
-<div w3-include-html="/html/footer.html"></div>
-<script>
-    includeHTML();
-</script>
+<div th:replace="common/footer :: footer"></div>
 </body>
 </html>
