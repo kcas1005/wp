@@ -1,0 +1,96 @@
+수업
+    스프링부트 그래들 자바 8
+
+    JPA
+        java Class == DB table  동등취급
+
+    java
+        int는 null을 쓸 수 없음
+        null을 쓰기 위해선 Integer을 사용해야 함
+
+    lombok
+        @NoArgsConstructor
+            @NoArgsConstructor를 사용하므로써 밑에 주석 처리 된 것을 다 처리해 줌
+            public LoginEntity(Integer id, String name, String password) {
+                this.id = id;
+                this.name = name;
+                this.password = password;
+            }
+
+            public Integer getId() {
+                return id;
+            }
+
+            public void setId(Integer id) {
+                this.id = id;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public String getPassword() {
+                return password;
+            }
+
+            public void setPassword(String password) {
+                this.password = password;
+            }
+
+            @Override
+            public String toString() {
+                return "LoginEntity{" +
+                        "id=" + id +
+                        ", name='" + name + '\'' +
+                        ", password='" + password + '\'' +
+                        '}';
+            }
+
+        큰 흐름
+            model(entity > Dto) > repo > html(insert보여주기) > controller > Service(컨트롤러에 있는 레포를 서비스가 대체하고 서비스에 레포를 집어넣어줌)
+            entity(데이터 베이스에
+            dto(
+
+        Oracle DB
+            1.Oracle sql 생성
+            2.entity 클래스에 sequence등록
+
+            Oracle 디비(로컬)은 entity에서 Seq생성하고 Seq 사용한다고 명시해 줘야함
+
+
+        DB
+        o.s.b.a.h2.H2ConsoleAutoConfiguration는 메모리에 데이터 값을 저장하는 것이기 때문에 부팅하면 다 사라짐
+
+        JDBC 메모리 데이터베이스 열기
+        http://localhost:8080/hv2-console/ 에서 jdbc:h2 블라블라 뒤에 값 붙여넣기
+
+
+
+
+        모르는 단어
+        @PathVariable
+        public String selectOne(@PathVariable Integer id, Model model){
+
+        orElse(null);
+        LoginEntity entity = loginRepository.findById(id).orElse(null);
+
+        RedirectAttributes
+        public String delete(@PathVariable Integer id, RedirectAttributes rttr){
+
+        @SequenceGenerator
+        @SequenceGenerator(
+                name="LOGIN_ID_SEQ_GEN",//시퀀스 제너레이터 이름
+                sequenceName="LOGIN_ID_SEQ",//시퀀스 이름
+                initialValue=1,//시작값
+                allocationSize=1//메모리를 통해 할당할 범위 사이즈
+        )
+
+        @GeneratedValue
+        @GeneratedValue(
+                    strategy=GenerationType.SEQUENCE,//사용할 전략을 시퀀스로  선택
+                    generator="LOGIN_ID_SEQ_GEN"//식별자 생성기를 설정해놓은  LOGIN_ID_SEQ_GEN으로 설정
+            )

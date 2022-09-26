@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+                //변수 옛날 버전 (함수단위)
+                var a = 10;
+
+                //변수 최근 (블럭단위) 자바는 블럭단위이다.
+                //변수 옛날 버전, 최근 차이는 블럭단위 유무, 전역변수, 지역변수이다.
+                let b = 20;
+                const c = 30;
+
+                        if(true){
+                                var a = 10; //전역변수 (if가 함수가 아니기때문에 전역변수로 침)
+                                let b = 20;
+                        }
+                        alert(a);
+                        alert(b);
+
+                //지역변수와 전역변수
+                //블럭안에 선언된 변수는 지역변수
+                //전역변수 script태그 바로 아래에서 선언한 변수는 전역변수
+                //선언 없이 생성된 변수는 전역변수이다.
+                if (true) {
+                    let a = 11;
+                    var b = 12;
+
+                    c = 31; //선언없이 생성되었으니까 전역변수
+                }
+                var d = 32; //스크립트 바로 밑에 선언하였으므로 전역변수
+                e = 33; //스크립트 바로 밑에 선언하였으므로 전역변수
+
+                //전역과 관련된 것들은 모두 window객체에서 관리한다.
+                //     alert(a);
+                //     alert(window.a);
+                alert(window.b);
+                alert(window.c);
+                alert(window.d);
+                alert(window.e);
+        */
+
+        function test1() {
+            var a = 1;  //지역변수
+            b = 2;      //전역변수
+            let c = 3;  //지역변수
+        }
+
+        //함수를 실행하지 않고 찍으면 메모리에 올라가 있지 않아
+        //함수안에 있는 변수는 모두 접근 불가
+        test1();
+        // alert(a);    안찍힘
+        alert(b);    찍힘
+        // alert(c);    안찍힘
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+</script>
+</body>
+</html>
