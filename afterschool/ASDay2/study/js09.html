@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js09 선생님이 풀어준 버튼숫자</title>
+    <script>
+        //주석한부분의 문자열을 리턴하는 함수로 변경해서 프로그램을 완성해보자.
+        window.onload = function () {
+            document.getElementById("myButton").onclick = function () {
+                /*let myString="<table border=1 width:70%><tr><td>1</td><td>2</td></tr>";
+                myString+="<tr><td>3</td><td>4</td></tr>";
+                myString+="</table>";
+                document.getElementById("console").innerHTML=myString;
+                alert("button click");*/
+                var count=1;
+                document.write("<table border=1>");
+                for(var j=0;j<5;j++){
+                    document.write("<tr>");
+                    for(var i=0;i<5;i++){
+                        document.write("<td>");
+                        document.write(count++);
+                        document.write("</td>");
+                    }
+                    document.write("</tr>");
+                }
+                document.write("</table>");
+            }
+        }
+    </script>
+</head>
+<body>
+<button type="submit" id="myButton">숫자 나와라</button>
+<div id="console"></div>
+</body>
+</html>

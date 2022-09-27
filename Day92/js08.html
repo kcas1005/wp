@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var human = {};
+        var human = {
+            name: '홍길동',
+            age: 10,
+            hobby: [10, 20, 30],
+            car: {name: '구름', price: 400},
+            etc: function () {
+                alert("etc");
+            },
+            toString(){ //human으로 가져올떄 오브젝트라고 뜨기때문에 toString을 입력해줘야 이름이 뜸
+                return "이름:"+this.name;
+            }
+        }
+
+        document.write(human.name, '<br>');
+        document.write(human['age'], '<br>');
+        document.write('<hr>');
+        human.name='홍2';
+        human['age']=44;
+        document.write(human.name, '<br>');
+        document.write(human['age'], '<br>');
+        document.write('<hr>');
+        human.hobby[0]=100;
+        document.write(human.hobby[0], '<br>');
+        human.etc();
+        document.write(human, '<br>');
+        document.write('<hr>');
+        human.newName="홍길남";
+        human.nman="홍남";
+        document.write(human.nman, "<br>");
+        document.write('<hr>');
+        delete(human.nman);
+        document.write(human.nman, "<br>");
+
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>

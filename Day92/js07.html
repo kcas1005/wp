@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        f1();           //f13나옴 //실행순서 3번 등록
+      f1=function f1(){ //우선순위1
+          alert('f13'); //실행순서 4번 등록
+      }
+      f1(); //실행순서 5번 등록
+      function f1(){    //우선순위3
+          alert('f11'); //실행순서 1번 등록
+      }
+      f1(); //실행순서 6번 등록
+      function f1(){    //우선순위2
+          alert('f12'); //실행순서 2번 등록
+      }
+      f1(); //실행순서 7번 등록
+
+        //실행순서는 함수 > 변수&함수 호출 같이 읽음
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>

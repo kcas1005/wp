@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        /*
+        함수 구현하기?
+         */
+        function fx(a,b){
+
+            return;
+        }
+        //두수를 더하는 함수
+        function add(num1,num2){
+            let returnValue=num1+num2;
+            return returnValue;
+        }
+
+        //세수를 더하는 함수
+        function add3(num1,num2,num3){
+            let returnValue=num1+num2+num3;
+            return returnValue;
+        }
+        function myPaint(){
+            alert("매개변수와 리턴값이 없는 메소드 입니다.")
+        }
+        alert(add(10,20));
+        alert(add3(10,20,30));
+        myPaint();
+        myPaint();
+        myPaint();
+
+        let f1 =function (){
+            alert("test");
+        };
+        f1();
+
+        let f2 =function(a,b){
+            alert("test2"+(a+b));
+        };
+        f1();
+        f2(10,20);
+
+        f2=10;  //f2는 더이상 함수가 아니게 됨
+        f2(10,20) //f2는 함수가 아니라서 오류가 뜸
+
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
