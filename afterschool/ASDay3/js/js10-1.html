@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+            특정 시간마다 실행되는 함수를 생성하는거
+            setTimeout      특정시간에 1번 실행
+            setInterval     특정시간마다 실행
+------------------------------------------------------------------------
+        setTimeout(function () {
+            document.write('setTimeout' + new Date() + '<br>');
+
+        }, 2000);
+
+        var myFunction = function() {
+                document.write('setTimeout'+new Date()+'<br>');
+        }
+        setTimeout(myFunction, 5000);
+------------------------------------------------------------------------
+        var count=0;
+        setInterval(function(){
+                count++;
+                document.write(count+'<br>');
+        },2000);
+
+------------------------------------------------------------------------
+
+
+            setInterval은 원할때 제어할 수 있도록 생성할때 식별자를 리턴한다.
+            이 식별자와 clearInterval메소드를 이용해서 동작중인 타이머를 멈추게 할수 있다.
+
+------------------------------------------------------------------------
+
+        var myFunction = function () {
+            var count = 0;
+            count++;
+            document.write(count + ":" + new Date() + '<br>');
+        }
+        var aTimer = setInterval(myFunction, 2000);
+        var bTimer = setInterval(myFunction, 2000);
+
+        clearInterval(aTimer);
+------------------------------------------------------------------------
+
+        //버튼 4개를 만들고
+        //버튼 1번을 누르면 A값 2초 마다 출력
+        //버튼 2번을 누르면 B값 2초 마다 출력
+        //버튼 3번을 누르면 A값 출력종료
+        //버튼 4번을 누르면 B값 출력종료
+
+        //div콘솔에 출력해보자.
+        //innerHTML + =" <br>";
+------------------------------------------------------------------------
+        var timerA;
+        var timerB;
+
+        var timerAFunction=function(){
+            document.getElementById('console1').innerHTML='timerA'+new Date();
+        }
+        var timerBFunction=function(){
+            document.getElementById('console2').innerHTML='timerA'+new Date();
+        }
+
+        window.onload=function() {
+            document.getElementById("b1").onclick = function() {
+                timerA=setInterval(timerAFunction,2000);
+            }
+            document.getElementById("b2").onclick = function() {
+                timerB = setInterval(timerBFunction,2000);
+            }
+            document.getElementById("b3").onclick = function() {
+                clearInterval(timerA)
+                document.getElementById('console1').style.display = 'none';
+            }
+            document.getElementById("b4").onclick = function() {
+                clearInterval(timerB)
+                document.getElementById('console2').style.display='none';
+            }
+        }
+------------------------------------------------------------------------
+    a,b,c를 타이머로 랜덤하게 숫자를 더해서 100이 넘는 순서대로 출력하시오
+
+    a.push();
+    a=a+parseInt(Math.random()*10);
+
+    Math.random() >= 0
+    Math.random() < 1
+
+    a b c 변수를 선언해서 타이머로 각각 랜덤함수를 더해서
+    먼저 100에 도달하는 순서대로 출력하시오
+------------------------------------------------------------------------
+*/
+    /*
+    window.getElementById().innerHTML="등수 출력"
+    document.write()출력
+    for문, setInterval 100번 도달 사용
+    if문 ClearInterval 100번 도달할 시 멈춤
+
+    */
+
+
+    </script>
+</head>
+    <body>
+      <!--  <button id="b1">A시계 시작</button>
+        <h1>A시계</h1>
+        <div id='console1'></div>
+        <h1>B시계</h1>
+        <div id='console2'></div>
+        <h1>C시계</h1>
+        <div id='console3'></div>
+        <h1>D시계</h1>
+        <div id='console4'></div>-->
+    </body>
+</html>

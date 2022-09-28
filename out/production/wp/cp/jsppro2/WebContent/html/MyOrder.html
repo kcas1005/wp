@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href = "../css/common.css" type = "text/css" rel= "stylesheet">
+<link href = "../css/mypage.css" type = "text/css" rel= "stylesheet">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+<script src="../js/includeHTML.js"></script>
+<script type="text/javascript" src="../js/MyOrder.js"></script>
+</head>
+<body>
+
+<!-- 해더 -->
+<div w3-include-html="header.html"></div>
+
+
+
+<div class = "mypageIn">
+	<h2 class = "mypageName">마이페이지</h2>
+	<div class = "mySimpleInpo">
+		<p>어서오세요 "회원아이디" 님!</p>
+		<p>포인트 : 12030123 <img src = "../image/plus.png"></p>
+	</div>
+	<div class = "mypageMain">
+		<ul class = "mypageManu">
+			<li><a href = "#">장바구니</a></li>
+			<li><a href = "#">관심목록</a></li>
+			<li><a href = "#">회원정보</a></li>
+			<li><a href = "#">주문조회</a></li>
+		</ul>
+		<div class = "mypageCountent" id="order">
+			<table>
+				<tr>
+					<td>상품번호</td>
+					<td>상품명</td>
+					<td>배송상태</td>
+					<td>주문일</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>문품 1 번</td>
+					<td>배송중</td>
+					<td>2019/07/08 11:45</td>
+					<td><input type='button' name='product' class = 'cartIn' value = '삭제'></td>
+					</tr>
+			</table>
+			<div class = "cartPaging">
+				<a href='#'>1</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- 푸터 -->
+<div w3-include-html="footer.html"></div>
+<script>includeHTML();</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>여러 개의 Form 값 전달하고 주고 받기 - DTO 활용</title>
+	</head>
+	<body>
+	
+		<h1>Multi Form Page</h1>
+		
+		<h3 th:utext="${msg}"></h3>
+		
+		<form action="/thymeleaf-test11" method="POST" th:object="${formData}">
+			
+			아이디? <input type="text" name="id" th:value="*{id}"><br>
+			이름은? <input type="text" name="name" th:value="*{name}"><br>
+			메일은? <input type="text" name="email" th:value="*{email}"><br>
+			나이는? <input type="text" name="age" th:value="*{age}"><br>
+			성별은? <input type="text" name="gender" th:value="*{gender}"><br><br>
+			
+			<input type="submit" value="Send">
+		</form>
+<!--
+th:object="${formData} 이 빈값이면 오류가 발생한다.
+객체안의 필드에 접근하려면 *를 사용한다.
+기본 자료형은 값이 없으면 0이 출력된다.  wrapper클래스로 선언하여  null를 허용하면 없는 값을 출력할
+수 있다.
+-->
+	</body>
+</html>

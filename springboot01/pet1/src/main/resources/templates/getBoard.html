@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 상세</title>
+</head>
+<body th:align="center">
+<h1>게시글 상세</h1>
+    <input name="seq" type="hidden" th:value="${seq}">
+<table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0">
+    <tr>
+        <td bgcolor="orange" th:text="분류" width="80"></th>
+        <th align="left"><!--<input name="category" type="text" th:value="${category}">-->
+            <select name="category">
+                <option value="자유">자유</option>
+                <option value="상품">상품</option>
+                <option value="문의사항">문의사항</option>
+            </select>
+        </th>
+    </tr> <tr>
+        <td bgcolor="orange" th:text="제목" width="80"></th>
+        <!--
+            [서버]에서 java의 데이터를 [클라이언트]html문서에 값을 할당해주는 문법${title}
+        -->
+        <th><input name="title" type="text" th:text="${board.title}" size="35"></th>
+    </tr>
+    <tr>
+        <td bgcolor="orange" th:text="작성자"></th>
+        <td th:text="${board.writer}"></td>
+    </tr>
+    <tr>
+        <td bgcolor="orange" th:text="내용"></td>
+        <td><textarea name="content" th:text="${board.content}" cols="40" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td bgcolor="orange" th:text="등록일"></td>
+        <td th:text="${board.createDate}"></td>
+    </tr>
+    <tr>
+        <td bgcolor="orange" th:text="조회수"></td>
+        <td th:text="${board.cnt}"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="게시글 수정">
+        </td>
+    </tr>
+</table>
+<form action="insertComment" method="post">
+    <table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0">
+            <tr>
+                <th hidden>댓글 번호</th>
+                <th>댓글</th>
+            </tr>
+        <tr th:each="comment :${commentList}">
+            <td hidden th:text="${comment.comment_seq}"></td>
+            <td th:text="${comment.comment}"></td>
+        </tr>
+            <tr>
+                <td hidden><input type="text" th:name="comment_seq"></td>
+                <td><input type="text" th:name="comment"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="댓글 등록"></td>
+            </tr>
+    </table>
+</form>
+
+<a th:href="@{/getBoardList}">글목록</a>
+<div class="row between">
+    <a class="btn back fl" th:href="@{/getBoardList}"></a>
+    <div class="row fr gap">
+        <a class="btn write fl" th:href="@{/updateBoard(seq=${board.seq})}"></a>
+        <form class="fl" action="deleteBoard" method="post">
+            <input type="hidden" name="seq" th:value="${board.seq}">
+            <button class="btn delete" onclick="this.submit()"></button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

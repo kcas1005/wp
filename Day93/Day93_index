@@ -1,0 +1,38 @@
+수업
+    그래들(타임리프)
+        그래들 파일에 implementation 타임리프, 스프링 시큐어티 입력
+        dto폴더에 MemberDTO 자바 만들고 입력
+        entity폴더에 Member 자바 만들고 입력
+        application.properties에 Database,JPA 입력하기
+        DB폴더 만들기
+        application.properties에 만든 디비 경로 바꾸기
+        repository 폴더에 Memberrepository 인터페이스 만들기
+        application.properties에 타임리프 구문,경로 입력하기
+        template.thymeleaf 폴더에 인덱스.html 만들기
+        template.thymeleaf 폴더 밑에 jpa폴더 만들기
+        jpa폴더 안에 memberWriteForm 만들기
+        index.html에 버튼 만들고 링크입력해주기
+        controller 폴더 만들기
+        memberWriteForm 받아서 쓸 값 파라미터 만들기
+        memberWriteForm 값 저장해주기
+        contorller에 AutoWire 추가해서 주입해주기
+        Page 만들기 위해 memberList 메소드 만듬
+
+        input 히든 만들고
+        컨트롤러에서 멤버리스트에서 서치 추가하기
+
+
+
+
+
+
+
+
+
+
+
+
+
+모르는 단어
+    || 부분 스크립트 문구 신기함
+    <button th:onclick="|location.href='@{/jpa/memberList(page=0,size=3)}'|">회원 리스트 1번 페이지</button><br>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-29T01:52:39" hostname="DESKTOP-1NCQTL6" time="0.611">
+  <properties/>
+  <testcase name="apiTest_2()" classname="com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests" time="0.611"/>
+  <system-out><![CDATA[10:52:25.873 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:52:25.888 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:52:25.945 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:52:25.974 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests], using SpringBootContextLoader
+10:52:25.979 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]: class path resource [com/example/donecode_v2/LectureSpring2CrudProjectApplicationTests-context.xml] does not exist
+10:52:25.980 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]: class path resource [com/example/donecode_v2/LectureSpring2CrudProjectApplicationTestsContext.groovy] does not exist
+10:52:25.980 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:52:25.981 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]: LectureSpring2CrudProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:52:26.042 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]
+10:52:26.147 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\work\wp\spring\donecode_v2\build\classes\java\main\com\example\donecode_v2\LectureSpring2CrudProjectApplication.class]
+10:52:26.148 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.donecode_v2.LectureSpring2CrudProjectApplication for test class com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests
+10:52:26.339 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.donecode_v2.LectureSpring2CrudProjectApplicationTests]: using defaults.
+10:52:26.340 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:52:26.371 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f9d87b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ffab045, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@26fb628, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e2943ab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@70dd7e15, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a9f80d3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@35beb15e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41fe9859, org.springframework.test.context.event.EventPublishingTestExecutionListener@5ac86ba5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c67e137, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c9399a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@191ae03f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9635fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@53ab0286, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@63c5efee]
+10:52:26.378 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@62679465 testClass = LectureSpring2CrudProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6a988392 testClass = LectureSpring2CrudProjectApplicationTests, locations = '{}', classes = '{class com.example.donecode_v2.LectureSpring2CrudProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6ad3381f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@22295ec4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@70f59913, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@253d9f73, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2dc995f4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4d0f2471], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2022-08-29 10:52:26.894  INFO 752 --- [    Test worker] ectureSpring2CrudProjectApplicationTests : Starting LectureSpring2CrudProjectApplicationTests using Java 17.0.4 on DESKTOP-1NCQTL6 with PID 752 (started by admin in C:\work\wp\spring\donecode_v2)
+2022-08-29 10:52:26.896  INFO 752 --- [    Test worker] ectureSpring2CrudProjectApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-29 10:52:28.056  INFO 752 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-29 10:52:28.194  INFO 752 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 5 JPA repository interfaces.
+2022-08-29 10:52:29.369  INFO 752 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-29 10:52:29.447  INFO 752 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-29 10:52:29.710  INFO 752 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-29 10:52:29.764 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@150fc7a7
+2022-08-29 10:52:29.764 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@150fc7a7
+2022-08-29 10:52:29.765 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@150fc7a7
+2022-08-29 10:52:29.766 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@77c66a4f
+2022-08-29 10:52:29.768 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@5fb5ad40
+2022-08-29 10:52:29.769 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@2315052d
+2022-08-29 10:52:29.771 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7cf8f45a
+2022-08-29 10:52:29.771 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7cf8f45a
+2022-08-29 10:52:29.771 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7cf8f45a
+2022-08-29 10:52:29.776 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@3b57dba4
+2022-08-29 10:52:29.776 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@3b57dba4
+2022-08-29 10:52:29.776 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3b57dba4
+2022-08-29 10:52:29.780 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2b0454d2
+2022-08-29 10:52:29.780 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2b0454d2
+2022-08-29 10:52:29.780 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2b0454d2
+2022-08-29 10:52:29.786 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@31881aa2
+2022-08-29 10:52:29.786 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@31881aa2
+2022-08-29 10:52:29.787 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@31881aa2
+2022-08-29 10:52:29.789 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@787d1f9c
+2022-08-29 10:52:29.789 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@787d1f9c
+2022-08-29 10:52:29.789 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@787d1f9c
+2022-08-29 10:52:29.791 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@682e445e
+2022-08-29 10:52:29.792 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@682e445e
+2022-08-29 10:52:29.792 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@682e445e
+2022-08-29 10:52:29.793 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@65bd19bf
+2022-08-29 10:52:29.794 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@65bd19bf
+2022-08-29 10:52:29.794 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@65bd19bf
+2022-08-29 10:52:29.795 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@79be91eb
+2022-08-29 10:52:29.796 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@79be91eb
+2022-08-29 10:52:29.798 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4b28a7bf
+2022-08-29 10:52:29.798 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4b28a7bf
+2022-08-29 10:52:29.800 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@27da994b
+2022-08-29 10:52:29.800 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@27da994b
+2022-08-29 10:52:29.801 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@73e4bb60
+2022-08-29 10:52:29.803 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@573aeab2
+2022-08-29 10:52:29.807 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@795b66d
+2022-08-29 10:52:29.812 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@795b66d
+2022-08-29 10:52:29.815 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@6e685e6c
+2022-08-29 10:52:29.817 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6e685e6c
+2022-08-29 10:52:29.821 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@c14e5a5
+2022-08-29 10:52:29.821 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@c14e5a5
+2022-08-29 10:52:29.823 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2b79c8ff
+2022-08-29 10:52:29.824 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2b79c8ff
+2022-08-29 10:52:29.825 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@5f0f70c7
+2022-08-29 10:52:29.826 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@5f0f70c7
+2022-08-29 10:52:29.827 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@9b3be1c
+2022-08-29 10:52:29.827 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@9b3be1c
+2022-08-29 10:52:29.831 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6568f998
+2022-08-29 10:52:29.831 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6568f998
+2022-08-29 10:52:29.834 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7db5b890
+2022-08-29 10:52:29.834 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7db5b890
+2022-08-29 10:52:29.837 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@9e30f9a
+2022-08-29 10:52:29.837 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@9e30f9a
+2022-08-29 10:52:29.840 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@79ab97fd
+2022-08-29 10:52:29.841 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@79ab97fd
+2022-08-29 10:52:29.844 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@133aacbe
+2022-08-29 10:52:29.844 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@133aacbe
+2022-08-29 10:52:29.847 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@3030836d
+2022-08-29 10:52:29.848 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3030836d
+2022-08-29 10:52:29.851 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3030836d
+2022-08-29 10:52:29.855 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@783b3aa0
+2022-08-29 10:52:29.857 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@427308f8
+2022-08-29 10:52:29.857 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@427308f8
+2022-08-29 10:52:29.857 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@427308f8
+2022-08-29 10:52:29.858 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@230232b0
+2022-08-29 10:52:29.860 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@722531ab
+2022-08-29 10:52:29.862 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@207dd1b7
+2022-08-29 10:52:29.862 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@207dd1b7
+2022-08-29 10:52:29.863 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@b506ed0
+2022-08-29 10:52:29.864 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@b506ed0
+2022-08-29 10:52:29.866 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@426c0486
+2022-08-29 10:52:29.866 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@426c0486
+2022-08-29 10:52:29.868 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@5e99e2cb
+2022-08-29 10:52:29.868 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5e99e2cb
+2022-08-29 10:52:29.869 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2c60ce47
+2022-08-29 10:52:29.870 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2c60ce47
+2022-08-29 10:52:29.870 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1c74d19
+2022-08-29 10:52:29.872 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5345dfe8
+2022-08-29 10:52:29.872 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5345dfe8
+2022-08-29 10:52:29.872 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5345dfe8
+2022-08-29 10:52:29.874 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@401e02b4
+2022-08-29 10:52:29.874 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@401e02b4
+2022-08-29 10:52:29.874 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@401e02b4
+2022-08-29 10:52:29.877 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@10e9a5fe
+2022-08-29 10:52:29.879 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@3c33fcf8
+2022-08-29 10:52:29.881 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@3915e7c3
+2022-08-29 10:52:29.882 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@3915e7c3
+2022-08-29 10:52:29.882 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@3915e7c3
+2022-08-29 10:52:29.884 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@8f2e3e6
+2022-08-29 10:52:29.885 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@8f2e3e6
+2022-08-29 10:52:29.885 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@8f2e3e6
+2022-08-29 10:52:29.886 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@3b170235
+2022-08-29 10:52:29.887 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@4b4814d0
+2022-08-29 10:52:29.889 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@46612bfc
+2022-08-29 10:52:29.890 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@46612bfc
+2022-08-29 10:52:29.891 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@15369d73
+2022-08-29 10:52:29.893 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@6befbb12
+2022-08-29 10:52:29.894 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6befbb12
+2022-08-29 10:52:29.902 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@4e48462d
+2022-08-29 10:52:29.905 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4e48462d
+2022-08-29 10:52:29.906 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@55c1ced9
+2022-08-29 10:52:29.911 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@37b01ce2
+2022-08-29 10:52:29.915 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@35e74e08
+2022-08-29 10:52:29.920 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@4e974b9e
+2022-08-29 10:52:29.921 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4e974b9e
+2022-08-29 10:52:29.923 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5ebbde60
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@a056b26
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2a5abd3c
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@250967f1
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@25c1f5ee
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4bce62b
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7bf018dd
+2022-08-29 10:52:29.924 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@15a8cebd
+2022-08-29 10:52:30.028  INFO 752 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-29 10:52:31.384  INFO 752 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-29 10:52:31.444  INFO 752 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-08-29 10:52:31.768 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.MaterializedBlobType@15369d73
+2022-08-29 10:52:31.769 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@5345dfe8
+2022-08-29 10:52:31.769 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.MaterializedBlobType@15369d73
+2022-08-29 10:52:31.770 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@5345dfe8
+2022-08-29 10:52:31.771 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrappedMaterializedBlobType@369a95a5
+2022-08-29 10:52:31.772 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@401e02b4
+2022-08-29 10:52:31.772 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrappedMaterializedBlobType@369a95a5
+2022-08-29 10:52:31.772 DEBUG 752 --- [    Test worker] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@401e02b4
+2022-08-29 10:52:31.778 DEBUG 752 --- [    Test worker] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@236b4a44] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@35f760a4]
+2022-08-29 10:52:32.349  WARN 752 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2022-08-29 10:52:32.357  WARN 752 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2022-08-29 10:52:32.358  WARN 752 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2022-08-29 10:52:32.644 DEBUG 752 --- [    Test worker] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@236b4a44] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@55a055cc]
+Hibernate: 
+    
+    drop table board cascade constraints
+Hibernate: 
+    
+    drop table comments cascade constraints
+Hibernate: 
+    
+    drop table custom_dto_example cascade constraints
+Hibernate: 
+    
+    drop table custom_dto_sort_pages cascade constraints
+Hibernate: 
+    
+    drop table member cascade constraints
+Hibernate: 
+    
+    drop sequence hibernate_sequence
+Hibernate: 
+    
+    drop sequence u
+Hibernate: create sequence hibernate_sequence start with 1 increment by  1
+Hibernate: create sequence u start with 1 increment by  1
+Hibernate: 
+    
+    create table board (
+       seq number(19,0) not null,
+        create_date date,
+        update_date date,
+        cnt number(19,0) default 0,
+        content varchar2(255 char) default 'no content' not null,
+        title varchar2(40 char) not null,
+        writer varchar2(40 char) not null,
+        id varchar2(40 char),
+        primary key (seq)
+    )
+Hibernate: 
+    
+    create table comments (
+       seq number(19,0) not null,
+        create_date date,
+        update_date date,
+        comments_content varchar2(255 char),
+        board_title varchar2(40 char),
+        primary key (seq)
+    )
+Hibernate: 
+    
+    create table custom_dto_example (
+       input_id varchar2(255 char) not null,
+        input_title varchar2(255 char),
+        input_writer varchar2(255 char),
+        primary key (input_id)
+    )
+Hibernate: 
+    
+    create table custom_dto_sort_pages (
+       seq number(19,0) not null,
+        nextid varchar2(255 char),
+        next_subject varchar2(255 char),
+        previd varchar2(255 char),
+        prev_subject varchar2(255 char),
+        primary key (seq)
+    )
+Hibernate: 
+    
+    create table member (
+       seq number(19,0) not null,
+        create_date date,
+        update_date date,
+        email varchar2(255 char),
+        id varchar2(40 char) not null,
+        password varchar2(255 char),
+        primary key (seq)
+    )
+Hibernate: 
+    
+    alter table board 
+       add constraint UK_mph7qe4yv41dlsoap3i3nojto unique (title)
+Hibernate: 
+    
+    alter table member 
+       add constraint UK_jp8ds32yg1soswx2rkiagm768 unique (id)
+Hibernate: 
+    
+    alter table board 
+       add constraint FKgnbbmgg8w8usef2x3po2j9ue8 
+       foreign key (id) 
+       references member (id)
+Hibernate: 
+    
+    alter table comments 
+       add constraint FKq2t3u0478c3hkeghj5e7rik22 
+       foreign key (board_title) 
+       references board (title)
+2022-08-29 10:52:34.189  INFO 752 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-29 10:52:34.213 TRACE 752 --- [    Test worker] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@55a055cc] for TypeConfiguration
+2022-08-29 10:52:34.218  INFO 752 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-29 10:52:37.630  WARN 752 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-29 10:52:38.213  INFO 752 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-08-29 10:52:39.675  INFO 752 --- [    Test worker] ectureSpring2CrudProjectApplicationTests : Started LectureSpring2CrudProjectApplicationTests in 13.23 seconds (JVM running for 15.119)
+{"response":{"header":{"resultCode":"00","resultMsg":"NORMAL SERVICE."},"body":{"numOfRows":10,"pageNo":1,"totalCount":25,"items":[{"area":"1","busnumber":"6300","toawfirst":"0630","toawlast":"1955","t1endfirst":"0650","t2endfirst":"0630","t1endlast":"2015","t2endlast":"1955","adultfare":"17000","busclass":"우등","cpname":"서울공항리무진(02-577-1343~5)","t1wdayt":"0650, 0815, 1250, 1400, 1855, 2015","t1wt":"0650, 0815, 1250, 1400, 1855, 2015","t2wdayt":"0630, 0755, 1230, 1340, 1835, 1955","t2wt":"0630, 0755, 1230, 1340, 1835, 1955","routeinfo":"인천공항2터미널, 인천공항1터미널, 수서역, 가락동, 경찰병원, 오금역, 오금동, 방이동, 올림픽선수촌아파트, 둔촌역, 길동역, 굽은다리역, 명일역, 배재고, 고덕역","t1ridelo":"1F : 4A","t2ridelo":"B1F : 26"},{"area":"1","busnumber":"6009","toawfirst":"0645","toawlast":"2145","t1endfirst":"0705","t2endfirst":"0645","t1endlast":"2205","t2endlast":"2145","adultfare":"17000","busclass":"우등","cpname":"서울공항리무진(02-577-1343~5)","t1wdayt":"0705, 0810, 0920, 1005, 1040, 1300, 1400, 1500, 1535, 1605, 1830, 1940, 2050, 2125, 2205","t1wt":"0705, 0810, 0920, 1005, 1040, 1300, 1400, 1500, 1535, 1605, 1830, 1940, 2050, 2125, 2205","t2wdayt":"0645, 0750, 0900, 0945, 1020, 1240, 1340, 1440, 1515, 1545, 1810, 1920, 2030, 2105, 2145","t2wt":"0645, 0750, 0900, 0945, 1020, 1240, 1340, 1440, 1515, 1545, 1810, 1920, 2030, 2105, 2145","routeinfo":"인천공항2터미널, 인천공항1터미널, 신사동(더리버사이드호텔), 신사역, 논현역, 신논현역, 강남역, 역삼동(우성apt), 뱅뱅사거리, 양재역, 도곡동(매봉역), 타워팰리스, 도곡역, 대치동(대치역), 학여울역, 개포동, 상록수아파트, 삼성서울병원, 가락1동주민센터헬리오시티","t1ridelo":"1F : 4A","t2ridelo":"B1F : 25, 23"},{"area":"1","busnumber":"6100","toawfirst":"0700","toawlast":"2010","t1endfirst":"0720","t2endfirst":"0700","t1endlast":"2030","t2endlast":"2010","adultfare":"18000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":"0720, 0800, 0850, 0925, 0940, 1205, 1240, 1300, 1310, 1340, 1400, 1420, 1730, 1740, 1840, 1910, 2000, 2020, 2050","t1wt":"0720, 0800, 0850, 0925, 0940, 1205, 1240, 1300, 1310, 1340, 1400, 1420, 1730, 1740, 1840, 1910, 2000, 2020, 2050","t2wdayt":"0700, 0740, 0830, 0905, 0920, 1145, 1220, 1240, 1250, 1320, 1340, 1400, 1710, 1720, 1820, 1850, 1940, 2000, 2030","t2wt":"0700, 0740, 0830, 0905, 0920, 1145, 1220, 1240, 1250, 1320, 1340, 1400, 1710, 1720, 1820, 1850, 1940, 2000, 2030","routeinfo":"인천공항2터미널, 인천공항1터미널, 수락터미널(도심공항), 노일초교, 마들역, 노원역, 중계역, 하계역, 공릉역, 태릉입구역, 먹골역, 중화역, 망우역","t1ridelo":"1F : 7A","t2ridelo":"B1F : 29, 21"},{"area":"1","busnumber":"6705","toawfirst":"0820","toawlast":"1920","t1endfirst":"0840","t2endfirst":"0820","t1endlast":"1940","t2endlast":"1920","adultfare":"18000, 18000","busclass":"일반,우등","cpname":"한국공항리무진(02-2667-0386)","t1wdayt":"0840, 0910, 0940, 1010, 1320, 1350, 1420, 1450, 1810, 1840, 1910, 1940","t1wt":"0840, 0910, 0940, 1010, 1320, 1350, 1420, 1450, 1810, 1840, 1910, 1940","t2wdayt":"0820, 0850, 0920, 0950, 1300, 1330, 1400, 1430, 1750, 1820, 1850, 1920","t2wt":"0820, 0850, 0920, 0950, 1300, 1330, 1400, 1430, 1750, 1820, 1850, 1920","routeinfo":null,"t1ridelo":"1F : 4A","t2ridelo":"B1F : 27, 19"},{"area":"1","busnumber":"1권역","toawfirst":"0700","toawlast":"1400","t1endfirst":"0720","t2endfirst":"0700","t1endlast":"1420","t2endlast":"1400","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 11"},{"area":"1","busnumber":"2권역","toawfirst":"0700","toawlast":"1400","t1endfirst":"0720","t2endfirst":"0700","t1endlast":"1420","t2endlast":"1400","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 12"},{"area":"1","busnumber":"3권역","toawfirst":"0700","toawlast":"1400","t1endfirst":"0720","t2endfirst":"0700","t1endlast":"1420","t2endlast":"1400","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 13"},{"area":"1","busnumber":"4권역","toawfirst":"0700","toawlast":"1400","t1endfirst":"0720","t2endfirst":"0700","t1endlast":"1420","t2endlast":"1400","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 14"},{"area":"1","busnumber":"강남/송파","toawfirst":"1530","toawlast":"2000","t1endfirst":"1550","t2endfirst":"1530","t1endlast":"2020","t2endlast":"2000","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 11"},{"area":"1","busnumber":"영등포/마포/중구","toawfirst":"1530","toawlast":"2000","t1endfirst":"1550","t2endfirst":"1530","t1endlast":"2020","t2endlast":"2000","adultfare":"16000","busclass":"우등","cpname":"한국도심공항(02-551-0077~8)","t1wdayt":null,"t1wt":null,"t2wdayt":null,"t2wt":null,"routeinfo":null,"t1ridelo":"1F : 7A","t2ridelo":"B1F : 12"}]}}}
+"{\"response\":{\"header\":{\"resultCode\":\"00\",\"resultMsg\":\"NORMAL SERVICE.\"},\"body\":{\"numOfRows\":10,\"pageNo\":1,\"totalCount\":25,\"items\":[{\"area\":\"1\",\"busnumber\":\"6300\",\"toawfirst\":\"0630\",\"toawlast\":\"1955\",\"t1endfirst\":\"0650\",\"t2endfirst\":\"0630\",\"t1endlast\":\"2015\",\"t2endlast\":\"1955\",\"adultfare\":\"17000\",\"busclass\":\"우등\",\"cpname\":\"서울공항리무진(02-577-1343~5)\",\"t1wdayt\":\"0650, 0815, 1250, 1400, 1855, 2015\",\"t1wt\":\"0650, 0815, 1250, 1400, 1855, 2015\",\"t2wdayt\":\"0630, 0755, 1230, 1340, 1835, 1955\",\"t2wt\":\"0630, 0755, 1230, 1340, 1835, 1955\",\"routeinfo\":\"인천공항2터미널, 인천공항1터미널, 수서역, 가락동, 경찰병원, 오금역, 오금동, 방이동, 올림픽선수촌아파트, 둔촌역, 길동역, 굽은다리역, 명일역, 배재고, 고덕역\",\"t1ridelo\":\"1F : 4A\",\"t2ridelo\":\"B1F : 26\"},{\"area\":\"1\",\"busnumber\":\"6009\",\"toawfirst\":\"0645\",\"toawlast\":\"2145\",\"t1endfirst\":\"0705\",\"t2endfirst\":\"0645\",\"t1endlast\":\"2205\",\"t2endlast\":\"2145\",\"adultfare\":\"17000\",\"busclass\":\"우등\",\"cpname\":\"서울공항리무진(02-577-1343~5)\",\"t1wdayt\":\"0705, 0810, 0920, 1005, 1040, 1300, 1400, 1500, 1535, 1605, 1830, 1940, 2050, 2125, 2205\",\"t1wt\":\"0705, 0810, 0920, 1005, 1040, 1300, 1400, 1500, 1535, 1605, 1830, 1940, 2050, 2125, 2205\",\"t2wdayt\":\"0645, 0750, 0900, 0945, 1020, 1240, 1340, 1440, 1515, 1545, 1810, 1920, 2030, 2105, 2145\",\"t2wt\":\"0645, 0750, 0900, 0945, 1020, 1240, 1340, 1440, 1515, 1545, 1810, 1920, 2030, 2105, 2145\",\"routeinfo\":\"인천공항2터미널, 인천공항1터미널, 신사동(더리버사이드호텔), 신사역, 논현역, 신논현역, 강남역, 역삼동(우성apt), 뱅뱅사거리, 양재역, 도곡동(매봉역), 타워팰리스, 도곡역, 대치동(대치역), 학여울역, 개포동, 상록수아파트, 삼성서울병원, 가락1동주민센터헬리오시티\",\"t1ridelo\":\"1F : 4A\",\"t2ridelo\":\"B1F : 25, 23\"},{\"area\":\"1\",\"busnumber\":\"6100\",\"toawfirst\":\"0700\",\"toawlast\":\"2010\",\"t1endfirst\":\"0720\",\"t2endfirst\":\"0700\",\"t1endlast\":\"2030\",\"t2endlast\":\"2010\",\"adultfare\":\"18000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":\"0720, 0800, 0850, 0925, 0940, 1205, 1240, 1300, 1310, 1340, 1400, 1420, 1730, 1740, 1840, 1910, 2000, 2020, 2050\",\"t1wt\":\"0720, 0800, 0850, 0925, 0940, 1205, 1240, 1300, 1310, 1340, 1400, 1420, 1730, 1740, 1840, 1910, 2000, 2020, 2050\",\"t2wdayt\":\"0700, 0740, 0830, 0905, 0920, 1145, 1220, 1240, 1250, 1320, 1340, 1400, 1710, 1720, 1820, 1850, 1940, 2000, 2030\",\"t2wt\":\"0700, 0740, 0830, 0905, 0920, 1145, 1220, 1240, 1250, 1320, 1340, 1400, 1710, 1720, 1820, 1850, 1940, 2000, 2030\",\"routeinfo\":\"인천공항2터미널, 인천공항1터미널, 수락터미널(도심공항), 노일초교, 마들역, 노원역, 중계역, 하계역, 공릉역, 태릉입구역, 먹골역, 중화역, 망우역\",\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 29, 21\"},{\"area\":\"1\",\"busnumber\":\"6705\",\"toawfirst\":\"0820\",\"toawlast\":\"1920\",\"t1endfirst\":\"0840\",\"t2endfirst\":\"0820\",\"t1endlast\":\"1940\",\"t2endlast\":\"1920\",\"adultfare\":\"18000, 18000\",\"busclass\":\"일반,우등\",\"cpname\":\"한국공항리무진(02-2667-0386)\",\"t1wdayt\":\"0840, 0910, 0940, 1010, 1320, 1350, 1420, 1450, 1810, 1840, 1910, 1940\",\"t1wt\":\"0840, 0910, 0940, 1010, 1320, 1350, 1420, 1450, 1810, 1840, 1910, 1940\",\"t2wdayt\":\"0820, 0850, 0920, 0950, 1300, 1330, 1400, 1430, 1750, 1820, 1850, 1920\",\"t2wt\":\"0820, 0850, 0920, 0950, 1300, 1330, 1400, 1430, 1750, 1820, 1850, 1920\",\"routeinfo\":null,\"t1ridelo\":\"1F : 4A\",\"t2ridelo\":\"B1F : 27, 19\"},{\"area\":\"1\",\"busnumber\":\"1권역\",\"toawfirst\":\"0700\",\"toawlast\":\"1400\",\"t1endfirst\":\"0720\",\"t2endfirst\":\"0700\",\"t1endlast\":\"1420\",\"t2endlast\":\"1400\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 11\"},{\"area\":\"1\",\"busnumber\":\"2권역\",\"toawfirst\":\"0700\",\"toawlast\":\"1400\",\"t1endfirst\":\"0720\",\"t2endfirst\":\"0700\",\"t1endlast\":\"1420\",\"t2endlast\":\"1400\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 12\"},{\"area\":\"1\",\"busnumber\":\"3권역\",\"toawfirst\":\"0700\",\"toawlast\":\"1400\",\"t1endfirst\":\"0720\",\"t2endfirst\":\"0700\",\"t1endlast\":\"1420\",\"t2endlast\":\"1400\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 13\"},{\"area\":\"1\",\"busnumber\":\"4권역\",\"toawfirst\":\"0700\",\"toawlast\":\"1400\",\"t1endfirst\":\"0720\",\"t2endfirst\":\"0700\",\"t1endlast\":\"1420\",\"t2endlast\":\"1400\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 14\"},{\"area\":\"1\",\"busnumber\":\"강남/송파\",\"toawfirst\":\"1530\",\"toawlast\":\"2000\",\"t1endfirst\":\"1550\",\"t2endfirst\":\"1530\",\"t1endlast\":\"2020\",\"t2endlast\":\"2000\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 11\"},{\"area\":\"1\",\"busnumber\":\"영등포/마포/중구\",\"toawfirst\":\"1530\",\"toawlast\":\"2000\",\"t1endfirst\":\"1550\",\"t2endfirst\":\"1530\",\"t1endlast\":\"2020\",\"t2endlast\":\"2000\",\"adultfare\":\"16000\",\"busclass\":\"우등\",\"cpname\":\"한국도심공항(02-551-0077~8)\",\"t1wdayt\":null,\"t1wt\":null,\"t2wdayt\":null,\"t2wt\":null,\"routeinfo\":null,\"t1ridelo\":\"1F : 7A\",\"t2ridelo\":\"B1F : 12\"}]}}}"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

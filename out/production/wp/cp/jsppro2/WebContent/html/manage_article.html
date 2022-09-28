@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/manage_article.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../js/includeHTML.js"></script>
+<title>관리자 모드 템플릿</title>
+
+</head>
+<body>
+
+<div w3-include-html="header.html"></div>
+
+<div class="box">
+	<div class="index">
+		<h2><span class="bar">|</span>관리자 모드</h2>
+	</div>
+	
+	<div class="aside">
+		<table>
+			<tr>
+				<td><a href="manage_members.jsp"><button class="blink">회원 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_article.jsp"><button class="blink" id="active">게시판 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_product.jsp"><button class="blink">상품 관리</button></a></td>
+			</tr>
+			<tr>
+				<td><a href="manage_admin.jsp"><button class="blink">관리자 관리</button></a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="content">
+		
+		<div class="tableRoof">
+			<form action="manage_article.jsp" method="get" id="frm">
+				<span class="tableTitle">게시판 관리</span>
+				<span class="searchBox">
+					<select name="key">
+						<option value="title">제목</option>
+						<option value="id">아이디</option>
+						<option value="no">번호</option>
+					</select>
+					<input type="text" name="info">
+					<input type="hidden" name="category" value="1">
+						<button type="submit">검색</button>
+				</span>
+			</form>
+			<span class="selectBox">
+				<select id="selectCategory" onchange="changeCategory()">
+					<option value='article1'>리뷰</option>
+					<option value='article2'>문의</option>
+					<option value='article3'>공지사항</option>
+					<option value='article4'>질문</option>
+				</select>
+			</span>
+		</div>
+		
+		<table>
+			<tr>
+				<th>번호</th>
+				<th>제목</th>
+				<th>아이디</th>
+				<th>등록일</th>
+				<th>조회수</th>
+				<th>상태</th>
+				<th class="blankl"></th>
+				<th class="blankr"></th>
+			</tr>
+<tr>
+		<td>
+			id입니다.
+		</td>
+		<td>
+			name입니다.	
+		</td>
+		<td>
+			phone입니다.
+		</td>
+		<td>
+			email입니다.
+		</td>
+		<td>
+			point입니다.
+		</td>
+		<td>
+		</td>
+		<td>
+			<button onclick='remAdmin(\""+info_mem.get(i).getId()+"\")'>숨기기</button>
+		</td>
+		<td>
+			<button onclick='grantAdmin(\""+info_mem.get(i).getId()+"\")'>삭제</button>
+		</td>
+		</table>
+	
+		<div id ="page">
+		
+			<ul class="pagination">
+				<li class="page-item sideIdx">
+				<button class='btn btn-outline-primary'> < </button>
+				</li>
+				<li class='page-item active'><a class='page-link'>1</a></li>
+				<li class='page-item'><a class='page-link'>2</a></li>
+				<li class='page-item'><a class='page-link'>3</a></li>
+				<li class="page-item sideIdx">
+				<button class='btn btn-outline-primary'> > </button>
+				</li>
+			</ul>
+			
+		</div>
+	
+	</div>
+</div>
+
+<div w3-include-html="footer.html"></div>
+<script>includeHTML();</script>
+</body>
+</html>

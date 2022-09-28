@@ -1,0 +1,77 @@
+@charset "UTF-8";
+*{text-align:center;}
+.findInpo{
+	width: 100%;
+	margin : 0 auto;
+}
+.pageName{
+	border-left: 5px solid #c96add;
+	text-align: left;
+	margin-top: 120px;
+}
+.findInpoMain{
+	width: 100%;
+	margin: 0 auto;
+	height: 700px;
+}
+.findInpoForm{
+	width: 45%;
+	margin : 0 auto;
+	margin-top: 50px;
+	display: inline-block;
+	padding: 20px;
+	height: 650px;
+}
+.findInpoForm:first-child{
+	border-right: 1px solid #c9c9c9; 
+}
+.centerLine{
+	display: inline-block;
+	width: 1px;
+	height: 700px;
+	border: 1px solid #c9c9c9;
+}
+.findInpoTable{
+	width: 100%;
+	margin : 0 auto;
+}
+.findInpoTable tr td:first-child{
+	width: 15%;
+}
+.findInpoTable tr td:last-child{
+	padding : 3px;
+	width: 85%;
+}
+.findInpoTable tr td input{
+	width: 100%;
+	height: 70px;
+	font-size: 1.2em;
+	text-align: left;
+	text-indent: 20px;
+}
+.findInpoTable tr td input.findInpoButton{
+	background-color: #ff6e75;
+	border: none;
+	color: white;
+	text-align: center;
+}
+.findInpoTable tr td.lasttd{
+	color: #c9c9c9;
+}
+.findInpoTable tr td a{
+	color: #c9c9c9;
+}
+@media all and (max-width : 768px){
+	.findInpoMain{width: 100%; height: 1000px;}
+	.findInpoTable{width: 100%;}
+	.pageName{margin-top: 40px;}
+	.findInpoForm{width: 100%; height: 450px;}
+	.findInpoForm:first-child{border-right: none; border-bottom: 1px solid #c9c9c9 }
+	
+}
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 전체  */
+*{text-align: center;}
+.box{
+	width:80%;
+	margin:10% auto;
+}
+
+/* 컨텐츠 */
+.box form p, .box form p input{
+text-align:left;}
+#submit{
+	width:10%;
+	margin-top:2%;}
+/* ck 에디터 높이 설정 */
+.ck-editor__editable {
+    min-height: 200px;
+}
+
+/* 푸터 */
+footer{
+	clear:both;}
+	
+@media screen and (max-width: 767px){
+	.box{
+	width:100%;}
+	
+	#submit{
+	width:15%;
+	}
+}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{text-align:center;}
+.resultPage{
+	width: 80%;
+	margin : 0 auto;
+}
+.resultPageName{
+	border-left: 5px solid #c96add;
+	text-align: left;
+	margin-top: 120px;
+}
+.resultPageMain{
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+}
+.resultPageMain p{
+	margin-top: 100px;
+}
+.resultPageButton{
+	background-color: #ff6e75;
+	border: none;
+	color: #feff97;
+	text-align: center;
+	width: 60%;
+	height: 50px;
+}
+.PwForm{
+	width: 80%;
+	margin: 0 auto;	
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.PwForm table{
+	width: 60%;
+	margin: 0 auto;
+}
+.PwForm table tr{
+	width: 100%;
+}
+.PwForm table tr td{
+	width: 75%;
+}
+.PwForm table tr td:first-child{
+	text-align : left;
+	width: 25%;
+}
+.PwForm table tr td input{
+	text-align:left;
+	width: 100%;
+	height: 40px;
+}
+.PWIn{
+	margin-top: 100px;
+	margin-bottom : 40px;
+	width: 50%;
+	height: 50px;
+}
+@media all and (max-width : 768px){
+	.findInpoMain{width: 100%; height: 1000px;}
+	.pageName{margin-top: 40px;}
+	
+}
+
+
+
+
+
+

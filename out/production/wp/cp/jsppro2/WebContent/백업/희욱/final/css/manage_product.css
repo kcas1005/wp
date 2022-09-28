@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+/* 전체  */
+*{text-align: center;}
+.box{
+	width:80%;
+	height:50%;
+	margin:10% auto;
+}
+/* 상단 */
+.index{
+	margin:1% 0 3% 0;
+}
+
+.index h2{
+text-align:left;}
+
+.bar{
+	color:#c96add;
+}
+
+/* 좌측 */
+.aside{
+	width:25%;
+	float:left;
+}
+.aside table{
+	width:100%;
+}
+.aside table{
+	border:1px solid #ccc;
+}
+
+.aside td{
+	text-align:center;
+}
+
+.blink{
+	display:block;
+	width:100%;
+	height:40px;
+	border:0;
+	outline:0;
+	background-color:white;}
+
+.blink:hover{
+	background-color:pink;
+}
+.aside td a{
+	text-decoration:none;}
+#active{
+	background-color:pink;
+}
+/* 컨텐츠 */
+.tableTitle{
+	color:white;
+	float:left;
+	padding-left:10px;
+	font-size:1.2em;
+}
+.content{
+	width:73%;float:right;
+	}
+.tableRoof{
+	background-color:pink;
+	height:55px;
+	padding-top:10px;
+}
+.tableRoof .selectBox{
+	float:right;
+	padding-right:10px;
+}
+
+.content table, .content tr, .content td, .content th{
+	border:1px solid #ccc;
+}
+.content th{
+	border-top:1px solid pink;
+	border-bottom:2px solid #ccc;
+}
+
+.content table .blankl{
+	border-right:none;}
+.content table  .blankr{
+	border-left:none;}
+.content table{
+	width:100%;}
+
+#frm{
+	display:inline;}
+#page{
+	margin:0 auto;
+	margin-top:3%;
+	width:15%;
+}
+.content table tr, .content table td, .content table th{
+	font-size:1em;
+	width:10%;
+}
+.content table button{
+	width:50%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.searchBox select,.searchBox button{
+	width:10%;
+}
+
+.searchBox input{
+	width:20%;
+}
+
+.sideIdx{
+	margin-left:5%;
+	margin-right:5%;}
+
+.selectBox select{
+	width: 100%;
+}
+
+.regfrm{
+	margin-top:5%;
+}
+.regfrm #reg{
+	width:30%;}
+.regfrm table td{
+	text-align:left;
+}
+
+#regTable, #regTable tr, #regTable td{
+	border:none;
+}
+/* 푸터 */
+footer{
+	clear:both;}
+
+@media screen and (max-width: 767px){
+	.aside{
+		display:none;
+	}
+	
+	.box{
+	width:100%;
+	}
+	
+	.content{
+	width:100%;
+	}
+}
+	
