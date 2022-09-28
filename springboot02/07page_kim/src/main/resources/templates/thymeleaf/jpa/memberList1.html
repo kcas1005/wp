@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Member Registration Form</title>
+    <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
+    <link th:href="@{/bootstrap/css/bootstrap.css}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<table cellpadding=10 border=1 width="800">
+    <thead>
+    <tr>
+        <th width="50">#</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Phone</th>
+        <th>Age</th>
+        <th>Edit</th>
+        <th>Del</th>
+        <th>Del</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="member : ${members}">
+        <th th:text="${member.num}">1</th>
+        <th><a href="#" th:href="@{/jpa/memberDetail( num=${member.num} )}" th:text="${member.name}">홍길동</a></th>
+        <th th:text="${member.id}">mr.hong</th>
+        <th th:text="${member.phone}">010-123-5678</th>
+        <th th:text="${member.age}">20</th>
+        <th><a href="#" th:href="@{/jpa/memberWrite( num=${member.num} )}">수정</a></th>
+        <th><a href="#" th:href="@{/jpa/memberDelete( num=${member.num} )}">삭제(바로 삭제)</a></th>
+        <th><a href="#none" th:onclick="btnDel( [[${member.num}]] );" style="color: #ff0000">삭제(확인 후 삭제)</a></th>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

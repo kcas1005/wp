@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
+    <link th:href="@{/bootstrap/css/bootstrap.css}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h2>시작 page</h2>
+
+<button onclick="location.href='/jpa/memberList'" class="btn btn-outline-success">회원리스트</button><br><br>
+<button onclick="location.href='/jpa/memberList2'" class="btn btn-outline-success">회원리스트2</button><br><br>
+<button onclick="location.href='/jpa/memberWrite'" class="btn btn-outline-success">회원등록</button><br><br>
+<button th:onclick="|location.href='@{/jpa/memberList(page=0, size=5)}'|" class="btn btn-outline-success">1번 page</button><br><br>
+<button th:onclick="|location.href='@{/jpa/memberList2(page=0, size=5)}'|" class="btn btn-outline-success">List2 1번 page</button><br>
+</body>
+</html>
