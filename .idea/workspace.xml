@@ -4,36 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25">
-      <change afterPath="$PROJECT_DIR$/Day94/Day94_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/ASDay4_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/07page_teacher/src/main/resources/templates/thymeleaf/jpa/memberDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/07page_teacher/src/main/resources/templates/thymeleaf/jpa/memberList3.html" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/img/K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/js/mySlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/study/js10-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/study/js10-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay4/study/js10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js/js10-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay3/js/js10-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page/db/humandb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/springboot02/07page/db/humandb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/DB/humanDB.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/DB/humanDB.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/java/com/example/sample/Entity/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/java/com/example/sample/SampleApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/java/com/example/sample/controller/JpaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/java/com/example/sample/dto/MemberDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/java/com/example/sample/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/templates/thymeleaf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/templates/thymeleaf/jpa/memberList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/templates/thymeleaf/jpa/memberList1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/templates/thymeleaf/jpa/memberList2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/main/resources/templates/thymeleaf/jpa/memberWriteForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot02/07page_kim/src/test/java/com/example/sample/SampleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js11.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js116.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js116.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js119.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js119.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js12.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js13.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js14.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js15.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js16.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js17.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js18.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js20.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js200.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js201.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js201.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js202.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js202.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js202dom.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js202dom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js21.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js211reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js211reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js22.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js23.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js24.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js25 copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js25 copy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js26_1Time.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js26_1Time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js26_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js26_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js26_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js26_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js27.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js27.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js28.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js28.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js29.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/js29.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,52 +94,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/afterschool/ASDay3/js&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/work/wp/afterschool/ASDay4",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\afterschool\ASDay4" />
       <recent name="C:\work\wp\afterschool\ASDay3\js" />
       <recent name="C:\work\wp\Day94" />
       <recent name="C:\work\wp\afterschool\ASDay3" />
       <recent name="C:\work\wp\afterschool\ASDay2\study" />
-      <recent name="C:\work\wp\afterschool\ASDay2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\wp\afterschool\ASDay4\study" />
+      <recent name="C:\work\wp\afterschool\ASDay4" />
       <recent name="C:\work\wp\afterschool\ASDay3" />
       <recent name="C:\work\wp\springboot02" />
       <recent name="C:\work\wp\afterschool\ASDay2" />
-      <recent name="C:\work\wp\afterschool\Day1" />
-      <recent name="C:\work\wp\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
@@ -346,14 +354,7 @@
       <workItem from="1664323338416" duration="18785000" />
       <workItem from="1664409149361" duration="1760000" />
       <workItem from="1664411356115" duration="11819000" />
-      <workItem from="1664443744428" duration="114000" />
-    </task>
-    <task id="LOCAL-00032" summary="Day63_학원에서 한 것">
-      <created>1660292068747</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1660292068747</updated>
+      <workItem from="1664443744428" duration="2933000" />
     </task>
     <task id="LOCAL-00033" summary="Day64_학원에서 한 것">
       <created>1660637457192</created>
@@ -691,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664361002850</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
+      <created>1664443886213</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1664443886214</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,8 +746,8 @@
       <path value="$PROJECT_DIR$/spring/demo" />
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
+      <path value="$PROJECT_DIR$/spring/testc" />
     </ignored-roots>
-    <MESSAGE value="Day66_학원에서 한 것" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
@@ -764,7 +772,8 @@
     <MESSAGE value="Day90_머스타체 배움, css이름 html과 맞게 수정" />
     <MESSAGE value="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25" />
     <MESSAGE value="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25" />
+    <MESSAGE value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
