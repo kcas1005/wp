@@ -93,6 +93,10 @@
 ------------------------------------------------------------------------
 */
         Acount = 0;
+        Bcount = 0;
+        Ccount = 0;
+
+        arr = [];
 
         function jsran() {
             return (parseInt(Math.random() * 10) + 1);
@@ -101,6 +105,12 @@
         // jsran();
         function jsdoc(a) {
             return document.write(a);
+        }
+        function jsConsole(){
+            console.log('전체 등수는 ' + arr);
+            console.log('1등은 ' + arr[0]);
+            console.log('2등은 ' + arr[1]);
+            console.log("3등은 " + arr[2]);
         }
 
         // jsdoc();
@@ -111,22 +121,55 @@
         }
         var jstimer = function () {
             Acount += jsran();
-            document.write(Acount + '<br>');
+            // console.log(Acount);
             return Acount;
         }
 
 
-        function jsstop() {
-        var aTimer = setInterval(jstimer, 1000);
-            document.write("aTimer" + aTimer + '<br>');
-
-            if (aTimer > 10) {
-                clearInterval(aTimer);
-            } else {
-            }
+        function jsRunA() {
+            jscontinueA = setInterval(function () {
+                Acount += jsran();
+                console.log("A :" + Acount);
+                if (Acount >= 100) {
+                    clearInterval(jscontinueA);
+                    arr.push("A");
+                }
+                return arr;
+            }, 500);
         }
 
-        jsstop();
+        function jsRunB() {
+            jscontinueB = setInterval(function () {
+                Bcount += jsran();
+                console.log("B :" + Bcount);
+                if (Bcount >= 100) {
+                    clearInterval(jscontinueB);
+                    arr.push("B");
+                }
+                return arr;
+            }, 500);
+        }
+
+        function jsRunC() {
+            jscontinueC = setInterval(function () {
+                Ccount += jsran();
+                console.log("C :" + Ccount);
+                if (Ccount >= 100) {
+                    clearInterval(jscontinueC);
+                    arr.push("C");
+                }
+                return arr;
+            }, 500);
+        }
+
+        function jsRunAll() {
+            jsRunA();
+            jsRunB();
+            jsRunC();
+            jsConsole();
+        }
+
+        jsRunAll();
 
 
     </script>
