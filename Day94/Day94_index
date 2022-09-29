@@ -1,0 +1,29 @@
+수업
+    그래들(타임리프)
+        page 검색(키워드) 기능
+        Controller에 SearchCate RequestParam 추가
+
+
+
+
+
+
+취업
+    정규직
+    계약직
+    시간제
+
+    자격증
+        기사
+
+    1.타자 잘치나?
+    2.이력서에 빠진 기간 뭐했나?(건강, 가족문제 X)
+    3.말할걸 미리 준비해감?(모르는 답변이 나오면 준비한 답변으로 유도하기)
+
+
+모르는 단어
+
+    Containing (쿼리문 like %와 같은 것)
+    Page<Member> members = memberRepository.findByNameContaining(searchKeyword, pageable);
+
+

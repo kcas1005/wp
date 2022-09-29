@@ -92,26 +92,46 @@
     먼저 100에 도달하는 순서대로 출력하시오
 ------------------------------------------------------------------------
 */
-    /*
-    window.getElementById().innerHTML="등수 출력"
-    document.write()출력
-    for문, setInterval 100번 도달 사용
-    if문 ClearInterval 100번 도달할 시 멈춤
+        count = 0;
+        function jsran(){
+         return (parseInt(Math.random() * 10));
+        }
 
-    */
+        function jsdoc(a){
+            return document.write(a);
+        }
+
+        window.onload= function jsclick(){
+            document.getElementById("b1").onclick = function() {
+                document.getElementById("console1").innerHTML="a";
+            };
+        }
+        var jstimer = function(){
+            count+=jsran();
+            document.write(count + '<br>');
+
+        }
+
+        function jsstop(){
+                var aTimer=setInterval(jstimer, 1000);
+            if(count>100) {
+                clearInterval(aTimer);
+        }else{}
+        }
+        // jsstop();
 
 
     </script>
 </head>
-    <body>
-      <!--  <button id="b1">A시계 시작</button>
-        <h1>A시계</h1>
-        <div id='console1'></div>
-        <h1>B시계</h1>
-        <div id='console2'></div>
-        <h1>C시계</h1>
-        <div id='console3'></div>
-        <h1>D시계</h1>
-        <div id='console4'></div>-->
-    </body>
+<body>
+<button id="b1">A시계 시작</button>
+<h1>A시계</h1>
+<div id='console1'></div>
+<h1>B시계</h1>
+<div id='console2'></div>
+<h1>C시계</h1>
+<div id='console3'></div>
+<h1>D시계</h1>
+<div id='console4'></div>
+</body>
 </html>

@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Member Registration Form</title>
-    <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
-    <link th:href="@{/bootstrap/css/bootstrap.css}" rel="stylesheet" type="text/css" />
     <style>
         form > label {
             display: inline-block;
@@ -27,7 +25,7 @@
 </h2>
 
 <!-- form action="/jpa/memberWrite" method="POST" id="memberWriteForm" -->
-<form th:action="@{/jpa/memberWrite}" th:object="${memberDto}" method="POST" id="memberWriteForm">
+<form th:action="@{/jpa/memberWrite}" th:object="${memberDTO}" method="POST" id="memberWriteForm">
     <input type="hidden" name="num" th:field="*{num}">
 
     <label for="name">Name</label>
@@ -49,10 +47,20 @@
 </form>
 
 <!-- button type="submit" form="memberWriteForm">회원등록</button -->
-<div th:align="center" th:switch="${formTitle}">
-    <button class="btn btn-outline-success" type="submit" form="memberWriteForm" th:case="Registration">회원등록</button>
-    <button class="btn btn-outline-success" type="submit" form="memberWriteForm" th:case="Modification">회원수정</button>
+<div th:switch="${formTitle}">
+    <button type="submit" form="memberWriteForm" th:case="Registration">회원등록</button>
+    <button type="submit" form="memberWriteForm" th:case="Modification">회원수정</button>
 </div>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-package com.example.sample.Entity;
+package com.example.sample.entity;
 
 import javax.persistence.*;
 
@@ -63,7 +63,7 @@ public class Member {
     }
 
     // Constructor
-    public Member() {}
+    public Member() { }
 
     public Member(int num, String name, String id, String phone, int age) {
         super();
@@ -81,4 +81,3 @@ public class Member {
     }
 
 }
-

@@ -1,11 +1,10 @@
 package com.example.sample.dto;
 
-import com.example.sample.Entity.Member;
+import com.example.sample.entity.Member;
 
-public class MemberDto {
+public class MemberDTO {
 
     // Fields
-    //DTO DB와 관련없는 데이터를 처리할때 사용
     private int num;
     private String name;
     private String id;
@@ -51,10 +50,12 @@ public class MemberDto {
         return "MemberDTO [num=" + num + ", name=" + name + ", id=" + id + ", phone=" + phone + "]";
     }
 
-    // toEntity() Dto가 Entity클래스로 값을 넣어준다.
+    // toEntity()
     public Member toEntity() {
 
         return new Member( num, name, id, phone, age );
     }
+
+
 }
 
