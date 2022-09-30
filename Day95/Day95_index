@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+수업
+    page 정렬기능
+    Restpull
+        주소가 곧 데이터
+    json
+        자바스크립트 객체가 json
+    Ajax
+        화면갱신(새로고침) 없이 데이터 변경 가능
+    JQuary
+        vuw, rangular, react에 충돌나서 잘 안쓰는 추세
+
+
+--------------------------------------------------------------------------------
+
+        관계형데이터베이스는 해봤는데 논sql은 안해봤습니다.
+        selector을 잘 다룰줄 알아서 금방 적응할 수 있습니다.
+
+--------------------------------------------------------------------------------
+    스프링 메이븐
+        porm dependency 추가
+        dto패키지에 Vo 클래스 만들기
+--------------------------------------------------------------------------------
+        1.pom.xml 자바버전1.8 스프링버전 4.3.5.RELEASE으로 변경
+        2.jackson-databind 의존객체 추가
+        3.프로젝트 > properties > project facts > java 1.8변경
+        4.SampleVO 제작
+        5.MyRestController 제작
+
+
+
+
+--------------------------------------------------------------------------------
+모르는 단어
+    @PageableDefault(size=5,sort="name",direction = Sort.Direction.DESC) Pageable pageable, @RequestParam(value = "searchCate", required = false, defaultValue = "") String searchCate, @RequestParam(value = "searchKeyword", required = false, defaultValue = "") String searchKeyword, Model model) {
+
+    CDN
+
+    window.onload=function(){alert('h')}; //화면이 다 불려진 후 알람 기능을 실행해라.
+
+    $(document).ready(function(){           //화면이 다 불려진 후 함수를 실행해라.
+    $("p").click(function(){                //P클릭하면 기능을 실행해라.
+    $(this).hide();                         //p를 숨겨라.
+
+
+

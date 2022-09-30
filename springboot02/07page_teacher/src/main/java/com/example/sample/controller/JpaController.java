@@ -5,7 +5,10 @@ import com.example.sample.entity.Member;
 import com.example.sample.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -93,7 +96,8 @@ public class JpaController {
 
     //jpa/memberList
     @RequestMapping(value = "/jpa/memberList", method = RequestMethod.GET)
-    public String memberList(Pageable pageable, @RequestParam(value = "searchCate", required = false, defaultValue = "") String searchCate, @RequestParam(value = "searchKeyword", required = false, defaultValue = "") String searchKeyword, Model model) {
+    public String memberList(
+            @PageableDefault(size=5,sort="name",direction = Sort.Direction.DESC) Pageable pageable, @RequestParam(value = "searchCate", required = false, defaultValue = "") String searchCate, @RequestParam(value = "searchKeyword", required = false, defaultValue = "") String searchKeyword, Model model) {
         System.out.println(pageable);
         System.out.println(searchCate);
         System.out.println(searchKeyword);
@@ -123,6 +127,13 @@ public class JpaController {
             String[] result = searchKeyword.split(",");
             members = memberRepository.findByNameAndId(result[0], result[1], pageable);
         } else {
+//            pageable = PageRequest.of(page,size);
+//            pageable = PageRequest.of(page,size,sort);
+//            pageable = PageRequest.of(1,3,Sort.by("name").ascending());
+//            pageable = PageRequest.of(page,size,sort,direction);
+            pageable = PageRequest.of(pageable.getPageNumber(),3,
+                    Sort.by("age").descending().and(Sort.by("name").ascending()));
+
             members = memberRepository.findAll(pageable);
         }
 

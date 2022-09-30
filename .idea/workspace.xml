@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25">
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
+      <change afterPath="$PROJECT_DIR$/Day95/Day95_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay3/js/js10-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay3/js/js10-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/afterschool/ASDay4/study/js10-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay4/study/js10-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot02/07page_teacher/DB/humandb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/springboot02/07page_teacher/DB/humandb.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot02/07page_teacher/src/main/java/com/example/sample/controller/JpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot02/07page_teacher/src/main/java/com/example/sample/controller/JpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/afterschool/ASDay3/js&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/wp/afterschool/ASDay4&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -84,7 +87,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -94,18 +97,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\afterschool\ASDay4" />
       <recent name="C:\work\wp\afterschool\ASDay3\js" />
+      <recent name="C:\work\wp\Day94" />
       <recent name="C:\work\wp\afterschool\ASDay3" />
       <recent name="C:\work\wp\afterschool\ASDay2\study" />
-      <recent name="C:\work\wp\afterschool\ASDay2" />
-      <recent name="C:\work\wp\Day92" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\wp\afterschool\ASDay4\study" />
+      <recent name="C:\work\wp\afterschool\ASDay4" />
       <recent name="C:\work\wp\afterschool\ASDay3" />
       <recent name="C:\work\wp\springboot02" />
       <recent name="C:\work\wp\afterschool\ASDay2" />
-      <recent name="C:\work\wp\afterschool\Day1" />
-      <recent name="C:\work\wp\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
@@ -317,28 +320,10 @@
       <workItem from="1664176936384" duration="2923000" />
       <workItem from="1664237069561" duration="13670000" />
       <workItem from="1664268791309" duration="5005000" />
-      <workItem from="1664323338416" duration="18634000" />
-    </task>
-    <task id="LOCAL-00030" summary="Day61_학원에서 한 것">
-      <created>1660119405361</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1660119405361</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Day62_학원에서 한 것">
-      <created>1660205870315</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1660205870315</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Day63_학원에서 한 것">
-      <created>1660292068747</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1660292068747</updated>
+      <workItem from="1664323338416" duration="18785000" />
+      <workItem from="1664409149361" duration="1760000" />
+      <workItem from="1664411356115" duration="11819000" />
+      <workItem from="1664443744428" duration="2933000" />
     </task>
     <task id="LOCAL-00033" summary="Day64_학원에서 한 것">
       <created>1660637457192</created>
@@ -662,7 +647,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664272298562</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25">
+      <created>1664360975928</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1664360975929</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25">
+      <created>1664361002850</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1664361002850</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
+      <created>1664443886213</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1664443886214</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +696,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -709,9 +715,8 @@
       <path value="$PROJECT_DIR$/spring/demo" />
       <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
       <path value="$PROJECT_DIR$/spring/pet" />
+      <path value="$PROJECT_DIR$/spring/testc" />
     </ignored-roots>
-    <MESSAGE value="Day65_학원에서 한 것" />
-    <MESSAGE value="Day66_학원에서 한 것" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거2" />
     <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
@@ -735,7 +740,9 @@
     <MESSAGE value="Day86_수업한내용" />
     <MESSAGE value="Day90_머스타체 배움, css이름 html과 맞게 수정" />
     <MESSAGE value="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25" />
+    <MESSAGE value="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25" />
+    <MESSAGE value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
