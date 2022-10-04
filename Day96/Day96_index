@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+수업
+
+    build.gradle (밑에 있는 코드 붙여서 쓰기, querydsl 사용 하기 위해)
+        buildscript {
+            ext {
+                queryDslVersion = "5.0.0"
+            }
+        }
+
+        plugins {
+            id 'org.springframework.boot' version '2.7.3'
+            id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+            id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
+            id 'java'
+        }
+
+        dependencies {  //queryDslVersion 2개 붙여두기
+            implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
+            implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
+            implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0'
+            }
+
+        tasks.named('test') {
+            useJUnitPlatform()
+        }
+
+        // querydsl에서 사용할 경로 설정
+        def querydslDir = "$buildDir/generated/querydsl"
+        // JPA 사용 여부와 사용할 경로를 설정
+        querydsl {
+            jpa = true
+            querydslSourcesDir = querydslDir
+        }
+        // build 시 사용할 sourceSet 추가
+        sourceSets {
+            main.java.srcDir querydslDir
+        }
+        // querydsl 컴파일시 사용할 옵션 설정
+        compileQuerydsl{
+            options.annotationProcessorPath = configurations.querydsl
+        }
+        // querydsl 이 compileClassPath 를 상속하도록 설정
+        configurations {
+            compileOnly {
+                extendsFrom annotationProcessor
+            }
+            querydsl.extendsFrom compileClasspath
+        }
+
+        application.properties 에서 DB위치 설정하기
+            spring.datasource.url=jdbc:h2:file:C:/work/wp/springboot02/08shop/shop/shopdb4;AUTO_SERVER=true
+            spring.servlet.multipart.maxFileSize=20MB           //파일 크기 제한해주기(너무 크면 오류 걸릴 수 있기 때문에)
+            spring.servlet.multipart.maxRequestSize=100MB       //파일 크기 제한해주기
+            itemImgLocation=C:/work/wp/springboot02/08shop/shop/item
+            uploadPath=file:///C:/work/wp/springboot02/08shop/shop/
+
+        테이블 쪼개는 이유
+            중복 데이터를 줄이고 null 제거하려고
+
+        junit으로 테스트 하는 중
+
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+모르는 단어
+    junit
+
+--------------------------------------------------------------------------------
+
+
+
+
