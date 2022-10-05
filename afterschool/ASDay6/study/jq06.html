@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq06자판기 만들기</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+    <script>
+        /*
+        함수(버튼을 누르면 투입금액이 증가한다)
+        함수(콜라를 누르면 투입금액 - 콜라가 빠진다).
+        투입금액에 따라 동전이 나온다 500원짜리 우선순위1, 나머지 안되면 100원짜리
+        */
+        total = "";
+            function M(num, money) {
+                switch (num) {
+                    case 0:
+                        switch (money) {
+                            case 1000:
+                                total += money;
+                                break;
+                            case 500:
+                                total += money;
+                                break;
+                            case 100:
+                                total += money;
+                                break;
+
+                        }
+                        break;
+                    case 1 :
+                        total -= money;
+                        break;
+                    case 2 :
+                        total -= money;
+                        break;
+                    case 3 :
+                        total -= money;
+                        break;
+                    case 4 :
+                        total -= money;
+                        break;
+                    case 5 :
+                        total -= money;
+                        break;
+                    case 6 :
+                        total -= money;
+                        break;
+
+                }
+                $("#f1").val(money);
+            }
+    </script>
+<body>
+<table border=3 width=500 height=500>
+
+    <tr>
+        <th colspan=4 height=40 bgcolor="eeeeee"><h1>
+            <font color="red">자</font>
+            <font color="orange">판</font>
+            <font color="green">기</font>
+        </h1></th>
+    </tr>
+    <tr align=center height="130">
+        <td>
+            <img src="../img/콜라.jpg" width="50"><br>
+            <input type="button" onclick="M(1,1200)" value="1200￦">
+        </td>
+        <td>
+            <img src="../img/사이다.jpg" width="50"><br>
+            <input type="button" onclick="M(2,1100)" value="1100￦">
+        </td>
+        <td>
+            <img src="../img/환타.jpg" width="50" height="100"><br>
+            <input type="button" onclick="M(3,1000)" value="1000￦">
+        </td>
+        <td width=100>
+            <input type="button" value="1000원" onclick="M(0,1000)" style="WIDTH: 60pt; HEIGHT: 20pt"><br>
+            <input type="button" value="500원" onclick="M(0,500)" style="WIDTH: 60pt; HEIGHT: 20pt"><br>
+            <input type="button" value="100원" onclick="M(0,100)" style="WIDTH: 60pt; HEIGHT: 20pt"><br>
+            <input type="text" value="투입금액" id="f1" style="WIDTH: 60pt; HEIGHT: 20pt" readonly>
+        </td>
+    </tr>
+    <tr align=center height="130">
+        <td>
+            <img src="../img/블랙.gif" width="65" height="90"><br>
+            <input type="button" onclick="M(4,400)" value="400￦">
+        </td>
+        <td>
+            <img src="../img/블랙.gif" width="65" height="90"><br>
+            <input type="button" onclick="M(5,400)" value="400￦">
+        </td>
+        <td>
+            <img src="../img/블랙.gif" width="65" height="90"><br>
+            <input type="button" onclick="M(6,400)" value="400￦">
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr align=center>
+        <td id="f2" colspan=3></td>
+        <td>
+            500원
+            <input type="text" id="f3" style="WIDTH: 20pt; HEIGHT: 20pt" readonly/>개<br>
+            100원
+            <input type="text" id="f4" style="WIDTH: 20pt; HEIGHT: 20pt" readonly/>개
+        </td>
+    </tr>
+</body>
+</html>
