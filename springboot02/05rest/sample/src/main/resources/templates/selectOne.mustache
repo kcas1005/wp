@@ -1,0 +1,163 @@
+{{>common/head}}
+<div class="main">
+    <h2>TITLE selectOne</h2>
+
+        {{#dto}}
+    <table width="80%">
+        <tr>
+            <td>id:</td><td>{{id}}</td>
+        </tr>
+        <tr>
+            <td>name:</td><td>{{name}}</td>
+        </tr>
+        <tr>
+            <td>password:</td><td>{{password}}</td>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="/selectAll">list all</a>
+                <a href="/delete/{{id}}">delete</a>
+                <a href="/update/{{id}}">update</a></td>
+        </tr>
+    </table>
+        {{/dto}}
+
+    <button onclick="selectAll()">comments</button>
+    <button onclick="selectSome({{id}})">commentsSome</button>
+    <div data-userid=${i.loginEntityId} >
+        <p >
+        <input id="idInsert" type='hidden' value={{id}} >
+        <input id="nameInsert" type='text' >
+        <input id="contentsInsert" type='text' >
+        <button class="btn-insert">insert</button>
+        </p>
+    </div>
+    <div id="commentList">
+        TEST
+    </div>
+    <script>
+    function bDelete(button){
+
+      console.log(button);
+        console.log(button.parentNode);
+        var id=button.parentNode.getAttribute("data-id");
+
+
+        fetch("http://localhost:8080/rest/comment/delete/"+id, {
+      method: "DELETE",
+    }).then((response) => response.text())
+    .then((text) => {
+      console.log(text);
+    });
+      /*.then((data) => {
+            console.log(data)
+            button.parentNode.remove();
+      })*/
+
+
+
+    }
+    function bModify(button){
+    //작업
+        console.log(button);
+        console.log(button.parentNode);
+         var id=button.parentNode.getAttribute("data-id");
+         var loginEntityId=button.parentNode.getAttribute("data-loginEntityId");
+         var name=button.parentNode.querySelectorAll(".name")[0].value
+         var contents=button.parentNode.querySelectorAll(".contents")[0].value
+         console.log(name);
+         console.log(contents);
+
+         fetch("http://localhost:8080/rest/comment/update", {
+                  method: "put",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify({
+                  id:id,
+                    loginEntityId: loginEntityId,
+                    name: name,
+                    contents: contents,
+                  }),
+                })
+                  .then((response) => response.json())
+                  .then((data) => {
+                    console.log(data)
+                      selectSome({{id}});
+                    alert("update");
+                   })
+
+
+    }
+        //document.getElementById //아이디로만 찾음 1개 리턴
+        //querySelectorAll // css 선택자로 찾음, 여러개 리턴, 배열처리
+       document.querySelectorAll(".btn-insert")[0].addEventListener("click",function(){
+            var idInsert=document.querySelectorAll("#idInsert")[0].value
+            var nameInsert=document.querySelectorAll("#nameInsert")[0].value
+            var contentsInsert=document.querySelectorAll("#contentsInsert")[0].value
+            alert(idInsert);
+
+            fetch("http://localhost:8080/rest/comment/insert", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    loginEntityId: idInsert,
+                    name: nameInsert,
+                    contents: contentsInsert,
+                  }),
+                })
+                  .then((response) => response.json())
+                  .then((data) => {
+                    console.log(data);
+                    selectSome({{id}});
+                    alert("insert");
+                   })
+        });
+
+        function selectSome(id){
+            var commentList = document.querySelectorAll("#commentList")[0];
+            console.log(commentList);
+            commentList.innerHTML="";
+
+            //접근할 주소 기술
+            fetch("http://localhost:8080/rest/comment/selectSome/"+id)
+                // body의 텍스트를 json형식으로 바꾼 프로미스를 반환
+                .then((response) => response.json())
+                //
+                .then((data) =>{
+                    for( var i of data){
+                        commentList.innerHTML+=
+                        `<p data-id=${i.id} data-loginEntityId=${i.loginEntityId} > id : ${i.id} userid : ${i.loginEntityId}
+                          <input class="name" type='text' value=${i.name} >
+                        <input class="contents" type='text' value=${i.contents} >
+                        <button class="btn-delete" onclick=bDelete(this)>delete</button>
+                        <button class="btn-modify" onclick=bModify(this) >modify</button></p>`;
+                    }
+                 })
+        }
+
+        function selectAll(){
+            var commentList = document.querySelectorAll("#commentList")[0];
+            console.log(commentList);
+            commentList.innerHTML="";
+
+            //접근할 주소 기술
+            fetch("http://localhost:8080/rest/comment/selectAll")
+                // body의 텍스트를 json형식으로 바꾼 프로미스를 반환
+                .then((response) => response.json())
+                //
+                .then((data) =>{
+                    for( var i of data){
+                        commentList.innerHTML+=
+                         `<p data-id=${i.id} data-loginEntityId=${i.loginEntityId} > id : ${i.id} userid : ${i.loginEntityId}
+                        <input class="name" type='text' value=${i.name} >
+                        <input class="contents" type='text' value=${i.contents} >
+                        <button class="btn-delete" onclick=bDelete(this)>delete</button>
+                        <button class="btn-modify" onclick=bModify(this) >modify</button></p>`;
+                    }
+                 })
+        }
+    </script>
+</div>
+{{>common/footer}}
