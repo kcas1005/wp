@@ -4,51 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day97_&#10;ASDay06_">
-      <change afterPath="$PROJECT_DIR$/Day98/Day98_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/ASDay7_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/K.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/블랙.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/사이다.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/콜라.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/img/환타.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/js/mySlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/study/jq07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay7/study/jq08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/05rest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/05rest/sample/src/main/java/com/example/sample/model/response/CommentRest.java" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day98_rest 댓글&#10;ASDay07_자바스크립트">
+      <change afterPath="$PROJECT_DIR$/Day99/Day99_index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js116.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js119.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js201.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js202.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js202dom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js211reg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js23.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js24.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js25 copy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js26_1Time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js26_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js26_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js27.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js28.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afterschool/ASDay6/js29.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/실험실" beforeDir="false" afterPath="$PROJECT_DIR$/실험실" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +76,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/work/wp/afterschool/ASDay7/study",
+    "last_opened_file_path": "C:/work/wp",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -139,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\Day99" />
       <recent name="C:\work\wp\afterschool\ASDay7\study" />
       <recent name="C:\work\wp\afterschool" />
       <recent name="C:\work\wp\Day98" />
       <recent name="C:\work\wp\afterschool\ASDay6\study" />
-      <recent name="C:\work\wp\Day97" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\wp\afterschool\ASDay7\img" />
@@ -378,14 +336,8 @@
       <workItem from="1664841375879" duration="7574000" />
       <workItem from="1664873447697" duration="6062000" />
       <workItem from="1664961356042" duration="8883000" />
-      <workItem from="1665013705535" duration="10785000" />
-    </task>
-    <task id="LOCAL-00036" summary="Day66_학원에서 한 것">
-      <created>1660811122752</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1660811122752</updated>
+      <workItem from="1665013705535" duration="11538000" />
+      <workItem from="1665101677365" duration="6354000" />
     </task>
     <task id="LOCAL-00037" summary="Day67_test중 최상위 wp에서 커밋한거">
       <created>1660875290547</created>
@@ -723,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664970312820</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Day98_rest 댓글&#10;ASDay07_자바스크립트">
+      <created>1665053129948</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1665053129950</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +731,6 @@
       <path value="$PROJECT_DIR$/spring/pet" />
       <path value="$PROJECT_DIR$/spring/testc" />
     </ignored-roots>
-    <MESSAGE value="Day67_test중 최상위 wp에서 커밋한거3" />
     <MESSAGE value="Day67_서브모델 설정함" />
     <MESSAGE value="Day68_서브모델 티처코드2 submodule add url로 만듬" />
     <MESSAGE value="Day68_git폴더에서 config 변경, submodule config변경" />
@@ -797,7 +755,8 @@
     <MESSAGE value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
     <MESSAGE value="Day95_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
     <MESSAGE value="Day97_&#10;ASDay06_" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day97_&#10;ASDay06_" />
+    <MESSAGE value="Day98_rest 댓글&#10;ASDay07_자바스크립트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day98_rest 댓글&#10;ASDay07_자바스크립트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
