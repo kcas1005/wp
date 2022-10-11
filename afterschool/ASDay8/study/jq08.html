@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        #menu,#menu ul{
+            list-style: none;
+            margin:0px;
+            padding:0px;
+        }
+
+        ul#menu{
+            width:200px;
+            text-indent: 35px;
+        }
+
+        ul.sub li{
+            background: #f3c2c2;
+            line-height: 35px;
+            margin-bottom: 2px;
+        }
+
+        ul.sub li a{
+            display:block;
+            text-decoration: none;
+            color:#fff;
+        }
+
+        #menu>li>div{
+            margin-bottom: 2px;
+            height:35px;
+            line-height: 35px;
+            background-color: green;
+            cursor: pointer;
+        }
+
+        ul.sub li:hover{
+            background: #96fc9b;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".sub").hide();
+                $("#menu>li>div").on("mouseenter",function(){   //마우스 들어가면 작동
+                    $(".sub").slideUp(300);
+                    $(this).next().stop().slideDown(300);   //진행되는 애니메이션 멈추고 아래로 내려라
+            });
+        })
+    </script>
+
+</head>
+<body>
+<ul id="menu">
+    <li>
+        <div>title</div>
+        <ul class="sub">
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub2</a></li>
+            <li><a href="#">sub3</a></li>
+        </ul>
+    </li>
+    <li>
+        <div>title</div>
+        <ul class="sub">
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub2</a></li>
+        </ul>
+
+    </li>
+    <li>
+        <div>title</div>
+        <ul class="sub">
+            <li><a href="#">sub1</a></li>
+            <li><a href="#">sub2</a></li>
+            <li><a href="#">sub3</a></li>
+        </ul>
+
+    </li>
+</ul>
+</body>
+</html>
