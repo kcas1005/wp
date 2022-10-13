@@ -4,58 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day100_승현이와 합병&#10;ASDay09_메뉴 아래로, 꼬부기 미로찾기">
-      <change afterPath="$PROJECT_DIR$/Day101/Day101_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/ASDay9_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/K.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/k1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/블랙.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/사이다.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/콜라.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/img/환타.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/js/mySlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/study/jq00.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/study/jq09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/study/jq10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afterschool/ASDay9/study/jq11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/starr4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/starr4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/starr4/.idea/starr4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot02/starr4/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 throw try catch finally 배움">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day45/question01/WhyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/Day46_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출/14지성진_스마트문화앱구현포트폴리오.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출/15지성진_스마트문화앱구현포트폴리오.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출/15지성진_스마트문화앱구현포트폴리오코드.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출/16지성진_스마트문화앱테스트.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day99/포트폴리오 화면/지성진_제출/16지성진_스마트문화앱테스트코드.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/question01/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Portfolio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day45/question01/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../wp\exportToHTML" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,7 +57,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -95,20 +66,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowFactoryState": "false",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/work/wp/afterschool/ASDay9",
-    "list.type.of.created.stylesheet": "CSS",
+    "last_opened_file_path": "C:/work/wp/Day41",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,74 +84,21 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propCompiler"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
-    ]
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\wp\afterschool\ASDay9" />
-      <recent name="C:\work\wp\afterschool" />
-      <recent name="C:\work\wp" />
-      <recent name="C:\work\wp\afterschool\ASDay8\study" />
-      <recent name="C:\work\wp\Day100" />
+      <recent name="C:\work\wp\Day41" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\work\wp\afterschool\ASDay7\img" />
-      <recent name="C:\work\wp\afterschool\ASDay5" />
-      <recent name="C:\work\wp\afterschool\ASDay4\study" />
-      <recent name="C:\work\wp\afterschool\ASDay4" />
-      <recent name="C:\work\wp\afterschool\ASDay3" />
+      <recent name="C:\work\wp\Day46\example_20220720_API_hash_deepclone\exam01_equals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Day46.example_20220720_API_hash_deepclone.exam01_equals" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MemberExample">
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day36.exam01_field_polymorphism.CarExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day36.exam01_field_polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day33_Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day37.Remote.Day33_Question" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day37.Remote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam02_hashcode.KeyExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day46.example_20220720_API_hash_deepclone.exam02_hashcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../Program Files/Java/jdk-11.0.15" />
       <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample" />
@@ -199,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sec03.exam03_tostring.ToStringExample" />
+    <configuration name="Portfolio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day45.question01.Portfolio" />
       <module name="wp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sec03.exam03_tostring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="question1_memberExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample" />
-      <module name="wp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day46.example_20220720_API_hash_deepclone.exam01_equals.*" />
+          <option name="PATTERN" value="Day45.question01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,19 +128,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.MemberExample" />
-      <item itemvalue="Application.CarExample" />
-      <item itemvalue="Application.Day33_Question" />
-      <item itemvalue="Application.KeyExample" />
-      <item itemvalue="Application.ToStringExample" />
-      <item itemvalue="Application.question1_memberExample" />
+      <item itemvalue="Application.Portfolio" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.question1_memberExample" />
-        <item itemvalue="Application.ToStringExample" />
-        <item itemvalue="Application.KeyExample" />
-        <item itemvalue="Application.Day33_Question" />
-        <item itemvalue="Application.CarExample" />
+        <item itemvalue="Application.Portfolio" />
       </list>
     </recent_temporary>
   </component>
@@ -267,471 +160,75 @@
       <workItem from="1658301088508" duration="194000" />
       <workItem from="1658301306634" duration="148000" />
       <workItem from="1658301481595" duration="3149000" />
-      <workItem from="1658331056361" duration="314000" />
-      <workItem from="1658368329032" duration="4692000" />
-      <workItem from="1658379916661" duration="1534000" />
-      <workItem from="1658383595540" duration="630000" />
-      <workItem from="1658384494187" duration="49000" />
-      <workItem from="1658384666709" duration="3057000" />
-      <workItem from="1658640235661" duration="1786000" />
-      <workItem from="1658658547643" duration="3468000" />
-      <workItem from="1658744841727" duration="337000" />
-      <workItem from="1658748748366" duration="6572000" />
-      <workItem from="1658830696753" duration="4335000" />
-      <workItem from="1658916534411" duration="905000" />
-      <workItem from="1658987497411" duration="8000" />
-      <workItem from="1658987524595" duration="583000" />
-      <workItem from="1658988204950" duration="20000" />
-      <workItem from="1658989852695" duration="136000" />
-      <workItem from="1658994702972" duration="632000" />
-      <workItem from="1659053143603" duration="3050000" />
-      <workItem from="1659082740345" duration="6000" />
-      <workItem from="1659314210779" duration="10909000" />
-      <workItem from="1659395138945" duration="4341000" />
-      <workItem from="1659416091106" duration="6099000" />
-      <workItem from="1659483778274" duration="8260000" />
-      <workItem from="1659495980477" duration="11377000" />
-      <workItem from="1659569970512" duration="2868000" />
-      <workItem from="1659600930347" duration="664000" />
-      <workItem from="1659655891338" duration="7399000" />
-      <workItem from="1659914603853" duration="4003000" />
-      <workItem from="1660001623742" duration="7791000" />
-      <workItem from="1660089582606" duration="7222000" />
-      <workItem from="1660114224669" duration="665000" />
-      <workItem from="1660119382239" duration="45000" />
-      <workItem from="1660174818248" duration="1821000" />
-      <workItem from="1660178530635" duration="162000" />
-      <workItem from="1660205842241" duration="40000" />
-      <workItem from="1660262867740" duration="68000" />
-      <workItem from="1660262987353" duration="2643000" />
-      <workItem from="1660267415838" duration="3509000" />
-      <workItem from="1660285071517" duration="1941000" />
-      <workItem from="1660607432830" duration="4949000" />
-      <workItem from="1660637289197" duration="181000" />
-      <workItem from="1660694900677" duration="451000" />
-      <workItem from="1660695384331" duration="12237000" />
-      <workItem from="1660780101928" duration="8802000" />
-      <workItem from="1660867286589" duration="5698000" />
-      <workItem from="1660874705946" duration="2462000" />
-      <workItem from="1660878281717" duration="579000" />
-      <workItem from="1660879209436" duration="1662000" />
-      <workItem from="1660884265135" duration="860000" />
-      <workItem from="1660892541875" duration="1723000" />
-      <workItem from="1660896170292" duration="1268000" />
-      <workItem from="1661125887660" duration="11398000" />
-      <workItem from="1661240136356" duration="240000" />
-      <workItem from="1661240410428" duration="2216000" />
-      <workItem from="1661298127875" duration="2799000" />
-      <workItem from="1661349678354" duration="253000" />
-      <workItem from="1661349943459" duration="111000" />
-      <workItem from="1661350060440" duration="588000" />
-      <workItem from="1661350658540" duration="93000" />
-      <workItem from="1661350758831" duration="21000" />
-      <workItem from="1661350782830" duration="26000" />
-      <workItem from="1661350834685" duration="17000" />
-      <workItem from="1661350856136" duration="41000" />
-      <workItem from="1661350915041" duration="14000" />
-      <workItem from="1661350956743" duration="245000" />
-      <workItem from="1661351223624" duration="1403000" />
-      <workItem from="1661386062933" duration="13180000" />
-      <workItem from="1661472092747" duration="11112000" />
-      <workItem from="1661498798150" duration="830000" />
-      <workItem from="1661651637185" duration="4311000" />
-      <workItem from="1661817308161" duration="13333000" />
-      <workItem from="1661987757375" duration="7543000" />
-      <workItem from="1662018640718" duration="660000" />
-      <workItem from="1662039074585" duration="4540000" />
-      <workItem from="1662043678848" duration="1465000" />
-      <workItem from="1662595696754" duration="9176000" />
-      <workItem from="1663027120430" duration="11999000" />
-      <workItem from="1663113889885" duration="1959000" />
-      <workItem from="1663115903186" duration="13537000" />
-      <workItem from="1663199406677" duration="19595000" />
-      <workItem from="1663225852591" duration="4425000" />
-      <workItem from="1663230461095" duration="101000" />
-      <workItem from="1663285982285" duration="16491000" />
-      <workItem from="1663545957531" duration="22294000" />
-      <workItem from="1663664371596" duration="43000" />
-      <workItem from="1663719117198" duration="10549000" />
-      <workItem from="1663805665378" duration="10798000" />
-      <workItem from="1663827364342" duration="2393000" />
-      <workItem from="1664150698960" duration="278000" />
-      <workItem from="1664152122709" duration="8725000" />
-      <workItem from="1664176936384" duration="2923000" />
-      <workItem from="1664237069561" duration="13670000" />
-      <workItem from="1664268791309" duration="5005000" />
-      <workItem from="1664323338416" duration="18785000" />
-      <workItem from="1664409149361" duration="1760000" />
-      <workItem from="1664411356115" duration="11819000" />
-      <workItem from="1664443744428" duration="2933000" />
-      <workItem from="1664841375879" duration="7574000" />
-      <workItem from="1664873447697" duration="6062000" />
-      <workItem from="1664961356042" duration="8883000" />
-      <workItem from="1665013705535" duration="11538000" />
-      <workItem from="1665101677365" duration="6371000" />
-      <workItem from="1665446508923" duration="8393000" />
-      <workItem from="1665486508383" duration="339000" />
-      <workItem from="1665533972012" duration="9214000" />
     </task>
-    <task id="LOCAL-00040" summary="Day67_test중 최상위 wp에서 커밋한거3">
-      <created>1660875775279</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
+    <task id="LOCAL-00001" summary="학원에서 하는 중">
+      <created>1657678026972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1660875775279</updated>
+      <updated>1657678026972</updated>
     </task>
-    <task id="LOCAL-00041" summary="Day67_서브모델 설정함">
-      <created>1660878739486</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
+    <task id="LOCAL-00002" summary="학원에서 하는 중">
+      <created>1657700391996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1660878739486</updated>
+      <updated>1657700391996</updated>
     </task>
-    <task id="LOCAL-00042" summary="Day67_서브모델 설정함">
-      <created>1660880375311</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
+    <task id="LOCAL-00003" summary="학원에서 하는 중">
+      <created>1657700856442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1660880375311</updated>
+      <updated>1657700856442</updated>
     </task>
-    <task id="LOCAL-00043" summary="Day67_서브모델 설정함">
-      <created>1660896333082</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
+    <task id="LOCAL-00004" summary="학원에서 채널3 db 넣는 중">
+      <created>1657786938036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1660896333082</updated>
+      <updated>1657786938036</updated>
     </task>
-    <task id="LOCAL-00044" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
-      <created>1661126482190</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
+    <task id="LOCAL-00005" summary="학원에서 채널3 db 넣는 중">
+      <created>1657873680982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1661126482190</updated>
+      <updated>1657873680982</updated>
     </task>
-    <task id="LOCAL-00045" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
-      <created>1661126491866</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
+    <task id="LOCAL-00006" summary="학원에서 함">
+      <created>1658130925121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1661126491866</updated>
+      <updated>1658130925121</updated>
     </task>
-    <task id="LOCAL-00046" summary="Day68_서브모델 티처코드2 submodule add url로 만듬">
-      <created>1661126769168</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
+    <task id="LOCAL-00007" summary="학원에서 함">
+      <created>1658132027413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1661126769168</updated>
+      <updated>1658132027413</updated>
     </task>
-    <task id="LOCAL-00047" summary="Day68_git폴더에서 config 변경, submodule config변경">
-      <created>1661127113955</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
+    <task id="LOCAL-00008" summary="학원에서 함">
+      <created>1658132046674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1661127113955</updated>
+      <updated>1658132046674</updated>
     </task>
-    <task id="LOCAL-00048" summary="Day68_집에서 선생님 코드 압축풀음">
-      <created>1661183793880</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
+    <task id="LOCAL-00009" summary="학원에서 throw try catch finally 배움">
+      <created>1658218645578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1661183793880</updated>
+      <updated>1658218645578</updated>
     </task>
-    <task id="LOCAL-00049" summary="Day68_오늘 커밋 안되있는거 하는 중">
-      <created>1661212817505</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1661212817505</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Day69_오늘자 커밋">
-      <created>1661237461090</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1661237461091</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Day69_오늘자 커밋">
-      <created>1661240481514</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1661240481515</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Day69_오늘자 커밋">
-      <created>1661240538942</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1661240538943</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Day69_오늘자 커밋">
-      <created>1661240869053</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1661240869053</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Day69_오늘자 커밋">
-      <created>1661241461455</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1661241461456</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661349629087</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1661349629087</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661349647003</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1661349647003</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661349660729</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1661349660729</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661349668485</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1661349668485</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661349953193</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1661349953193</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661350066882</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1661350066882</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661350491788</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1661350491788</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661350669553</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1661350669553</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Day70_집에서 하는 것 서브 모듈 없앰">
-      <created>1661351664144</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1661351664144</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Day71_수정">
-      <created>1661415732410</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1661415732410</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Day73_API, Spring Test 쓰는 방법 배움">
-      <created>1661761279792</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1661761279793</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Day73_API, Spring Test 쓰는 방법 배움">
-      <created>1661761315191</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1661761315191</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함">
-      <created>1661934265130</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1661934265131</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Day76_집에서 함">
-      <created>1662471613680</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1662471613681</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Day80_선생님 바뀐다고 통보받음">
-      <created>1662538970290</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1662538970291</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Day80_선생님 바뀐다고 통보받음">
-      <created>1662539069543</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1662539069543</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Day81_css 수정">
-      <created>1662625631101</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1662625631102</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Day82_리액트">
-      <created>1663057887281</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1663057887282</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Day83_수업한내용">
-      <created>1663143662335</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1663143662335</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Day84_수업한내용">
-      <created>1663230307287</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230307288</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Day86_수업한내용">
-      <created>1663664385720</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1663664385736</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Day90_머스타체 배움, css이름 html과 맞게 수정">
-      <created>1663921547664</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1663921547664</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Day90_머스타체 배움, css이름 html과 맞게 수정">
-      <created>1663921562407</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1663921562407</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25">
-      <created>1664272298561</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1664272298562</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25">
-      <created>1664360975928</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1664360975929</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25">
-      <created>1664361002850</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1664361002850</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
-      <created>1664443886213</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1664443886214</updated>
-    </task>
-    <task id="LOCAL-00082" summary="Day95_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25">
-      <created>1664526331259</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1664526331259</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Day97_&#10;ASDay06_">
-      <created>1664970274925</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1664970274925</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Day97_&#10;ASDay06_">
-      <created>1664970312820</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1664970312820</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Day98_rest 댓글&#10;ASDay07_자바스크립트">
-      <created>1665053129948</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1665053129950</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Day99_끝남과 동시에 칼퇴&#10;ASDay08_끝남과 동시에 칼퇴">
-      <created>1665131286540</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1665131286540</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Day100_승현이와 합병&#10;ASDay09_메뉴 아래로, 꼬부기 미로찾기">
-      <created>1665486765723</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1665486765723</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Day100_승현이와 합병&#10;ASDay09_메뉴 아래로, 꼬부기 미로찾기">
-      <created>1665486809970</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1665486809970</updated>
-    </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -744,7 +241,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/school" />
                       </list>
                     </value>
                   </entry>
@@ -757,48 +254,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/spring/board" />
-      <path value="$PROJECT_DIR$/spring/demo" />
-      <path value="$PROJECT_DIR$/spring/lecture_spring_2_crudProject" />
-      <path value="$PROJECT_DIR$/spring/pet" />
-      <path value="$PROJECT_DIR$/spring/testc" />
-    </ignored-roots>
-    <MESSAGE value="Day68_git폴더에서 config 변경, submodule config변경" />
-    <MESSAGE value="Day68_집에서 선생님 코드 압축풀음" />
-    <MESSAGE value="Day68_오늘 커밋 안되있는거 하는 중" />
-    <MESSAGE value="Day69_오늘자 커밋" />
-    <MESSAGE value="Day70_게시글 삭제할 때 댓글도 삭제" />
-    <MESSAGE value="Day70_집에서 하는 것 서브 모듈 없앰" />
-    <MESSAGE value="Day71_수정" />
-    <MESSAGE value="Day73_API, Spring Test 쓰는 방법 배움" />
-    <MESSAGE value="Day74_이미지 서버에 저장하는 것 배움&#10;DB에 연동하는 건 내일 배우기로 함" />
-    <MESSAGE value="Day76_집에서 함" />
-    <MESSAGE value="Day80_선생님 바뀐다고 통보받음" />
-    <MESSAGE value="Day81_css 수정" />
-    <MESSAGE value="Day82_리액트" />
-    <MESSAGE value="Day83_수업한내용" />
-    <MESSAGE value="Day84_수업한내용" />
-    <MESSAGE value="Day86_수업한내용" />
-    <MESSAGE value="Day90_머스타체 배움, css이름 html과 맞게 수정" />
-    <MESSAGE value="Day92_타임리프 자바스크립트&#10;ASDay02_자바스크립트 1~25" />
-    <MESSAGE value="Day93_타임리프 자바스크립트&#10;ASDay03_자바스크립트 1~25" />
-    <MESSAGE value="Day94_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
-    <MESSAGE value="Day95_자바스크립트 페이징&#10;ASDay04_자바스크립트 1~25" />
-    <MESSAGE value="Day97_&#10;ASDay06_" />
-    <MESSAGE value="Day98_rest 댓글&#10;ASDay07_자바스크립트" />
-    <MESSAGE value="Day99_끝남과 동시에 칼퇴&#10;ASDay08_끝남과 동시에 칼퇴" />
-    <MESSAGE value="Day100_승현이와 합병&#10;ASDay09_메뉴 아래로, 꼬부기 미로찾기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day100_승현이와 합병&#10;ASDay09_메뉴 아래로, 꼬부기 미로찾기" />
+    <MESSAGE value="학원에서 하는 중" />
+    <MESSAGE value="학원에서 채널3 db 넣는 중" />
+    <MESSAGE value="학원에서 함" />
+    <MESSAGE value="학원에서 throw try catch finally 배움" />
+    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec05_try_with_resources/TryWithResourceExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample">
+          <properties class="Day45.sec05_try_with_resources.TryWithResourceExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -807,92 +280,11 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Day45/sec07_user_define_exception/AccountExample.java</url>
           <line>3</line>
-          <properties class="Day45.sec07_user_define_exception.AccountExample">
+          <properties class="Day45.sec07_user_define_exception.AccountExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/RemoteControlExample.java</url>
-          <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.RemoteControlExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day33/example_20220701_multi_implement/Day33_Question.java</url>
-          <line>3</line>
-          <properties class="Day33.example_20220701_multi_implement.Day33_Question">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day40/highwayChange/main.java</url>
-          <line>34</line>
-          <properties class="Day40.highwayChange.main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day45/question01/Portfolio.java</url>
-          <line>3</line>
-          <properties class="Day45.question01.Portfolio">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day34/Day33_Question.java</url>
-          <line>1</line>
-          <properties class="Day33_Question">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day34/RemoteControlExample.java</url>
-          <line>1</line>
-          <properties class="RemoteControlExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day36/exam01_field_polymorphism/CarExample.java</url>
-          <line>3</line>
-          <properties class="Day36.exam01_field_polymorphism.CarExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/MemberExample.java</url>
-          <line>9</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.MemberExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java</url>
-          <line>3</line>
-          <properties class="Day46.example_20220720_API_hash_deepclone.exam01_equals.question1_memberExample">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
@@ -908,9 +300,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
