@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="학원에서 throw try catch finally 배움">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day45/question01/WhyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day46/Day46_index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day46/example_20220720_API_hash_deepclone/exam01_equals/question1_memberExample.java" afterDir="false" />
+    <list default="true" id="7e536f74-62da-4ec1-b5de-87176dedf8f2" name="Changes" comment="Day101_승현이와 합병&#10;ASDay10_메뉴 아래로, 꼬부기 미로찾기">
+      <change afterPath="$PROJECT_DIR$/Day102/Day102_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/ASDay10_index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/k1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/블랙.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/사이다.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/콜라.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/img/환타.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/js/mySlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/maze.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/study/jq00.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/study/jq10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/study/jq11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afterschool/ASDay10/tetris.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day45/question01/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Portfolio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day45/question01/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day45/question01/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/Day45.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/wp/Day45/question01/Team$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afterschool/ASDay9/ASDay9_index" beforeDir="false" afterPath="$PROJECT_DIR$/afterschool/ASDay9/ASDay9_index" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +66,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BrvX9KP4VV8Asvy3xTkAWXUgeK" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -66,6 +75,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,7 +85,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/work/wp/Day41",
+    "last_opened_file_path": "C:/work/wp/afterschool",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +99,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\wp\afterschool" />
+      <recent name="C:\work\wp" />
       <recent name="C:\work\wp\Day41" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -224,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658218645578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day101_승현이와 합병&#10;ASDay10_메뉴 아래로, 꼬부기 미로찾기">
+      <created>1665620539273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665620539273</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +277,8 @@
     <MESSAGE value="학원에서 채널3 db 넣는 중" />
     <MESSAGE value="학원에서 함" />
     <MESSAGE value="학원에서 throw try catch finally 배움" />
-    <option name="LAST_COMMIT_MESSAGE" value="학원에서 throw try catch finally 배움" />
+    <MESSAGE value="Day101_승현이와 합병&#10;ASDay10_메뉴 아래로, 꼬부기 미로찾기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day101_승현이와 합병&#10;ASDay10_메뉴 아래로, 꼬부기 미로찾기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
