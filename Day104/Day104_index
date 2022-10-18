@@ -1,0 +1,48 @@
+접근제한자
+    PRIVATE
+    PUBLIC
+    PROTECT
+
+오버라이딩
+
+오버로드
+
+DDL
+    데이터 정의
+
+DCL
+    데이터 제어어
+        GRANT
+        REVOKE
+        COMMIT
+        ROLLBACK
+
+DML
+    데이터 조작어
+        SELECT
+        INSERT
+        UPDATE
+        DELETE
+
+MVC 패턴
+    모델 뷰 컨트롤러로 기능을 나워서 프로그램을 개발하는 방식
+
+GUI
+
+CLI
+
+NUI
+    유기적 사용자 인터페이스 (사람을 신체를 통해서)
+
+OUI
+
+POSITION
+    reletive
+    absolute
+    fixed
+    sticky
+
+CRUD
+------------------------------------------------------------------------
+취업알선
+    데이터 알선
